@@ -8,6 +8,7 @@ _This living document serves as a community and consensus-driven glossary of ter
 
 ### Index ###
 1. [ontology](#ontology)
+1. [knowledge base](#knowledge-base)
 
 
 ## ontology
@@ -16,5 +17,14 @@ A formal explicit description of concepts in a domain of discourse (classes (som
 \[**Reference:** [Noy and McGuinness](http://www.ksl.stanford.edu/people/dlm/papers/ontology101/ontology101-noy-mcguinness.html)\]
 
 [Back to Index](#Index)
+
+
+## knowledge base
+An ontology together with a set of individual instances of classes 
+
+\[**Reference:** [Noy and McGuinness](http://www.ksl.stanford.edu/people/dlm/papers/ontology101/ontology101-noy-mcguinness.html)\]
+
+[Back to Index](#Index)
+
 
 
