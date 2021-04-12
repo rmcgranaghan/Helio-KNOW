@@ -11,6 +11,7 @@ Embrace a more natural structure for the data: a [knowledge graph (KG)](https://
 
 KGs have altered the very foundation of many domains in the 21st century. Yet their potential has not yet been realized in many science and engineering disciplines, one of the most important to our human flourishing as a space-faring species is the space environment. What if we had a KG for the space environment and to study it's variation (i.e., Heliophysics)?
 
+![](/images/HeliophysicsLandscape.png)
 
 Helio-KNOW is the effort to structure information about the space environment as a KG, better organizing the data for scientific discovery and better preparing humanity to understand space. 
 
