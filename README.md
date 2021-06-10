@@ -1,6 +1,6 @@
 # Helio-KNOW
 
-This repository is home to the Heliophysics KNOWledge Network (Helio-KNOW) development and community. This repo's [issue tracker](https://github.com/rmcgranaghan/Helio-KNOW/issues) also serves as a general-purpose discussion forum. Learn more details about the project below. One goal of Helio-KNOW is to bring together the research community around intelligent knowledge infrastructure and welcome all to contribute to the conversation and development. Learn how to get contribute [here](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/CONTRIBUTING.md). 
+This repository is home to the Heliophysics KNOWledge Network (Helio-KNOW) development and community. This repo's [issue tracker](https://github.com/rmcgranaghan/Helio-KNOW/issues) also serves as a general-purpose discussion forum. Learn more details about the project below. One goal of Helio-KNOW is to bring together the research community around intelligent knowledge infrastructure and welcome all to contribute to the conversation and development. Learn how to contribute [here](https://github.com/rmcgranaghan/Helio-KNOW/blob/main/CONTRIBUTING.md). 
 
 ### What is Helio-KNOW?
 The Heliophysics KNOWledge Network (Helio-KNOW) is the collection of software and systems for improved information representation in Heliophysics, and the _[commons](https://en.wikipedia.org/wiki/Commons)_ for the community to use and collaborate through them. Helio-KNOW is the technological framework for a more informed, participatory, and collaborative Heliophysics community. 
