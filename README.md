@@ -1,5 +1,7 @@
 # Helio-KNOW
 
+This repository is home to the Heliophysics KNOWledge Network (Helio-KNOW) development and community. This repo's [issue tracker](https://github.com/rmcgranaghan/Helio-KNOW/issues) also serves as a general-purpose discussion forum. Learn more details about the project below. One goal of Helio-KNOW is to bring together the research community around intelligent knowledge infrastructure and welcome all to contribute to the conversation and development. Learn how to get contribute [here](). 
+
 ### What is Helio-KNOW?
 The Heliophysics KNOWledge Network (Helio-KNOW) is the collection of software and systems for improved information representation in Heliophysics, and the _[commons](https://en.wikipedia.org/wiki/Commons)_ for the community to use and collaborate through them. Helio-KNOW is the technological framework for a more informed, participatory, and collaborative Heliophysics community. 
 
@@ -32,12 +34,6 @@ The tools are the software to develop Helio-KNOW.
 
 The commons are the interaction via comments, issue tracking, pull requests. All are encouraged to contribute, improve, expand. 
 
-### How to contribute?
-Explore the resources, especially the Jupyter Notebooks. Fork this repository, create changes and new resources on your own, make a pull request to pass your improvements to this repository! 
-
-Be a part of the discussion around this repository. 
-
-[Further guidance on how to contribute to Github projects.](https://www.dataschool.io/how-to-contribute-on-github/)
 
 ### More information
 More information about Helio-KNOW (funded through the NASA Heliophysics Early Career Investigator Program (ECIP)) can be found under 'Ryan McGranaghan' [here](https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=809843/solicitationId=%7BBC6756FD-561A-B7A1-F68A-2A18E6851701%7D/viewSolicitationDocument=1/ECIP20%20Abstracts.pdf). 
