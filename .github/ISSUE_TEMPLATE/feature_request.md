@@ -7,6 +7,18 @@ assignees: ''
 
 ---
 
+<!-- 
+Thank you for contributing to the Helio-KNOW community by
+taking the time to suggest a new Helio-KNOW feature. Please
+describe the suggestion in detail.
+
+You can delete the sections that don't apply to your
+issue. 
+
+You can view the final output by clicking the preview
+button above.
+-->
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
