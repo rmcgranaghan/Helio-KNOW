@@ -38,3 +38,5 @@ The commons are the interaction via comments, issue tracking, pull requests. All
 ### More information
 More information about Helio-KNOW (funded through the NASA Heliophysics Early Career Investigator Program (ECIP)) can be found under 'Ryan McGranaghan' [here](https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=809843/solicitationId=%7BBC6756FD-561A-B7A1-F68A-2A18E6851701%7D/viewSolicitationDocument=1/ECIP20%20Abstracts.pdf). 
 
+Finally, there is a [Wiki page](https://github.com/rmcgranaghan/Helio-KNOW/wiki) for this repo where resources and updates are posted. 
+
