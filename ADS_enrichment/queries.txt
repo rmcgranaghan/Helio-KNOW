@@ -1,0 +1,4 @@
+# each line: two entries separated by tab
+# first column: name of output file
+# second column: ADS query
+active_solar_chromosphere	keyword_schema:UAT keyword:1980
