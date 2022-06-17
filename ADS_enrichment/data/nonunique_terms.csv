@@ -1,353 +1,97 @@
 term,definition,source
-sunspots,,uat
-helioseismology,,uat
 solar flares,,uat
 solar magnetic fields,,uat
 solar wind,,uat
+sunspots,,uat
+helioseismology,,uat
+interplanetary physics,,uat
 oort cloud,,uat
-solar magnetic reconnection,,uat
-ephemeral active regions,,uat
-solar flares,,uat
-solar dynamo,,uat
-solar magnetic flux emergence,,uat
-solar flare spectra,,uat
-sunspot flow,,uat
-sunspot number,,uat
+solar radio flares,,uat
+the moon,,uat
+solar energetic particles,,uat
 delta sunspots,,uat
-maunder minimum,,uat
+space weather,,uat
+planetary magnetospheres,,uat
+sunspot number,,uat
+sunspot flow,,uat
+solar magnetic bright points,,uat
+ephemeral active regions,,uat
 heliopause,,uat
 wilson effect,,uat
-interplanetary physics,,uat
-solar energetic particles,,uat
-planetary rings,,uat
-interplanetary magnetic fields,,uat
-solar white-light flares,,uat
-solar magnetic fields,,uat
-heliosphere,,uat
-solar radio flares,,uat
-solar cycle,,uat
-the moon,,uat
-solar magnetic bright points,,uat
-sunspot groups,,uat
 solar x-ray flares,,uat
+solar magnetic flux emergence,,uat
+solar cycle,,uat
+solar white-light flares,,uat
+heliosphere,,uat
+solar flare spectra,,uat
+sunspot groups,,uat
 solar magnetic reconnection,,uat
-ephemeral active regions,,uat
-aurorae,,uat
-interplanetary shocks,,uat
-solar flares,,uat
-neptunian satellites,,uat
+interplanetary magnetic fields,,uat
+maunder minimum,,uat
 solar dynamo,,uat
 asteroid satellites,,uat
-solar magnetic flux emergence,,uat
-martian satellites,,uat
-solar flare spectra,,uat
-lightning,,uat
+corotating streams,,uat
+pickup ions,,uat
+oort cloud objects,,uat
 pluto,,uat
 atmospheric tides,,uat
-trans-neptunian objects,,uat
-meteors,,uat
-heliopause,,uat
-heliosheath,,uat
-saturnian satellites,,uat
-solar energetic particles,,uat
-sunspots,,uat
-uranian satellites,,uat
-solar white-light flares,,uat
-oort cloud objects,,uat
-bipolar sunspot groups,,uat
-planetary bow shocks,,uat
 water vapor,,uat
-jovian satellites,,uat
 interplanetary dust,,uat
-corotating streams,,uat
-solar radio flares,,uat
-pickup ions,,uat
-the moon,,uat
-solar magnetic bright points,,uat
-solar x-ray flares,,uat
-ephemeral active regions,,uat
-mars,,uat
-mesosphere,,uat
-asteroid satellites,,uat
-troposphere,,uat
-solar flare spectra,,uat
-jupiter,,uat
-neptune trojans,,uat
-atmospheric tides,,uat
-thermosphere,,uat
-sunspot flow,,uat
-titan,,uat
-sunspot number,,uat
-delta sunspots,,uat
-maunder minimum,,uat
-wilson effect,,uat
-exosphere,,uat
+heliosheath,,uat
+planetary ionospheres,,uat
+interplanetary shocks,,uat
+planetary bow shocks,,uat
+bipolar sunspot groups,,uat
 earth trojans,,uat
+venus,,uat
 saturn,,uat
 uranus,,uat
-solar white-light flares,,uat
-triton,,uat
-greenhouse gases,,uat
+jupiter,,uat
+thermosphere,,uat
 neptune,,uat
-solar radio flares,,uat
-venus,,uat
+titan,,uat
+mars,,uat
+triton,,uat
 stratosphere,,uat
-sunspot groups,,uat
-solar x-ray flares,,uat
-oort cloud,,uat
+mesosphere,,uat
 neptune trojans,,uat
-europa,,uat
-water vapor,,uat
-earth trojans,,uat
-io,,uat
+troposphere,,uat
 ganymede,,uat
-bipolar sunspot groups,,uat
-oort cloud objects,,uat
-general or miscellaneous,,agu
-exosphere,,agu
+europa,,uat
+io,,uat
+forecasting,,agu
+uncertainty,,agu
+coronal mass ejections,,agu
+discontinuities,,agu
+energetic particles,,agu
+neutral particles,,agu
 instruments and techniques,,agu
-general or miscellaneous,,agu
-biogeosciences,,agu
-instruments and techniques,,agu
-"modeling (1952, 4316)",,agu
-remote sensing,,agu
-general or miscellaneous,,agu
-new fields (not classifiable under other headings),,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-critical zone,,agu
-critical zone,,agu
-remote sensing,,agu
-instruments and techniques,,agu
-"modeling (1952, 4316)",,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-remote sensing,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-geochemistry,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-geochronology,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-geomagnetism and paleomagnetism,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-biogeosciences,,agu
-geochronology,,agu
-geomagnetism and paleomagnetism,,agu
-hydrology,,agu
-seismology,,agu
-tectonophysics,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-hydrology,,agu
-"modeling (1952, 4316)",,agu
-general or miscellaneous,,agu
-general or miscellaneous,,agu
-interplanetary physics,,agu
-corotating streams,,agu
-interplanetary dust,,agu
-interplanetary magnetic fields,,agu
-interplanetary shocks,,agu
-pickup ions,,agu
-planetary bow shocks,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
+ionosphere,,agu
+electric fields,,agu
+ionization processes,,agu
 particle acceleration,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
+plasma interactions with dust and aerosols,,agu
+plasma convection,,agu
+plasma waves and instabilities,,agu
+wave/particle interactions,,agu
+wave propagation,,agu
+magnetospheric physics,,agu
+magnetic reconnection,,agu
 magnetosheath,,agu
 magnetotail,,agu
+mhd waves and instabilities,,agu
 plasmasphere,,agu
 radiation belts,,agu
 ring current,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-lightning,,agu
-turbulence (4490),,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
+other,,agu
 exposure,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-geochemistry,,agu
-general or miscellaneous,,agu
-albedo,,agu
-greenhouse gases,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-"atmospheres (0343, 1060)",,agu
-erosion and weathering,,agu
-gravitational fields (1221),,agu
-ices,,agu
-interactions with particles and fields,,agu
-interiors (8147),,agu
-ionospheres (2459),,agu
-magnetic fields and magnetism,,agu
-magnetospheres (2756),,agu
-meteorology (3346),,agu
-orbital and rotational dynamics (1221),,agu
-origin and evolution,,agu
-polar regions,,agu
-remote sensing,,agu
-rings and dust,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-"atmospheres (0343, 1060)",,agu
-aurorae,,agu
-composition (1060),,agu
-gravitational fields (1221),,agu
-interactions with particles and fields,,agu
-interiors (8147),,agu
-ionospheres (2459),,agu
-magnetic fields and magnetism,,agu
-magnetospheres (2756),,agu
-meteorology (3346),,agu
-orbital and rotational dynamics (1221),,agu
-origin and evolution,,agu
-polar regions,,agu
-rings and dust,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-composition (1060),,agu
-dust,,agu
-erosion and weathering,,agu
-gravitational fields (1221),,agu
-ices,,agu
-interiors (8147),,agu
-ionospheres (2459),,agu
-magnetic fields and magnetism,,agu
-magnetospheres (2756),,agu
-origin and evolution,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-dust,,agu
-jovian satellites,,agu
-io,,agu
-europa,,agu
-ganymede,,agu
-callisto,,agu
-jupiter,,agu
-mars,,agu
-martian satellites,,agu
-mercury,,agu
-meteors,,agu
-neptune,,agu
-neptunian satellites,,agu
-triton,,agu
-planetary rings,,agu
-saturn,,agu
-saturnian satellites,,agu
-titan,,agu
-enceladus,,agu
-trans-neptunian objects,,agu
-uranian satellites,,agu
-uranus,,agu
-venus,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-general or miscellaneous,,agu
-funding,,agu
-general or miscellaneous,,agu
-remote sensing,,agu
-general or miscellaneous,,agu
-seismology,,agu
-general or miscellaneous,,agu
+nonlinear phenomena,,agu
 chromosphere,,agu
 corona,,agu
-helioseismology,,agu
 photosphere,,agu
 transition region,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-particle acceleration,,agu
-turbulence (4490),,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-general or miscellaneous,,agu
-remote sensing,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-tectonophysics,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-instruments and techniques,,agu
-general or miscellaneous,,agu
-general or miscellaneous,,agu
-general or miscellaneous,,agu
-general or miscellaneous,,agu
-new fields (not classifiable under other headings),,agu
-albedo,The ratio of reflected radiation from the surface to incident radiation upon it.,spase
 aurora,An atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force.,spase
-callisto,A second largest moon of Jupiter and the third-largest moon in the solar system.,spase
-chromosphere,"The region of the Sun's (or a star's) atmosphere above the temperature minimum and below the Transition Region. The solar chromosphere is approximately 400 km to 2100 km above the photosphere, and characterized by temperatures from 4500 - 28000 K.",spase
-corona,"The outermost atmospheric region of the Sun or a star, characterized by ionization temperatures above 10^5 K. The solar corona starts at about 2100 km above the photosphere; there is no generally defined upper limit.",spase
-dust,Free microscopic particles of solid material.,spase
-enceladus,The sixth-largest moon of Saturn. It is currently endogenously active. The smallest known body in the Solar System that is geologically active today.,spase
-europa,The sixth-closest round moon of Jupiter.,spase
-exposure,The time interval over which an individual measurement is taken.,spase
-funding,The source of financial support (funding) for the resource.,spase
-ganymede,The biggest moon of Jupiter and in the solar system.,spase
 geomagnetic storm,A magnetospheric disturbance typically defined by variations in the horizontal component of the Earth's surface magnetic field. The variation typically starts with a field enhancement associated with a solar wind pressure pulse and continues with a field depression associated with an enhancement of the diamagnetic magnetospheric ring current.,spase
-heliosheath,The region extending radially outward from the heliospheric termination shock and in which the decelerated solar wind plasma is still significant.,spase
-heliosphere,The solar atmosphere extending roughly from the outer corona to the edge of the solar plasma at the heliopause separating primarily solar plasma from interstellar plasma.,spase
-io,The innermost of the four round moons of the planet Jupiter.,spase
-ionosphere,The charged or ionized gases surrounding a body that are nominally bound to the body by virtue of the gravitational attraction.,spase
-jupiter,The fifth planet from the sun in our solar system.,spase
 magnetic field,"A region of space near a magnetized body where magnetic forces can be detected (as measured by methods such as Zeeman splitting, etc.).",spase
-magnetosheath,"The region between the bow shock and the magnetopause, characterized by very turbulent plasma.",spase
 magnetosphere,"The region of space above the atmosphere or surface of the planet, and bounded by the magnetopause, that is under the direct influence of the planet's magnetic field.",spase
-magnetotail,"The region on the night side of the body where the magnetic filed is stretched backwards by the force of the solar wind. For Earth, the magnetotail begins at a night-side radial distance of 10 Re (X > -10Re).",spase
-mars,The forth planet from the sun in our solar system.,spase
-mercury,The first planet from the sun in our solar system.,spase
-mesosphere,"The layer of the atmosphere that extends from the Stratosphere to a range of 80 km to 85 km, temperature decreasing with height.",spase
-neptune,The seventh planet from the sun in our solar system.,spase
-photosphere,"The atmospheric layer of the Sun or a star from which continuum radiation, especially optical, is emitted to space. For the Sun, the photosphere is about 500 km thick.",spase
-plasmasphere,"A region of the magnetosphere consisting of low energy (cool) plasma. It is located above the ionosphere. The outer boundary of the plasmasphere is known as the plasmapause, which is defined by an order of magnitude drop in plasma density.",spase
-pluto,The ninth (sub)planet from the sun in our solar system.,spase
-ring current,"One of the major current systems confined within planetary magnetospheres. The ring current circles in the magnetic equatorial plane of magnetospheres. It is generated by the longitudinal drift of energetic charged particles trapped on inner, dipole-like magnetospheric field lines. At the Earth, the ring current is carried by 10 to 200 keV charged particles typically located at L-shells between 3 and 6. The ring current is also the primary driver of the Sym H and Dst Indices of magnetic storm activity at the Earth.",spase
-saturn,The sixth planet from the sun in our solar system.,spase
-stratosphere,"The layer of the atmosphere that extends from the troposphere to about 30 km, temperature increases with height. The stratosphere contains the ozone layer.",spase
 substorm,A process by which plasma in the magnetotail becomes energized at a fast rate.,spase
-thermosphere,"The layer of the atmosphere that extends from the Mesosphere to 640+ km, temperature increasing with height.",spase
-titan,The largest moon of Saturn and the second-largest moon in the Solar System.,spase
-transition region,"A very narrow (<100 km) layer between the chromosphere and the corona where the temperature rises abruptly from about 8000 to about 500,000 K.",spase
-triton,The largest moon of Neptune.,spase
-troposphere,"The lowest layer of the atmosphere which begins at the surface and extends to between 7 km (4.4 mi) at the poles and 17 km (10.6 mi) at the equator, with some variation due to weather factors.",spase
-uranus,The eighth planet from the sun in our solar system.,spase
-venus,The second planet from the sun in our solar system.,spase
-aurora,"An aurora is a natural display of light in the night sky that typically occurs in far northern and southern regions. Auroras occur when incoming charged particles from the sun strike oxygen and nitrogen some 60 to 200 miles up in Earth's atmosphere and release a flash of light and heat. Electrons and protons released by solar storms add to the number of solar particles, and can create bright auroras at lower latitudes.",nasa
-chromosphere,"The relatively thin layer of the solar atmosphere located above the sun's surface. The temperature in the chromosphere rises from 6000° K to about 20,000° K, making it hotter than the photosphere but not as hot as the higher atmosphere, the corona.",nasa
-corona,"The sun's dynamic atmosphere is called the corona. It is filled with electrically charged particles, whose movements are governed by the tangle of magnetic fields surrounding the sun. While the sun's surface is 6000K, the corona can reach up to millions of degrees, sparking questions from researchers on mechanisms heat the atmosphere so dramatically. Solar flares and coronal mass ejections originate in the corona.",nasa
-geomagnetic storm,"One of the most common forms of space weather, a geomagnetic storm refers to any time Earth's magnetic environment, the magnetosphere, undergoes sudden and repeated change. Geomagnetic storms can be caused by high-speed blasts of the solar wind and when a CME connects up with the magnetosphere. The sun's magnetic fields peel back the outermost layers of Earth's fields changing the very shape of the magnetosphere. Magnetic storms have measurable effects worldwide, such as radio communication blackouts and power grid failures.",nasa
-heliosphere,"The heliosphere is our entire solar system, as defined by the bubble created by the outflow of particles from the sun called the solar wind, which streams far past the outermost planets, six to nine billion miles away from the sun. Solar particles speed outward from the sun, pushing back the material in the rest of space, known as the interstellar medium. The boundary between the two defines the edges of the heliosphere.",nasa
-ionosphere,"The ionosphere is a layer of Earth's atmosphere that extends from about 50 to 300 miles above the surface of the planet. The layer is filled with electrically charged particles (as well as neutral ones) and it is sensitive to incoming material from the sun, so the ionosphere can respond dramatically to space weather. Since the ionosphere is home to low Earth-orbiting spacecraft, as well as the region of space through which radio communications travel, unexpected changes in the region can have a dramatic effect on human technology.",nasa
-magnetic field,"A field of force generated by electrical currents, which guides the motion of anything electrically charged. Earth and the sun and several planets have giant magnetic fields surrounding them, which roughly link north and south poles along lines of magnetic force known as magnetic field lines.",nasa
-magnetosphere,"The magnetosphere is a bubble of magnetic fields that surrounds Earth, created by the natural magnetism of the planet. The magnetosphere protects humans on Earth from incoming energy from the sun, however it does change shape and size in response to such space weather, and these fluctuations can degrade communication signals and cause unexpected electrical surges in power grids.",nasa
-magnetotail,"Earth's magnetotail drags out behind it, shaped by the flow of the solar wind on the night side of Earth. It extends over a hundred thousand miles and can collect much incoming energy from the sun, before releasing it toward Earth or further down the tail.",nasa
-photosphere,The surface layer of the sun that we can see in the visible light range.,nasa
-radiation belts,"Two belts of radiation that surround Earth, also known as the Van Allen Belts. These two concentric donut-shaped regions are filled with high-energy particles from the sun and Earth’s ionosphere that gyrate, bounce and drift, sometimes shooting down into Earth’s atmosphere, sometimes escaping out into space. The inner belt is fairly stable; however, the outer belt can swell and shrink over time, sometimes inflating so much that the belts appear as one.",nasa
-solar cycle,"The sun goes through 11-year variations or cycles of high and low activity – solar flares and coronal mass ejections, for example, based on the regular increase and decrease of sunspots. Cycles as short as 9 years and as long as 14 years have also been observed. The cycle is caused by the fact that the sun's magnetic north and south poles flip every 11 years.",nasa
-solar flares,"A great burst of light and radiation due to the release of magnetic energy on the sun. Flares are by far the biggest explosions in the solar system, with energy releases comparable to billions of hydrogen bombs. The radiation from the flare travels at the speed of light, and so reaches Earth within eight minutes. The energy is generally absorbed by Earth's atmosphere, which protects humans on Earth, however, the energy can cause radio blackouts on Earth for minutes or, in the worst cases, hours at a time. The radiation from a flare would also be harmful to astronauts outside of Earth's atmosphere. Some, but by no means all, flares have an associated coronal mass ejection (CME).",nasa
-solar wind,"The constant stream of solar coronal material that flows off the sun. The solar wind is much less dense than the wind on Earth -- indeed it can be 1000 times less dense than a man-made vacuum on Earth -- but it is much faster, typically moving at speeds of one to two million miles per hour. Indeed, it is constantly on the move: there is no place within the solar system where the solar wind's velocity is zero.",nasa
-substorm,"A release of magnetic energy that originates in Earth's magnetotail, drawing on energy funneled there from the solar wind and other solar events. Substorms are fairly common and when they release energy toward Earth, the energy flows down the magnetic field lines toward Earth's north and south poles, causing aurora.",nasa
