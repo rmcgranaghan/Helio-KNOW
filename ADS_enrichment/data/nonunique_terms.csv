@@ -1,64 +1,64 @@
 term,definition,source
-solar flares,,uat
-solar magnetic fields,,uat
 solar wind,,uat
-sunspots,,uat
+solar magnetic fields,,uat
 helioseismology,,uat
-interplanetary physics,,uat
-oort cloud,,uat
-solar radio flares,,uat
-the moon,,uat
-solar energetic particles,,uat
+sunspots,,uat
+solar flares,,uat
 delta sunspots,,uat
-space weather,,uat
-planetary magnetospheres,,uat
-sunspot number,,uat
-sunspot flow,,uat
-solar magnetic bright points,,uat
-ephemeral active regions,,uat
-heliopause,,uat
-wilson effect,,uat
-solar x-ray flares,,uat
-solar magnetic flux emergence,,uat
 solar cycle,,uat
-solar white-light flares,,uat
-heliosphere,,uat
-solar flare spectra,,uat
+planetary magnetospheres,,uat
+solar dynamo,,uat
 sunspot groups,,uat
-solar magnetic reconnection,,uat
+solar magnetic flux emergence,,uat
 interplanetary magnetic fields,,uat
 maunder minimum,,uat
-solar dynamo,,uat
-asteroid satellites,,uat
-corotating streams,,uat
-pickup ions,,uat
-oort cloud objects,,uat
-pluto,,uat
-atmospheric tides,,uat
-water vapor,,uat
-interplanetary dust,,uat
-heliosheath,,uat
-planetary ionospheres,,uat
-interplanetary shocks,,uat
+space weather,,uat
+solar magnetic bright points,,uat
+sunspot flow,,uat
+interplanetary physics,,uat
+solar white-light flares,,uat
+ephemeral active regions,,uat
+heliopause,,uat
+solar magnetic reconnection,,uat
+solar energetic particles,,uat
+solar radio flares,,uat
+sunspot number,,uat
+wilson effect,,uat
+oort cloud,,uat
+the moon,,uat
+solar x-ray flares,,uat
+heliosphere,,uat
+solar flare spectra,,uat
 planetary bow shocks,,uat
+asteroid satellites,,uat
+atmospheric tides,,uat
+interplanetary shocks,,uat
+heliosheath,,uat
+oort cloud objects,,uat
+pickup ions,,uat
+water vapor,,uat
+planetary ionospheres,,uat
+pluto,,uat
+interplanetary dust,,uat
+corotating streams,,uat
 bipolar sunspot groups,,uat
+mesosphere,,uat
 earth trojans,,uat
-venus,,uat
-saturn,,uat
-uranus,,uat
-jupiter,,uat
-thermosphere,,uat
 neptune,,uat
 titan,,uat
+thermosphere,,uat
 mars,,uat
-triton,,uat
-stratosphere,,uat
-mesosphere,,uat
+venus,,uat
+saturn,,uat
 neptune trojans,,uat
+triton,,uat
 troposphere,,uat
-ganymede,,uat
+stratosphere,,uat
+uranus,,uat
+jupiter,,uat
 europa,,uat
 io,,uat
+ganymede,,uat
 forecasting,,agu
 uncertainty,,agu
 coronal mass ejections,,agu
@@ -84,7 +84,6 @@ plasmasphere,,agu
 radiation belts,,agu
 ring current,,agu
 other,,agu
-exposure,,agu
 nonlinear phenomena,,agu
 chromosphere,,agu
 corona,,agu
