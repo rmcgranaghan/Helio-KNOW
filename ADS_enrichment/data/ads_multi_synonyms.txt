@@ -1,0 +1,2881 @@
+# A list of acronyms that ADS curates independently of Wikipedia
+# They are useful to deal with some normalization of the input
+# stream which would otherwise require regular expressions
+#
+# AA 12/14/2012
+
+# first we start with classes of stars
+o star,ostar,o stars,ostars
+b star,bstar,b stars,bstars
+a star,astar,a stars,astars
+f star,fstar,f stars,fstars
+g star,gstar,g stars,gstars
+k star,kstar,k stars,kstars
+m star,mstar,m stars,mstars
+s star,sstar,s stars,sstars
+l star,lstar,l stars,lstars
+t star,tstar,t stars,tstars
+be star,bestar,be stars,bestars
+
+# common constellations
+cas,cassiopeiae
+cen,centaurus
+cyg,cygnus
+her,hercules
+per,perseus
+sgr,sagittarius
+tau,taurus
+vir,virgo
+
+# main stars in popular constellations
+cas a,casa,cassiopeiae a
+cen a,cena,centaurus a
+cyg a,cyga,cygnus a
+her a,hera,hercules a
+per a,pera,perseus a
+sgr a,sgra,sagittarius a
+tau a,taua,taurus a
+vir a,vira,virgo a
+auriga a,aurigaa
+fornax a,fornaxa
+hydra a,hydraa
+leo a,leoa
+orion a,oriona
+pictor a,pictora
+puppis a,puppisa
+
+# common compound words
+h alpha,halpha
+h beta,hbeta
+infra red,infrared
+red shift,redshift,red shifts,redshifts
+x ray,xray,x rays,xrays
+gamma ray,gammaray,gamma rays,gammarays
+shoemaker levy 9,sl9
+1987 a,1987a
+rs canum venaticorum,rs can ven,rs cvn
+# AA 4/10/2019
+EHT,event horizon telescope
+# CSG 12/7/2021
+METI,messaging extraterrestrial intelligence
+# This synonym file was created on Fri Dec 14 18:15:29 2012
+# by script "./parse_wikipedia_acronyms.pl" with input ""
+# It was further edited by hand to exclude short acronyms or
+# ones which are too ambiguous (e.g. VO means "Virtual Observatory"
+# in AST but "oxygen vacancy" in PHY)
+#
+# (CATALOG) a catalog of sources detected by ROSAT in pointed observations with its High Resolution Imager
+1RXH,1st rosat x ray hri
+# (CATALOG) a catalog of sources detected by ROSAT in an all-sky survey
+1RXS,1rosat x ray survey
+# (CATALOG) an early version of the 2MASS catalog
+2MASP,two micron all sky survey prototype
+# (OBSERVING_PROGRAMCATALOG) an all-sky survey in the near-infrared; also, the catalog of sources from the survey
+2MASS,two micron all sky survey
+# (CATALOG) one of the versions of the 2MASS catalog
+2MASSI,two micron all sky survey incremental release
+# (CATALOG) one of the versions of the 2MASS catalog
+2MASSW,two micron all sky survey working database
+# (OBSERVING_PROGRAM)
+2SLAQ,2df sdss lrg and qso survey
+# (ORGANIZATION)
+AAA,amateur astronomers association of new york
+# (ORGANIZATION)
+AAO,australian astronomical observatory
+AAO,anglo australian observatory
+# (ORGANIZATION)
+AAS,american astronomical society
+# (TELESCOPE)
+AAT,anglo australian telescope
+# (ORGANIZATION)
+AAVSO,american association of variable star observers
+# (OBSERVING_PROGRAM)
+ABRIXAS,a broadband imaging x ray all sky survey
+# (CATALOG)
+#AC; catalogue astrographique
+# (SPACECRAFT)
+ACE,advanced composition explorer
+# (INSTRUMENTATION) an instrument on the Chandra X-Ray Observatory
+ACIS,advanced ccd imaging spectrometer
+# (MEETING) Comets, and Meteors
+ACM,asteroids
+# (INSTRUMENTATION) an instrument on the Huygens probe
+ACP,aerosol collector and pyrolyser
+# (INSTRUMENTATION) an instrument on the Hubble Space Telescope
+ACS,advanced camera for surveys
+# (CELESTIAL_OBJECT) a class of rotating Alpha Canum Venaticorum (Cor Caroli), the archetype for the class
+ACV,alpha canes venatici
+# (CELESTIAL_OBJECT) a class of rotating Alpha Cygni (Deneb), the archetype for the class
+ACYG,alpha cygni
+# (ASTROPHYSICS_TERMINOLOGY) a mechanism by which matter is slowly accreted onto a black hole
+ADAF,advection dominated accretion flow
+# (ORGANIZATION)
+ADC,astronomical data center
+# (ORGANIZATION) an organization that provides oversight for the Astrophysics Data and Information Services
+ADEC,astrophysics data centers executive council
+# (ORGANIZATION)
+ADF,astrophysics data facility
+# (CATALOG)
+ADS,aitken double stars
+# (ORGANIZATION)
+ADIS,astrophysics data and information services
+# (ORGANIZATION) an organization that maintains an online database of scientific articles
+ADS,astrophysics data system
+# (ORGANIZATION) a research laboratory now part of the United States Air Force Research Laboratory
+AFGL,air force geophysics laboratory
+# (ORGANIZATION)
+AFOEV,association fran aise des observateurs d toiles variables
+# (ORGANIZATION)
+#AG; astronomische gesellschaft
+# (OBSERVING_PROGRAM) a search for microlenses in front of the Andromeda Galaxy
+AGAPE,andromeda galaxy and amplified pixels experiment
+# (CELESTIAL_OBJECT) a type of red giant star
+AGB,asymptotic giant branch
+# (CATALOG)
+AGK,astronomische gesellschaft katalog
+# (CELESTIAL_OBJECT)
+AGN,active galactic nucleus
+# (ORGANIZATION)
+AGU,american geophysical union
+# (SPACECRAFT) a spacecraft that will study the Noctilucent clouds
+AIM,aeronomy of ice in the mesosphere
+# (SOFTWARE)
+AIPS,astronomical image processing system
+# (PUBLICATION)
+#AJ; astronomical journal
+# (INSTRUMENTATION)
+ALEXIS,array of low energy x ray imaging sensors
+# (TELESCOPE)
+ALMA,atacama large millimeter sub millimeter array
+# (ORGANIZATION)
+ALPO,association of lunar and planetary observers
+# (TELESCOPE) a neutrino telescope
+AMANDA,antarctic muon and neutrino detector array
+# (SOFTWARE)
+AMASE,astrophysics multi spectral archive search engine
+# (ORGANIZATION)
+AMS,american meteor society
+# (PUBLICATION) a German scientific journal
+#AN; astronomische nachrichten
+# (TELESCOPE)
+ANS,astronomical netherlands satellite
+# (ORGANIZATION)
+ANS,astro news service
+# (ORGANIZATION)
+ANSI,american national standards institute
+# (INSTRUMENTATION)
+#AO; adaptive optics
+# (INSTRUMENTATION)
+AOR,astronomical observation request
+# (ORGANIZATION)
+APO,apache point observatory
+# (DATA)
+APOD,astronomy picture of the day
+# (TELESCOPE)
+APT,automated patrol telescope
+# (ORGANIZATION)
+ARC,ames research center
+# (ORGANIZATION)
+ARC,astrophysical research consortium
+# (ORGANIZATION)
+ASA,astronomical society of the atlantic
+# (ORGANIZATION)
+ASI,agenzia spaziale italiana
+# (ORGANIZATION)
+ASIAA,academia sinica institute of astronomy and astrophysics
+# (ORGANIZATION)
+ASP,astronomical society of the pacific
+# (SPACECRAFT)
+ASTRO,autonomous space transport robotic operations
+# (TELESCOPE) a radio interferometer array developed by the SETI Institute to search for possible signals from extraterrestrial life
+ATA,allen telescope array
+# (TELESCOPE)
+ATCA,australia telescope compact array
+# (PERSON) Amateur telescope making
+#ATM; hobbyist engaged in
+# (MEASUREMENT) the distance between the Earth and the Sun
+#AU; astronomical unit
+# (ORGANIZATION)
+AUASS,arab union for astronomy and space sciences
+# (ORGANIZATION)
+AURA,association of universities for research in astronomy
+# (MEETING) an older name for the International Workshop on Cometary Astronomy
+AWCA,american workshop on cometary astronomy
+# (CELESTIAL_OBJECT)
+AXP,anomalous x ray pulsar
+# (TELESCOPE) an older name for the Chandra X-ray Observatory
+AXAF,advanced x ray astrophysics facility
+# (ORGANIZATION)
+BAA,british astronomical association
+# (PUBLICATION)
+BAAS,bulletin of the american astronomical society
+# (CATALOG)
+BAC,bordeaux astrographic catalog
+# (ORGANIZATION)
+BAO,beijing astronomical observatory
+# (OBSERVING_PROGRAM)
+BASIS,burst and all sky imaging survey
+# (INSTRUMENTATION) an instrument on SWIFT
+BAT,burst alert telescope
+# (OBSERVING_PROGRAM) the name of a multi-wavelength sky survey
+BATC,beijing arizona taiwan connecticut
+# (INSTRUMENT) an instrument on the Compton Gamma-Ray Observatory
+BATSE,burst and transient source experiment
+# (ASTROPHYSICS_TERMINOLOGY)
+#BB; black body
+# (TELESCOPE)
+BBXRT,broad band x ray telescope
+# (CELESTIAL_OBJECT)
+BCD,blue compact dwarf
+# (SOFTWARE) data produced after basic processing
+BCD,basic calibrated data
+# (CELESTIAL_OBJECT) a class of pulsating variable stars for which Beta Cephei is the archetypal object
+BCEP,beta cephei
+# (CELESTIAL_OBJECT) another name for a blue compact dwarf
+BCG,blue compact galaxy
+# (CELESTIAL_OBJECT) the brightest galaxy in a cluster of galaxies
+BCG,brightest cluster galaxy
+# (CATALOG)
+BCVS,bibliographic catalogue of variable stars
+# (CATALOG)
+#BD; bonner durchmusterung
+# (CELESTIAL_OBJECT)
+#BD; brown dwarf
+# (CATALOG) a catalog of deep-sky objects for amateur astronomers
+BEN,jack bennett catalog
+# (CELESTIAL_OBJECT) J.A. Baldwin et al. 2004&lt;/ref&gt;
+BEL,broad emission line clouds in active galactic nucleus
+# (ASTROPHYSICS_TERMINOLOGY)
+#BF; broadening function
+# (CELESTIAL_OBJECT)
+#BH; black hole
+# (CELESTIAL_OBJECT) a type of luminous star
+BHB,blue horizontal branch
+# (CELESTIAL_OBJECT)
+BHC,black hole candidate
+# (CELESTIAL_OBJECT)
+BHXRT,black hole x ray transient
+# (ORGANIZATION_AMP_TELESCOPE)  microwave telescope it operated
+BIMA,berkeley illinois maryland association and also b m i array
+# (ORGANIZATION)
+BIS,british interplanetary society
+# (ORGANIZATION) a Ukrainian research institute
+BITP,bogolyubov institute for theoretical physics
+# (CELESTIAL_OBJECT) a class of active galaxies for which BL Lacertae is the archetypal object
+BLLAC,bl lacertae
+# (TELESCOPE)
+BLAST,balloon borne large aperture submillimeter telescope
+# (ORGANIZATION) the older name for UKSA
+BNSC,british national space centre
+# (OBSERVATORY) in Korea
+BOAO,bohyunsan optical astronomy observatory
+# (CATALOG)
+BPM,bruce proper motion
+# (CELESTIAL_OBJECT)
+BSG,blue super giant
+# (CELESTIAL_OBJECT)
+BSS,blue straggler star
+# (OBSERVING_PROGRAM)
+BSS,bigelow sky survey
+# (CELESTIAL_OBJECT) a class of rotating variable stars for which BY Draconis is the archetypal object
+#BY; by draconis
+# (ORGANIZATION)
+CADC,canadian astronomy data centre
+# (ORGANIZATION) a German-Spanish Astronomical Centre
+CAHA,centro astron mico hispano aleman
+# (SURVEY)
+CANDELS,cosmic assembly near infrared deep extragalactic legacy survey,cosmic assembly and dark energy legacy survey
+# (INSTRUMENTATION) an instrument on the Cassini spacecraft
+CAPS,cassini plasma spectrometer
+# (ORGANIZATION)
+CARA,california association for research in astronomy
+# (ORGANIZATION)
+CARA,center for astrophysical research in antarctica
+# (ORGANIZATION)
+CASCA,canadian astronomical society
+# (ORGANIZATION)
+CASS,center for advanced space studies
+# (CELESTIAL_OBJECT)
+CBR,cosmic background radiation
+# (CELESTIAL_OBJECT) a newly detected observed object that initially appears to orbit another celestial object
+#CC; candidate companion
+# (INSTRUMENTATION)
+CCD,charge coupled device
+# (ASTROPHYSICS_TERMINOLOGY) a plot that compares the differences between magnitudes in different wave bands
+CCD,color color diagram
+# (CATALOG)
+CCDM,catalog of components of double and multiple stars
+# (CATALOG)
+CCO,catalogue of cometary orbits
+# (CELESTIAL_OBJECT) a compact star in the center of a planetary nebulae
+CCO,central compact object
+# (CELESTIAL_OBJECT)
+CCS,cool carbon star
+# (CATALOG)
+#CD; cordoba durchmusterung
+# (CATALOG)
+CDIMP,catalogue of discoveries and identifications of minor planets
+# (ASTROPHYSICS_TERMINOLOGY) any model for structure formation in the universe that characterize &quot;cold&quot; particles such as WIMPs as dark matter
+CDM,cold dark matter
+# (ORGANIZATION)
+CDS,centre de donnees astronomiques de strasbourg
+# (TELESCOPE) an older name for the Thirty Meter Telescope
+CELT,california extremely large telescope
+# (CELESTIAL_OBJECT) a type of carbon star
+CEMP,carbon enhanced metal poor
+# (CELESTIAL_OBJECT) a type of pulsating variable star
+CEP,cepheid
+# (ORGANIZATION)
+CEPS,center for earth and planetary studies
+# (TELESCOPE)
+CFHT,canada france hawaii telescope
+# (ASTROPHYSICS_TERMINOLOGY)
+#CG; center of gravity
+# (CELESTIAL_OBJECT) a Bok globule that show signs of a tail-like extension
+#CG; cometary globule
+# (CELESTIAL_OBJECT)
+#CG; compact galaxy
+# (CELESTIAL_OBJECT)
+CGCS,cool galactic carbon star
+# (TELESCOPE)
+CGRO,compton gamma ray observatory
+# (CATALOG)
+CGSS,catalogue of galactic s stars
+# (ORGANIZATION)
+CHARA,center for high angular resolution astronomy
+# (SOFTWARE) software for processing Chandra X-ray Observatory data
+CIAO,chandra interactive analysis of observations
+# (INSTRUMENTATION) an instrument for the Subaru Telescope
+CIAO,coronagraphic imager with adaptive optics
+# (CELESTIAL_OBJECT)
+CIBR,cosmic infrared background radiation
+# (INSTRUMENTATION) an instrument on the Stardust spacecraft
+CIDA,cometary interplanetary dust analyzer
+# (OBSERVING_PROGRAM)
+CINEOS,campo imperatore near earth object survey
+# (CATALOG)
+CIO,catalog of infrared observations
+# (INSTRUMENTATION) an instrument for the Subaru Telescope
+CISCO,cooled infrared spectrograph and camera for ohs
+# (ASTROPHYSICS_TERMINOLOGY)
+#CM; center of mass
+# (CELESTIAL_OBJECT)
+CMBR,cosmic microwave background radiation
+# (CATALOG)
+CMC,carlsberg meridian catalogue
+# (ASTROPHYSICS_TERMINOLOGY) the Hertzsprung-Russell diagram or similar diagrams
+CMD,color magnitude diagram
+# (CELESTIAL_OBJECT)
+CNB,cosmic neutrino background
+# (ORGANIZATION) the French Space Agency
+CNES,centre nationale d etudes spatiales
+# (ASTROPHYSICS_TERMINOLOGY) a sequence of nuclear fusion processes
+CNO,carbon nitrogen oxygen
+# (ORGANIZATION)
+CNR,consiglio nazionale delle ricerche
+# (SPACECRAFT)
+CNSR,comet nucleus sample return
+# (TELESCOPE) a space telescope used to study the cosmic microwave background radiation
+COBE,cosmic background explorer
+# (INSTRUMENTATION)
+COHSI,cambridge oh suppression instrument
+# (INSTRUMENTATION) an instrument for the Subaru Telescope
+COMICS,cooled mid infrared camera and spectrometer
+# (TELESCOPE) another name for the Compton Gamma Ray Observatory
+CGRO,compton telescope
+# (TELESCOPE) a space telescope for detecting extrasolar planets
+COROT,convection rotation and planetary transits
+# (ORGANIZATION)
+COSPAR,committee on space research
+# (INSTRUMENTATION) corrective optics for the Hubble Space Telescope
+COSTAR,corrective optics space telescope axial replacement
+# (ASTROPHYSICS_TERMINOLOGY) stars with peculiar chemical compositions
+#CP; chemically peculiar
+# (CATALOG)
+CPD,cape photographic durchmusterung
+# (SPACECRAFT)
+CRAF,comet rendezvous asteroid flyby
+# (ORGANIZATION)
+CSA,canadian space agency
+# (ORGANIZATION)
+CSBN,committee for small body nomenclature
+# (CATALOG) a compilation of the catalogs, BD, CD, and CPD
+CSI,catalog of stellar identification
+# (TELESCOPE)
+CSO,caltech submillimeter observatory
+# (CELESTIAL_OBJECT)
+CSPN,central star of planetary nebula
+# (OBSERVING_PROGRAM)
+CSS,catalina sky survey
+# (ASTROPHYSICS_TERMINOLOGY) non-variable stars
+CST,constant
+# (CATALOG)
+CSV,catalog of suspected variables
+# (TELESCOPEORGANIZATION)
+CTIO,cerro tololo interamerican observatory
+# (CELESTIAL_OBJECT)
+CTTS,classical t tauri star
+# (CELESTIAL_OBJECT) a type of variable binary star system that contains a white dwarf and a companion star that changes
+#CV; cataclysmic variable
+# (CELESTIAL_OBJECT) a class of Cepheids named after W Virginis, the archetype for the class
+#CW; cepheid w virginis
+# (CELESTIAL_OBJECT)
+CXBR,cosmic x ray background radiation
+# (CATALOG) a catalog based from the Chandra space telescope
+CXO,chandra x ray observation
+# (ORGANIZATION)
+DAO,dominion astrophysical observatory
+# (CELESTIAL_OBJECT) a class of Cepheids named after Delta Cephei, the archetype for the class
+DCEP,delta cephei
+# (CELECTIAL_OBJECT)
+DDEB,double lined eclipsing binary
+# (OBSERVING_PROGRAMCATALOG)
+DENIS,deep near infrared survey
+# (OBSERVING_PROGRAM)
+DES,dark energy survey
+# (OBSERVING_PROGRAM)
+DES,deep ecliptic survey
+# (CELESTIAL_OBJECT) an absorption feature in stellar spectra with an interstellar origin
+DIB,diffuse interstellar band
+# (INSTRUMENTATION) a multiwavelength infrared detector used to map dust emission
+DIRBE,diffuse infrared background experiment
+# (INSTRUMENTATION) an instrument on the Huygens probe
+DISR,descent imager spectral radiometer
+# (INSTRUMENTATION) a microwave  instrument that would map variations (or anisotropies) in the CMB
+DMR,differential microwave radiometer
+# (CELESTIAL_OBJECT)
+#DN; dwarf nova
+# (CELESTIAL_OBJECT) another name for a binary neutron star system
+DNS,double neutron star
+# (DATA)
+DPOSS,digitized palomar observatory sky survey
+# (CELESTIAL_OBJECT)
+#DS; dwarf star
+# (COMMUNICATIONS_NETWORK) a network of radio antennas used for communicating to spacecraft
+DSN,deep space network
+# (DATA)
+DSS,digitized sky survey
+# (INSTRUMENTATION) an instrument on the Huygens probe
+DWE,doppler wind experiment
+# (ORGANIZATION)
+EAAE,european association for astronomy education
+# (ORGANIZATION)
+EAPSNET,east asian planet search network
+# (CELESTIAL_OBJECT) a star cluster that is partially or fully embedded in interstellar gas or dust
+#EC; embedded cluster
+# (CELESTIAL_OBJECT)
+ECA,earth crossing asteroid
+# (CELESTIAL_OBJECT)
+EGG,evaporating gaseous globule
+# (CATALOG) a catalog of mostly white dwarfs
+EGGR,eggen amp greenstein
+# (CELESTIAL_OBJECT)
+EGP,extrasolar giant planet
+# (TELESCOPE) another name for the Compton Gamma Ray Observatory
+EGRET,energetic gamma ray experiment telescope
+# (CELESTIAL_OBJECT) a type of hot, evolved star
+EHB,extreme horizontal branch
+# (PUBLICATION)
+EJASA,electronic journal of the astronomical society of the atlantic
+# (CELESTIAL_OBJECT) an alternative name for Kuiper Belt Objects
+EKBO,edgeworth kuiper belt object
+# (OBSERVING_PROGRAM) a survey of high redshift galaxies performed with the Infrared Space Observatory (ISO)
+ELIAS,european large area iso survey
+# (TELESCOPE)
+ELT,extremely large telescope
+# (CATALOG)
+EMP,ephemerides of minor planets
+# (CELESTIAL_OBJECT) a star with few elements other than hydrogen and helium
+EMP,extremely metal poor
+# (OBSERVING_PROGRAM) a survey of galaxy clusters
+ENACS,eso nearby abell cluster survey
+# (CELESTIAL_OBJECT) a name applied to spectra
+ERO,extremely red object
+# (ORGANIZATION)
+ESA,european space agency
+# (ORGANIZATION)
+ESO,european southern observatory
+# (ORGANIZATION)
+ESTEC,european space research and technology centre
+# (COMMUNICATIONS_NETWORK) a network of radio antennas used for communicating to spacecraft
+ESTRACK,european space tracking
+# (ASTROPHYSICS_TERMINOLOGY)
+EUV,extreme ultraviolet
+# (TELESCOPE) an ultraviolet space telescope
+EUVE,extreme ultraviolet explorer
+# (ORGANIZATION)
+EVN,european vlbi network
+# (TELESCOPE)
+FAME,full sky astrometric mapping explorer
+# (TELESCOPE)
+FASTT,flagstaff astrometric scanning transit telescope
+# (CATALOG)  a catalog of galaxies in the Fornax Cluster
+#FCC; fornax cluster catalog
+# (CELESTIAL_OBJECT) a solid planetary object that is being evaporated by the stellar wind
+FEB,falling evaporating body
+# (INSTRUMENTATION) an instrument on the Hubble Space Telescope
+FGS,fine guidance sensors
+# (INSTRUMENTATION) an instrument on the Hubble Space Telescope
+FHST,fixed head star trackers
+# (ASTROPHYSICS_TERMINOLOGY)
+FIR,far infrared
+# (OBSERVING_PROGRAM) a radio survey of the sky with the Very Large Array
+FIRST,faint images of the radio sky at twenty centimeters
+# (TELESCOPE) an older name for the Herschel Space Observatory
+FIRST,far infrared and submillimeter space telescope
+# (INSTRUMENTATION)
+FIRAS,far infrared absolute spectrophotometer
+# (SOFTWARE) the format commonly used for scientific astronomy images
+FITS,flexible image transport system
+# (INSTRUMENTATION) instrument on the VLT
+FLAMES,fibre large array multi element spectrograph
+# (TELESCOPE)
+FLOAT,fibre linked optical array telescope
+# (TELESCOPE)
+FLWO,fred l whipple observatory
+# (CELESTIAL_OBJECT) an asteroid so close to the Earth that it appears to be moving very fast
+FMO,fast moving object
+# (INSTRUMENTATION) a camera formerly on the Hubble Space Telescope
+FOC,faint object camera
+# (INSTRUMENTATION) an instrument for the Subaru Telescope
+FOCAS,faint object camera and spectrograph
+# (INSTRUMENTATION) a spectrometer formerly on the Hubble Space Telescope
+FOS,faint object spectrograph
+# (INSTRUMENTATION)
+FOV,field of view
+# (ASTROPHYSICS_TERMINOLOGY) the variations in the luminosity of gamma ray bursts over time
+FRED,fast rise exponential decay
+# (CATALOG) one of the catalogs produced using Infrared Astronomical Satellite data
+FSC,faint source catalogue
+# (ASTROPHYSICS_TERMINOLOGY)
+FTL,faster than light
+# (CELESTIAL_OBJECT)  a class of variable pre-main sequence stars named after FU Orionis, the archetype for the class
+FUOR,fu orionis objects
+# (TELESCOPE) an ultraviolet space telescope
+FUSE,far ultraviolet spectroscopic explorer
+# (INSTRUMENTATION) an ultraviolet imager for the Spectrum-Roentgen-Gamma mission
+FUVITA,far ultraviolet imaging telescope array
+# (INSTRUMENTATION) a telescope resolution
+FWHM,full width at half maximum
+# (INSTRUMENTATION) a telescopes resolution
+FWZI,full width at zero intensity
+# (TELESCOPE) a planned space telescope that will be used to make high-precision measurements of stars
+GAIA,global astrometric interferometer for astrophysics
+# (TELESCOPE) an ultraviolet space telescope
+GALEX,galaxy evolution explorer
+# (SOFTWARE)
+GASP,guide star astrometric support package
+# (CATALOG) catalog of G. Gatewood's observations
+GAT,ao gatewood
+# (TELESCOPE)
+GBT,green bank telescope
+# (CATALOG) a catalog of clusters, nebulae, and galaxies created by John Herschel and now superseded by the New General Catalogue
+#GC; general catalog
+# (CELESTIAL_OBJECT) a class of eruptive variable stars named after Gamma Cassiopeiae, the archetype for the class
+GCAS,gamma cassiopeiae
+# (INSTRUMENTATION) an instrument on the Huygens probe
+GCMS,gas chromatograph and mass spectrometer
+# (ORGANIZATION)
+GCN,grb coordinates network
+# (ASTROPHYSICS_TERMINOLOGY)
+GCR,galactic cosmic rays
+# (CATALOG)
+GCVS,the general catalog of variable stars
+# (CATALOG) a catalog of white dwarf
+#GD; giclas dwarf
+# (CELESTIAL_OBJECT) a transient feature in the clouds of Neptune
+GDS,great dark spot
+# (OBSERVING_PROGRAM)
+GEM,galactic emission mapping
+# (OBSERVING_PROGRAM) the science observation program of Europa performed by the Galileo spacecraft
+GEM,galileo europa mission
+# (OBSERVING_PROGRAM) the extended operations of the Giotto spacecraft
+GEM,giotto extended mission
+# (ORGANIZATION)
+GEMS,group evolution multi wavelength study
+# (SURVEY)
+GEMS,galaxy evolution from morphology and spectral energy distributions
+# (TELESCOPE) a network of telescopes used in a United States Air Force program for observing space junk
+GEODDS,ground based electro optical deep space surveillance
+# (ORGANIZATION) an amateur and professional association for study of variable stars.
+GEOS,groupe europ en observations stellaires
+# (INSTRUMENTATION) High Resolution MicroLensing Parameter survey, where GPU is an acronym for Graphics Processing Unit.
+GERLUMPH,gpu enabled
+# (CATALOG) a catalog of stars in the Hyades cluster
+#GH; giclas hyades
+# (INSTRUMENTATION) a spectrograph on the Hubble Space Telescope
+GHRS,goddard high resolution spectrograph
+# (ORGANIZATION)
+GIA,gruppo italiano astrometristi
+# (INSTRUMENTATION) an ultraviolet imager on the Advanced Research and Global Observation Satellite
+GIMI,global imaging monitor of the ionosphere
+# (CATALOG)
+#GJ; gliese jahrei jahreiss nearby star catalog
+# (CATALOG)
+#GL; gliese nearby star catalog
+# (TELESCOPE)
+GLAST,gamma ray large area space telescope
+# (OBSERVING_PROGRAM)
+GLIMPSE,galactic legacy infrared mid plane survey extraordinaire
+# (CELESTIAL_OBJECT)
+GMC,giant molecular cloud
+# (CELESTIAL_OBJECT)
+GMF,galactic magnetic field
+# (TELESCOPE)
+GMRT,giant meter radio telescope
+# (TELESCOPE) a telescope being built by a US-Australian collaboration
+GMT,giant magellan telescope
+# (ORGANIZATION) an organization that monitors oscillations in the Sun
+GONG,global oscillation network group
+# (SURVEY) a survey of various redshifts to study galactic formation and evolution
+GOODS,great observatories origins deep survey
+# (ASTROPHYSICS_TERMINOLOGY) a type of observed pulse emission from pulsars
+#GP; giant pulses
+# (ASTROPHYSICS_TEMINOLOGY) the radio or spectra of some galaxies
+GPS,ghz peaked spectrum
+# (ASTROPHYSICS_TERMINOLOGY)
+#GR; general relativity
+# (CATALOG) a catalog of red dwarfs
+#GR; giclas red dwarf
+# (CELESTIAL_OBJECT)
+GRB,gamma ray burst
+# (TELESCOPE) another name for the Compton Gamma Ray Observatory
+GRO,gamma ray observatory
+# (TELESCOPE) an automated telescope used to detect the optical counterparts to gamma ray bursts
+GROSCE,gamma ray burst optical counterparts search experiment
+# (INSTRUMENTATION) an instrument on the Mars Observer
+GRS,gamma ray spectrometer
+# (CELESTIAL_OBJECT) a feature in the clouds of Jupiter
+GRS,great red spot
+# (CATALOG) a catalog of stars used for pointing the Hubble Space Telescope
+GSC,guide star catalog
+# (CATALOG) a catalog of stars used for pointing the Hubble Space Telescope
+GSC2,guide star catalog version 2
+# (ORGANIZATION) a NASA institution
+GSFC,goddard space flight center
+# (CATALOG) a catalog of stars with precisely measured fluxes used to calibrate the Guide Star Catalog
+GSPC,guide star photometric catalog
+# (TELESCOPE) the 10.4 m reflecting telescope on the island of La Palma, Canary Islands, Spain
+GTC,gran telescopio canarias
+# (TELESCOPE) a satellite that is part of the VLBI Space Observatory Program, a Japanese radio astronomy project
+HALCA,highly advanced laboratory for communications and astronomy
+# (ORGANIZATION)
+HAO,high altitude observatory
+# (INSTRUMENTATION) a high-precision spectrograph installed on the ESO 3.6m telescope
+HARPS,high accuracy radial velocity planet searcher
+# (INSTRUMENTATION) an instrument on the Huygens probe
+HASI,huygens atmosphere structure instrument
+# (CELESTIAL_OBJECT) a type of evolved red giant star in which helium is burned in the core and hydrogen is burned in a shell around the core
+#HB; horizontal branch
+# (CELESTIAL_OBJECT)
+HBRP,high magnetic field radio pulsar
+# (CATALOG) a catalog of variable stars
+HBV,hamburg bergedorf variables
+# (ASTROPHYSICS_TERMINOLOGY)
+HBMM,hydrogen burning minimum mass
+# (ORGANIZATION)
+HCO,harvard college observatory
+# (CELESTIAL_OBJECT) the boundary where the polarity of the Sun's magnetic field changes direction
+HCS,heliospheric current sheet
+# (CATALOG) a catalog of stars
+#HD; henry draper
+# (CATALOG) a catalog of stars
+HDE,henry draper extension
+# (DATACELESTIAL_OBJECT) an area of the sky with little foreground obscuration that was observed deeply with the Hubble Space Telescope; also the name for the data product itself
+HDF,hubble deep field
+# (ASTROPHYSICS_TERMINOLOGY) any
+HDM,hot dark matter
+# (INSTRUMENTATION) a spectrograph on the Subaru Telescope
+HDS,high dispersion spectrograph
+# (CATALOG)
+#HE; hamburg eso survey
+# (TELESCOPE) a series of X-ray and gamma ray space telescopes
+HEAO,high energy astronomical observatory
+# (ORGANIZATION) a NASA organization that deals with X-ray and gamma ray telescope data
+HEASARC,high energy astrophysics science archive research center
+# (TELESCOPE) a telescope for detecting cosmic rays
+HESS,high energy stereoscopic system
+# (TELESCOPE) a space telescope that performs multi-wavelength observations of gamma ray bursts
+HETE,high energy transient explorer
+# (ASTROPHYSICS_TERMINOLOGY)
+#HF; high frequency
+# (INSTRUMENTATION)
+HGA,high gain antenna
+# (CELESTIAL_OBJECT) objects formed when the ejecta from new stars collides with the interstellar medium
+#HH; herbig haro object
+# (CATALOG) a catalog of data for the first target stars selected for observation by the Hipparcos
+HIC,hipparcos input catalog
+# (CATALOG) a catalog of HI sources, see also NHICAT
+HICAT,hipass catalog
+# (ASTROPHYSICS_TERMINOLOGY) a type of X-ray and gamma ray astronomy
+HID,hardness intensity diagram
+# (CATALOG) the catalog of data produced by Hipparcos
+HIP,hipparcos
+# (TELESCOPE) a space telescope specifically designed to measure distances to stars using parallax
+HIPPARCOS,high precision parallax collecting satellite
+# (ASTROPHYSICAL_TERMINOLOGY)
+HISA,hi self absorption region
+# (CATALOG)
+#HK; survey for metal poor stars based on the strength of caii h and k absorption lines
+# (CELESTIAL_OBJECT) a galaxy that is brighter than 10&lt;sup&gt;13&lt;/sup&gt; solar luminosities in the infrared
+HLIRG,hyperluminous infrared galaxy
+# (INSTRUMENTATION) an instrument on the Giotto spacecraft
+HMC,halley multicolor camera
+# (CELESTIAL_OBJECT)
+HMPO,high mass proto stellar object
+# (CELESTIAL_OBJECT) an massive star
+HMXB,high mass x ray binary
+# (CELESTIAL_OBJECT) a star with high proper motion
+HPMS,high proper motion star
+# (CATALOG)
+#HR; hoffleit bright star
+# (ASTROPHYSICS_TERMINOLOGY) a diagram that compares stars' colors to their luminosities
+#HR; hertzsprung russell
+# (INSTRUMENTATION) an instrument on the Cassini spacecraft
+HRD,high rate detector
+# (OBSERVING_PROGRAM) a survey for microwave signals from extraterrestrial intelligence
+HRMS,high resolution microwave survey
+# (INSTRUMENTATION) an instrument on the ROSAT telescope
+HRI,high resolution imager
+# (INSTRUMENTATION) an instrument formerly on the Hubble Space Telescope
+HSP,high speed photometer
+# (TELESCOPE)
+HST,hubble space telescope
+# (ASTROPHYSICS_TERMINOLOGY) the observations of phenomena that vary on timescales of one second or less
+HTRA,high time resolution astrophysics
+# (TELESCOPE) an ultraviolet telescope that operated from the cargo bay of the Space Shuttle
+HUT,hopkins ultraviolet telescope
+# (CELESTIAL_OBJECT) an interstellar cloud with a velocity that is too high to be explained by galactic rotation
+HVC,high velocity cloud
+# (CELESTIAL_OBJECT) or
+HVS,hypervelocity star
+# (ORGANIZATION)
+IAC,instituto de astrofisica de canarias
+# (ORGANIZATION)
+IAPPP,international amateur professional photoelectric photometry
+# (ORGANIZATION)
+IAS,istituto di astrofisica spaziale
+# (OBSERVING_PROGRAM) the name given to a series of coordinated Sun-related observational programs performed in 1969 and 1971
+IASY,international active sun year
+# (ORGANIZATION)
+IAU,international astronomical union
+# (PUBLICATION)
+IAUC,iau circular
+# (MEETING)
+IAYC,international astronomical youth camp
+# (INSTRUMENTATION) an instrument on the INTEGRAL satellite
+IBAS,integral burst alert system
+# (INSTRUMENTATION) an instrument on the INTEGRAL satellite
+IBIS,imager on board the integral satellite
+# (PUBLICATION)
+IBVS,information bulletin on variable stars
+# (CATALOG)
+#IC; index catalog
+# (CELESTIAL_OBJECT) either the regions between stars in star clusters or the region between galaxies in galaxy clusters
+#IC; intracluster
+# (SPACECRAFT)
+ICE,international comet explorer
+# (CELESTIAL_OBJECT) is the superheated gas present at the center of a galaxy cluster
+ICM,intracluster medium
+# (PUBLICATION)
+ICQ,international comet quarterly
+# (ASTROPHYSICS_TERMINOLOGY) a coordinate system based on radio sources used to define the locations of objects in the sky
+ICRF,international celestial reference frame
+# (ASTROPHYSICS_TERMINOLOGY) a coordinate system based on Hipparcos observations used to define the locations of objects in the sky
+ICRS,international celestial reference system
+# (ORGANIZATION) an organization that seeks to control light pollution
+IDA,international dark sky association
+# (CELESTIAL_OBJECT) dust particles around planets or planetary bodies
+IDP,interplanetary dust particle
+# (CATALOG)
+IDS,index catalog of double stars
+# (ASTROPHYSICS_TERMINOLOGY) the orbits of asteroids
+IEO,inner earth object
+# (ORGANIZATION) or International Earth rotation and Reference systems Service, an organization that monitors the Earth's orientation with respect to the radio sources used to define the ICRF
+IERS,international earth rotation geophysical service
+# (CELESTIAL_OBJECT)
+IGM,intergalactic medium
+# (CATALOG) a catalog based on observations by the INTEGRAL telescope
+IGR,integral gamma ray source
+# (OBSERVING_PROGRAM) the name given to a series of coordinated geophysical and astronomical observation programs performed in 1957 and 1958
+IGY,international geophysical year
+# (ORGANIZATION) an organization created to coordinate observations of Halley's Comet in 1986
+IHW,international halley watch
+# (SPACECRAFT) a mission to measure variations in the orientation of the Moon from the Moon's surface
+ILOM,in situ lunar orientation measurement
+# (CELESTIAL_OBJECT)
+IMBH,intermediate mass black hole
+# (ASTROPHYSICS_TERMINOLOGY) the relative numbers of stars of different masses that form during star formation
+IMF,initial mass function
+# (ORGANIZATION)
+IMO,international meteor organization
+# (MEETING)
+IMPACT,international monitoring programs for asteroid and comet threat
+# (OBSERVING_PROGRAM)
+IMPS,iras minor planet survey
+# (ORGANIZATION)
+INAG,institut national d astronomie et de geophysique
+# (ORGANIZATION)
+ING,isaac newton group of telescopes
+# (CELESTIAL_OBJECT)
+INS,isolated neutron star
+# (TELESCOPE)
+INT,isaac newton telescope
+# (TELESCOPE) a gamma-ray space telescope
+INTEGRAL,international gamma ray astrophysics laboratory
+# (TELESCOPE)
+IOTA,infrared optical telescope array
+# (ORGANIZATION) an organization for monitoring occultations
+IOTA,international occultation timing association
+# (ORGANIZATION)
+IPAC,infrared processing amp analysis center
+# (CELESTIAL_OBJECT) another name for isolated planemos or sub-brown dwarfs
+IPMO,isolated planetary mass objects
+# (OBSERVING_PROGRAM) the name given to a series of coordinated Sun-related observational programs performed in 1964 and 1965
+IQSY,international quiet sun year
+# (ASTROPHYSICS_TERMINOLOGY)
+#IR; infrared
+# (INSTRUMENTATION) a mid-infrared imager on the Spitzer Space Telescope
+IRAC,infrared array camera
+# (SOFTWARE) a general-purpose professional data-processing package
+IRAF,image reduction and analisys facility
+# (TELESCOPE)
+IRAIT,international robotic antarctic infrared telescope
+# (ORGANIZATION)
+IRAM,institut de radio astronomie millimetrique
+# (TELECOPECATALOG) an infrared space telescope; also the catalog produced using the telescope's data
+IRAS,infrared astronomical satellite
+# (INSTRUMENTATION) an instrument on the Subaru Telescope
+IRCS,infrared camera and spectrograph
+# (CELESTIAL_OBJECT)
+IRDC,infrared dark cloud
+# (INSTRUMENTATION) an infrared spectrometer on the Spitzer Space Telescope
+IRS,infrared spectrograph
+# (ORGANIZATION)
+IRSA,infrared science archive
+# (TELESCOPE)
+IRTF,infrared telescope facility
+# (ORGANIZATION)
+ISAS,institute of space and astronautical science
+# (ORGANIZATION) a research unit at the University of Saskatchewan
+ISAS,institute of space and atmospheric studies
+# (SPACECRAFT) a series of spacecraft designed to study the effects of the Sun on the Earth's space environment and magnetosphere
+ISEE,international sun earth explorer
+# (INSTRUMENTATION) an instrument on the INTEGRAL satellite
+ISGRI,integral soft gamma ray imager
+# (CELESTIAL_OBJECT)
+ISM,interstellar medium
+# (ORGANIZATION)
+ISN,international supernovae network
+# (TELESCOPE)
+ISO,infrared space observatory
+# (SPACECRAFT) another name for the Ulysses spacecraft
+ISPM,international solar polar mission
+# (DATA) an atlas compiled from Infrared Astronomical Satellite data
+ISSA,infrared sky survey atlas
+# (OBSERVING_PROGRAMMEETING) the name given to a celebration of space exploration as well as a series of coordinated astronomical observations and a series of meetings to plan future astronomy research efforts
+ISY,international space year
+# (ORGANIZATION) one of three organizations that was combined to form the Institute of Astronomy
+ITA,institute of theoretical astronomy
+# (TELESCOPE) an ultraviolet space telescope
+IUE,international ultraviolet explorer
+# (ORGANIZATION)
+IUEDAC,iue satellite data analysis center
+# (MEETING)
+IWCA,international workshop on cometary astronomy
+# (PUBLICATION)
+JAC,japan astronomical circular
+# (ORGANIZATION) the organization that operates the United Kingdom Infrared Telescope and the James Clerk Maxwell Telescope
+JAC,joint astronomy centre
+# (ORGANIZATION)
+JAPOA,japan amateur photoelectric observers association
+# (ORGANIZATION)
+JAXA,japan aerospace exploration agency
+# (TELESCOPE)
+JCMT,james clerk maxwell telescope
+# (ASTROPHYSICS_TERMINOLOGY) an alternative time commonly used in astronomy
+#JD; julian date
+# (PUBLICATION)
+JGR,journal of geophysical research
+# (ORGANIZATION)
+JILA,formerly joint institute for laboratory astrophysics
+# (TELESCOPE)
+JKT,jacobus kapteyn telescope
+# (ORGANIZATION) a research center associated with NASA
+JPL,jet propulsion laboratory
+# (TELESCOPEORGANIZATION) a Japanese telescope used to track near-Earth asteroids and space junk
+JSGA,japan spaceguard association
+# (TELESCOPE) a planned space telescope that will supersede the Hubble Space Telescope
+JWST,james webb space telescope
+# (TELESCOPE)
+KAIT,katzman automatic imaging telescope
+# (TELESCOPE)
+KAO,kuiper airborne observatory
+# (CELESTIAL_OBJECT)
+KBO,kuiper belt object
+# (ORGANIZATION)
+KCAO,kumamoto civil astronomical observatory
+# (CATALOG) a catalog of stars with potential extrasolar planets to be observed by the Kepler Mission
+KIC,kepler input catalog
+# (ORGANIZATION)
+KPNO,kitt peak national observatory
+# (ORGANIZATION) a Spanish astronomy research organization
+LAEFF,laboratorio de astrofisica espacial y fisica fundamental
+# (CATALOG) a historical catalog of stars
+LAL,lalande
+# (TELESCOPE)
+LAMOST,large sky area multi object fiber spectroscopic telescope
+# (ORGANIZATION)
+LANL,los alamos national laboratory
+# (INSTRUMENTATION) an instrument on the Solar and Heliospheric Observatory
+LASCO,large angle and spectrometric coronagraph
+# (CATALOG) a catalog of bright nebulae
+LBN,lynds bright nebula
+# (ORGANIZATION)
+LBNL,lawrence berkeley national laboratory
+# (TELESCOPE)
+LBT,large binocular telescope
+# (CELESTIAL_OBJECT) a type of very bright variable star
+LBV,luminous blue variable
+# (ASTROPHYSICS_TERMINOLOGY) any model for structure formation in the universe that includes dark energy
+LCDM,lambda cold dark matter
+# (SPACECRAFT)
+LCROSS,lunar crater observation and sensing satellite
+# (OBSERVING_PROGRAM)
+LCRS,las campanas redshift survey
+# (CATALOG) a catalog of dark nebulae
+LDN,lynds dark nebula
+# (CATALOG)
+LDS,luyten double star
+# (ASTROPHYSICS_TERMINOLOGY)
+LEO,low earth orbit
+# (TELESCOPE)
+LEST,large earth based solar telescope
+# (INSTRUMENTATION) an instrument on the Chandra X-Ray Observatory
+LETGS,low energy transmission gratings spectrometer
+# (ASTROPHYSICS_TERMINOLOGY) the spatial density of objects such as star clusters and galaxies as a function of their luminosity
+#LF; luminosity function
+# (CATALOG) a catalog of stars with proper motions exceeding 0.5&quot;
+LFT,luyten five tenths
+# (INSTRUMENTATION)
+LGA,low gain antenna
+# (CELESTIAL_OBJECT) a humorous name applied to pulsars soon after their discovery
+LGM,little green men
+# (ORGANIZATION)
+LHEA,laboratory for high energy astrophysics
+# (CATALOG) a catalog of stars with proper motions exceeding 0.5&quot;
+LHS,luyten half second
+# (CELESTIAL_OBJECT) the cloud in the interstellar medium through which the solar system is currently moving
+LIC,local interstellar cloud
+# (TELESCOPE) an instrument for detecting gravitational waves
+LIGO,laser interferometer gravitational wave observatory
+# (OBSERVING_PROGRAM)
+LINEAR,lincoln near earth asteroid research
+# (CELESTIAL_OBJECT) a galactic nucleus that is characterized by spectral line emission from weakly ionized gas
+LINER,low ionization nuclear emission region
+# (CELESTIAL_OBJECT) a galaxy that is between 10&lt;sup&gt;11&lt;/sup&gt; and 10&lt;sup&gt;12&lt;/sup&gt; solar luminosities in the infrared
+LIRG,luminous infrared galaxy
+# (TELESCOPE) a series of spacecraft that can be used to detect gravitational waves
+LISA,laser interferometer space antenna
+# (CELESTIAL_OBJECT) an active galactic nucleus with a low luminosity
+LLAGN,low luminosity active galactic nucleus
+# (ORGANIZATION)
+LLNL,lawrence livermore national laboratory
+# (CELESTIAL_OBJECT) an irregular galaxy near the Milky Way
+LMC,large magellanic cloud
+# (CELESTIAL_OBJECT) the less massive hydrogen-burning main-sequence stars
+LMS,lower main sequence star
+# (CELESTIAL_OBJECT) an binary star system in which one of the stars is a neutron star or black hole that is stripping material away from the other star in the system
+LMXB,low mass x ray binary
+# (INSTRUMENTATION)
+LN2,liquid nitrogen
+# (TELESCOPE) for radio astronomy
+LOFAR,low frequency array
+# (OBSERVING_PROGRAM)
+LONEOS,lowell observatory near earth object search
+# (OBSERVING_PROGRAM)
+LOSS,lick observatory supernova search
+# (TELESCOPE) a telescope designed to find the optical counterparts of gamma ray bursts
+LOTIS,livermore optical transient imaging system
+# (OBSERVING_PROGRAM)
+LOTOSS,lick observatory and tenagra observatory supernova searches
+# (CATALOG) a catalog of proper motion measurements of stars
+#LP; luyten palomar
+# (ORGANIZATION)
+LPI,lunar and planetary institute
+# (ORGANIZATION) the planetary science department of the University of Arizona
+LPL,lunar and planetary laboratory
+# (ORGANIZATION)
+LPO,la palma observatory
+# (CELESTIAL_OBJECT) a type of variable star that changes in brightness slowly over time
+LPV,long period variable
+# (CELESTIAL_OBJECT) a dataset of galaxies from the Sloan Digital Sky Survey that were selected on the basis of their red colors
+LRG,luminous red galaxy
+# (SPACECRAFT)
+LRO,lunar reconnaissance orbiter
+# (ASTROPHYSICS_TERMINOLOGY) the frame of reference with a velocity equal to the average velocity of all the stars in the solar neighborhood, including the Sun
+LSR,local standard of rest
+# (TELESCOPE)
+LSST,large synoptic survey telescope
+# (ASTROPHYSICS_TERMINOLOGY) the right ascension that is currently at the zenith
+LST,local sidereal time
+# (ASTROPHYSICS_TERMINOLOGY) a state where variations in temperature, pressure, etc. do not vary on small scales
+LTE,local thermodynamic equilibrium
+# (ASTROPHYSICS_TERMINOLOGY) an observed event (such as a flash of light) on the surface of the Moon
+LTP,lunar transient phenomenon
+# (CATALOG) a catalog of proper motion measurements for stars
+LTT,luyten two tenths
+# (PROJECT) a NASA-funded project to search for exoplanets
+MARVEL,multi object apache point observatory radial velocity exoplanet large area survey
+# (OBSERVING_PROGRAM) a program to study the cometary dust from the Leonids meteor showers
+MAC,multi instrument aircraft campaign
+# (CELESTIAL_OBJECTOBSERVING_PROGRAMCATALOG) an object in the halo thought to comprise part of the galaxy's dark matter; also a survey to detect these sources through gravitational lensing and the catalog of sources detected by the survey
+MACHO,massive compact halo object
+# (TELESCOPE)
+MAGIC,major atmospheric gamma ray imaging cherenkov telescope
+# (TELESCOPE) an older name for the Wilkinson Microwave Anisotropy Probe
+MAP,microwave background anisotropy probe
+# (ASTROPHYSICS_TERMINOLOGY) microwave emission that is similar to the optical emission from a laser
+MASER,microwave amplification by stimulated emission of radiation
+# (CELESTIAL_OBJECT)
+MBA,main belt asteroid
+# (CELESTIAL_OBJECT)
+MBH,massive black hole
+# (CATALOG)
+MCG,morphological catalog of galaxies
+# (SPACECRAFT)
+MCO,mars climate orbiter
+# (OBSERVING_PROGRAM) a survey of high-redshift galaxies with the Hubble Space Telescope
+MDS,medium deep survey
+# (CELESTIAL_OBJECT) a type of object proposed as an alternative to supermassive black holes as the central compact source within active galactic nuclei
+MECO,magnetospheric eternally collapsing object
+# (ORGANIZATION)
+MEPAG,mars exploration program analysis group
+# (MEETING)
+MEPCO,meeting of european planetary and cometary observers
+# (SPACECRAFT)
+MER,mars exploration rover
+# (CATALOGOBSERVING_PROGRAM)
+MGC,millennium galaxy catalogue
+# (SPACECRAFT)
+MGS,mars global surveyor
+# (ASTROPHYSICS_TERMINOLOGY)
+MHD,magnetohydrodynamic
+# (SOFTWARE) astronomy almanac software created by the United States Naval Observatory
+MICO,multi year interactive computer almanac
+# (INSTRUMENTATION) an instrument on the Spitzer Space Telescope
+MIPS,multi band imaging photometer
+# (ASTROPHYSICS_TERMINOLOGY) the Julian date minus 2400000.5
+MJD,modified julian date
+# (SPACECRAFT) Mercury
+MMO,mercury magnetospheric orbiter
+# (ASTROPHYSICS_TERMINOLOGY)
+MMR,mean motion resonance
+# (TELESCOPE)
+MMT,multiple mirror telescope
+# (PUBLICATION)
+MNRAS,monthly notices of the royal astronomical society
+# (SPACECRAFT)
+#MO; mars observer
+# (OBSERVING_PROGRAM) a survey searching for gravitational lenses
+MOA,microlensing observations in astrophysics
+# (INSTRUMENTATION) an instrument on the Mars Observer
+MOC,mars observer camera
+# (ASTROPHYSICS_TERMINOLOGY) the minimum distance between two objects' orbital paths
+MOID,minimum orbit intersection distance
+# (INSTRUMENTATION) an instrument on the Mars Observer used to study Mars's topology
+MOLA,mars observer laser altimeter
+# (ASTROPHYSICS_TERMINOLOGY)
+MOND,modified newtonian dynamics
+# (TELESCOPE) a Danish space telescope that was proposed and designed but not built
+MONS,measuring oscillations in nearby stars
+# (TELESCOPE) a space telescope designed to detect oscillations in the atmospheres of stars and extrasolar planetss in orbit around other stars
+MOST,microvariability and oscillations of stars
+# (TELESCOPE) an Australian radio telescope
+MOST,molonglo observatory synthesis telescope
+# (TELESCOPE)
+MOTIF,maui optical tracking and identification facility
+# (INSTRUMENTATION) an X-ray all-sky monitor designed for the Spectrum-X-Gamma satellite
+MOXE,monitoring x ray experiment
+# (PUBLICATION) also called
+MPC,minor planet circulars
+# (PUBLICATION)
+MPEC,minor planet electronic circular
+# (SPACECRAFT)
+MPF,mars pathfinder
+# (SPACECRAFT)
+MPL,mars polar lander
+# (SPACE_CRAFT) Mercury
+MPO,mercury planetary orbiter
+# (INSTRUMENTATION) CCD technology that reduces dark current noise
+MPP,multi pinned phase
+# (PUBLICATION)
+MPCS,minor planet circulars supplement
+# (OBSERVING_PROJECT) a program designed that detect gravitational lensing technique
+MPS,microlensing planet search
+# (SPACECRAFT)
+MRO,mars reconnaissance orbiter
+# (CELESTIAL_OBJECT)
+MSP,millisecond pulsar
+# (ORGANIZATION)
+MSSS,maui space surveillance site
+# (TELESCOPE) an infrared space telescope
+MSX,midcourse space experiment
+# (ORGANIZATION)
+MSSSO,mount stromlo and siding spring observatories
+# (OBSERVING_PROGRAM)
+MUNICS,munich near infrared cluster survey
+# (SPACECRAFT) a Japanese science-related spacecraft launched in a Mu rocket
+MUSES,mu space engineering spacecraft
+# (INSTRUMENTATION) A bolometer camera on the Green Bank Telescope.
+MUSTANG,multiplexed squid tes array at ninety ghz
+# (CELESTIAL_OBJECT)
+#MW; milky way
+# (CELESTIAL_OBJECT)
+MWD,magnetic white dwarf
+# (CELESTIAL_OBJECT) an X-ray-luminous binary system consisting of a compact star and a very massive star
+MXRB,massive x ray binary
+# (CELESTIAL_OBJECT)
+MYSO,massive young stellar object
+# (ORGANIZATION) the older name for NASA
+NACA,national advisory committee on aeronautics
+# (ORGANIZATION)
+NAMN,north american meteor network
+# (ORGANIZATION)
+NAOJ,national astronomical observatory of japan
+# (ORGANIZATION) the Norwegian name for the Norwegian Astronomical Society
+NAS,norsk astronomisk selskap
+# (ORGANIZATION)
+NASA,national aeronautics and space administration
+# (ORGANIZATION)
+NASDA,national space development agency
+# (ORGANIZATION) an older name for the National Institute of Standards and Technology
+NBS,national bureau of standards
+# (TELESCOPE)
+NCT,nuclear compton telescope a balloon borne soft gamma ray 0 2 15 mev telescope
+# (SPACECRAFT) a space probe used to study a near-Earth asteroid
+NEAP,near earth asteroid prospector
+# (SPACECRAFT) a space probe used to study a near-Earth asteroid
+NEAR,near earth asteroid rendezvous
+# (OBSERVING_PROGRAM)
+NEAT,near earth asteroid tracking
+# (SOFTWARE)
+NED,nasa ipac extragalactic database
+# (CELESTIAL_OBJECT)
+NEO,near earth object
+# (CELESTIAL_OBJECT) a type of Carbon star with high amounts of nitrogen
+NEMP,nitrogen enhanced metal poor star
+# (ORGANIZATION) a United Kingdom organization that provides information on near-Earth asteroids
+NEOIC,near earth object information center
+# (TELESCOPE) a telescope for observing near-Earth asteroids
+NESS,near earth space surveillance
+# (ORGANIZATION) a collaboration planning to use a ground-based telescope to observe near-Earth asteroids
+NESSI,near earth space surveillance initiative
+# (CATALOG)
+NGC,new general catalog
+# (TELESCOPE) an older name for the James Webb Space Telescope
+NGST,next generation space telescope
+# (CATALOG) the northern extension of the HIPASS catalogue
+NHICAT,northern hipass catalog
+# (INSTRUMENTATION) an infrared instrument on the Hubble Space Telescope
+NICMOS,near infrared camera multi object spectrometer
+# (INSTRUMENTATION) an instrument on the Galileo spacecraft
+NIMS,near infrared mapping spectrometer
+# (ASTROPHYSICS_TERMINOLOGY)
+NIR,near infrared
+# (ORGANIZATION)
+NIST,national institute of standards and technology
+# (ASTROPHYSICS_TERMINOLOGY) situations where the temperature, pressure, etc. of a system are not in equilibrium
+NLTE,non local thermodynamic equilibrium
+# (CATALOG) a catalog of stars with high proper motions
+NLTT,new luyten two tenths
+# (ORGANIZATION)
+NOAA,national oceanic and atmospheric administration
+# (ORGANIZATION)
+NOAO,national optical astronomy observatories
+# (TELESCOPE) a now-defunct telescope used to observe space junk and other objects
+NODO,nasa orbital debris observatory
+# (TELESCOPE)
+NOT,nordic telescope
+# (CELESTIAL_OBJECT) a series of magnitudes
+NPS,north polar sequence
+# (ORGANIZATION)
+NRAO,national radio astronomy observatory
+# (ORGANIZATION)
+NRL,naval research laboratory
+# (CELESTIAL_OBJECT)
+#NS; neutron star
+# (ORGANIZATION)
+NSF,national science foundation
+# (ORGANIZATION)
+NSO,national solar observatory
+# (ORGANIZATION)
+NSSDC,national space science data center
+# (CATALOG) a catalog of variable stars
+NSV,new suspected variable
+# (ASTROPHYSICS_TERMINOLOGY) radiation that is not related to the emission source's temperature (such as synchrotron radiation)
+#NT; non thermal
+# (TELESCOPE) a telescope operated by the European Southern Observatory
+NTT,new technology telescope
+# (OBSERVATORY) in Japan
+OAO,okayama astrophysical observatory
+# (TELESCOPE) a series of satellites with astronomical instruments that operated in the 1970s
+OAO,orbiting astronomical observatory
+# (CELESTIAL_OBJECT) a cluster of stars
+#OC; open cluster
+# (ORGANIZATION)
+OCA,observatoire de la c te d azur
+# (CELESTIAL_OBJECT) an object (usually a comet) in the Oort cloud
+OCO,oort cloud object
+# (OBSERVING_PROGRAMCATALOG) an observing program to survey the sky for microlensing events; also the catalog of sources produced by the project
+OGLE,optical gravitational lensing experiment
+# (ORGANIZATION) a group established by NASA that provides advice on solar system exploration
+OPAG,outer planets assessment group
+# (TELESCOPE) an ultraviolet space telescope that could be released and later retrieved by the Space Shuttle
+ORFEUS,orbiting and retrievable far and extreme ultraviolet spectrometer
+# (INSTRUMENTATION) an instrument on the Compton Gamma Ray Observatory
+OSSE,oriented scintillation spectrometer experiment
+# (INSTRUMENTATION) the optics of the Hubble Space Telescope
+OTA,optical telescope assembly
+# (CELESTIAL_OBJECT)
+OVV,an optically violent variable quasar
+# (TELESCOPE) two satellites that will work together to observe cosmic rays hitting the Earth's atmosphere
+OWL,orbiting wide angle light collectors
+# (TELESCOPE) a proposed telescope with a primary mirror with a width of 100 m
+OWL,overwhelmingly large telescope
+# (TELESCOPE)
+P60,palomar 60 inch telescope
+# (ASTROPHYSICS_TERMINOLOGY)
+#PA; position angle
+# (ASTROPHYSICS_TERMINOLOGY)
+PAH,polycyclic aromatic hydrocarbon
+# (TELESCOPE) a space telescope used to study cosmic rays
+PAMELA,payload for antimatter matter exploration and light nuclei astrophysics
+# (PUBLICATION)
+PASJ,publications of the astronomical society of japan
+# (PUBLICATION)
+PASP,publications of the astronomical society of the pacific
+# (INSTRUMENTATION) an X-ray detector on the Rossi X-ray Timing Explorer
+PCA,proportional counter array
+# (OBSERVING_PROGRAM)
+PCAS,planet crossing asteroid survey
+# (TELESCOPE) a radio telescope
+PDBI,plateau de bure interferometer
+# (INSTRUMENTATION) an observing technique using photometers
+PEP,photoelectric photometry
+# (INSTRUMENTATION) an instrument on Deep Space 1
+PEPE,plasma experiment for planetary exploration
+# (CELESTIAL_OBJECT)
+PHA,potentially hazardous asteroid
+# (PERSON) the person who leads a scientific project
+#PI; principal investigator
+# (CATALOG) a catalog of planetary nebulae
+#PK; perek kohoutek
+# (OBSERVING_PROGRAM) a program to search for microlensing events
+PLANET,probing lensing anomalies network
+# (OBSERVING_PROGRAM) a program to search for asteroids
+PLS,palomar leiden survey
+# (OBSERVING_PROGRAM)
+PMPS,parkes multibeam pulsar survey
+# (CELESTIAL_OBJECT) young stars that are still in the process of formation
+PMS,pre main sequence
+# (INSTRUMENTATION)
+PMT,photomultiplier tube
+# (CELESTIAL_OBJECT)
+#PN; planetary nebula
+# (CATALOG)
+PNG,galactic planetary nebula
+# (ASTROPHYSICS_TERMINOLOGY) the density of planetary nebulae as a function of their luminosity
+PNLF,planetary nebula luminosity function
+# (CELESTIAL_OBJECT) the central star in a planetary nebula
+PNN,planetary nebula nucleus
+# (CELESTIAL_OBJECT) a variable star in the center of a planetary nebula
+PNNV,planetary nebula nucleus variable
+# (OBSERVING_PROGRAM)
+POSS,palomar observatory sky survey
+# (ORGANIZATION) a major government-sponsored science agency in the United Kingdom, merged into the Science and Technology Facilities Council in 2007
+PPARC,particle physics and astronomy research council
+# (CATALOG) a catalog of the positions and proper motions of stars
+PPM,positions and proper motions
+# (CELESTIAL_OBJECT) an object that has partially evolved from a red giant to a planetary nebula
+PPN,proto planetary nebula
+# (ASTROPHYSICS_TERMINOLOGY)
+PRE,photospheric radius expansion
+# (CATALOG) a catalog of point-like infrared sources detected with the Infrared Astronomy Satellite
+PSC,point source catalog
+# (INSTRUMENTATION) a function that describes the blurring of a point source that is caused by the optics of the telescope and instrument (as well as other effects)
+PSF,point spread function
+# (ORGANIZATION)
+PSI,planetary science institute
+# (CELESTIAL_OBJECT)
+PSR,pulsar
+# (SPACECRAFT)
+PVO,pioneer venus orbiter
+# (CELESTIAL_OBJECT) a class of pulsating variable stars named after PV Telescopii, the archetype for the class
+PVTEL,pv telescopii
+# (CELESTIAL_OBJECT) a star that no longer creates energy through fusion that will eventually evolve into a white dwarf
+PWD,pre white dwarf
+# (CELESTIAL_OBJECT)
+PWN,pulsar wind nebula
+# (TELESCOPE) a general name for any telescope designed to observe objects passing at the zenith
+PZT,photographic zenith tube
+# (ASTROPHYSICS_TERMINOLOGY) a type of season variation in the Earth's atmosphere
+QBO,quasi biennial oscillation
+# (INSTRUMENTATION) the sensitivity of CCDs
+#QE; quantum efficiency
+# (ASTROPHYSICS_TERMINOLOGY)
+QPO,quasi periodic oscillation
+# (CELESTIAL_OBJECT)
+QSO,quasi stellar object
+# (ASTROPHYSICS_TERMINOLOGY)
+#RA; right ascension
+# (CELESTIAL_OBJECT)
+RAMBO,an association of brown dwarfs or white dwarfs form a dark cluster
+# (ORGANIZATION)
+RAS,royal astronomical society
+# (ORGANIZATION)
+RASC,royal astronomical society of canada
+# (OBSERVING_PROGRAMCATALOG) used as both a name for a survey with ROSAT and the catalogs produced from the survey
+RASS,rosat all sky survey
+# (CELESTIAL_OBJECT) a type of metal-rich red giant star
+#RC; red clump
+# (CATALOG) a catalog of nearby galaxies
+#RC; reference catalogue
+# (ORGANIZATIONTELESCOPE) a manufacturer of amateur and professional telescope equipment; also the telescopes themselves
+#RC; ritchey chretien
+# (CELESTIAL_OBJECT) a class of eruptive variable stars named after R Coronae Borealis, the archetype for the class
+RCB,r coronae borealis
+# (ASTROPHYSICS_TERMINOLOGY)
+RDI,radiation driven implosion
+# (ORGANIZATION) a survey of nearby stars
+RECONS,research consortium on nearby stars
+# (CELESTIAL_OBJECT) a star that is evolving from a main-sequence star into a red giant
+RGB,red giant branch
+# (ORGANIZATION)
+RGO,royal greenwich observatory
+# (ASTROPHYSICS_TERMINOLOGY) the result of when an object in a binary system is larger than its roche lobe (i.e. when an object in a binary system expands to a radius where tidal forces become stronger than gravitational forces)
+RLOF,roche lobe overflow
+# (CELESTIAL_OBJECT) a quasar that produces strong radio emission
+RLQ,radio loud quasar
+# (CATALOG)
+RNGC,revised new general catalog
+# (ASTROPHYSICS_TERMINOLOGY) an inertial reference frame based on extragalactic radio sources
+RORF,radio optical reference frame
+# (TELESCOPE) an X-ray space telescope
+ROSAT,roentgen satellite
+# (OBSERVING_PROGRAMTELESCOPE) an observing program for detecting the optical counterparts of gamma ray bursts; also the telescopes used in this program
+ROTSE,robotic optical transient search experiment
+# (CELESTIAL_OBJECT) a quasar that produces weak radio emission
+RQQ,radio quiet quasar
+# (CELESTIAL_OBJECT) a population of rotating neutron stars that produce periodic bursts of emission that are separated by intervals of minutes or hours
+RRAT,rotating radio transient
+# (CELESTIAL_OBJECT) a class of pulsating variable stars named after RR Lyrae, the archetype of the class
+RRL,rr lyrae
+# (CATALOG) a catalog of nearby galaxies
+RSA,revised shapley ames
+# (ORGANIZATION)
+RSA,russian space agency
+# (ORGANIZATION) part of the Institute of Advanced Studies at the Australian National University
+RSAA,research school of astronomy and astrophysics
+# (CELESTIAL_OBJECT)
+RSG,red super giant
+# (CELESTIAL_OBJECT)
+RSN,radio supernova
+# (INSTRUMENTATION) a type of power generator used in spacecraft that travel far from the Sun
+RTG,radioisotope thermoelectric generator
+# (ASTROPHYSICS_TERMINOLOGY) the velocity along the line of sight
+#RV; radial velocity
+# (CATALOG) a catalog of sources detected by ROSAT
+#RX; rosat x ray
+# (TELESCOPE) a space telescope designed to observe variability in X-ray emission
+RXTE,rossi x ray timing explorer
+# (ORGANIZATION)
+SAAO,south african astronomical observatory
+# (TELESCOPE)
+SALT,southern african large telescope
+# (ORGANIZATIONCATALOG) the name of astrophysics research organization associated with Harvard University; also a catalog of stars
+SAO,smithsonian astrophysical observatory
+# (ORGANIZATION)
+SARA,society of amateur radio astronomers
+# (SOFTWARE) a software package used for processing data from the XMM-Newton Observatory
+SAS,science analysis software
+# (TELESCOPE)
+SAT,synthetic aperture telescope
+# (CELESTIAL_OBJECT)
+#SB; spectroscopic binary
+# (ASTROPHYSICS_TERMINOLOGY)
+#SB; surface brightness
+# (ORGANIZATIONINSTRUMENTATION) the name of both a company that manufactures telescope equipment and the company's products
+SBIG,santa barbara instrument group
+# (ORGANIZATION) an older name for the Committee for Small Body Nomenclature
+SBNC,small bodies names committee
+# (OBSERVING_PROGRAM) a project to measure the expansion of the universe using supernovae at high redshifts
+SCP,supernova cosmology project
+# (OBSERVING_PROGRAM) a survey that measured the proper motions of stars
+SCR,supercosmos recons
+# (TELESCOPE) a general name for a type of compact telescope that uses both lenses and mirrors
+SCT,schmidt cassegrain telescope
+# (INSTRUMENTATION) a submillimeter imager formerly at the James Clerk Maxwell Telescope
+SCUBA,submillimetre common user bolometer array
+# (CELESTIAL_OBJECT) eccentric, highly inclined orbits
+SDO,scattered disk object
+# (CELESTIAL_OBJECT) a class of eruptive variable stars named after S Doradus, the archetype for the class
+SDOR,s doradus
+# (OBSERVING_PROGRAMCATALOG) a large imaging and spectroscopic survey; also the catalog of sources from the survey
+SDSS,sloan digital sky survey
+# (ASTROPHYICS_TERMINOLOGY)
+SED,spectral energy distribution
+# (ORGANIZATION)
+SEDS,students for the exploration and development of space
+# (ORGANIZATION)
+SERC,science and engineering research council
+# (TELESCOPE)
+SEST,swedish eso submillimetre telescope
+# (OBSERVING_PROGRAM)
+SETI,search for extra terrestrial intelligence
+# (ASTROPHYSICS_TERMINOLOGY)
+#SF; star formation
+# (ASTROPHYICS_TERMINOLOGY)
+SFR,star formation rate
+# (ORGANIZATION) an organization that tracks near-Earth asteroids
+SGF,spaceguard foundation
+# (CELESTIAL_OBJECT) a type of neutron star with strong magnetic fields that produces very large bursts of energy
+SGR,soft gamma repeater
+# (ASTROPHYSICS_TERMINOLOGY) a disturbance in the Earth's ionosphere caused by the Sun
+SID,sudden ionospheric disturbance
+# (ORGANIZATION)
+SIDC,sunspot index data center
+# (TELESCOPE) a planned optical space telescope that will be used to measure distances to stars
+SIM,space interferometry mission
+# (SOFTWARE) a website that provides catalog data on astronomical objects
+SIMBAD,set of identifications measurements and bibliography for astronomical data
+# (OBSERVING_PROGRAM) a survey of star formation in nearby galaxies selected by gas rich galaxies using H-alpha and ultraviolet observations
+SINGG,survey of ionization in neutral gas galaxies
+# (OBSERVING_PROGRAM)
+SINGS,spitzer infrared nearby galaxies survey
+# (OBSERVING_PROGRAMCATALOG) a program to identify stars with high proper motions at infrared wavelengths
+SIPS,southern infrared proper motion survey
+# (TELESCOPE) or Shuttle InfraRed Telescope Facility, older names for the Spitzer Space Telescope
+SIRTF,space infrared telescope facility
+# (INSTRUMENTATION)
+SIS,superconductor isolator superconductor
+# (TELESCOPE)
+SKA,square kilometre array
+# (CATALOG) the Levy, particularly Shoemaker-Levy 9
+#SL; shoemaker levy
+# (SPACECRAFT)
+#SL; spacelab
+# (TELESCOPE)
+SMA,submillimeter array
+# (SPACECRAFT)
+SMART,small missions for advanced research in technology
+# (CELESTIAL_OBJECT)
+SMBH,super massive black hole
+# (CELESTIAL_OBJECT)
+SMC,small magellanic cloud
+# (SPACECRAFT) a spacecraft used to study the Earth's ozone layer
+SME,solar mesosphere explorer
+# (SPACECRAFT) the name of a series of small astronomical spacecraft; also the program to develop the spacecraft
+SMEX,small explorers
+# (TELESCOPE) a solar space telescope
+SMM,solar maximum mission
+# (INSTRUMENTATION) the ratio of the signal from an object to the noise from the detector that measured the signal
+#SN; signal to noise
+# (CELESTIAL_OBJECT)
+#SN; supernova
+# (TELESCOPE) proposed space telescope
+SNAP,supernova acceleration probe
+# (CELESTIAL_OBJECT)
+SNR,supernova remnant
+# (ASTROPHYSICS_TERMINOLOGY)
+SNU,solar neutrino units
+# (SOFTWARE)
+SOARD,steward observatory asteroid relational database
+# (TELESCOPE) an infrared telescope currently under construction that will fly inside a modified Boeing 747 aircraft
+SOFIA,stratospheric observatory for infrared astronomy
+# (TELESCOPE) a solar space telescope
+SOHO,solar and heliospheric observatory
+# (TELESCOPE) an ultraviolet space telescope that can be released and retrieved by the Space Shuttle
+SPARTAN,shuttle pointed autonomous research tool for astronomy
+# (INSTRUMENT) an infrared instrument on the Midcourse Space Experiment spacecraft
+SPIRIT,space infrared imaging telescope
+# (SPACECRAFT) a general name for proposed satellites that would convert solar power into energy and then beam the energy to the surface of a planet (such as Earth) in the form of microwaves
+SPS,solar power satellite
+# (TELESCOPE)
+SPT,south pole telescope
+# (INSTRUMENTATION)
+SQIID,simultaneous quad infrared imaging device
+# (CELESTIAL_OBJECT)
+SQM,strange quark matter
+# (ASTROPHYSICS_TERMINOLOGY)
+#SR; special relativity
+# (ORGANIZATION)
+SRON,space research organization of the netherlands
+# (CELESTIAL_OBJECT) a type of binary star system containing a red giant and a hot dwarf star that generate a cone-shaped nebula
+#SS; symbiotic star
+# (INSTRUMENTATION) an instrument on the Galileo spacecraft
+SSI,solid state imager
+# (ORGANIZATION)
+SSI,space studies institute
+# (INSTRUMENTATION) on board the Huygens probe
+SSP,surface science package
+# (OBSERVING_PROGRAM)
+SSS,supercosmos sky surveys
+# (CATALOG)
+SSSPM,supercosmos sky survey proper motion
+# (TELESCOPE)
+SST,spectroscopic survey telescope
+# (TELESCOPE) a space telescope
+SST,spitzer space telescope
+# (OBSERVING_PROGRAM)
+STEPS,stellar planet survey
+# (INSTRUMENTATION) an instrument on the Hubble Space Telescope
+STIS,space telescope imaging spectrograph
+# (VEHICLE) or
+STS,shuttle transport system
+# (SOFTWARE)
+STSDAS,space telescope science data analysis system
+# (ASTROPHYSICS_TERMINOLOGY)
+SUGRA,supergravity
+# (INSTRUMENTATION) an instrument on the Subaru Telescope
+SUPRIME,subaru prime focus camera
+# (TELESCOPE)  an optical interferometer
+SUSI,sydney university stellar interferometer
+# (INSTRUMENTATION) an instrument on SOHO
+SWAN,solar wind anisotropy
+# (TELESCOPE) a submillimeter space telescope
+SWAS,submillimeter wave astronomy satellite
+# (OBSERVING_PROGRAM) a survey of a subsection of the plane of the Milky Way performed with the Hubble Space Telescope
+SWEEPS,sagittarius window eclipsing extrasolar planet search
+# (OBSERVING_PROGRAM)
+SWIRE,spitzer wide area infrared extragalactic survey
+# (CELESTIAL_OBJECT) a class of rotating variable stars named after SX Arietis, the archetype for the class
+SXARI,sx arietis
+# (CELESTIAL_OBJECT) a class of pulsating variable stars named after SX Phoenicis, the archetype for the class
+SXPHE,sx phoenicis
+# (ORGANIZATION) or Telescope Allocation Committee, a general name for a committee that awards telescope observing time
+TAC,time allocation committee
+# (CATALOG)
+TAC,twin astrograph catalog
+# (ASTROPHYSICS_TERMINOLOGY)
+TAI,international atomic time
+# (ASTROPHYSICS_TERMINOLOGY) stars at the point in their lifetimes where they have finished burning hydrogen in their cores
+TAMS,terminal age main sequence
+# (TELESCOPE)
+TAROT,t lescope action rapide pour les objets transitoires
+# (OBSERVING_PROGRAM)
+TASS,the amateur sky survey
+# (SPACECRAFT) a spacecraft mission proposed in the 1980s that would reach 1000 AU in 50 years
+TAU,thousand astronomical unit
+# (ASTROPHYSICS_TERMINOLOGY)
+TCB,barycentric coordinate time
+# (ASTROPHYSICS_TERMINOLOGY)
+TCG,geocentric coordinate time
+# (ASTROPHYSICS_TERMINOLOGY)
+TDB,barycentric dynamical time
+# (COMMUNICATIONS_NETWORK) an array of satellites used by NASA to communicate with many spacecraft in low Earth orbit
+TDRSS,tracking and data relay satellite system
+# (INSTRUMENTATION) a spectrometer on the Mars Observer
+TES,thermal emission spectrometer
+# (ORGANIZATION)
+TEP,transits of extrasolar planets
+# (CELESTIAL_OBJECT) gamma rays emitted from Earth's lightning storms
+TGF,terrestrial gamma ray flash
+# (INSTRUMENTATION) a camera on the Mars Odyssey spacecraft
+THEMIS,thermal emission imaging system
+# (CATALOG) a predecessor of the Hipparcos Input Catalog
+TIC,tycho input catalog
+# (SPACECRAFT)
+TIMED,thermosphere ionosphere mesosphere energetics and dynamics
+# (ORGANIZATION)
+TIE,telescopes in education
+# (ASTROPHYSICS_TERMINOLOGY) an unexplained flash of light observed from the Moon
+TLP,transient lunar phenomenon
+# (CELESTIAL_OBJECT)
+TMC,taurus molecular cloud
+# (TELESCOPE) formerly known as California Extremely Large Telescope
+TMT,thirty meter telescope
+# (PERSON) nickname for an amateur telescope maker
+#TN; telescope nut
+# (CELESTIAL_OBJECT) any object that orbits the Sun at a distance greater than that of Neptune
+TNO,trans neptunian object
+# (PERSON) the technician who assists in operating a telescope during astronomical observations
+#TO; telescope operator
+# (MEETING) a series of educational astronomy workshops
+TOPS,toward other planetary systems
+# (TELESCOPE) a planned space telescope that will be used to find extrasolar Earth-like planets
+TPF,terrestrial planet finder
+# (ASTROPHYSICS_TERMINOLOGY)
+#TT; terrestrial time
+# (CELESTIAL_OBJECT)
+TTS,t tauri star
+# (CELESTIAL_OBJECT)
+TWA,tw hydrae association
+# (CATALOG) a catalog that was the predecessor of the Hipparcos (HIP) Catalogue
+TYC,tycho
+# (CELESTIAL_OBJECT) the object that forms when a neutron star merges with a red giant
+TZO,thorne ytkow object
+# (SPACECRAFT) a satellite used to study the Earth's upper atmosphere
+UARS,upper atmosphere research satellite
+# (CATALOG)
+UCAC,usno ccd astrometric catalog
+# (OBSERVING_PROGRAM)
+UESAC,uppsala eso survey of asteroids and comets
+# (ASTROPHYSICS_TERMINOLOGY)
+UFO,unidentified flying object
+# (CELESTIAL_OBJECT) a class of cataclysmic variable stars (also known as dwarf novae) that are named after U Geminorum, the archetype for the class
+#UG; u geminorum
+# (CATALOG) a catalog of galaxies
+UGC,uppsala general catalogue
+# (TELESCOPE) an ultraviolet telescope that was operated from the cargo bay of the Space Shuttle
+UIT,ultraviolet imaging telescope
+# (OBSERVING_PROGRAMCATALOG)
+UKIDSS,ukirt infrared deep sky survey
+# (TELESCOPE)
+UKIRT,united kingdom infrared telescope
+# (ORGANIZATION)
+UKSA,uk space agency
+# (TELESCOPE)
+UKST,united kingdom schmidt telescope
+# (CELESTIAL_OBJECT) a galaxy that is brighter than 10&lt;sup&gt;12&lt;/sup&gt; solar luminosities in the infrared
+ULIRG,ultraluminous infrared galaxy
+# (CELESTIAL_OBJECT)
+ULX,ultraluminous x ray source
+# (CELESTIAL_OBJECT) the more massive hydrogen-burning main-sequence stars
+UMS,upper main sequence
+# (ORGANIZATION)
+USAF,united states air force
+# (ORGANIZATION)
+USGS,united states geological survey
+# (ORGANIZATION)
+USNO,united states naval observatory
+# (ASTROPHYSICS_TERMINOLOGY)
+#UT; universal time
+# (ASTROPHYSICS_TERMINOLOGY)
+UTC,coordinated universal time
+# (ASTROPHYSICS_TERMINOLOGY)
+#UV; ultraviolet
+# (INSTRUMENTATION) the name of instruments on the Voyager and Galileo spacecraft
+UVS,ultraviolet spectrometer
+# (CELESTIAL_OBJECT) a class of variable pre–main sequence stars named after UX Orionis, the archetype for the class
+UXOR,ux orionis objects
+# (ORGANIZATION) located in India
+VBO,vainu bappu observatory
+# (TELESCOPE) located at Vainu Bappu Observatory
+VBT,vainu bappu telescope
+# (CATALOG) a catalog of galaxies in the Virgo Cluster
+VCC,virgo cluster catalog
+# (ASTROPHYSICS_TERMINOLOGY) the path taken by the Galileo spacecraft to reach Jupiter
+VEEGA,venus earth earth gravity assist
+# (TELESCOPE) a Japanese radio telescope designed for studying objects in the Milky Way
+VERA,vlbi exploration of radio astrometry
+# (ASTROPHYSICS_TERMINOLOGY) gamma rays with high energies
+VHE,very high energy
+# (INSTRUMENTATION) instrument on the VLT
+VIMOS,visible multi object spectrograph
+# (TELESCOPE)
+VISTA,visible and infrared survey telescope for astronomy
+# (TELESCOPE) a radio telescope in New Mexico operated by the National Radio Astronomy Observatory
+VLA,very large array
+# (TELESCOPE) a radio telescope operated by the National Radio Astronomy Observatory with antennas spread across the United States
+VLBA,very long baseline array
+# (INSTRUMENTATION) combining signals from multiple telescopes/radio antennas that are separated by large distances
+VLBI,very long baseline interferometry
+# (ASTROPHYSICS_TERMINOLOGY) objects (usually stars) that have relatively low masses
+VLM,very low mass
+# (TELESCOPE) four 8.2 meter telescopes in Chile that operate either independently as individual telescopes or together as an interferometer
+VLT,very large telescope
+# (SOFTWARE)
+VMO,the virtual meteor observatory is an activity of the international meteor organisation together with the research and scientific support department of the european space agency to store meteor data from observers all over the world
+# (SOFTWARE)
+#VO; virtual observatory
+# (SPACECRAFT) a spacecraft for mapping Venus that was canceled and then superseded by the Magellan spacecraft
+VOIR,venus orbiting imaging radar
+# (SPACECRAFT) an older name for the Magellan spacecraft
+VRM,venus radar mapper
+# (ORGANIZATION)
+VSOLJ,variable star observers league in japan
+# (ORGANIZATION) a project to use both satellites and ground-based radio telescopes as an interferometer
+VSOP,vlbi space observatory program
+# (TELESCOPE)
+VST,vlt survey telescope
+# (OBSERVING_PROGRAM)
+VVDS,vimos vlt deep survey
+# (CELESTIAL_OBJECT)
+#WD; white dwarf
+# (ASTROPHYSICS_TERMINOLOGY) any model for structure formation in the universe that characterizes &quot;hot&quot; particles such as neutrinos as dark matter
+WDM,warm dark matter
+# (CATALOG) a catalog of double stars
+WDS,washington double star
+# (ORGANIZATION) a network of observers across the Earth who work together to perform continuous observations of blazars
+WEBT,whole earth blazar telescope
+# (ORGANIZATION) a network of astronomers spread across the Earth who work together to perform continuous observations of variable stars
+WET,whole earth telescope
+# (INSTRUMENTATION) a camera on the United Kingdom Infrared Telescope
+WFCAM,wide field camera
+# (INSTRUMENTATION) proposed instrument for the Gemini telescopes
+WFMOS,wide field multi object spectrograph
+# (INSTRUMENTATION) a camera formerly on the WFPC2
+WFPC,wide field and planetary camera
+# (INSTRUMENTATION) a camera on the Hubble Space Telescope
+WFPC2,wide field and planetary camera 2
+# (INSTRUMENTATION) one of the detectors in the Advanced Camera for Surveys on the Hubble Space Telescope
+WFC,wide field channel
+# (ORGANIZATION)
+WGPSN,working group for planetary system nomenclature
+# (TELESCOPE)
+WHT,william herschel telescope
+# (CELESTIAL_OBJECT) a hypothetical subatomic particle that may comprise most of the dark matter in the universe
+WIMP,weakly interacting massive particle
+# (SOFTWARE)
+WISARD,web interface for searching archival research data
+# (OBSERVING_PROGRAM)
+WISE,wide field infrared survey explorer
+# (TELESCOPE) the name of a telescope at Kitt Peak operated by the University of Wisconsin–Madison, Indiana University, Yale University, and the National Optical Astronomy Observatory
+WIYN,wisconsin indiana yale noao
+# (CELESTIAL_OBJECT) a nearby dwarf galaxy in the constellation Cetus
+WLM,wolf lundmark melotte
+# (TELESCOPE) a space telescope used to study the cosmic microwave background radiation
+WMAP,wilkinson microwave anisotrophy probe
+# (CELESTIAL_OBJECT) a type of hot, luminous star with strong stellar winds
+#WR; wolf rayet
+# (TELESCOPE)
+WSRT,an aperture synthesis interferometer that consists of a linear array of 14 antennas
+# (CELESTIAL_OBJECT) a type of young star with weak spectral line emission
+WTTS,weak line t tauri star
+# (OBSERVING_PROGRAM)
+XCS,xmm cluster survey
+# (TELESCOPE) part of the name of the XMM-Newton X-ray space telescope
+XMM,x ray multi mirror
+# (CELESTIAL_OBJECT)
+#XN; x ray nova
+# (CELESTIAL_OBJECT)
+XRF,x ray flash
+# (CELESTIAL_OBJECT)
+YSG,yellow super giant star
+# (CELESTIAL_OBJECT)
+YSO,young stellar object
+# (CELESTIAL_OBJECT) horizontal branch stars that have just begun burning helium in their cores and hydrogen in a shell around the cores
+ZAHB,zero age horizontal branch
+# (CELESTIAL_OBJECT) a star that has just become a main-sequence star (i.e. a star that has begun burning hydrogen in its core)
+ZAMS,zero age main sequence
+# (CELESTIAL_OBJECT) a class of eruptive binary star system Z Andromedae, the archetype for the class
+ZAND,z andromedae
+# (INSTRUMENTATION) a dark matter detector
+ZEPLIN,zoned proportional scintillation in liquid noble gases
+# (ASTROPHYSICS_TERMINOLOGY) the maximum number of meteors per hour that may be observed during a meteor shower
+ZHR,zenith hourly rate
+BEC,biogeochemical elemental cycling
+PSR,predictive state representation
+superheavy dark matter,SHDM
+akeno giant air shower array,AGASA
+LRG,luminous red galaxy
+FQH,fractional quantum hall
+spectrum synchrotron radiation,synchrotron radiation spectrum
+CPT,cluster perturbation theory
+VCA,variational cluster approximation
+blue compact galaxy,BCG
+spectral standard model,SSM
+linear discriminant analysis,LDA
+weak interaction,weak force
+supernova 1006,SN1006
+21 cm line,hydrogen line
+latent semantic clustering,LSC
+WDS,wavelength dispersive spectroscopy
+refractive index,index refraction
+SDW,spin density wave
+cmb lensing,cmb weak lensing,gravitational lensing cmb
+statistical field theory,SFT
+hj equation,hamiltonjacobi equation,HJE
+angloaustralian nearearth asteroid survey,AANEAS
+M48,NGC 2548,messier 48
+M47,NGC 2422,messier 47
+messier 52,M52,NGC 7654
+M93,NGC 2447,messier 93
+M67,messier 67,NGC 2682
+M103,NGC 581,messier 103
+2d gravity,two dimensional gravity
+chiral spin liquid,chiral spin order
+dm column density,dark matter column density,dm surface density,dark matter surface density
+bhb star,blue horizontalbranch star
+nonequilibrium ionization model,NEI
+SPT,shortest path tree
+d quark,down quark
+charm quark,c quark
+s quark,strange quark
+u quark,up quark
+microscopic bh,quantum bh,microscopic black hole,quantum black hole
+messier 8,lagoon nebula,NGC 6523
+messier 17,omega nebula,swan nebula,horseshoe nebula,NGC 6618,M17
+M20,NGC 6514,messier 20,trifid nebula
+M24,IC 4715,sagittarius star cloud,messier 24,delle caustiche
+M40,WNC 4,winnecke 4,messier 40
+NGC 1976,M42,messier 42,orion nebula
+de mairans nebula,messier 43,NGC 1982,M43
+messier 73,M73,NGC 6994
+chiral vorticity effect,CVE,chiral vortical effect
+ck function,ckf function,chandrasekharkendallfurth function,chandrasekharkendall function
+latent semantic indexing,LSI,LSA,latent semantic analysis
+chandra cosmos survey,COSMOS
+spherical overdensity finder algorithm,spherical overdensity algorithm
+gamma botis,gamma bootis
+CNT,carbon nanotubes
+quantum bit,qubit
+bz parametrization,bertschingerzukin parametrization,bz parameters
+2DEG,2d electron gas,twodimensional electron gas
+eruptive variable stars,eruptive variable,eruptive variables
+gtype star,class g star,g star,gtype main sequence star
+XEUS,xray evolving universe spectroscopy
+BOSS,baryon oscillation spectroscopic survey,boss survey
+unique factorization domain,UFD
+NSC,nuclear star cluster
+ultrahigh energy neutrino,uhe neutrino
+galactic outflow,galactic wind
+SSM,supersymmetric standard model,supersymmetric sm
+alpha s,alpha strong,strong coupling constant
+LISA,laser interferometer space antenna
+transmission correlation function,flux correlation function
+age metallicity relation,AMR
+gammaray burst,GRB,gamma ray burst
+xray burster,XRB
+terrestrial planet finder,TPF
+AMXP,accreting millisecond xray pulsar
+dark signal,dark current
+photometric variability,radiation variability
+radialvelocity method,spectroscopic radial velocity,astrometric radial velocity
+lya luminosity,lyman alpha luminosity,la luminosity
+michieking df,michieking distribution function
+primakoff effect,primakoff conversion,primakoff process
+SORS,spatially offset raman spectroscopy
+spectral energy distribution,SED
+VDP,velocity dispersion profile
+strong topological insulator,STI
+lya emitter,lyman alpha emitter,LAE,lyalpha emitter
+SPV,spontaneous parity violation
+gws theory,electroweak theory,weinbergsalamglashow theory,weinbergsalam theory
+XDF,hubble extreme deep field
+NGC 628,M74,messier 74
+black eye galaxy,M64,NGC 4826
+messier 81,NGC 3031,bodes galaxy,M81
+NGC 1068,M77,messier 77
+bayesian model averaging,BMA
+low mass wimp,light wimp
+westerbork synthesis radio telescope,WSRT
+VLBA,very long baseline array
+p2p,peertopeer,P2P
+SNR 185,RCW 86
+scalar curvature,curvature scalar,ricci scalar
+hm cancri,RX J080631527
+latent dirichlet allocation,LDA
+hi survey,21 cm survey,neutral hydrogen survey
+FEM,finite element method
+polar ring galaxy,PRG
+DGFF,discrete gaussian free field
+GAMA,galaxy and mass assembly survey,gama survey
+GGC,galactic gc,galactic globular cluster
+SIMP,strongly interacting massive particle
+mtype mainsequence star,red dwarf
+lightest susy particle,LSP,lightest supersymmetric particle,lightest supersymmetric partner
+PSR J17130747,PSR B171107,PSR J171307,PSR J17130447
+sliding mode control,SMC
+sx arietis variables,helium variable stars,sx arietis stars
+excursion set model,excursion set theory,EST
+messier 19,M19,NGC 6273
+NGC 6656,messier 22,M22
+hydrodynamical simulations,magnetohydrodynamic simulations
+iron based superconductors,IBS,ferropnictides
+neutrino minimal standard model,numsm
+DMRG,density matrix renormalization group
+lepton asymmetry,flavour asymmetry
+goedel universe,godel universe,constructible universe
+expansion timescale,hubble time
+LSR,local standard of rest
+stellar evolution,evolution stars,star cycle,stellar cycle
+hall effect thrusters,hall thrusters,hall current thrusters
+GRB 991216,beethoven burst
+CME,coronal mass ejection
+solar activity cycles,solarcycles,solar cycles,sun cycles,solar cycle
+DRIE,deep reactive ion etching
+AQFT,algebraic qft,algebraic quantum field theory
+BHC,black hole candidate
+ground based telescopes,ground telescopes,groundbased telescopes
+supereddington regime,supereddington accretion,accretion supereddington regime
+large area detector,LAD,large area detector onboard loft satellite
+north celestial pole,NCP
+sweet air,laughing gas,nitrous oxide,N2O
+RRN,random resistor network
+axionic dark matter,dark matter made axions
+hgte,mercury telluride
+xray calorimeter spectrometer,XCS
+groundbased astronomy,ground based astronomy
+coronographic detection,coronographic imaging
+RX J 171373946,RX J171373946,G347305,SNR RX J171373946
+universal decimal classification,UDC
+carbon flash,carbon detonation
+RTA,relaxation time approximation
+wide field camera 3,WFC3
+SASA,xray explorer satellite,explorer 42,uhuru,SAS 1
+carina nebula,eta carinae nebula,NGC 3372
+supernovaacceleration probe,SNAP
+two micron all sky survey,2 micron all sky survey,2MASS
+TESS,transiting exoplanet survey satellite
+first rosat xray survey,1st rosat xray survey,1RXS
+AEGIS,allwavelength extended groth strip international survey
+synchrotron emission,synchrotron radiation
+FIMP,feebly interacting massive particle
+onedimensional system,1d system
+3d gravity,21 dimensional gravity,three dimesional gravity
+short term memory,STM
+supersymmetry breaking scale,susy breaking scale
+CSO,compact symmetric object
+UHECR,ultrahighenergy cosmic ray
+weakly interacting massive particle,WIMP
+STEREO,solar terrestrial relations observatory
+GNS,gelfandnaimarksegal construction
+gz effect,grishchuk zeldovich effect,grishchukzeldovich effect
+dirac matrix,gamma matrix,gamma matrices,dirac matrices
+coronae borealis star,coronae borealis variable
+pv telescopii star,pv telescopii variable
+primary star,primary star binary system
+selfdual form,selfdual differential form
+IQSY,international quiet sun years
+interacting galaxies,colliding galaxies
+energetic gamma ray experiment telescope,EGRET
+rosette nebula,NGC 2244
+parallax second,parsec
+navarro frenk white,nfw distribution,navarofrenkwhite,nfw model,NFW,nfw halo
+massive compact halo object,MACHO
+synchrotron frequency,synchrotron characteristic frequency
+cosmic background explorer,COBE
+ACT,atacama cosmology telescope
+ACBAR,arcminute cosmology bolometer array receiver
+greenschwarz anomaly cancellation,gs mechanism,greenschwarz mechanism
+NGC 292,SMC,small magellanic cloud
+andromeda galaxy,M31,NGC 224,messier 31,UGC 454,great andromeda nebula
+ESO056115,large magellanic cloud,LMC
+cluster stars,star cloud,star cluster
+global astrometric interferometer astrophysics,gaia mission,GAIA,esa gaia mission,esa gaia astrometric mission,gaia astrometric mission
+local spur,orion spur,local arm,orioncygnus arm,orion arm
+xray raman scattering,XRS
+quark matter,qcd matter
+xray emission,xray spectrum
+HEASOFT,heasoft,highenergy astrophysics software
+uniform electron gas,UEG,homogeneous electron gas,HEG,jellium
+vhe gammaray,very high energy gammaray,VHEGR
+cosmic singularity,spacetime singularity
+chargecoupled device photometry,ccd photometry
+solar filaments,solar flocculus,solar flocculi
+solar faculae,solar facula
+SOI,g2 manifold
+clouds,h2 clouds,hydrogen clouds
+hst photometry,hst fnnnlmnw photometry,hubble photometry
+pedestrian flux,pedestrian dynamics
+r associations,rassociation
+quantum spinhall insulator,qsh insulator
+quantum hall insulator,qh insulator
+ICL,intracluster light
+singular isothermal sphere,SIS
+james webb space telescope,JWST
+planetary nebula luminosity function,PNLF
+shepherd satellites,shepherd moons
+GDM,generalized dark matter
+solar system barycenter,SSB
+chandra deep field,CDF
+PPSD,pseudo psd,pseudo phasespace density
+electroweak symmetry breaking,EWSB
+MBE,molecular beam epitaxy
+ebeam lithography,electron beam lithography,EBL
+SWIRE,spitzer widearea infrared extragalactic survey
+zenith hourly rate,ZHR
+SSB,spontaneous symmetry breaking
+MSM,minimal standard model,standard model particle physics
+MCP,micro channel plate collimator,mcp collimator
+harmanseaton sequence,harman seaton sequence
+phase space density bound,tremaine gunn bound,tremaine gunn limit
+fermi liquid theory,landau fermi liquid theory
+rotating black hole,kerr black hole,kerr bh
+bottom quark,b quark
+EOF,electro osmosis,electro osmotic flow
+kreutz sungrazers,sungrazer
+polytropic solutions,polytropic stars,polytropes
+polarimetric instruments,polarimetric instrumentation,polarimeters
+epr paradox,einstein podolsky rosen paradox
+post asymptotic giant branch,post agb
+atmospheric scintillation,terrestrial scintillation
+gaussian unitary ensemble,GUE
+GOE,orthogonal ensemble,gaussian orthogonal ensemble
+STM,scanning tunneling microscope,scanning tunneling microscopy
+boltzmann statistics,maxwell boltzmann statistics
+asymptotic giant branch,AGB
+BLS1,broadline seyfert 1 galaxy
+trojan group,trojans,trojan asteroids
+XMM BSS,XBSS,xmm newton bright serendipitous survey
+ly alpha,lyman alpha
+moseley plot,moseleys law
+TTS,t tauri member,t tauri star
+maxwell juttner distribution,juttner distribution
+bethe weizsacker cycle,cno cycle,carbon cycling,carbon nitrogen cycle,carbon cycle,carbonnitrogen cycle
+miras,omicron ceti stars,mira variable stars,zeta aurigae stars,mira,mira variable
+transport equation,generic scalar transport equation
+two point correlation function,correlation function,autocorrelation function,2pcf
+milky way galaxy origin,milky way origin,milky way formation,formation milky way,origin milky way,milky way galaxy formation
+milky way evolution,milky way galaxy evolution,evolution milky way
+YHG,yellow hypergiant,yellow hypergiant star
+poisson summation formula,PSF
+ADS,anti de sitter space,antidesitter spacetime
+xmm newton cosmos,XMM COSMOS,xmm cosmos survey
+zcosmos survey,ZCOSMOS
+local hot bubble,LHB
+lobster wide field telescope,LWFT
+central limit theorem,CLT
+FITS,flexible image transport system
+burst alert telescope,BAT,swiftbat
+IBIS,imager on board the integral satellite,imager on board the integral satellite
+receiver operator characteristic,ROC
+ADS,astrophysics data system
+zahb stars,ZAHB,zeroage horizontal branch
+NGC 1499,california nebula
+navierstokes equations,ns equations
+triangulum galaxy,M33,messier 33,NGC 598
+DEB,detached eclipsing binary
+VLA,very large array
+hd catalog,henry draper catalog
+large hadron electron collider,lhec
+narrowline seyfert 1 galaxy,NLS1
+PSD,phase space distribution,phase space density
+dissipative hydrodynamics,dissipative fluid dynamics
+NGC 6369,little ghost nebula
+M76,little dumbbell nebula,NGC 651,NGC 650
+faster than light,superluminal motion,apparent superluminal motion,apparent ftl,effective ftl,fastthanlight
+icecube neutrino detector,icecube neutrino observatory
+delta cephei variable,type i cepheid,population i cepheid,classical cepheid,classical cepheid variable
+UVOT,the ultraviolet and optical telescope
+EGRB,extragalactic gammaray background
+SPH,smoothed particle hydrodynamics
+ricci tensor,ricci curvature
+RCFT,rational conformal field theory
+luminosity function satellite galaxies,satellite luminosity function
+GMF,interstellar magnetic field,ISMF,galactic magnetic field
+opera neutrino experiment,OPERA,opera experiment
+next to lightest supersymmetric particle,NLSP,next to lightest susy particle
+milky way galaxy,our galaxy,milky way,the galaxy
+cool dm,cool dark matter
+uv background,ultraviolet background,UVB
+ostriker vishniac effect,kinetic sz effect,kinetic sunyaev zeldovich effect,KSZ,ksz effect,kinematic sunyaev zeldovich effect
+circumplanetary dust,planetary rings,circumplanetary matter
+PZT,photographic zenith tube
+m51b,NGC 5195
+abell 21,NGC 4194,medusa nebula
+ultra massive black hole,UMBH
+saha equation,sahalangmuir equation,saha ionization equation
+QED,quantum electrodynamics
+high energy astrophysics science archive research center,HEASARC
+interactive spectral interpretation system,ISIS
+crab pulsar,PSR B053121
+voronoi diagram,dirichlet tessellation,voronoi decomposition,voronoi tessellation
+high time resolution astrophysics,HTRA
+ASKAP,australian ska pathfinder
+SVM,stochastic variational method
+IGM,interacting gluon model
+chiral mhd,chiral magnetohydrodynamics,CMHD
+2HDM,2 higgs doublet model,two higgs doublet model
+south pole telescope,SPT
+intergalactic magnetic field,IGMF
+GWA,gw approximation
+IDM,inert doublet model
+LKP,lightest kaluzaklein particle
+GEM,gas electron multiplier
+FOC,faint object camera
+hirise,high resolution imaging science experiment
+ACS,advanced camera for surveys
+interstellar dust clouds,cosmic dust
+widefield infrared survey explorer,WISE
+GJ 9193,gliese 2232
+NGC 4889,caldwell 35
+chiral magnetic wave,CMW
+WD 1142645,GJ 440
+spin dependent coupling,sd coupling
+si coupling,spin independent coupling
+multiwall carbon nanotubes,multiwall nanotubes,MWNT
+helix nebula,NGC 7293
+stellar interferometry,light interferometry,optical interferometry
+COLA,comoving lagrangian acceleration method
+interstellar grains,interstellar dust grains,interstellar dust
+LPT,lagrangian perturbation theory
+DMP,dark matter particle
+force free electrodynamics,FFE
+strong field electrodynamics,SFE
+balancing domain decomposition by constraints,BDDC
+van hove singularity,VHS
+magneto fluid dynamics,MHD,magnetohydrodynamics
+moon seas,moon maria,lunar maria,lunar mare,moon mare,lunar seas
+north america nebula,NGC 7000
+apparent magnitude,visual magnitude
+RAVE,radial velocity experiment
+NGC 1266,RX J031600226
+hydroxyl masers,oh masers
+palomar transient factory,PTF
+HUDF,HST ultra deep field,hubble ultra deep field
+GBT,green bank telescope
+stellar mass function,SMF
+ultracold neutrons,UCN
+GDD,group delay dispersion
+weak lensing,gravitational microlensing
+NHXB,neutron star xray binary
+gunn griz photometry,gunn photometry
+SPMHD,smoothed particle magnetohydrodynamics
+zero age main sequence,ZAMS
+blazing quasistellar object,blazar
+bl lac,bl lacertae
+thermodynamics black holes,bh thermodynamics,black hole thermodynamics
+density states,DOS
+HCI,highly charged ion
+HJB,hamilton jacobi bellman equation,hjb equation
+MST,minimum weight spanning tree,minimum spanning tree
+CCR,canonical commutation relation
+NGC 4621,M59,messier 59
+messier 49,NGC 4472,M49
+cold dark matter,CDM,cold dm
+lagrangian points,lpoints,libration points
+neutrinodominated accretion flow,NDAF
+M27,NGC 6853,dumbbell nebula,diabolo nebula
+clownface nebula,NGC 2392,eskimo nebula
+NGC 6543,cats eye nebula
+XAS,xray absorption spectroscopy
+M32,messier 32,NGC 221
+M110,NGC 205,messier 110
+pegasus dwarf spheroidal galaxy,andromeda vi,pegasus dsph
+andromeda vii,cassiopeia dwarf
+primordial black hole,PBH
+humancomputer interface,humancomputer interaction,HCI
+IFT,information field theory
+CLT,commutant lifting theorem
+discrete fourier transformation,DFT
+NGC 234,UGC 463
+PSR J06331746,PSR B063317,J06331746,geminga
+messier 78,M78,NGC 2068
+HTS,hightemperature superconductor
+EGMF,extragalactic magnetic field
+SSM,standard solar model
+nearest grid point interpolation,NGP
+ir telescope,infrared telescope
+differential scanning calorimetry,DSC
+algol variable stars,beta persei stars
+collapsed stars,collapsing stars
+diffusion limited aggregation,DLA
+STSDAS,space telescope science data analysis system
+needle galaxy,NGC 4565
+wide field planetary camera,WFPC
+space telescope imaging spectrograph,STIS
+laser camera system,LCS
+wide field and planetary camera 2,WFPC2HST,WFPC2
+spinning bh,spinning black hole
+bh spin,black hole spin
+decaying dm,decaying dark matter
+van allen belts,radiation belts,earth radiation belt,van allen radiation belt
+quasar luminosity function,QLF
+large area neutron detector,LAND
+LEP,large electronpositron collider
+BATSE,burst and transient source experiment
+oriented scintillation spectrometer experiment,OSSE
+3C 2441,ursa major b
+CPT,chiral perturbation theory
+LCDM,cdm model,lambda cdm,lambda cdm model
+metallicity,metal abundance
+ly alpha,lya forest,lya,lyman alpha forest,ly forest,lyman forest,ly forest
+phase moon,lunar phase
+CXB,cosmic xray background,xray background,XRB
+field vision,field view,fov
+extended sources analysis software,ESAS,XMMESAS
+color glass condensate,CGC
+fbm,fractal brownian motion,fractional brownian motion
+LCAO,linear combination of atomic orbitals
+elixr,elliptical isolated xray galaxy survey
+array of low energy xray imaging sensors,ALEXIS
+ASCA,ASTROD,advanced satellite for cosmology and astrophysics
+tel aviv university ultraviolet explorer,TAUVEX
+multispectral solar telescope array,MSSTA
+spin1 field,vector field
+MAS,mass assignment scheme
+HCG,hickson compact group
+DDA,discrete dipole approximation
+QSO B1522546,3C 319
+alternating gradient synchrotron,AGS
+PAMELA,pamela experiment,payload antimatter matter exploration lightnuclei astrophysics
+optical gravitational lensing experiment,OGLE
+doppler effect,doppler shift
+wigner distribution function,WDF
+newtons constant,gravitational constant
+megamaser cosmology project,MCP
+ILC,international linear collider
+reactive ion etching,RIE
+BTFR,baryonic tullyfisher relation
+NGC 2323,messier 50,M50
+superconducting supercollider,SSC
+righthanded helicity,rh helicity
+NGC 4438,NGC 4435,eyes galaxies
+initial mass function,IMF
+tightcoupling approximation,TCA
+NGC 4579,messier 58,M58
+messier 61,NGC 4303,M61
+bl dynamo,boundarylayer dynamo
+EDX,EDS,energy dispersive xray spectroscopy
+bootes i dwarf,bootes i dsph,bootes i dwarf,bootes i dsph,bootes i dwarf galaxy
+sunflower galaxy,M63,NGC 5055
+M104,NGC 4594,sombrero galaxy
+messier 51a,PGC 47404,UGC 8493,m51a,NGC 5194,arp 85,whirlpool galaxy
+M31GC,HBK 01,GSC 27882139,SKHB 1,NGC224G1,andromedas cluster,J003247393440,mayall ii
+BCFT,boundary conformal field theory
+supernova remnant,snr
+ASCL,astrophysics source code library
+NGC 7331,UGC 12113
+INO,indiabased neutrino observatory,ino atmospheric neutrino experiment
+LNGS,laboratori nazionali del gran sasso
+NEMO,neutrino ettore majorana observatory
+spindle galaxy,M102,NGC 5866
+photoz,photometric redshift,color redshift
+BESS,balloonborne experiment superconducting spectrometer
+ECPP,elliptic curve primality proving
+orbital elements,keplerian elements
+advanced fiberoptic echelle spectrometer,AFOE
+xray telescope,XRT
+HDM,hot plasma early universe,hot dense matter,primordial plasma
+RKE,relativistic kinetic equation
+magnetic dipole moment,MDM
+DXRBS,deep xray radio blazar survey
+G2237030,einstein cross
+thermal emission spectrometer,TES
+fast fourier transform,FFT
+advanced thin ionization calorimeter,ATIC
+secondary infall model,SIM,infall model
+alfalfa survey,arecibo legacy fast alfa survey,ALFALFA
+NGC 6822,barnard galaxy,IC 4895,DDO 209
+leo ii,UGC 6253,leo b,DDO 93,harringtonwilson 2
+nearinfrared,NIR,near infrared
+IC 4725,M25,messier 25
+M23,NGC 6494,messier 23
+M21,NGC 6531,messier 21
+NGC 6475,messier 7
+NGC 4755,kappa crucis cluster,jewel box cluster
+cocoon nebula,IC 5146
+EWBG,electroweak baryogenesis
+shubnikovde haas effect,shdh
+north galactic pole,NGP,NGP
+low ionization nuclear emissionline region,LINER,low ionization nuclear emission region
+HMM,hidden markov model
+QPO,quasiperiodic oscillations
+lagrangian coherent structure,LCS
+star formation efficiency,SFE
+combined array research millimeterwave astronomy,CARMA
+CSO,caltech submillimeter observatory
+M95,NGC 3351,messier 95
+NGC 3368,M96,messier 96
+detecteur a grande acceptance pour la physique photonucleaire experimentale,DAPHNE
+reactor experiment for neutrino oscillation,RENO
+MRI,magnetorotational instability,magneto rotational instability
+UVES,ultraviolet visual echelle spectrograph
+HOPG,highly oriented pyrolytic graphite
+PLATO,planetary transits oscillations stars
+pleiades,M45,NGC 1432
+rontgensatellit,ROSAT
+IBS,intra beam scattering
+lowest landau level,LLL
+ultra compact dwarf galaxy,UCD
+majorana bound state,MBS
+NICMOS,near infrared camera and multiobject spectrometer
+astoundingly long baseline interferometer,ALBI
+ITER,international thermonuclear experimental reactor
+atacama submillimeter telescope experiment,ASTE
+tarantula nebula,NGC 2070,30 doradus
+NGC 2024,flame nebula
+hb star,horizontal branch star,horizontal branch
+ultraviolet astronomy,uv astronomy
+praesepe,beehive cluster,M44,NGC 2632
+PSR B065614,B065614,monogem
+power spectral density,PSD
+image reduction and analysis facility,IRAF
+cluster lensing supernova survey hubble,CLASH,hst cluster supernova survey
+cosmic assembly near infrared deep extragalactic legacy survey,CANDELS
+partially observable markov decision process,POMDP
+SPT,symmetry protected topological phases,symmetry protected topological order
+intercloud medium,ICM
+high energy stereoscopic system,HESS
+vlb interferometry,very long baseline interferometry,VLBI
+AGN,active galactic nuclei,active galactic nucleus
+hot dark matter,HDM,hot dm
+warm dark matter,WDM,warm dm
+effelsbergbonn hi survey,EBHIS
+EFT,effective field theory
+JPDF,joint probability density function,joint pdf
+LSND,liquid scintillator neutrino detector
+NGC 6333,messier 9
+NGC 6254,M10,messier 10
+messier 4,NGC 6121
+messier 5,NGC 5904
+messier 14,NGC 6402,M14
+messier 15,M15,NGC 7078
+M12,NGC 6218,messier 12
+M13,NGC 6205,messier 13
+CPT,cosmological perturbation theory
+NMR,nuclear magnetic resonance
+CMSSM,constrained minimal supersymmetric standard model,gut scale constrained mssm
+RSG,red supergiant
+NGC 5426,arp 271
+arp 220,IC 1127
+NGC 6405,butterfly cluster
+lenticular galaxy,s0 galaxy
+local supercluster,virgo supercluster,virgo sc,LSC
+majorana dark matter,majorana dm
+DEBRA,diffuse extragalactic background radiation
+generalized uncertainty principle,GUP
+reentrant integer quantum hall effect,RIQHE
+supernova remnant,SNR
+SN 1987A,supernova 1987a
+MDM,minimal dark matter
+interstellar medium,ISM,interstellar material,interstellar matter
+MDP,markov decision process
+thermal sunyaev zeldovich effect,TSZ
+flavour changing neutral currents,FCNC
+CME,chiral magnetic effect
+SRG,similarity renormalization group
+wilkinson microwave anisotropy probe,WMAP,WMAP5,WMAP3,MWAP7
+TQFT,topological field theory,TFT,topological quantum field theory
+low surface brightness galaxy,LSB,lsb galaxy
+signal noise ratio,SNR
+UCMH,ultracompact minihalo
+microlensing observations astrophysics,MOA
+infrared astronomical satellite,IRAS
+LSST,large synoptic survey telescope
+CMF,conditional mass function
+BMR,basal metabolic rate
+IC 4625,NGC 6240
+supergiant xray binary,SG XRB
+supersoft xray source,SSS,SSXS
+xray binary pulsar,XBP
+XLF,xray luminosity function
+NGC 5272,messier 3
+CARS,coherent antistokes raman spectroscopy
+CSRS,coherent stokes raman spectroscopy
+NGC 7089,messier 2
+FRIB,facility for rare isotope beams
+STI,superconducting topological insulator
+radiation pressure acceleration,RPA
+optical character recognition,OCR
+healpix,hierarchical equal area isolatitude pixelisation
+surface acoustic wave,SAW
+fabryperot interferometer,FPI
+MOND,modified newtonian dynamics
+IC 5070,IC 5067,pelican nebula
+transition edge sensor,TES
+messier 108,M108,NGC 3556
+carnegie supernova project,CSP
+SET,single electron tunneling
+NGC 6981,M72,messier 72
+NGC 6838,M71,messier 71
+messier 79,M79,NGC 1904
+M75,NGC 6864,messier 75
+NGC 6341,M92,messier 92
+messier 107,NGC 6171,M107
+red spider nebula,NGC 6537
+M57,ring nebula,NGC 6720
+NGC 7009,saturn nebula
+antares detector,ANTARES
+sloan lens acs survey,SLACS,slacs survey
+ULX,ultraluminous xray source
+SFR,star formation rate
+giant molecular association,GMA
+G8701,W 30,SNR 8701
+imaginary time formalism,matsubara formalism,ITF
+circum galactic medium,CGM
+MRI,magnetic resonance imaging
+VLMB,very low mass binary
+boltzmann equation,boltzmann kinetic equation,boltzmann transport equation,BTE
+radiative transfer equation,RTE
+caldwell 18,NGC 185
+RX J041833801,3C 111,1FGL J041903811
+damped lyman alpha system,DLA,damped lyman alpha absorption system
+positive semi definite,PSD
+AMANDA,antarctic muon neutrino detector array
+M94,NGC 4736,messier 94
+cosmic magnetic field,CMF
+last scattering surface,LSS
+perseus cluster,A 426,abell 426,perseus cluster of galaxies,ngc 1275 cluster
+A 3627,abell 3627,norma cluster
+luminous blue variable
+tycho supernova,tycho sn,SN 1572
+classical nucleation theory,CNT
+supersymmetric yang mills,SYM
+IMBH,intermediatemass black hole
+CO2,carbon dioxide,CO 2
+2mass tullyfisher survey,2MTF
+broad band xray telescope,BBXRT
+XRF,xray fluorescence
+QHE,quantum hall,quantum hall effect
+field effect transistor,FET
+CORSA,cosmic radiation satellite
+DUO,dark universe observatory
+black widow pulsar,PSR B195720
+1FGL J163548228,NGC 6251
+giant molecular cloud,GMC
+VLT,vlt telescope,very large telescope
+color dielectric model,CDM
+cosmic microwave background,CMBR,CMB,relic radiation
+XANES,xray absorption nearedge structure
+running chicken nebula,lambda cen nebula,IC 2944
+ultraluminous infrared galaxy,ULIRG
+heart nebula,IC 1805
+witch head nebula,IC 2118
+BCD,blue compact dwarf
+UGC 8782,3C293
+longbaseline neutrino experiment,LBNE
+M88,NGC 4501,messier 88
+NGC 4254,M99,messier 99
+CHAMP,charged massive particle
+13 g eridani,gliese 86
+C25,NGC 2419
+hu aquarii,hu aqr
+mrk 509,RX J20440910435
+fermilat bright source list,0FGL
+fermilat 1year point source catalog,1FGL
+probability distribution function,PDF,probability density function
+LHC,large hadron collider
+starforming region,SFR,sf region
+delta scuti variable,dwarf cepheid,delta scuti star
+a large ion collider experiment,alice
+CMS,compact muon solenoid,cms experiment
+advanced xray astrophysics facility,chandra xray observatory,chandra,AXAF
+code for anisotropies in the microwave background,CAMB
+EPP,electronpositron plasma
+neutral atomic hydrogen clouds,hi clouds,neutral hydrogen clouds
+accreting black hole,black hole accretion
+ROC,receiver operating characteristic
+UGC 3334,NGC 1961
+dp leonis,dp leo
+NGC 7023,iris nebula
+NGC 6960,veil nebula
+NGC 6751,glowing eye nebula
+upsilon1 hydrae,upsilon 1 hydrae
+minimum detectable polarization,MDP
+HOD,halo occupation distribution
+intracluster medium,intracluster matter,intracluster medium,ICM
+UCHVC,ultracompact high velocity cloud
+rs canum venaticorum star,rs canum venaticorum variables,rs canum venaticorum variable,rscanum venaticorum variables,rs canum venaticorum,rs canum venaticorum stars
+p cygni stars,s doradus stars,s doradus star
+rv tau,rv tauri stars,rv tauri,rv tauri variables,rv tauri star
+spectroscopic binary,spectroscopic binaries,spectroscopic binary stars,spectrum binary stars
+positron electron tandem ring accelerator,PETRA
+hen 31357,stingray nebula,PN G3313121
+weak gravitational lensing,weak lensing
+atomic force microscope probe,afm probe
+sloan great wall,SGW
+tip of the red giant branch,TRGB
+bullet cluster,1E065756
+ellipsoidal binary stars,ellipsoidal variable stars
+cosmic evolution survey,COSMOS,cosmos survey
+full width half maximum,FWHM
+markarian 421,mrk 421,mkn 421
+xspec12,xspec11,xspec
+apec plasma model,vapec,APEC
+kh instability,kelvin helmholtz instability
+IPMF,interplanetary magnetic field,IMF
+G357701,tornado nebula
+fls stream,FLS,fornax leo sculptor stream
+cosmic ray simulations for kascade,CORSIKA
+trinary stars,triple stars,ternary stars
+CDW,charge density wave
+UKIDSS,ukirt infrared deep sky survey
+6df galaxy survey,6dfgs
+lowmass xray binary,LMXB,lowmass xray binary stars,lowmass xray binaries
+LBG,lyman break galaxy
+sstar,zirconium star
+orion cluster,ONC,ori cluster,orion nebula cluster
+2C 26,3C 9
+LLS,lyman limit system
+GLUE,generalized likelihood uncertainty estimation
+ANN,artificial neural network
+SAW,selfavoiding walk
+SIDM,selfinteracting dark matter
+european xray observatory satellite,EXOSAT,HELOS
+EUSO,extreme universe space observatory
+decihertz interferometer gravitational wave observatory,DECIGO
+HUT,hopkins ultraviolet telescope
+hard xray modulation telescope,HXMT
+gw virginis stars,pg 115935 stars,pg 1159 stars
+infrared space observatory,ISO
+bl lac objects,bl lacertae objects
+local density approximation,LDA
+time dependent density functional theory,TDDFT
+w vir star,w virginis variable,w vir,w virginis star
+interstellar clouds,HVC,high velocity cloud,interstellar globules,interstellar cloud
+QLF,quasar luminostiy function
+interchain mean field theory,ICMFT
+b stars,class b stars,typeb stars,btype main sequence stars,btype stars,b star
+NLSM,nonlinear sigma model
+LFV,lepton flavour violation,lepton flavor violation,lepton number violation
+keck observatory,keck array
+planck mission,planck satellite,PLANCK
+fermi gamma ray space telescope,fermi telescope,gamma ray large area space telescope,FGST,fermi large area telescope,GLAST,FERMI,fermilat
+SNM,symmetric nuclear matter
+particle astrophysics,astroparticle physics
+SASI,standing accretion shock instability,stationary accretion shock instability,spherical accretion shock instability
+thermal bremsstrahlung,freefree emission
+reflection grating spectrometer,RGS
+european photon imaging camera background,epic background
+exact renormalization group equation,ERGE
+light emitting diode,LED
+LDR,photoresistor,light dependent resistor
+terrestrial atmosphere,earth atmosphere
+extraterrestrial intelligence,ETI
+xmm bcs survey,XMM BCS
+asymptotic giant branch star,agb star
+flux limited sample,FLS
+solar ultraviolet emission,solar uv emission
+element abundance,chemical abundance
+VLS,volume limited sample
+nondeterministic polynomial time hard,np hard,nphard
+CDFS,chandra deep field south survey,CDFS,chandra deep field south
+chandra deep field north,CDFN
+intergalactic matter,IGM,intergalactic medium
+MECO,magnetospheric eternally collapsing object
+hsb galaxy,HSB,high surface brightness galaxy
+cyg x1,cygnus x1
+plate tectonics,continental drift
+BBN,primordial nucleosynthesis,big bang nucleosynthesis,nucleogenesis
+soft supersymmetry breaking,SSB
+canada france hawaii telescope,CFHT,cfh telescope
+extraterrestrial life,xenobiology,astrobiology,exobiology,space biology
+QCD,quantum chromodynamics
+SUSY,symmetry between boson fermions,supersymmetry
+quantum field theory,QFT
+CFT,conformal field theory
+perturbative qcd,PQCD
+relativistic heavy ion collider,RHIC
+quarkgluon plasma,plasma quarks gluons,QGP
+XRT,swift xray telescope,swift xrt
+gravitational instability,jeans instability
+solar wind charge exchange,SWCX
+chandra interactive analysis of observations,CIAO
+XSA,xmm newton science archive
+quasiperiodic coiling,QPC
+strong gravitational lensing,strong lensing
+late type dwarf stars,cool dwarf stars,late type dwarfs
+effective diffusion coefficient,apparent diffusion coefficient
+UGC 7306,NGC 4236
+NGC 3077,UGC 5398
+messier 82,M82,NGC 3034,cigar galaxy
+mass accretion history,halo mass accretion history,halo accretion history
+velocity distribution function,VDF
+standard halo model,SHM
+short gamma ray burst,SGRB
+CME,chemical master equation
+SFT,scale invariant field theory
+european vlbi network,EVN
+d0 experiment,d0 collaboration
+functional renormalization group,FRG
+bh horizon,black hole horizon
+M89,NGC 4552,messier 89
+M105,messier 105,NGC 3379
+NGC 4649,M60,messier 60
+M87,NGC 4486,messier 87
+mixed dark matter,MDM
+galactic cosmic rays,GCR
+MWD,magnetic white dwarf
+magnetic cataclysmic variable,MCV
+SSG,simple stochastic game
+ballistic point contact,quantum point contact,QPC
+integer quantum hall effect,IQHE
+UED,universal extra dimensions
+QSH,spin quantum hall effect,quantum spin hall
+FQHE,fractional quantum hall effect
+lemon slice nebula,IC 3568
+hourglass nebula,pn mycn 18,RCW 77
+stellar wind,stellar outflows
+supergravity,SUGRA
+jet outflows,interstellar outflows
+crab nebula,NGC 1952,taurus a,crab pulsar wind nebula
+tully fisher relation,tf relation,TFR
+sne ia,sn ia,sn type ia,supernova type ia,type ia supernova,supernova ia
+EDM,electric dipole moment
+ngc catalog,NGC,new general catalogue
+inverse compton scattering,ICS
+late type supergiants,cool supergiant stars
+CGRO,compton gamma ray observatory
+resonance raman spectroscopy,rr spectroscopy
+SERS,surface enhanced raman scattering,surface enhanced raman spectroscopy
+LWA,long wavelength array
+LOFAR,low frequency array
+cold plus warm dark matter,CWDM
+markov chain monte carlo,MCMC,monte carlo markov chain
+photoelectric absorption,photoelectric effect
+planck law,planck function
+extended chandra deep fieldsouth survey,ECDFS
+superluminous supernova,SLSN
+HBT,electronic hanbury brown twiss interferometer,electronic hbt
+OAO,orbiting astronomical observatory
+NuSTAR,nuclear spectroscopic telescope array,nustar
+MSX,midcourse space experiment
+large angle spectrometric coronagraph,LASCO
+joint dark energy mission,JDEM
+ZBA,zero bias anomaly
+NGC 6093,messier 80,M80
+non local thermodynamic equilibrium,NLTE,GTE,global thermodynamic equilibrium
+young star,YSO,young stellar object
+SHE,spin hall effect
+brightest central galaxy,BCG,bright central galaxy
+national radio astronomy observatory,NRAO
+adomian decomposition method,ADM
+messier 69,NGC 6637,M69
+NGC 6681,M70,messier 70
+DDO3,UGC 326,NGC 147
+messier 56,NGC 6779,M56
+berkeley 59,C 0000671,ocl 286
+PLF,protostellar luminosity function
+galactic ridge xray emission,GRXE
+B2 164139,3C 345,RX J164293948,DA 420,PKS 1641399
+seti project,search for extraterrestrial intelligence,SETI
+NGC 6705,wild duck cluster,M11
+owl nebula,NGC 3587,M97
+quantum fourier transform,QFT
+BCG,brightest cluster galaxy
+cyclotron emission,cyclotron radiation
+hbt interferometer,HBT,hanbury brown twiss interferometer
+LQG,loop quantum gravity
+core mass function,CMF
+CTA,cherenkov telescope array
+ACT,atmospheric cherenkov telescopes,imaging atmospheric cherenkov telescope,cherenkov telescope,imaging atmospheric cherenkov technique,IACT
+QCP,quantum critical point
+jovian planet,giant planet
+athena mission,advanced telescope high energy astrophysics,ATHENA
+johnson photometry,ubv ri photometry,ubv photometry,ubv ri jkl photometry,three color photometry,johnson morgan filter system
+QKD,quantum key distribution
+solar dynamics observatory,SDO
+solar and heliospheric observatory,SOHO
+wide field infrared survey telescope,WFIRST
+DSA,diffusive shock acceleration
+cmb cold spot,wmap cold spot
+SKA,square kilometre array,square kilometer array
+fluctuating gunn peterson approximation,FGPA
+interferometric bidimensional spectrometer,IBIS
+asymmetric dark matter,ADM
+silverado galaxy,NGC 3370
+sarahs galaxy,NGC 3628
+ultrahigh vacuum,UHV
+THEIA,telescope for habitable exoplanets and interstellarintergalactic astronomy
+MAS,magic angle spinning
+xray telescope,XRT,xray observatory,xray mission
+GIXD,grazing incidence diffraction
+dm halo,dark matter halo
+soft xray background,SXRB
+A 383,ACO 383,abell 383
+sunyaev zeldovich effect,SZE,sz effect
+cosmic distance ladder,extragalactic distance scale,cosmic distance scale
+CNB,relic neutrinos,cosmic neutrino background
+CDT,causal dynamical triangulation
+GUT,grand unification theory,grand unified theory
+WISP,weakly interacting slim particle
+CME,classical master equation
+hard thermal loop resummation,HTL,hard thermal loop
+cern axion solar telescope,CAST
+axion dark matter experiment,ADMX
+CDMS,cryogenic dark matter search,cdms experiment
+dm dominated galaxy,dark matter dominated galaxy
+evolution galaxies,galaxy evolution,galactic evolution
+messier 38,NGC 1912,M38
+messier 39,M39,NGC 7092
+M36,NGC 1960,messier 36
+messier 37,NGC 2099,M37
+M34,messier 34,NGC 1039
+NGC 2168,M35,messier 35
+NGC 6694,M26,messier 26
+NGC 6913,M29,messier 29
+NGC 2287,M41,messier 41
+NGC 2437,M46,messier 46
+CCD,charge coupled device
+FDTD,finite difference time domain
+tensor perturbation,tensor modes,tensor mode fluctuations
+broad line region,BLR
+UGC 8,NGC 7814
+flocculent galaxy,flocculent spiral galaxy
+color color diagram,CMD,color magnitude diagram,HRD,hertzsprung russell diagram,color magnitude diagram,hr diagram
+sb galaxy,barred spiral galaxy
+BCD,bcd galaxy,blue compact dwarf galaxy
+pp interaction,proton proton interaction
+GNS,hst goods nicmos survey
+mk classification,mkk classification,yerkes classification,yerkes spectral classification
+space infrared telescope facility,SIRTF,SST,spitzer space telescope,spitzer
+3C 66B,UGC 1841,3C 66
+3C 405,cygnus a
+rossi xray timing explorer,RXTE
+SASC,SAS 3,small astronomy satellite 3
+solar anomalous and magnetospheric particle explorer,SAMPEX
+hi regions,h i regions
+zeeman doppler imaging,ZDI
+xray fluorescence holography,XFH
+cosmic linear anisotropy solving system,CLASS
+luminous infrared galaxy,LIRG
+north ecliptic pole,NEP
+SHIELD,shield survey,survey of hi extremely lowmass dwarfs
+hubble space telescope,HST
+GALEX,galaxy evolution explorer
+advanced technology largeaperture space telescope,ATLAST
+ANS,astronomical netherlands satellite,astronomische nederlandse satelliet
+EUVE,extreme ultraviolet explorer
+EIT,extreme ultraviolet imaging telescope
+FUSE,far ultraviolet spectroscopic explorer
+explorer 57,IUE,international ultraviolet explorer
+fermi dirac statistics,fermi dirac distribution,fermi statistics
+local density states,LDOS
+higgs particle,higgs scalar,higgs boson
+sgr a,SGR,sagittarius a
+BEC,bose einstein condensation,bose einstein condensate
+omicron velorum cluster,IC 2391
+M16,eagle nebula,NGC 6611
+messier 18,M18,NGC 6613
+algol star,algol variable,algol type binary
+am stars,metallic line stars,am star
+NGC 1435,merope nebula,tempel nebula
+M85,NGC 4382,messier 85
+NGC 4374,M84,messier 84
+NGC 4569,M90,messier 90
+NGC 4406,M86,messier 86
+M98,messier 98,NGC 4192
+messier 91,NGC 4548,M91
+UGC 7284,NGC 4216
+messier 100,NGC 4321,M100
+NGC 4526,UGC 7718
+statistically homogeneous space time,statistically homogeneous universe
+atacama large millimeter array,ALMA
+atacama pathfinder experiment,APEX
+ATCA,australia telescope compact array
+NGC 1275,perseus a galaxy
+NGC 253,sculptor,caldwell 65,sculptor galaxy,silver coin galaxy,silver dollar galaxy,sculptor spiral galaxy
+CFHTLS,canada france hawaii telescope legacy survey
+STACEE,solar tower atmospheric cherenkov effect experiment
+anomalous magnetic dipole moment,anomalous magnetic moment
+IXO,international xray observatory
+imaging compton telescope,COMPTEL
+dynamical meanfield theory,DMFT
+lsun,solar luminosity
+PSF,point spread function
+ARPES,angle resolved photo emission spectroscopy
+nmr spectroscopy,nuclear magnetic resonance spectroscopy
+xray emisson spectroscopy,XES,xray spectroscopy
+NGC 5846,UGC 9706
+XPS,xray photoelectron spectroscopy
+HARPS,high accuracy radial velocity planetary search
+HIRES,high resolution echelle spectrometer
+MPS,microlensing planet search
+QSO B2000330,PKS 2000330
+QSO 1429008,LBQS 14290053,LBQS 1429008
+HOP,hubble origins probe
+M101,NGC 5457,pinwheel galaxy
+NGC 3992,M109,messier 109
+messier 106,NGC 4258,M106
+LGRB,long duration grb,long duration gamma ray burst
+companion stars,secondary stars
+extrasolar planet,exoplanet
+ss cygni,ss cyg
+bolocam galactic plane survey,BGPS
+magellanic cloud emission line survey,MCELS
+whale galaxy,NGC 4631
+askaryan radio array,ARA
+messier 55,M55,NGC 6809
+CIB,CIRB,cosmic infrared background
+PSR J08354510,PSR B083345,vela pulsar
+gravitational radius,schwarzschild radius
+super large hadron collider,SLHC
+hydroxyl radical clouds,oh clouds
+astro seismology,stellar seismology,astroseismology
+RLF,radio luminosity function
+galaxy cluster,cluster galaxies
+HIC,heavy ion collision,hi collision
+am herculis star,am herculis stars,polars
+BSG,blue supergiant
+red giant,rgb star,red giant branch star
+MSP,millisecond pulsar
+alpha draconis,thuban
+HD 37974,R 126
+HDE 268835,mirror symmetry,R 26
+proto neutron star,PNS
+huygens fresnel principle,huygens principle
+zeta bootis,zeta bootis
+leo a,UGC 5364
+perfect conductivity equation,flux freezing equation
+terrestrial planets,inner planets
+hi mass function,HIMF,neutral hydrogen mass function
+late type giant stars,late type giants,cool giant stars
+late type subdwarfs,cool subdwarf stars
+APXS,alpha particle xray spectrometer
+halo mass function,HMF
+rogue planets,interstellar planets,orphan planets,nomad planets,free floating planets
+international gamma ray astrophysics laboratory,INTEGRAL
+SGR,soft gamma repeater,soft gamma ray repeater
+SDSS,sloan digital sky survey
+background gravitational wave,cosmic gravitational wave background
+multi object spectograph,MOS
+laser interferometer gravitational wave observatory,LIGO
+baryonic acoustic oscillation,baryon acoustic oscillations,BAO
+electron localization function,ELF
+density functional theory,DFT
+hexagonal boron nitride,HBN
+VRH,variable range hopping
+convection rotation planetary transits,COROT
+radio source stars,stellar radio sources,radio stars
+3he,he3,helium3
+helium4,he4,4he
+projective symmetry group,PSG
+xray binary,XRB,xray binary stars,xray binaries
+quasi stellar object,QSO,quasistellar galaxy,quasistellar radio source,quasar
+milky way center,center milky way,galactic center,milky way galaxy nucleus
+cosmic origins spectrograph,COS
+primordial fluctuations,primordial inhomogeneities
+center mass frame,CMF
+messier 65,M65,NGC 3623
+great barred spiral galaxy,NGC 1365
+fornax a,NGC 1316
+NGC 3627,M66,messier 66
+EBL,extragalactic background light
+NGC 6266,M62,messier 62
+M68,messier 68,NGC 4590
+messier 53,NGC 5024,M53
+NGC 6715,M54,messier 54
+M28,NGC 6626,messier 28
+NGC 7099,M30,messier 30
+hoags object,AGC 250437,PRC D51
+atmospheric gravity wave,AGW
+CSP,charge sensitive preamplifiers
+cumulative distribution functions,CDF
+SMBH,supermassive black hole
+NGC 2264,cone nebula
+TNO,transneptunian object
+fireworks galaxy,PGC 65001,arp 29,NGC 6946,UGC 11597
+helium weak stars,heweak stars,CP4,heliumpoor stars,heliumweak stars,helium poor stars,heweak star,heliumweak star
+metal free stars,first stars,first star,population iii stars,population iii,pop iii star,population iii star,pop iii
+large quasar group,LQG
+kuiper belt object,KBO
+dissipative particle dynamics,DPD
+QSO B1419419,3C 299
+4C 3616,3C 223
+red straggler stars,red stragglers
+NGC 6888,crescent nebula
+hi parkes all sky survey,HIPASS
+GOODS,great observatories origins deep survey
+IPHAS,int photometric halpha survey
+spheroid galaxy,elliptical galaxy
+CSE,chiral separation effect
+persistent spin dynamics,PSD
+mass to light ratio,ml ratio,stellar mass light ratio
+DES,dark energy survey
+deep ecliptic survey,DES
+M83,southern pinwheel galaxy,NGC 5236,messier 83
+centaurus a,cen a,NGC 5128
+UGC 8134,NGC 4921
+IC 819,mice galaxies,NGC 4676,IC 820
+NGC 3690,IC 694
+deep lens survey,DLS
+xray spectrometer,XRS
+GRAPES3,gamma ray astronomy pev energies 3rd establishment
+LSB,low surface brightness
+RRL,radio recombination line
+m stars,mtype main sequence stars,mtype stars,class m stars,m star
+metal poor star,metal deficient star,MPS
