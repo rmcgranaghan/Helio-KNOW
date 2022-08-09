@@ -1,0 +1,272 @@
+informatics
+community modeling frameworks
+community standards
+computational models, algorithms
+cyberinfrastructure
+data assimilation, integration and fusion
+data management, preservation, rescue
+data mining
+data and information discovery
+decision analysis
+emerging informatics technologies
+forecasting
+formal logics and grammars
+geospatial
+gis science
+data and information governance
+high-performance computing
+international collaboration
+interoperability
+knowledge representation and knowledge bases
+machine-to-machine communication
+machine learning
+markup languages
+metadata
+metadata: provenance
+metadata: quality
+modeling
+natural language processing
+numerical algorithms
+ontologies
+portals and user interfaces
+query languages for science, markup languages, ontologies
+real-time and responsive information delivery
+rules and logic
+scientific reasoning/inference
+semantic web and semantic integration
+sensor web
+social networks
+software tools and services
+software re-use
+spatial analysis and representation
+standards
+statistical methods: descriptive
+statistical methods: inferential
+temporal analysis and representation
+uncertainty
+virtual globes
+visualization and portrayal
+web services
+workflow
+interplanetary physics
+coronal mass ejections
+corotating streams
+cosmic rays
+discontinuities
+ejecta, driver gases, and magnetic clouds
+energetic particles
+heliopause and solar wind termination
+heliosphere/interstellar medium interactions
+interplanetary dust
+interplanetary magnetic fields
+interplanetary shocks
+interstellar gas
+mhd waves and turbulence
+neutral particles
+pickup ions
+planetary bow shocks
+plasma waves and turbulence
+solar cycle variations
+solar wind plasma
+solar wind sources
+instruments and techniques
+ionosphere
+active experiments
+auroral ionosphere
+current systems
+electric fields
+equatorial ionosphere
+ion chemistry and composition
+ionization processes
+ionosphere/atmosphere interactions
+ionosphere/magnetosphere interactions
+ionospheric disturbances
+ionospheric dynamics
+ionospheric irregularities
+ionospheric storms
+meteor-trail physics
+midlatitude ionosphere
+modeling and forecasting
+particle acceleration
+particle precipitation
+planetary ionospheres
+plasma interactions with dust and aerosols
+plasma convection
+plasma temperature and density
+plasma waves and instabilities
+polar cap ionosphere
+solar radiation and cosmic ray effects
+topside ionosphere
+wave/particle interactions
+wave propagation
+instruments and techniques
+magnetospheric physics
+auroral phenomena
+cusp
+electric fields
+energetic particles: precipitating
+energetic particles: trapped
+field-aligned currents and current systems
+forecasting
+magnetic reconnection
+magnetopause and boundary layers
+magnetosheath
+magnetosphere: inner
+magnetosphere: outer
+magnetosphere interactions with satellites and rings
+magnetosphere/ionosphere interactions
+magnetospheric configuration and dynamics
+magnetotail
+magnetotail boundary layers
+mhd waves and instabilities
+numerical modeling
+planetary magnetospheres
+plasma convection
+plasma sheet
+plasmasphere
+plasma waves and instabilities
+polar cap phenomena
+radiation belts
+ring current
+solar wind interactions with unmagnetized bodies
+solar wind/magnetosphere interactions
+magnetic storms and substorms
+substorms
+instruments and techniques
+mathematical geophysics
+fourier analysis
+instability analysis
+inverse theory
+numerical approximations and analysis
+persistence, memory, correlations, clustering
+prediction
+probabilistic forecasting
+spatial analysis
+spectral analysis
+stochastic processes
+time series analysis
+uncertainty quantification
+wavelet transform
+wave propagation
+instruments and techniques
+natural hazards
+atmospheric
+geological
+hydrological
+oceanic
+space weather
+multihazards
+methods
+other
+analogue modeling
+catastrophe and catastrophe theory
+extreme events
+mathematical and computer modeling
+monitoring, forecasting, prediction
+physical modeling
+precursors
+statistical analysis
+spatial modeling
+climate impact
+health impact
+human impact
+spatial decision support systems
+megacities and urban environment
+exposure
+resilience
+risk
+sustainable development
+vulnerability
+disaster relief
+disaster resilience
+disaster risk analysis and assessment
+disaster risk communication
+disaster management
+economic impacts of disasters
+remote sensing and disasters
+disaster policy
+disaster mitigation
+early warning systems
+emergency management
+preparedness and planning
+microzonation and macrozonation
+community management
+emergency response and evacuations
+recovery and reconstruction after disaster
+contingency planning
+international organizations and natural disasters
+interaction between science and disaster management authorities
+sociology of disasters
+psychology of disasters
+miscellaneous
+radio science
+electromagnetic noise and interference
+interferometry
+ionospheric physics
+ionospheric propagation
+magnetospheric physics
+nonlinear phenomena
+radar astronomy
+radar atmospheric physics
+radio astronomy
+radio oceanography
+radio wave propagation
+remote sensing
+signal processing
+space and satellite communication
+tomography and imaging
+waves in plasma
+instruments and techniques
+solar physics, astrophysics, and astronomy
+celestial mechanics
+chromosphere
+corona
+coronal holes
+coronal mass ejections
+energetic particles
+flares
+helioseismology
+magnetic fields
+magnetic reconnection
+photosphere
+prominence eruptions
+radio emissions
+solar activity cycle
+solar and stellar variability
+solar irradiance
+stellar astronomy
+stellar interiors and dynamo theory
+transition region
+ultraviolet emissions
+x-rays, gamma rays, and neutrinos
+instruments and techniques
+space plasma physics
+active perturbation experiments
+chaos
+charged particle motion and acceleration
+discontinuities
+electrostatic structures
+ionization processes
+kinetic and mhd theory
+kinetic waves and instabilities
+laboratory studies and experimental techniques
+magnetic reconnection
+mathematical and numerical techniques
+mhd waves and instabilities
+neutral particles
+nonlinear phenomena
+parametric processes
+particle acceleration
+plasma energization
+plasma interactions with dust and aerosols
+radiation processes
+shock waves
+solitons and solitary waves
+spacecraft/atmosphere interactions
+spacecraft sheaths, wakes, charging
+stochastic phenomena
+transport processes
+turbulence
+wave/particle interactions
+wave/wave interactions
+instruments and techniques
