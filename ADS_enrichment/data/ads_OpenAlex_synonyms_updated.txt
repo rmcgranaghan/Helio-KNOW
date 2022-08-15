@@ -1,0 +1,328 @@
+Community standards, community standards
+PSQM, computational models, algorithms
+Cyberinfrastructure, cyberinfrastructure
+Data mining, Lift (data mining), Data stream mining, Educational data mining, Process mining, Biclustering, Semantic computing, Predictive analytics, Statistical arbitrage, data mining
+Decision analysis, Multiple-criteria decision analysis, Risk assessment, Dominance-based rough set approach, ELECTRE, Risk stratification, Weighted sum model, Cost–utility analysis, decision analysis
+Geospatial analysis, Geospatial metadata, Geospatial PDF, Geovisualization, Mobile mapping, Data archive, geospatial
+Fabric computing, high-performance computing
+Machine learning, Margin (machine learning), Boosting (machine learning), Active learning (machine learning), Online machine learning, Data mining, Artificial neural network, Adversarial machine learning, Deep learning, Semantic analysis (machine learning), Extreme learning machine, Quantum machine learning, Feature selection, Reinforcement learning, Linear discriminant analysis, Deep neural networks, Training set, Unsupervised learning, Feature vector, Test set, Predictive modelling, Discriminant function analysis, Semi-supervised learning, Learning to rank, Gradient boosting, Random subspace method, Statistical learning theory, Domain adaptation, Decision tree learning, Feature learning, Ensemble learning, Supervised learning, Linear classifier, Conditional random field, Probably approximately correct learning, Multi-task learning, Generalization error, Conceptual clustering, Q-learning, Computational learning theory, Meta learning (computer science), Tree kernel, Feature engineering, Large margin nearest neighbor, Bootstrap aggregating, Co-training, Learning with errors, Structured prediction, Inductive bias, Data discovery, Decision engineering, Multiple kernel learning, Intelligent control, Inductive transfer, Error-driven learning, Pattern analysis, Predictive analytics, Early stopping, Multimodal learning, Pattern detection, Similarity learning, machine learning
+XML, XPDL, SGML, RDF/XML, XML validation, XHTML, Document type definition, XACML, HTML, HTML5, HTML element, markup languages
+Metadata, Metadata repository, Metadata modeling, Geospatial metadata, Metadata management, Annotation, Payload (computing), Java annotation, Automatic image annotation, ID3, Semantic annotation, Calais, Data dictionary, metadata
+Natural language processing, Sentiment analysis, Latent semantic analysis, Parsing, Word embedding, Natural language understanding, Tree kernel, Lemmatisation, Semantic computing, Word-sense disambiguation, Language understanding, Stop words, Computational semantics, natural language processing
+Monte Carlo method, Numerical analysis, Evolutionary programming, Numerical approximation, numerical algorithms
+Resolution (logic), Transposition (logic), Semantic Web Rule Language, rules and logic
+Sensor web, sensor web
+Social support, Virtual community, Social network analysis, Viral marketing, Interactive Learning, Mobile social network, Network society, Computer monitoring, social networks
+Devices Profile for Web Services, OWL-S, WS-I Basic Profile, Web service, Massive open online course, Calais, Web intelligence, Internet shopping, web services
+Forbush decrease, coronal mass ejections
+Solar energetic particles, Sputtering, Van Allen radiation belt, Collision cascade, Spacecraft charging, energetic particles
+Particle beam, Electron neutrino, Muon neutrino, Exotic atom, Tau neutrino, neutral particles
+Ocean gyre, Classification of mental disorders, Psychiatric diagnosis, Magnetostatics, Z-pinch, Ampacity, Lightning arrester, State function, Prospective short circuit current, current systems
+Capacitor, Permittivity, Field-effect transistor, Polarizability, Excitation, Magnetic field, Electron mobility, Electroluminescence, Dielectrophoresis, Stark effect, Kerr effect, Linear polarization, Faraday cage, Dielectric function, Electric charge, Electric field gradient, Pyroelectricity, Electric potential, Dielectric permittivity, Drift velocity, Electric fish, Electrical mobility, Ion trap, Electroreception, Aharonov–Bohm effect, Maxwell's equations, Pockels effect, Electro-optic effect, Crystal field theory, Screening effect, Pyroelectric crystal, Kerr nonlinearity, Gaussian surface, Townsend discharge, Electromagnet, Electron avalanche, Vacuum permittivity, Doubly fed electric machine, Evanescent wave, Drift current, Wireless power transfer, Optical coupling, electric fields
+Penning ionization, Iontophoresis, Thermal ionization, Electron avalanche, ionization processes
+Mode choice, Global Forecast System, Trip distribution, modeling and forecasting
+Particle acceleration, Plasma acceleration, Fermi acceleration, particle acceleration
+Concretion, Global climate, particle precipitation
+Wave propagation, Ground wave propagation, Longitudinal wave, Shear waves, Helioseismology, Electromagnetic electron wave, Underwater acoustics, Longitudinal field, Transverse wave, Line-of-sight propagation, Leaky wave antenna, Transverse vibration, Airy wave theory, Skywave, Ionospheric propagation, Ionospheric reflection, wave propagation
+Capacitor, Permittivity, Field-effect transistor, Polarizability, Excitation, Magnetic field, Electron mobility, Electroluminescence, Dielectrophoresis, Stark effect, Kerr effect, Linear polarization, Faraday cage, Dielectric function, Electric charge, Electric field gradient, Pyroelectricity, Electric potential, Dielectric permittivity, Drift velocity, Electric fish, Electrical mobility, Ion trap, Electroreception, Aharonov–Bohm effect, Maxwell's equations, Pockels effect, Electro-optic effect, Crystal field theory, Screening effect, Pyroelectric crystal, Kerr nonlinearity, Gaussian surface, Townsend discharge, Electromagnet, Electron avalanche, Vacuum permittivity, Doubly fed electric machine, Evanescent wave, Drift current, Wireless power transfer, Optical coupling, electric fields
+Magnetic reconnection, magnetic reconnection
+Numerical modeling, Data assimilation, Chemical transport model, North American Mesoscale Model, Unified Model, Mathematical software, numerical modeling
+Plasma sheet, plasma sheet
+Ring current, ring current
+Fourier analysis, Discrete-time Fourier transform, Noncommutative harmonic analysis, fourier analysis
+Inverse theory, S-duality, T-duality, inverse theory
+Numerical analysis, Numerical approximation, numerical approximations and analysis
+Probabilistic forecasting, probabilistic forecasting
+Spatial analysis, Empirical orthogonal functions, Space syntax, spatial analysis
+Spectral analysis, Hilbert spectral analysis, Spectral shape analysis, spectral analysis
+Unit root, Stochastic differential equation, Preferential attachment, Lévy process, Stochastic calculus, Markov property, Jump process, Wiener process, Semimartingale, Geometric Brownian motion, Voter model, Colors of noise, Mean reversion, Ornstein–Uhlenbeck process, Continuous-time Markov chain, Brownian bridge, Stochastic integral, Quadratic variation, Stationary process, Local martingale, Interacting particle system, Stopping time, Noise spectrum, Continuous-time stochastic process, Stopping rule, stochastic processes
+Interrupted Time Series Analysis, Autoregressive integrated moving average, Autoregressive–moving-average model, Marketing mix modeling, time series analysis
+Uncertainty quantification, Uncertainty analysis, uncertainty quantification
+Wavelet transform, Discrete wavelet transform, Stationary wavelet transform, Second-generation wavelet transform, Harmonic wavelet transform, Continuous wavelet transform, Fast wavelet transform, Complex wavelet transform, Multiresolution analysis, wavelet transform
+Wave propagation, Ground wave propagation, Longitudinal wave, Shear waves, Helioseismology, Electromagnetic electron wave, Underwater acoustics, Longitudinal field, Transverse wave, Line-of-sight propagation, Leaky wave antenna, Transverse vibration, Airy wave theory, Skywave, Ionospheric propagation, Ionospheric reflection, wave propagation
+Social vulnerability, Protection forest, natural hazards
+Space weather, Geomagnetically induced current, space weather
+Decoding methods, Ab initio quantum chemistry methods, Lattice Boltzmann methods, Taguchi methods, Formal methods, Domain decomposition methods, Constructivist teaching methods, Runge–Kutta methods, Phylogenetic comparative methods, Design methods, Evaluation methods, Suicide methods, Meshfree methods, Biophysics, Behavior change methods, Direct methods, Cooking methods, Computational biology, Observational methods in psychology, Proximal Gradient Methods, Combinatorial chemistry, Protein methods, Visual methods, Numerical methods for ordinary differential equations, Nucleic acid methods, Online research methods, Mortar methods, Meta-analysis, Methods of contour integration, High-performance liquid chromatography, Finite element method, Matching (statistics), Data mining, Randomized controlled trial, Molecular dynamics, Electroencephalography, Compensation methods, H-infinity methods in control theory, Matrix-free methods, Proximal gradient methods for learning, Medical physics, Recombinant DNA, Explicit and implicit methods, Qualitative research, Operations research, Density functional theory, Gel electrophoresis, Statistical hypothesis testing, Support vector machine, Drug delivery, Interpolation (computer graphics), clone (Java method), Restriction fragment length polymorphism, Monte Carlo methods for option pricing, Actuarial science, Planar, Ranking (information retrieval), Conceptual framework, Climate model, Protocol (science), Systematic review, Least-squares function approximation, Heuristic, Interferometry, Inoculation, Hydrogen production, Diffusion MRI, Finite difference methods for option pricing, Gas chromatography–mass spectrometry, Polymerase chain reaction, Electrospray ionization, Mechanical ventilation, Enzyme assay, CLARITY, Titration, Life-cycle assessment, Heuristics, Computer architecture, Phylogenetics, Thermogravimetric analysis, Thematic analysis, Tissue engineering, Linear programming, Oxidase test, Teaching method, Capillary electrophoresis, Spatial variability, Phenomenology (philosophy), Optimal control, Dynamic programming, Voltammetry, Powder diffraction, Linear discriminant analysis, Library science, Indole test, Homogenization (climate), Near-infrared spectroscopy, Maximum likelihood, Organocatalysis, Exploratory factor analysis, Model predictive control, Leadership style, Voting, Coupled cluster, Biological pest control, Ordination, Molecular beam epitaxy, Kriging, Photovoltaics, Delphi method, Size-exclusion chromatography, Facilitation, Sputter deposition, Content analysis, Grazing, Substance abuse, Comparative genomic hybridization, Bioassay, Alignment-free sequence analysis, Atomic absorption spectroscopy, Residual, Real-time polymerase chain reaction, Sliding mode control, Dialectic, Gene mapping, Glucose clamp technique, Sanger sequencing, Hydrogen storage, Galerkin method, Boundary element method, Calibration curve, Service management, Overlay, Independent component analysis, Philosophy of science, Electrocardiography, Bilinear interpolation, Commercialization, Finite volume method, Research design, Edge detection, Recursion (computer science), Iterative method, Traverse, Automatic summarization, Design of experiments, Multiplexing, Biodistribution, Resampling, Bradford protein assay, Antioxidant capacity, Participant observation, Debye model, Metalorganic vapour phase epitaxy, Dropout (neural networks), Distillation, Ordinary least squares, Homology modeling, Neural coding, Skew, Lagrange multiplier, PET-CT, Vector autoregression, Bayesian inference, Big data, Renormalization group, Stepwise regression, Ground-penetrating radar, Tabu search, Selected reaction monitoring, Calcium imaging, Finite-difference time-domain method, Laser Doppler velocimetry, Local search (optimization), Voxel-based morphometry, Secondary ion mass spectrometry, Emission computed tomography, Cladistics, Vaginal delivery, Vector control, Association mapping, Directed evolution, Lean manufacturing, Column chromatography, Simulated annealing, Time–frequency analysis, Quantum key distribution, Jackknife resampling, Ames test, Smoothed-particle hydrodynamics, Anodic stripping voltammetry, Thermal desorption spectroscopy, Mark and recapture, Association rule learning, Expectation–maximization algorithm, Bronchoalveolar lavage, Discontinuous Galerkin method, Particle swarm optimization, Scattering theory, Dendrochronology, methods
+Computational science, Bézier surface, mathematical and computer modeling
+Fermi gas, Semiclassical physics, Molecular model, Signal processing, Directed percolation, Technicolor, Computer simulation, Negative mass, Polarizable continuum model, Ocean general circulation model, S-matrix theory, Statistical signal processing, Modeling and simulation, Test bench, Particle in a box, Cloud storage, Non-standard cosmology, Nearly free electron model, Bohr radius, Numerical modeling, Numerical models, Computer modelling, Computational simulation, N = 4 supersymmetric Yang–Mills theory, Deterministic system (philosophy), Two-dimensional space, physical modeling
+Statistical analysis, Confirmatory factor analysis, Statistical energy analysis, Bibliometrics, Change detection, Stepwise regression, Bayesian linear regression, Autoregressive integrated moving average, Empirical orthogonal functions, Autoregressive–moving-average model, Confidence and prediction bands, Population mean, Exponential random graph models, Procrustes analysis, Marketing mix modeling, Statistical population, Incremental cost-effectiveness ratio, statistical analysis
+Sustainable transport, climate impact
+Health impact assessment, Environmental health, Pandemic, Disease burden, Burden of disease, Environmental epidemiology, Spiritual Health, Nutritionist, health impact
+Environmental health, Coral reef protection, Environmental epidemiology, human impact
+Sustainable development, Education for sustainable development, Social sustainability, Water conservation, Sustainable forest management, Sustainable regional development, Eco-efficiency, State-building, Water saving, Harmony with nature, sustainable development
+Disaster recovery, IT service continuity, disaster policy
+Disaster mitigation, disaster mitigation
+Red Color, early warning systems
+Emergency management, emergency management
+Community management, Community-based management, Participatory planning, community management
+Radio Science, radio science
+Ionospheric propagation, Skywave, Ionospheric reflection, ionospheric propagation
+Skywave, Ionospheric propagation, Ionospheric reflection, radio wave propagation
+Remote sensing, Collocation (remote sensing), Remote sensing application, Earth remote sensing, Interferometric synthetic aperture radar, Radio occultation, Pyrometer, Earth observation, remote sensing
+Energy (signal processing), Sampling (signal processing), Filter (signal processing), Signal processing, Quantization (signal processing), Digital signal processing, Multidimensional signal processing, Audio signal processing, Statistical signal processing, Analog signal processing, Sonar signal processing, Radar signal processing, Signal transduction, Transmission (telecommunications), Distortion (music), Independent component analysis, Beamforming, Vector quantization, Time–frequency analysis, Finite impulse response, Compressed sensing, Particle filter, Phaser, Multiplicative noise, Signal reconstruction, Instantaneous phase, Noise reduction, Linear predictive coding, Zero-forcing precoding, Digital signal processor, Speech processing, Window function, Periodogram, Phase unwrapping, Elliptic filter, Modified discrete cosine transform, Emphasis (telecommunications), Signal averaging, Quorum sensing, Exciter, Spectral leakage, Equalization (audio), Comb filter, Blind equalization, Demodulation, Signalling pathways, Analogue filter, Butterworth filter, Decorrelation, Array processing, Ringing artifacts, Oversampling, FDOA, Colors of noise, Image denoising, Gene rearrangement, Decimation, Dynamic range compression, Undersampling, Video denoising, Data stream, Interrupt, Apoptosome, Digital television, Preamplifier, Mechanical filter, Bilinear transform, Input device, V(D)J recombination, Noise spectrum, Image processor, Superheterodyne receiver, Video capture, Quorum Quenching, Signal pathway, Homomorphic filtering, signal processing
+Gated SPECT, tomography and imaging
+Landau damping, Baryon acoustic oscillations, waves in plasma
+Celestial mechanics, celestial mechanics
+Forbush decrease, coronal mass ejections
+Solar energetic particles, Sputtering, Van Allen radiation belt, Collision cascade, Spacecraft charging, energetic particles
+Magnetic reconnection, magnetic reconnection
+Radar jamming and deception, radio emissions
+Solar irradiance, solar irradiance
+Coronal loop, Chromosphere, Demographic transition, transition region
+Penning ionization, Iontophoresis, Thermal ionization, Electron avalanche, ionization processes
+Magnetic reconnection, magnetic reconnection
+Particle acceleration, Plasma acceleration, Fermi acceleration, particle acceleration
+Enterocolitis, Radioactive decay, Neutron activation, Neutron irradiation, Mutation breeding, radiation processes
+Shock waves in astrophysics, Shock metamorphism, shock waves
+Endocytosis, Endocytic cycle, Bone resorption, Erosion, Swallowing, Exocytosis, Logging, Traction (geology), Membrane technology, Beta oxidation, Ribosome biogenesis, Receptor-mediated endocytosis, Soil loss, Twin-arginine translocation pathway, Membrane filter, Water erosion, International shipping, transport processes
+Underwater acoustics, Wind wave model, wave/wave interactions
+
+
+# acronyms added from Heliophysics 2013 Decadal survey in August 2022
+ACR,anomalous cosmic ray
+AFOSR,air force office of scientific research
+AFRL,air force research laboratory
+AFWA,air force weather agency
+AGS,atmospheric and geospace sciences division
+AIA,atmospheric imaging assembly
+AIMI,atmosphere ionosphere magnetosphere interactions
+AIP,american institute of physics
+AMISR,advanced modular incoherent scatter radar
+AMPERE,active magnetosphere and planetary electrodynamics response experiment
+AMPTE,active magnetospheric particle tracer explorers
+AO,announcement of opportunity
+APS,american physical society; active pixel sensor
+AST,division of astronomical sciences
+ATST,advanced technology solar telescope
+AU,astronomical unit
+BARREL,balloon array for rbsp relativistic electron losses
+BBSO,big bear solar observatory
+CADRE,cubesat investigating atmospheric density response to extreme driving
+CAREER,faculty early career development
+CASSIOPE,cascade small satellite and ionospheric polar explorer
+CATE,cost and technical evaluation
+CAWSES,climate and weather of the sun earth system
+CCE,charge composition explorer
+CCMC,community coordinated modeling center
+CDC,concept design center
+CEDAR,coupling energetics and dynamics of atmospheric regions
+CINDI,coupled ion neutral dynamic investigation
+CINEMA,cubesat for ions neutrals electrons magnetic fields
+CIR,corotating interaction region
+CISM,center for integrated space weather modeling
+CMOS,complementary metal oxide semiconductor
+C/No,carrier signal to noise strength
+C/NOFS,communications/navigation outage forecasting system
+CoBRA,complexity based risk assessment
+COSMIC,constellation observing system for meteorology ionosphere and climate
+COSMO,coronal solar magnetism observatory
+COTS,commercial off the shelf
+CPU,central processing unit
+CRRES,combined release and radiation effects satellite
+CSSWE,colorado student space weather experiment
+DASI,distributed array of small instruments
+DC,direct current
+DICE,dynamic ionosphere cubesat experiment
+DLR,german aerospace center
+DMSP,defense meteorological satellites program
+DOD,department of defense 
+DOE,department of energy 
+DRIVE,diversify realize integrate venture educate
+DSCOVR,deep space climate observatory
+DYNAMIC,dynamical neutral atmosphere ionosphere coupling (mission)
+EASCO,earth affecting solar causes observatory
+ECT,energetic particle composition and thermal plasma suite
+EIA,equatorial ionization anomaly
+EISCAT,european incoherent scatter scientific association
+ELaNa,educational launch of nanosatellites
+ENA,energetic neutral atom
+ENASI,energetic neutral atom spectroscopic imager
+EPO,education and public outreach 
+e-POP,enhanced polar outflow probe
+ESCAPE,energetics sources and couplings of atmosphere plasma escape
+ETA,equatorial temperature anomaly
+EUVI,extreme ultraviolet imager
+EVE,extreme ultraviolet variability experiment
+FAA,federal aviation administration
+FASR,frequency agile solar radiotelescope
+FAST,fast aurora snapshot
+FDSS,faculty development in space science
+FIREBIRD,focused investigations of relativistic electron burst intensity range and dynamics
+FOXSI,focusing optics x ray spectroscopic imager
+FUV,far ultraviolet
+FY,fiscal year
+GDC,geospace dynamics constellation
+GEO,geostationary earth orbit
+GI,guest investigator
+GIC,geomagnetically induced current; ground induced current
+GNSS,global navigation satellite systems
+GOCE,gravity field and steady state ocean circulation explorer
+GOES,geostationary operational environmental satellite
+GRACE,gravity recovery and climate experiment
+GRIPS,gamma ray imager/polarimeter for solar flares
+GRIS,gamma ray imaging spectrometer 
+GSRP,graduate student research program
+GUVI,global ultraviolet imager
+GW,gravity waves
+HAARP,high frequency active auroral research program
+HEIDI,high energy imaging device
+HEO,high earth orbit (above geo)
+HF,high frequency
+HI,heliospheric imager
+HIREGS,high resolution gamma ray and hard x ray spectrometer
+HITDP,heliophysics instrument and technology development program 
+HPDE,heliophysics data environment
+HSC,heliophysics science center
+HSO,heliophysics systems observatory
+HSS,high speed solar wind streams
+HSW,halo solar wind
+HTP,heliophysics theory program
+HXR,hard x ray
+IBEX,interstellar boundary explorer
+IGS,international gnss service
+IHY,international heliophysical year
+IKAROS,interplanetary kite craft accelerated by radiation of the sun
+IMAGE,imager for magnetopause to aurora global exploration
+IMAP,interstellar mapping and acceleration probe
+IMP,interplanetary monitoring platform
+INCA,imaging neutral atom camera
+INMS,ion neutral mass spectrograph
+IR,infrared
+IRIS,interface region imaging spectrograph
+ISCCP,international satellite cloud climatology project
+ISI,institute for scientific information
+ISMF,interstellar magnetic field
+ISOON,improved solar observing optical network
+ISR,incoherent scatter radar
+ISS,international space station
+IT,ionosphere thermosphere
+ITAR,international traffic in arms regulations
+ITM,ionosphere thermosphere mesosphere 
+IVM,ion velocity meter
+L1,sun earth lagrangian point 1 
+L5,sun earth lagrangian point 5
+LBH,lyman birge hopfield
+LCAS,low cost access to space
+LECP,low energy charged particle
+LET,low energy telescope
+LISM,local interstellar medium
+LT,local time
+LWS,living with a star
+MagCat,magnetospheric constellation and tomography (mission)
+MagCon,magnetospheric constellation (mission)
+MEDICI,magnetosphere energetics dynamics and ionospheric coupling investigation
+MEMS,microelectromechanical system
+MESSENGER,mercury surface space environment geochemistry and ranging
+MI,magnetosphere ionosphere
+MIDEX,mid size explorer
+MISTE,magnetosphere ionosphere source term energetics (mission)
+MIT,magnetosphere ionosphere thermosphere
+MLSO,mauna loa solar observatory
+MLT,mesosphere and lower thermosphere
+MMS,magnetospheric multiscale (mission)
+MO&DA,mission operations and data analysis
+MODIS,moderate resolution imaging spectroradiometer
+MREFC,major research equipment and facilities construction (program)
+MRF,medium scale research facility
+MSO,mees solar observatory
+MWO,mt wilson observatory
+NCAR,national center for atmospheric research
+NESDIS,national environmental satellite data and information service
+NESSF,nasa’s earth and space science fellowship (program)
+NGDC,national geophysical data center
+NJIT,new jersey institute of technology
+NRC,national research council
+NST,new solar telescope
+NSWP,national space weather program
+NWM,neutral wind meter
+NWS,national weather service
+OCT,office of the chief technologist
+OEDG,opportunities for enhancing diversity in the geosciences (program)
+ORBITALS,outer radiation belt injection transport acceleration and loss satellite
+OVSA,owens valley solar array
+PARS,polar aeronomy and radio science
+PFISR,poker flat incoherent scatter radar
+PI,principal investigator
+POES,polar operational environmental satellite
+P-POD,poly picosatellite orbital deployer
+PUI,pickup ion
+PW,planetary waves
+RE,earth radius
+RS,sun radius
+R&A,research and analysis
+RAX,radio aurora explorer
+RBSP,radiation belt storm probe; renamed van allen probes
+REPT,relativistic electron proton telescope
+REU,research experiences for undergraduates
+RFI,request for information
+RHESSI,ramaty high energy solar spectroscopic imager
+RISR,resolute bay incoherent scatter radar
+ROSES,research opportunities in space and earth sciences
+RPA,ion retarding potential analyzer
+SABER,sounding of the atmosphere using broadband emission radiometry
+SALMON,stand alone missions of opportunities notice
+SAMPEX,solar anomalous and magnetospheric particle explorer
+SAPS,subauroral polarization streams
+SCOSTEP,scientific committee on solar terrestrial physics
+SEE,solar eruptive events (mission)
+SEP,solar energetic particle
+SFO,san fernando observatory
+SHINE,solar heliosphere and interplanetary environment
+SHP,solar and heliospheric physics
+SKR,saturnian kilometric radio
+SM,servicing mission
+SMD,science mission directorate
+SMEI,solar mass ejection imager
+SNOE,student nitric oxide explorer
+SO,solar orbiter
+SOLIS,synoptic optical long term investigations of the sun
+SOON,solar observing optical network
+SORCE,solar radiation and climate experiment
+SPA,space physics and aeronomy
+SPARC,stratospheric processes and their role in climate
+SPASE,space physics archive search and extract
+SPD,solar physics division
+SPI,solar polar imager
+SPP,solar probe plus 
+SRAG,space radiation analysis group
+SRP,solar radiation pressure
+SR&T,supporting research and technology
+SSPIS,solar and space physics information system
+STE,suprathermal electron
+STEM,science technology engineering and mathematics
+STP,solar terrestrial probes (program)
+SuperDARN,super dual auroral radar network
+SUVIT,solar uv visible ir telescope
+SWaC,space weather and climatology
+SWAP,space weight and power
+SWICS,solar wind ion composition spectrometer
+SWL,space weather laboratory
+SWMI,solar wind magnetosphere interactions
+SWPC,space weather prediction center
+SXT,soft x ray telescope
+TEC,total electron content
+TEX,tiny explorers
+TIM,total irradiance monitor
+TR&T,targeted research and technology
+TRACE,transition region and coronal explorer
+TRL,technology readiness level
+TS,termination shock
+TSI,total solar irradiance
+TWINS,two wide angle imaging neutral atom spectrometers
+UHURU,small astronomical satellite 1 swahili for freedom
+ULDB,ultra long duration balloon
+USML,us munitions list
+UT,universal time 
+UV,ultraviolet
+UVCS,ultraviolet coronagraph spectrometer
+V1,voyager 1
+V2,voyager 2
+VxO,(domain specific) virtual observatory
+WAAS,wide area augmentation system
+WACCM,whole atmosphere community climate model
+WBS,work breakdown structure
+WHI,whole heliosphere interval
+WLC,white light coronagraph
+WPI,wave particle interaction
+WSA-Enlil,wang sheely arge enlil
+WSO,wilcox solar observatory
