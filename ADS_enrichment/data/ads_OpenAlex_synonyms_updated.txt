@@ -91,7 +91,7 @@ AMISR,advanced modular incoherent scatter radar
 AMPERE,active magnetosphere and planetary electrodynamics response experiment
 AMPTE,active magnetospheric particle tracer explorers
 AO,announcement of opportunity
-APS,american physical society; active pixel sensor
+APS,american physical society
 AST,division of astronomical sciences
 ATST,advanced technology solar telescope
 AU,astronomical unit
