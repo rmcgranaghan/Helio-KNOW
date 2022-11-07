@@ -1,4 +1,8 @@
 
+The domains like Science, Engineering and Society are facing complex challenges, and demanding extensive teams and more knowledge, affiliation and decision making. Traditional structures for representation of information and knowledge do not permit the community to search and discover activities to access the centre nor understand where skills and expertise exist. This problem of knowledge sharing and broader teamwork is not only faced by NASA but also present across contemporary group communities as well. In order to overcome this issue, User Interface (UI) with an interactive knowledge graph is developed to help the users or community members with basic knowledge to analyse and extract information from ontologies and to understand the resources better i.e., people, capabilities, assets, contents, data, and models present in the community.
+
+
+
 The code in this directory was contributed by Swapnali Yadav (@SwapnaliY16). It was developed as a frontend user interface for a community knowledge graph created for the [NASA Center for HelioAnalytics](https://helioanalytics.io/). 
 
 To understand the details of this user interface, please see [Swapnali's Masters Degree final presentation](https://docs.google.com/presentation/d/14iZqQidtRYyYHRrO6jseUP5zfoCe4GYV/edit?usp=share_link&ouid=102947217778623290502&rtpof=true&sd=true). The frontend was designed for the CfHA community knowledge graph (a graph instantiated with data provided by that community and using the Community Action and Understanding via Semantic Enrichment (CAUSE) ontology (paper forthcoming). However, this code is sufficiently general to provide a foundation for frontend interactivity for any community-based knowledge graph. 
