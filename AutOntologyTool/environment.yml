@@ -1,0 +1,19 @@
+name: CfHA_Parsing_Heliophysics_data
+channels:
+  - defaults
+dependencies:
+	- python>=3.0
+	- pandas>1.0.0
+	- beautifulsoup4=4.11.1
+  - gensim=4.2.0
+  - matplotlib=3.3.4
+  - networkx==2.5
+  - nltk=3.6.1
+  - numpy=1.20.1
+  - pandas=1.2.4
+  - rdflib=6.2.0
+  - requests=2.25.1
+  - scikit_learn=1.2.1
+  - scipy=1.6.2
+  - spacy=3.4.0
+  - tqdm=4.59.0
