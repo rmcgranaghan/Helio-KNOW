@@ -1,10 +1,16 @@
-name: python_environment
+# run: conda env create --file environment.yml
+name: helioknow
 
 dependencies:
-	- python=3.6
+	- python=3.9
 	- numpy
 	- pandas
 	- matplotlib
+	- IPython
+	- nbconvert=5.4.1
+	- pip
 	- pip:
-		- tika
-		- nltk
+	  - jupyter
+	  - tika
+	  - nltk
+	  - datetime
