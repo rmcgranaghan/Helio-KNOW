@@ -29,7 +29,7 @@ The Heliophysics KNOWledge Network (Helio-KNOW) is a new and possibly disruptive
 
 Helio-KNOW brings knowledge graph approaches to create new scientific discovery, focusing on magnetosphere-ionosphere coupling and creating the tools for which coupling phenomena and space weather risks can be studied. 
 
-![](/images/HelioKNOW_singlgeslide.png)
+![](/images/HelioKNOW_singleslide.png)
 
 
 
