@@ -27,6 +27,12 @@ The complexity and variability of the solar wind-magnetosphere-ionosphere (SWMI)
 
 The Heliophysics KNOWledge Network (Helio-KNOW) is a new and possibly disruptive data analytic approach for a system-level understanding and prediction of MI coupling phenomena, applicable to our diverse multi-point, multi-parameter, sparsely-sampled SWMI datasets.
 
+Helio-KNOW brings knowledge graph approaches to create new scientific discovery, focusing on magnetosphere-ionosphere coupling and creating the tools for which coupling phenomena and space weather risks can be studied. 
+
+![](/images/HelioKNOW_singlgeslide.png)
+
+
+
 ### What is this repository?
 It is both the tools (the technology) and the commons (the community exchange) to produce open, reproducible, and scalable Heliophysics science. 
 
