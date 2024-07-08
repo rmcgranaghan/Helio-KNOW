@@ -1,0 +1,653 @@
+@prefix : <http://www.gra.fo/schema/untitled-ekg#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gf: <http://www.gra.fo/schema/untitled-ekg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <http://www.gra.fo/schema/untitled-ekg#> .
+
+<http://www.gra.fo/schema/untitled-ekg> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#broader
+skos:broader rdf:type owl:ObjectProperty ;
+             rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+             rdfs:label "skos:broader" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.gra.fo/schema/untitled-ekg#AuroralOval
+gf:AuroralOval rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty skos:broader ;
+                                 owl:someValuesFrom gf:AuroralRegion
+                               ] ;
+               rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+               rdfs:label "Auroral Oval" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#AuroralRegion
+gf:AuroralRegion rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                                 ] ;
+                 rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                 rdfs:label "Auroral Region" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Bowshock
+gf:Bowshock rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty skos:broader ;
+                              owl:someValuesFrom gf:InterplanetarySpace
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty skos:broader ;
+                              owl:someValuesFrom gf:Magnetosphere
+                            ] ;
+            rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+            rdfs:label "Bowshock" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Chromosphere
+gf:Chromosphere rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:SolarAtmosphere
+                                ] ;
+                rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                rdfs:label "Chromosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Corona
+gf:Corona rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty skos:broader ;
+                            owl:someValuesFrom gf:SolarAtmosphere
+                          ] ;
+          rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+          rdfs:label "Corona" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#CoronalMassEjection
+gf:CoronalMassEjection rdf:type owl:Class ;
+                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty skos:broader ;
+                                         owl:someValuesFrom gf:Chromosphere
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty skos:broader ;
+                                         owl:someValuesFrom gf:Corona
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty skos:broader ;
+                                         owl:someValuesFrom gf:Photosphere
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty skos:broader ;
+                                         owl:someValuesFrom gf:SolarWind
+                                       ] ;
+                       rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                       rdfs:label "Coronal Mass Ejection" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Cusp
+gf:Cusp rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty skos:broader ;
+                          owl:someValuesFrom gf:Magnetosphere
+                        ] ;
+        rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+        rdfs:label "Cusp" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Cusp_535c685c-fbb4-42d3-8d26-7f5a44534c8a
+gf:Cusp_535c685c-fbb4-42d3-8d26-7f5a44534c8a rdf:type owl:Class ;
+                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                               owl:onProperty skos:broader ;
+                                                               owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                                                             ] ;
+                                             rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                                             rdfs:label "Cusp" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#DRegion
+gf:DRegion rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty skos:broader ;
+                             owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                           ] ;
+           rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+           rdfs:label "D Region" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Dayside
+gf:Dayside rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty skos:broader ;
+                             owl:someValuesFrom gf:Magnetosphere
+                           ] ;
+           rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+           rdfs:label "Dayside" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#ERegion
+gf:ERegion rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty skos:broader ;
+                             owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                           ] ;
+           rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+           rdfs:label "E Region" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#EquatorwardBoundary
+gf:EquatorwardBoundary rdf:type owl:Class ;
+                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty skos:broader ;
+                                         owl:someValuesFrom gf:AuroralRegion
+                                       ] ;
+                       rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                       rdfs:label "Equatorward Boundary" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Exosphere_5c71061b-a70f-49a0-82cd-773458955a09
+gf:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09 rdf:type owl:Class ;
+                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty skos:broader ;
+                                                                    owl:someValuesFrom gf:NearPlanetSpace
+                                                                  ] ;
+                                                  rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                                                  rdfs:label "Exosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#FRegion
+gf:FRegion rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty skos:broader ;
+                             owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                           ] ;
+           rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+           rdfs:label "F Region" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Flare
+gf:Flare rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty skos:broader ;
+                           owl:someValuesFrom gf:Chromosphere
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty skos:broader ;
+                           owl:someValuesFrom gf:Corona
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty skos:broader ;
+                           owl:someValuesFrom gf:Photosphere
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty skos:broader ;
+                           owl:someValuesFrom gf:SolarWind
+                         ] ;
+         rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+         rdfs:label "Flare" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#GeomagneticField
+gf:GeomagneticField rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty skos:broader ;
+                                      owl:someValuesFrom gf:GroundAndLowerAtmosphere
+                                    ] ;
+                    rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                    rdfs:label "Geomagnetic Field" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#GeomagneticStorm
+gf:GeomagneticStorm rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty skos:broader ;
+                                      owl:someValuesFrom gf:GeomagneticField
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty skos:broader ;
+                                      owl:someValuesFrom gf:Ground
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty skos:broader ;
+                                      owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty skos:broader ;
+                                      owl:someValuesFrom gf:NearPlanetSpace
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty skos:broader ;
+                                      owl:someValuesFrom gf:Thermosphere
+                                    ] ;
+                    rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                    rdfs:label "Geomagnetic Storm" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Ground
+gf:Ground rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty skos:broader ;
+                            owl:someValuesFrom gf:GroundAndLowerAtmosphere
+                          ] ;
+          rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+          rdfs:label "Ground" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#GroundAndLowerAtmosphere
+gf:GroundAndLowerAtmosphere rdf:type owl:Class ;
+                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                              owl:onProperty skos:broader ;
+                                              owl:someValuesFrom gf:Magnetosphere
+                                            ] ;
+                            rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                            rdfs:label "Ground and Lower Atmosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Heliosphere
+gf:Heliosphere rdf:type owl:Class ;
+               rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+               rdfs:label "Heliosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#High-latitude
+gf:High-latitude rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:Mesosphere
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:Stratosphere
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:Thermosphere
+                                 ] ;
+                 rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                 rdfs:label "High-Latitude" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#InnerMagnetosphere
+gf:InnerMagnetosphere rdf:type owl:Class ;
+                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                        owl:onProperty skos:broader ;
+                                        owl:someValuesFrom gf:Magnetosphere
+                                      ] ;
+                      rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                      rdfs:label "Inner Magnetosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#InnerRadiationBelt
+gf:InnerRadiationBelt rdf:type owl:Class ;
+                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                        owl:onProperty skos:broader ;
+                                        owl:someValuesFrom gf:InnerMagnetosphere
+                                      ] ;
+                      rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                      rdfs:label "Inner Radiation Belt" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#InterplanetarySpace
+gf:InterplanetarySpace rdf:type owl:Class ;
+                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty skos:broader ;
+                                         owl:someValuesFrom gf:Heliosphere
+                                       ] ;
+                       rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                       rdfs:label "Interplanetary space" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f rdf:type owl:Class ;
+                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty skos:broader ;
+                                                                     owl:someValuesFrom gf:UpperAtmosphere
+                                                                   ] ;
+                                                   rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                                                   rdfs:label "Ionosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Lobes
+gf:Lobes rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty skos:broader ;
+                           owl:someValuesFrom gf:Magnetosphere
+                         ] ;
+         rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+         rdfs:label "Lobes" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Low-latitude
+gf:Low-latitude rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:Mesosphere
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:Stratosphere
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:Thermosphere
+                                ] ;
+                rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                rdfs:label "Low-Latitude" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Low-latitudeequatorial
+gf:Low-latitudeequatorial rdf:type owl:Class ;
+                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                            owl:onProperty skos:broader ;
+                                            owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                                          ] ;
+                          rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                          rdfs:label "Low-Latitude/Equatorial" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Magnetopause_410cbd06-0622-4765-89b0-ff364c70318e
+gf:Magnetopause_410cbd06-0622-4765-89b0-ff364c70318e rdf:type owl:Class ;
+                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty skos:broader ;
+                                                                       owl:someValuesFrom gf:InterplanetarySpace
+                                                                     ] ,
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty skos:broader ;
+                                                                       owl:someValuesFrom gf:Magnetosphere
+                                                                     ] ;
+                                                     rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                                                     rdfs:label "Magnetopause" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Magnetosheath
+gf:Magnetosheath rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:InterplanetarySpace
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:Magnetosphere
+                                 ] ;
+                 rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                 rdfs:label "Magnetosheath" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Magnetosphere
+gf:Magnetosphere rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:Heliosphere
+                                 ] ;
+                 rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                 rdfs:label "Magnetosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Magnetotail
+gf:Magnetotail rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty skos:broader ;
+                                 owl:someValuesFrom gf:Magnetosphere
+                               ] ;
+               rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+               rdfs:label "Magnetotail" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Mesosphere
+gf:Mesosphere rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty skos:broader ;
+                                owl:someValuesFrom gf:GroundAndLowerAtmosphere
+                              ] ;
+              rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+              rdfs:label "Mesosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Mid-latitude
+gf:Mid-latitude rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                                ] ;
+                rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                rdfs:label "Mid-Latitude" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Mid-latitude_10b89c7c-d0ec-4e1f-abd2-81d604db68e2
+gf:Mid-latitude_10b89c7c-d0ec-4e1f-abd2-81d604db68e2 rdf:type owl:Class ;
+                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty skos:broader ;
+                                                                       owl:someValuesFrom gf:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09
+                                                                     ] ,
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty skos:broader ;
+                                                                       owl:someValuesFrom gf:Mesosphere
+                                                                     ] ,
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty skos:broader ;
+                                                                       owl:someValuesFrom gf:Stratosphere
+                                                                     ] ,
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty skos:broader ;
+                                                                       owl:someValuesFrom gf:Thermosphere
+                                                                     ] ;
+                                                     rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                                                     rdfs:label "Mid-Latitude" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#NearPlanetSpace
+gf:NearPlanetSpace rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty skos:broader ;
+                                     owl:someValuesFrom gf:Magnetosphere
+                                   ] ;
+                   rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                   rdfs:label "Near Planet Space?" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Nightside
+gf:Nightside rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty skos:broader ;
+                               owl:someValuesFrom gf:Magnetosphere
+                             ] ;
+             rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+             rdfs:label "Nightside" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#OuterRadiationBelt
+gf:OuterRadiationBelt rdf:type owl:Class ;
+                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                        owl:onProperty skos:broader ;
+                                        owl:someValuesFrom gf:InnerMagnetosphere
+                                      ] ;
+                      rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                      rdfs:label "Outer Radiation Belt" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Photosphere
+gf:Photosphere rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty skos:broader ;
+                                 owl:someValuesFrom gf:SolarAtmosphere
+                               ] ;
+               rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+               rdfs:label "Photosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Plasmasphere
+gf:Plasmasphere rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:InnerMagnetosphere
+                                ] ;
+                rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                rdfs:label "Plasmasphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#PolarCap
+gf:PolarCap rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty skos:broader ;
+                              owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                            ] ;
+            rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+            rdfs:label "Polar Cap" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#PolewardBoundary
+gf:PolewardBoundary rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty skos:broader ;
+                                      owl:someValuesFrom gf:AuroralRegion
+                                    ] ;
+                    rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                    rdfs:label "Poleward Boundary" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#SolarAtmosphere
+gf:SolarAtmosphere rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty skos:broader ;
+                                     owl:someValuesFrom gf:Heliosphere
+                                   ] ;
+                   rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                   rdfs:label "Solar Atmosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#SolarConvectiveZone
+gf:SolarConvectiveZone rdf:type owl:Class ;
+                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty skos:broader ;
+                                         owl:someValuesFrom gf:SolarInterior
+                                       ] ;
+                       rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                       rdfs:label "Solar Convective Zone" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#SolarInterior
+gf:SolarInterior rdf:type owl:Class ;
+                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                   owl:onProperty skos:broader ;
+                                   owl:someValuesFrom gf:SolarAtmosphere
+                                 ] ;
+                 rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                 rdfs:label "Solar Interior" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#SolarRadiativeZone
+gf:SolarRadiativeZone rdf:type owl:Class ;
+                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                        owl:onProperty skos:broader ;
+                                        owl:someValuesFrom gf:SolarInterior
+                                      ] ;
+                      rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                      rdfs:label "Solar Radiative Zone" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#SolarWind
+gf:SolarWind rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty skos:broader ;
+                               owl:someValuesFrom gf:InterplanetarySpace
+                             ] ;
+             rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+             rdfs:label "Solar Wind" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Stratosphere
+gf:Stratosphere rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:GroundAndLowerAtmosphere
+                                ] ;
+                rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                rdfs:label "Stratosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Subauroral
+gf:Subauroral rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty skos:broader ;
+                                owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                              ] ;
+              rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+              rdfs:label "Subauroral" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Substorm
+gf:Substorm rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty skos:broader ;
+                              owl:someValuesFrom gf:AuroralRegion
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty skos:broader ;
+                              owl:someValuesFrom gf:GeomagneticField
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty skos:broader ;
+                              owl:someValuesFrom gf:Ground
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty skos:broader ;
+                              owl:someValuesFrom gf:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+                            ] ;
+            rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+            rdfs:label "Substorm" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#Thermosphere
+gf:Thermosphere rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty skos:broader ;
+                                  owl:someValuesFrom gf:UpperAtmosphere
+                                ] ;
+                rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                rdfs:label "Thermosphere" .
+
+
+###  http://www.gra.fo/schema/untitled-ekg#UpperAtmosphere
+gf:UpperAtmosphere rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty skos:broader ;
+                                     owl:someValuesFrom gf:Magnetosphere
+                                   ] ;
+                   rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
+                   rdfs:label "Upper Atmosphere" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://www.gra.fo/schema/untitled-ekg> rdfs:comment "" ;
+                                        rdfs:label "heliodata_region_taxonomy" .
+
+
+###  Generated by the OWL API (version 5.1.17) https://github.com/owlcs/owlapi/
