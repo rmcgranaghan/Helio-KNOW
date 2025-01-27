@@ -9,17 +9,17 @@ The world is increasingly interconnected and complex. The information our world 
 
 Embrace a more natural structure for the data: a [knowledge graph (KG)](https://en.wikipedia.org/wiki/Knowledge_graph) in which the _relationships_ between data are explicit. The graph structure is more capable of holding the world's information better than a spreadsheet. It would be like trying to capture your own social circles in a spreadsheet: 
 
-![](/images/KnowledgeGraphExample.png)
+![](/data/images/KnowledgeGraphExample.png)
 
 KGs have altered the very foundation of many domains in the 21st century. Yet their potential has not yet been realized in many science and engineering disciplines, one of the most important to our human flourishing as a space-faring species is the space environment. What if we had a KG for the space environment and to study it's variation (i.e., Heliophysics)?
 
-![](/images/HeliophysicsLandscapeVisual.png)
+![](/data/images/HeliophysicsLandscapeVisual.png)
 
 Helio-KNOW is the effort to structure information about the space environment as a KG, better organizing the data for scientific discovery and better preparing humanity to understand space. 
 
 Helio-KNOW goes beyond simply the Heliophysics domain, growing the KG into a _Knowledge Network_, connecting to all domains: 
 
-![](/images/HeliophysicsKnowledgeNetwork.png)
+![](/data/images/HeliophysicsKnowledgeNetwork.png)
 
 
 ### Description
@@ -29,7 +29,7 @@ The Heliophysics KNOWledge Network (Helio-KNOW) is a new and possibly disruptive
 
 Helio-KNOW brings knowledge graph approaches to create new scientific discovery, focusing on magnetosphere-ionosphere coupling and creating the tools for which coupling phenomena and space weather risks can be studied. 
 
-![](/images/HelioKNOW_singleslide.png)
+![](/data/images/HelioKNOW_singleslide.png)
 
 
 
