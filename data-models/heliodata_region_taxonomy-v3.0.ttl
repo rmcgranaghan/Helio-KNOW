@@ -1,0 +1,744 @@
+# baseURI: https://www.thedatachefs.com/helioknow/region
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix hk: <https://www.thedatachefs.com/helioknow/> .
+@prefix hkr: <https://www.thedatachefs.com/helioknow/region/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+skos:broader
+  rdf:type owl:ObjectProperty ;
+  rdfs:isDefinedBy hk:region ;
+  rdfs:label "skos:broader" ;
+.
+hk:region
+  rdf:type owl:Ontology ;
+  <http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0000-8635-3314> ;
+  <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/deed.en> ;
+  rdfs:comment "v.3.0 - now with more SKOS!" ;
+  rdfs:label "Heliodata Region Taxonomy" ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+hkr:
+  rdf:type skos:ConceptScheme ;
+  skos:prefLabel "HeliKNOW Region Taxonomy" ;
+.
+hkr:AuroralOval
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:AuroralRegion ;
+  skos:prefLabel "Auroral Oval"@en ;
+.
+hkr:AuroralRegion
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "Auroral Region"@en ;
+.
+hkr:Bowshock
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:InterplanetarySpace ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Bowshock"@en ;
+.
+hkr:Chromosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:SolarAtmosphere ;
+  skos:prefLabel "Chromosphere"@en ;
+.
+hkr:Corona
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:SolarAtmosphere ;
+  skos:prefLabel "Corona"@en ;
+.
+hkr:CoronalMassEjection
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Chromosphere ;
+  skos:broader hkr:Corona ;
+  skos:broader hkr:Photosphere ;
+  skos:broader hkr:SolarWind ;
+  skos:prefLabel "Coronal Mass Ejection"@en ;
+.
+hkr:Cusp
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Cusp"@en ;
+.
+hkr:Cusp_535c685c-fbb4-42d3-8d26-7f5a44534c8a
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "Cusp"@en ;
+.
+hkr:DRegion
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "D Region"@en ;
+.
+hkr:Dayside
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Dayside"@en ;
+.
+hkr:ERegion
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "E Region"@en ;
+.
+hkr:EquatorwardBoundary
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:AuroralRegion ;
+  skos:prefLabel "Equatorward Boundary"@en ;
+.
+hkr:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:NearPlanetSpace ;
+  skos:prefLabel "Exosphere"@en ;
+.
+hkr:FRegion
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "F Region"@en ;
+.
+hkr:Flare
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Chromosphere ;
+  skos:broader hkr:Corona ;
+  skos:broader hkr:Photosphere ;
+  skos:broader hkr:SolarWind ;
+  skos:prefLabel "Flare"@en ;
+.
+hkr:GeomagneticField
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:GroundAndLowerAtmosphere ;
+  skos:prefLabel "Geomagnetic Field"@en ;
+.
+hkr:GeomagneticStorm
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:GeomagneticField ;
+  skos:broader hkr:Ground ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:broader hkr:NearPlanetSpace ;
+  skos:broader hkr:Thermosphere ;
+  skos:prefLabel "Geomagnetic Storm"@en ;
+.
+hkr:Ground
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:GroundAndLowerAtmosphere ;
+  skos:prefLabel "Ground"@en ;
+.
+hkr:GroundAndLowerAtmosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Ground and Lower Atmosphere"@en ;
+.
+hkr:Heliosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:prefLabel "Heliosphere"@en ;
+.
+hkr:High-latitude
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09 ;
+  skos:broader hkr:Mesosphere ;
+  skos:broader hkr:Stratosphere ;
+  skos:broader hkr:Thermosphere ;
+  skos:prefLabel "High-Latitude"@en ;
+.
+hkr:InnerMagnetosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Inner Magnetosphere"@en ;
+.
+hkr:InnerRadiationBelt
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:InnerMagnetosphere ;
+  skos:prefLabel "Inner Radiation Belt"@en ;
+.
+hkr:InterplanetarySpace
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Heliosphere ;
+  skos:prefLabel "Interplanetary space"@en ;
+.
+hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:UpperAtmosphere ;
+  skos:prefLabel "Ionosphere"@en ;
+.
+hkr:Lobes
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Lobes"@en ;
+.
+hkr:Low-latitude
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09 ;
+  skos:broader hkr:Mesosphere ;
+  skos:broader hkr:Stratosphere ;
+  skos:broader hkr:Thermosphere ;
+  skos:prefLabel "Low-Latitude"@en ;
+.
+hkr:Low-latitudeequatorial
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "Low-Latitude/Equatorial"@en ;
+.
+hkr:Magnetopause_410cbd06-0622-4765-89b0-ff364c70318e
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:InterplanetarySpace ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Magnetopause"@en ;
+.
+hkr:Magnetosheath
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:InterplanetarySpace ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Magnetosheath"@en ;
+.
+hkr:Magnetosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Heliosphere ;
+  skos:prefLabel "Magnetosphere"@en ;
+.
+hkr:Magnetotail
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Magnetotail"@en ;
+.
+hkr:Mesosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:GroundAndLowerAtmosphere ;
+  skos:prefLabel "Mesosphere"@en ;
+.
+hkr:Mid-latitude
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "Mid-Latitude"@en ;
+.
+hkr:Mid-latitude_10b89c7c-d0ec-4e1f-abd2-81d604db68e2
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09 ;
+  skos:broader hkr:Mesosphere ;
+  skos:broader hkr:Stratosphere ;
+  skos:broader hkr:Thermosphere ;
+  skos:prefLabel "Mid-Latitude"@en ;
+.
+hkr:NearPlanetSpace
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Near Planet Space?"@en ;
+.
+hkr:Nightside
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Nightside"@en ;
+.
+hkr:OuterRadiationBelt
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:InnerMagnetosphere ;
+  skos:prefLabel "Outer Radiation Belt"@en ;
+.
+hkr:Photosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:SolarAtmosphere ;
+  skos:prefLabel "Photosphere"@en ;
+.
+hkr:Plasmasphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:InnerMagnetosphere ;
+  skos:prefLabel "Plasmasphere"@en ;
+.
+hkr:PolarCap
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "Polar Cap"@en ;
+.
+hkr:PolewardBoundary
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:AuroralRegion ;
+  skos:prefLabel "Poleward Boundary"@en ;
+.
+hkr:SolarAtmosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Heliosphere ;
+  skos:prefLabel "Solar Atmosphere"@en ;
+.
+hkr:SolarConvectiveZone
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:SolarInterior ;
+  skos:prefLabel "Solar Convective Zone"@en ;
+.
+hkr:SolarInterior
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:SolarAtmosphere ;
+  skos:prefLabel "Solar Interior"@en ;
+.
+hkr:SolarRadiativeZone
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:SolarInterior ;
+  skos:prefLabel "Solar Radiative Zone"@en ;
+.
+hkr:SolarWind
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:InterplanetarySpace ;
+  skos:prefLabel "Solar Wind"@en ;
+.
+hkr:Stratosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:GroundAndLowerAtmosphere ;
+  skos:prefLabel "Stratosphere"@en ;
+.
+hkr:Subauroral
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "Subauroral"@en ;
+.
+hkr:Substorm
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:AuroralRegion ;
+  skos:broader hkr:GeomagneticField ;
+  skos:broader hkr:Ground ;
+  skos:broader hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+  skos:prefLabel "Substorm"@en ;
+.
+hkr:Thermosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:UpperAtmosphere ;
+  skos:prefLabel "Thermosphere"@en ;
+.
+hkr:UpperAtmosphere
+  rdf:type skos:Concept ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Magnetosphere ;
+  skos:prefLabel "Upper Atmosphere"@en ;
+.
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:AuroralRegion ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:AuroralRegion ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:AuroralRegion ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:AuroralRegion ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Chromosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Chromosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Corona ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Corona ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09 ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09 ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Exosphere_5c71061b-a70f-49a0-82cd-773458955a09 ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:GeomagneticField ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:GeomagneticField ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ground ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ground ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:GroundAndLowerAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:GroundAndLowerAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:GroundAndLowerAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:GroundAndLowerAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Heliosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Heliosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Heliosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:InnerMagnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:InnerMagnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:InnerMagnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:InterplanetarySpace ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:InterplanetarySpace ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:InterplanetarySpace ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:InterplanetarySpace ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Ionosphere_6487389e-e583-408e-be6a-039da74f026f ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Magnetosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Mesosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Mesosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Mesosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:NearPlanetSpace ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:NearPlanetSpace ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Photosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Photosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarInterior ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarInterior ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarWind ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:SolarWind ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Stratosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Stratosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Stratosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Thermosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Thermosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Thermosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:Thermosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:UpperAtmosphere ;
+].
+[
+  rdf:type owl:Restriction ;
+  owl:onProperty skos:broader ;
+  owl:someValuesFrom hkr:UpperAtmosphere ;
+].
