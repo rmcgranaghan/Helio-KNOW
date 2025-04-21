@@ -44,7 +44,7 @@ hkr:AuroralRegion
   skos:prefLabel "Auroral Region"@en ;
 .
 hkr:Bowshock
-  rdf:type hk:Phenomenon ;
+  rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
   skos:broader hkr:InterplanetarySpace ;
   skos:broader hkr:Magnetosphere ;
@@ -319,7 +319,7 @@ hkr:SolarRadiativeZone
   skos:prefLabel "Solar Radiative Zone"@en ;
 .
 hkr:SolarWind
-  rdf:type hk:Phenomenon ;
+  rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
   skos:broader hkr:InterplanetarySpace ;
   skos:prefLabel "Solar Wind"@en ;
