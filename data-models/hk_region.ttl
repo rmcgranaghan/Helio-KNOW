@@ -64,15 +64,21 @@ hk:occursIn
 hk:region
   rdf:type owl:Ontology ;
   <http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0000-8635-3314> ;
-  <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/deed.en> ;
+  <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> ;
   rdfs:comment "more regions" ;
   rdfs:label "Heliodata Region Taxonomy" ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
-  owl:versionInfo "v.3.2" ;
+  owl:versionInfo "v.3.2 - incorporated addl feedback from Ryan" ;
 .
 hkr:
   rdf:type skos:ConceptScheme ;
   skos:prefLabel "HeliKNOW Region Taxonomy" ;
+.
+hkr:Atmosphere
+  rdf:type hk:Region ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:UnmagnetizedBodies ;
+  skos:prefLabel "Atmosphere"@en ;
 .
 hkr:AuroralElectrojet
   rdf:type hk:Phenomenon ;
@@ -95,13 +101,13 @@ hkr:AuroralRegion
   skos:prefLabel "Auroral Region"@en ;
 .
 hkr:Bowshock
-  rdf:type hk:Phenomenon ;
+  rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
+  rdfs:seeAlso hkr:SolarWindShock ;
+  skos:broader hkr:Magnetosphere ;
+  skos:editorialNote "AS: not to be confused with hkr:SolarWindShock which might also be referred to as \"Bow shock\"" ;
   skos:prefLabel "Bowshock"@en ;
-  hk:describedBy hk:InterplanetaryPhysics ;
   hk:describedBy hk:MagnetosphericPhysics ;
-  hk:occursIn hkr:InterplanetarySpace ;
-  hk:occursIn hkr:Magnetosphere ;
 .
 hkr:Burst
   rdf:type hk:Phenomenon ;
@@ -127,11 +133,11 @@ hkr:CoronalMassEjection
   rdfs:isDefinedBy hk:region ;
   skos:broader hkr:Burst ;
   skos:prefLabel "Coronal Mass Ejection"@en ;
+  skos:related hkr:SolarWind ;
   hk:describedBy hk:InterplanetaryPhysics ;
   hk:occursIn hkr:Chromosphere ;
   hk:occursIn hkr:Corona ;
   hk:occursIn hkr:Photosphere ;
-  hk:occursIn hkr:SolarWind ;
 .
 hkr:CurrentSystem
   rdf:type hk:Phenomenon ;
@@ -172,6 +178,12 @@ hkr:DipoleStandoff
   rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
   skos:broader hkr:InnerMagnetosphere ;
+  skos:editorialNote """Alex Shifrin
+May 8th at 5:47 PM
+Is Dipole Standoff a Region, or just a characteristic of the Magnetopause Region?
+Ryan McGranaghan
+May 9th at 4:32 PM
+Interesting. It is a bit of a gray area. It is the distance from a planet's center to where the planet's magnetic field (often modeled as a dipole) balances the pressure of the solar wind. Seem more like a property, but we don't model properties in this taxonomy""" ;
   skos:prefLabel "Dipole Standoff"@en ;
 .
 hkr:ERegion
@@ -197,7 +209,9 @@ hkr:EquatorwardBoundary
 hkr:Exosphere
   rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Atmosphere ;
   skos:broader hkr:NearPlanetSpace ;
+  skos:broader hkr:UnmagnetizedBodies ;
   skos:prefLabel "Exosphere"@en ;
   hk:describedBy hk:AtmosphericPhysics ;
 .
@@ -212,6 +226,7 @@ hkr:Flare
   rdfs:isDefinedBy hk:region ;
   skos:broader hkr:Burst ;
   skos:prefLabel "Flare"@en ;
+  skos:related hkr:SolarWind ;
   hk:describedBy hk:InterplanetaryPhysics ;
   hk:occursIn hkr:Chromosphere ;
   hk:occursIn hkr:Corona ;
@@ -288,6 +303,13 @@ hkr:High-latitude
   skos:broader hkr:Thermosphere ;
   skos:prefLabel "High-Latitude"@en ;
 .
+hkr:InducedMagneticFields
+  rdf:type hk:Phenomenon ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:SurfaceInteractions ;
+  skos:prefLabel "Induced Magnetic Fields"@en ;
+  hk:occursIn hkr:UnmagnetizedBodies ;
+.
 hkr:InnerMagnetosphere
   rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
@@ -310,6 +332,7 @@ hkr:InterplanetarySpace
 hkr:Ionosphere
   rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:UnmagnetizedBodies ;
   skos:broader hkr:UpperAtmosphere ;
   skos:prefLabel "Ionosphere"@en ;
   hk:describedBy hk:IonosphericPhysics ;
@@ -346,7 +369,7 @@ hkr:Magnetopause
 hkr:MagnetopauseCurrent
   rdf:type hk:Phenomenon ;
   rdfs:isDefinedBy hk:region ;
-  skos:broader hkr:Bowshock ;
+  skos:broader hkr:SolarWindShock ;
   skos:prefLabel "Magnetopause Current"@en ;
   hk:describedBy hk:MagnetosphericPhysics ;
   hk:occursIn hkr:Magnetopause ;
@@ -406,7 +429,7 @@ hkr:Mid-latitude
 hkr:NearEarthReconnection
   rdf:type hk:Phenomenon ;
   rdfs:isDefinedBy hk:region ;
-  skos:broader hkr:Bowshock ;
+  skos:broader hkr:SolarWindShock ;
   skos:prefLabel "Near-Earth Reconnection"@en ;
   hk:describedBy hk:MagnetosphericPhysics ;
   hk:occursIn hkr:Magnetotail ;
@@ -485,7 +508,7 @@ hkr:Region1
 hkr:Region1Current
   rdf:type hk:Phenomenon ;
   rdfs:isDefinedBy hk:region ;
-  skos:broader hkr:Bowshock ;
+  skos:broader hkr:SolarWindShock ;
   skos:prefLabel "Region 1 Current"@en ;
   hk:describedBy hk:MagnetosphericPhysics ;
   hk:occursIn hkr:Region1 ;
@@ -550,6 +573,14 @@ hkr:SolarWind
   hk:describedBy hk:InterplanetaryPhysics ;
   hk:occursIn hkr:InterplanetarySpace ;
 .
+hkr:SolarWindShock
+  rdf:type hk:Phenomenon ;
+  rdfs:isDefinedBy hk:region ;
+  skos:altLabel "Bow shock"@en ;
+  skos:prefLabel "Solar Wind Shock"@en ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn hkr:InterplanetarySpace ;
+.
 hkr:SpaceWeather
   rdf:type hk:Phenomenon ;
   rdfs:isDefinedBy hk:region ;
@@ -587,6 +618,12 @@ hkr:SubstormCurrentWedge
   hk:describedBy hk:IonosphericPhysics ;
   hk:occursIn hkr:Ionosphere ;
 .
+hkr:SurfaceInteractions
+  rdf:type hk:Phenomenon ;
+  rdfs:isDefinedBy hk:region ;
+  skos:prefLabel "Tail Reconnection"@en ;
+  hk:occursIn hkr:Exosphere ;
+.
 hkr:SymmetricRingCurrent
   rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
@@ -596,7 +633,7 @@ hkr:SymmetricRingCurrent
 hkr:TailReconnection
   rdf:type hk:Phenomenon ;
   rdfs:isDefinedBy hk:region ;
-  skos:broader hkr:Bowshock ;
+  skos:broader hkr:SolarWindShock ;
   skos:prefLabel "Tail Reconnection"@en ;
   hk:describedBy hk:MagnetosphericPhysics ;
   hk:occursIn hkr:Magnetotail ;
@@ -615,11 +652,23 @@ hkr:Thermosphere
   skos:prefLabel "Thermosphere"@en ;
   hk:describedBy hk:AtmosphericPhysics ;
 .
+hkr:UnmagnetizedBodies
+  rdf:type hk:Region ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:Heliosphere ;
+  skos:prefLabel "Unmagnetized Bodies"@en ;
+.
 hkr:UpperAtmosphere
   rdf:type hk:Region ;
   rdfs:isDefinedBy hk:region ;
   skos:broader hkr:Magnetosphere ;
   skos:prefLabel "Upper Atmosphere"@en ;
+.
+hkr:Wake
+  rdf:type hk:Region ;
+  rdfs:isDefinedBy hk:region ;
+  skos:broader hkr:UnmagnetizedBodies ;
+  skos:prefLabel "Wake"@en ;
 .
 hkr:WarmPlasmaCloak
   rdf:type hk:Region ;
