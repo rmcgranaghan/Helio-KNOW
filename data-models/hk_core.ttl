@@ -13,35 +13,57 @@
 @prefix soph: <http://sweetontology.net/phen/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-
+<http://sweetontology.net/propEnergyFlux/SolarRadiation>
+  skos:narrower hk:SolarEUV ;
+  skos:narrower hk:SolarXray ;
+.
+<http://sweetontology.net/statePhysical/Plasma>
+  skos:narrower hk:SolarWindPlasma ;
+.
+hk:
+  rdf:type skos:ConceptScheme ;
+  skos:hasTopConcept hk:SpacePhysics ;
+  skos:hasTopConcept hk:SpacePhysicsEquation ;
+  skos:hasTopConcept hk:SpacePhysicsPhenomenon ;
+  skos:hasTopConcept hk:SpacePhysicsProperty ;
+  skos:prefLabel "HeliKNOW Ontology"@en ;
+.
 hk:AmperesLaw
   rdf:type hk:Equation ;
   skos:broader hk:MaxwellsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ampere's Law"@en ;
   hk:LaTeX "&\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t}" ;
 .
 hk:AtomicNitrogen
   rdf:type hk:Substance ;
   skos:altLabel "N"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Nitrogen"@en ;
 .
 hk:AtomicNitrogenIon
   rdf:type hk:Substance ;
   skos:altLabel "N+"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Nitrogen Ion"@en ;
 .
 hk:AtomicOxygen
   rdf:type hk:Substance ;
   skos:altLabel "O"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen"@en ;
 .
 hk:AtomicOxygenIon
   rdf:type hk:Substance ;
   skos:altLabel "O+"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion"@en ;
 .
 hk:B-field
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
+  skos:narrower hk:InterplanetaryMagneticField ;
   skos:prefLabel "B-field"@en ;
   hk:calculatedBy hk:MaxwellsEquation ;
   hk:influences hk:E-field ;
@@ -50,6 +72,7 @@ hk:B-field
 hk:BroadbandAurora
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Broadband Aurora"@en ;
 .
 hk:Category
@@ -59,6 +82,26 @@ hk:Category
 .
 hk:CollisionFrequency
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
+  skos:narrower hk:NOPlus-N2CollisionFrequency ;
+  skos:narrower hk:NOPlus-N2CollisionFrequencyEquation ;
+  skos:narrower hk:NOPlus-O2CollisionFrequency ;
+  skos:narrower hk:NOPlus-O2CollisionFrequencyEquation ;
+  skos:narrower hk:NOPlus-OCollisionFrequency ;
+  skos:narrower hk:NOPlus-OCollisionFrequencyEquation ;
+  skos:narrower hk:O2Plus-N2CollisionFrequency ;
+  skos:narrower hk:O2Plus-N2CollisionFrequencyEquation ;
+  skos:narrower hk:O2Plus-O2CollisionFrequency ;
+  skos:narrower hk:O2Plus-O2CollisionFrequencyEquation ;
+  skos:narrower hk:O2Plus-OCollisionFrequency ;
+  skos:narrower hk:O2Plus-OCollisionFrequencyEquation ;
+  skos:narrower hk:OPlus-N2CollisionFrequency ;
+  skos:narrower hk:OPlus-N2CollisionFrequencyEquation ;
+  skos:narrower hk:OPlus-O2CollisionFrequency ;
+  skos:narrower hk:OPlus-O2CollisionFrequencyEquation ;
+  skos:narrower hk:OPlus-OCollisionFrequency ;
+  skos:narrower hk:OPlus-OCollisionFrequencyEquation ;
   skos:prefLabel "Collision Frequency"@en ;
 .
 hk:Concept
@@ -68,6 +111,11 @@ hk:Concept
 .
 hk:ConductivityEquation
   rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hk: ;
+  skos:narrower hk:HallConductivityEquation ;
+  skos:narrower hk:ParallelConductivityEquation ;
+  skos:narrower hk:PedersenConductivityEquation ;
   skos:prefLabel "Conductivity Equation"@en ;
   hk:LaTeX """Parallel Conductivity: \\sigma_{\\parallel} = \\frac{n_e e^2}{m_e \\nu_e}
 \\\\Hall Conductivity: \\sigma_H = \\sigma_{\\parallel} \\frac{(1 + \\kappa)\\nu_e^2}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}
@@ -93,15 +141,23 @@ hk:CoolingAgent
 hk:Cusp
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ionization Feature"@en ;
 .
 hk:DiffuseAurora
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Diffuse Aurora"@en ;
+.
+hk:Discipline
+  rdf:type owl:Class ;
+  rdfs:subClassOf hk:Concept ;
 .
 hk:E-field
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "E-field"@en ;
   hk:calculatedBy hk:MaxwellsEquation ;
   hk:increases hk:JouleHeating ;
@@ -109,6 +165,7 @@ hk:E-field
 .
 hk:ElectromagneticMutuality
   rdf:type hk:Influence ;
+  skos:inScheme hk: ;
   skos:prefLabel "Electromagnetic Mutuality"@en ;
   hk:hasInfluenced hk:B-field ;
   hk:hasInfluenced hk:E-field ;
@@ -124,18 +181,21 @@ hk:Equation
 hk:FaradaysLaw
   rdf:type hk:Equation ;
   skos:broader hk:MaxwellsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Faraday's Law"@en ;
   hk:LaTeX "&\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}" ;
 .
 hk:GaussLaw
   rdf:type hk:Equation ;
   skos:broader hk:MaxwellsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Gauss' Law"@en ;
   hk:LaTeX "&\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0}" ;
 .
 hk:GaussLawForMagnetism
   rdf:type hk:Equation ;
   skos:broader hk:MaxwellsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Gauss' Law for Magnetism"@en ;
   hk:LaTeX "&\\nabla \\cdot \\mathbf{B} = 0" ;
 .
@@ -143,12 +203,14 @@ hk:HallConductivity
   rdf:type <http://sweetontology.net/propConductivity/HallConductivity> ;
   rdf:type hk:Property ;
   skos:broader hk:IonosphericConductivity ;
+  skos:inScheme hk: ;
   skos:prefLabel "Hall Conductivity"@en ;
   hk:calculatedBy hk:HallConductivityEquation ;
 .
 hk:HallConductivityEquation
   rdf:type hk:Equation ;
   skos:broader hk:ConductivityEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Hall Conductivity Equation"@en ;
   hk:LaTeX "\\sigma_H = \\sigma_{\\parallel} \\frac{(1 + \\kappa)\\nu_e^2}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}" ;
 .
@@ -160,19 +222,24 @@ hk:Influence
 hk:InterplanetaryMagneticField
   rdf:type hk:Phenomenon ;
   skos:broader hk:B-field ;
+  skos:inScheme hk: ;
   skos:prefLabel "Interplanetary Magnetic Field"@en ;
   hk:principal "true"^^xsd:boolean ;
 .
 hk:IonDrag
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
   skos:definition """ion density *I-N collision frequency 
 (ionospheric velocity - thermospheric winds)""" ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ion Drag"@en ;
   hk:calculatedBy hk:IonDragEquation ;
   hk:determines hk:MomentumTransfer ;
 .
 hk:IonDragEquation
   rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ion Drag Equation"@en ;
   hk:LaTeX """Parallel Conductivity: \\sigma_{\\parallel} = \\frac{n_e e^2}{m_e \\nu_e}
 \\\\Hall Conductivity: \\sigma_H = \\sigma_{\\parallel} \\frac{(1 + \\kappa)\\nu_e^2}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}
@@ -192,12 +259,15 @@ hk:IonDragEquation
 .
 hk:IonNeutralCollision
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ion-Neutral Collision"@en ;
   hk:characterizedBy hk:CollisionFrequency ;
   hk:drives hk:MomentumTransfer ;
 .
 hk:IonOutflow
   rdf:type hk:PrincipalPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ion Outflow"@en ;
   hk:decreases hk:Ionization ;
   hk:drives hk:MagnetosphericMassWeighting ;
@@ -206,6 +276,10 @@ hk:IonOutflow
 .
 hk:Ionization
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
+  skos:narrower hk:PrimaryIonization ;
+  skos:narrower hk:SecondaryIonization ;
   skos:prefLabel "Ionization"@en ;
   hk:increases hk:IonosphericConductivity ;
   hk:increases hk:IonosphericDensity ;
@@ -214,16 +288,43 @@ hk:Ionization
 .
 hk:IonizationFeature
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
+  skos:narrower hk:BroadbandAurora ;
+  skos:narrower hk:Cusp ;
+  skos:narrower hk:DiffuseAurora ;
+  skos:narrower hk:MonoenergeticAurora ;
+  skos:narrower hk:Morning-SideArc ;
+  skos:narrower hk:PBI ;
+  skos:narrower hk:PMAF ;
+  skos:narrower hk:PolarCapArc ;
+  skos:narrower hk:PolarCapPatch ;
+  skos:narrower hk:ProtonAurora ;
+  skos:narrower hk:PulsatingAurora ;
+  skos:narrower hk:QuietArk ;
+  skos:narrower hk:SAID ;
+  skos:narrower hk:SAPS ;
+  skos:narrower hk:SED ;
+  skos:narrower hk:STEVE ;
+  skos:narrower hk:Streamer ;
+  skos:narrower hk:ThroatAurora ;
+  skos:narrower hk:TongueOfIonization ;
   skos:prefLabel "Ionization Feature"@en ;
 .
 hk:Ionosphere
   rdf:type hk:Region ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ionosphere"@en ;
   hk:hasState hk:IonosphericState ;
 .
 hk:IonosphericConductivity
   rdf:type <http://sweetontology.net/propConductivity/Conductivity> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
+  skos:narrower hk:HallConductivity ;
+  skos:narrower hk:ParallelConductivity ;
+  skos:narrower hk:PedersenConductivity ;
   skos:prefLabel "Ionospheric Conductivity"@en ;
   hk:calculatedBy hk:ConductivityEquation ;
   hk:increases hk:JouleHeating ;
@@ -231,22 +332,29 @@ hk:IonosphericConductivity
 hk:IonosphericDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
+  skos:narrower hk:IonosphericElectronDensity ;
+  skos:narrower hk:IonosphericIonDensity ;
   skos:prefLabel "Ionospheric Density"@en ;
 .
 hk:IonosphericElectronDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
   rdf:type hk:Property ;
   skos:broader hk:IonosphericDensity ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ionospheric Electron Density"@en ;
 .
 hk:IonosphericIonDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
   rdf:type hk:Property ;
   skos:broader hk:IonosphericDensity ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ionospheric Ion Density"@en ;
 .
 hk:IonosphericState
   rdf:type hk:State ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ionospheric State"@en ;
   hk:characterizedBy hk:B-field ;
   hk:characterizedBy hk:E-field ;
@@ -258,6 +366,8 @@ hk:IonosphericState
 hk:IonosphericTemperature
   rdf:type <http://sweetontology.net/propTemperature> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ionospheric Temperature"@en ;
   hk:decreases hk:Recombination ;
   hk:increases hk:Ionization ;
@@ -266,12 +376,16 @@ hk:IonosphericTemperature
 hk:IonosphericVelocity
   rdf:type <http://sweetontology.net/propSpeed/IonVelocity> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ionospheric Velocity (horizontal)"@en ;
   hk:calculatedBy hk:Ohms_Law ;
   hk:increases hk:IonDrag ;
 .
 hk:JouleHeating
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Joule Heating"@en ;
   hk:calculatedBy hk:JouleHeatingEquation ;
   hk:increases hk:IonosphericTemperature ;
@@ -279,11 +393,13 @@ hk:JouleHeating
 .
 hk:JouleHeatingEquation
   rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Joule Heating Equation"@en ;
   hk:LaTeX """J_{heating} = \\mathbf{J} \\cdot \\mathbf{E}
 
 E: Electric field (V/m)
-J: Current density (A/m²) - in our model this is 'ionospheric velocity'""" ;
+J: Current density (A/mÂ²) - in our model this is 'ionospheric velocity'""" ;
 .
 hk:LaTeX
   rdf:type owl:DatatypeProperty ;
@@ -294,15 +410,19 @@ hk:LaTeX
 .
 hk:Magnetosphere
   rdf:type hk:Region ;
+  skos:inScheme hk: ;
   skos:prefLabel "Magnetosphere"@en ;
   hk:hasState hk:MagnetosphericState ;
 .
 hk:MagnetosphericMassWeighting
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Magnetospheric Mass Weighting"@en ;
 .
 hk:MagnetosphericState
   rdf:type hk:State ;
+  skos:inScheme hk: ;
   skos:prefLabel "Magnetospheric State"@en ;
   hk:characterizedBy hk:B-field ;
   hk:characterizedBy hk:E-field ;
@@ -311,48 +431,63 @@ hk:MagnetosphericState
 .
 hk:MaxwellsEquation
   rdf:type hk:Equation ;
-  <http://schema.org/mathExpression> "&\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0} &&\\text{(Gauss's Law for Electricity)} \\\\ &\\nabla \\cdot \\mathbf{B} = 0 &&\\text{(Gauss's Law for Magnetism)} \\\\ &\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t} &&\\text{(Faraday's Law of Induction)} \\\\ &\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t} &&\\text{(Ampère-Maxwell Law)}" ;
+  <http://schema.org/mathExpression> "&\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0} &&\\text{(Gauss's Law for Electricity)} \\\\ &\\nabla \\cdot \\mathbf{B} = 0 &&\\text{(Gauss's Law for Magnetism)} \\\\ &\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t} &&\\text{(Faraday's Law of Induction)} \\\\ &\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t} &&\\text{(AmpÃ¨re-Maxwell Law)}" ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hk: ;
+  skos:narrower hk:AmperesLaw ;
+  skos:narrower hk:FaradaysLaw ;
+  skos:narrower hk:GaussLaw ;
+  skos:narrower hk:GaussLawForMagnetism ;
   skos:prefLabel "Maxwell's Equation"@en ;
 .
 hk:MolecularNitrogen
   rdf:type hk:Substance ;
   skos:altLabel "N2"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Nitrogen"@en ;
 .
 hk:MolecularNitrogenIon
   rdf:type hk:Substance ;
   skos:altLabel "N2+"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Nitrogen Ion"@en ;
 .
 hk:MolecularOxygen
   rdf:type hk:Substance ;
   skos:altLabel "O2"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen"@en ;
 .
 hk:MolecularOxygenIon
   rdf:type hk:Substance ;
   skos:altLabel "O2+"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen Ion"@en ;
 .
 hk:MomentumTransfer
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Momentum Transfer"@en ;
   hk:increases hk:IonOutflow ;
 .
 hk:MonoenergeticAurora
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Monoenergetic Aurora"@en ;
 .
 hk:Morning-SideArc
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Morning-side Arc"@en ;
 .
 hk:NOPlus-N2CollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "NO+ to N2 Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide Ion to Molecular Nitrogen Collision Frequency"@en ;
   hk:calculatedBy hk:NOPlus-N2CollisionFrequencyEquation ;
 .
@@ -360,6 +495,7 @@ hk:NOPlus-N2CollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "NO+ to N2 Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide to Molecular Nitrogen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{N_2}}\\nu_{NO^{+}-N_2} = 4.34 \\times 10^{-10}" ;
 .
@@ -367,6 +503,7 @@ hk:NOPlus-O2CollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "NO+ to O2 Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide Ion to Molecular Oxygen Collision Frequency"@en ;
   hk:calculatedBy hk:NOPlus-O2CollisionFrequencyEquation ;
 .
@@ -374,6 +511,7 @@ hk:NOPlus-O2CollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "NO+ to O2 Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide to Molecular Oxygen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{O_2}}\\nu_{NO^{+}-O_2} = 4.27 \\times 10^{-10}" ;
 .
@@ -381,6 +519,7 @@ hk:NOPlus-OCollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "NO+ to O2 Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide Ion to Atomic Oxygen Collision Frequency"@en ;
   hk:calculatedBy hk:NOPlus-OCollisionFrequencyEquation ;
 .
@@ -388,6 +527,7 @@ hk:NOPlus-OCollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "NO+ to O Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide to Atomic Oxygen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{O}}\\nu_{NO^{+}-O} = 2.44 \\times 10^{-10}" ;
 .
@@ -395,18 +535,21 @@ hk:NitricOxide
   rdf:type hk:CoolingAgent ;
   skos:altLabel "NO"@en ;
   skos:altLabel "Nitrogen Monoxide"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide"@en ;
   hk:decreases hk:ThermosphericTemperature ;
 .
 hk:NitricOxideIon
   rdf:type hk:Substance ;
   skos:altLabel "NO+"@en ;
+  skos:inScheme hk: ;
   skos:prefLabel "Nitric Oxide Ion"@en ;
 .
 hk:O2Plus-N2CollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "O2+ to N2 Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen Ion to Molecular Nitrogen Collision Frequency"@en ;
   hk:calculatedBy hk:O2Plus-O2CollisionFrequencyEquation ;
 .
@@ -414,6 +557,7 @@ hk:O2Plus-N2CollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "O2+ to N2 Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen Ion to Molecular Nitrogen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{N_2}}\\nu_{O_2^{+}-N_2} = 4.13 \\times 10^{-10}" ;
 .
@@ -421,6 +565,7 @@ hk:O2Plus-O2CollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "O2+ to O2 Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen Ion to Molecular Oxygen Collision Frequency"@en ;
   hk:calculatedBy hk:O2Plus-O2CollisionFrequencyEquation ;
 .
@@ -428,6 +573,7 @@ hk:O2Plus-O2CollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "O2+ to O2 Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen Ion to Molecular Oxygen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{O_2}}\\nu_{O_2^{+}-O_2} = 2.59 \\times 10^{-11}\\sqrt{\\tfrac{T_i + T_e}{2}}\\left[ 1 - 0.073log_{10}\\tfrac{T_i + T_e}{2} \\right]^2" ;
 .
@@ -435,6 +581,7 @@ hk:O2Plus-OCollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "O2+ to O Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen Ion to Atomic Oxygen Collision Frequency"@en ;
   hk:calculatedBy hk:O2Plus-O2CollisionFrequencyEquation ;
 .
@@ -442,11 +589,14 @@ hk:O2Plus-OCollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "O2+ to O Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Molecular Oxygen Ion to Atomic Oxygen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{O}}\\nu_{O_2^{+}-O} = 2.31 \\times 10^{-10}" ;
 .
 hk:ON2Ratio
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "O/N2 Ratio"@en ;
   hk:influences hk:Recombination ;
 .
@@ -454,6 +604,7 @@ hk:OPlus-N2CollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "O+ to N2 Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion to Molecular Nitrogen Collision Frequency"@en ;
   hk:calculatedBy hk:OPlus-N2CollisionFrequencyEquation ;
 .
@@ -461,6 +612,7 @@ hk:OPlus-N2CollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "O+ to N2 Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion to Molecular Nitrogen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{N_2}}\\nu_{O^{+}-N_2} = 6.82 \\times 10^{-10}" ;
 .
@@ -468,6 +620,7 @@ hk:OPlus-O2CollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "O+ to O2 Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion to Molecular Oxygen Collision Frequency"@en ;
   hk:calculatedBy hk:OPlus-O2CollisionFrequencyEquation ;
 .
@@ -475,6 +628,7 @@ hk:OPlus-O2CollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "O+ to O2 Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion to Molecular Oxygen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{O_2}}\\nu_{O^{+}-O_2} = 6.64 \\times 10^{-10}" ;
 .
@@ -482,6 +636,7 @@ hk:OPlus-OCollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "O+ to O Collision Frequency"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion to Atomic Oxygen Collision Frequency"@en ;
   hk:calculatedBy hk:OPlus-OCollisionFrequencyEquation ;
 .
@@ -489,41 +644,49 @@ hk:OPlus-OCollisionFrequencyEquation
   rdf:type hk:Equation ;
   skos:altLabel "O+ to O Collision Frequency Equation"@en ;
   skos:broader hk:CollisionFrequency ;
+  skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion to Atomic Oxygen Collision Frequency Equation"@en ;
   hk:LaTeX "\\tfrac{1}{N_{O}}\\nu_{O^{+}-O} = 3.67 \\times 10^{-11}\\sqrt{\\tfrac{T_i + T_e}{2}}\\left[ 1 - 0.064log_{10}\\tfrac{T_i + T_e}{2} \\right]^2 {f}_{ont}" ;
 .
 hk:Ohms_Law
   rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Ohm's Law"@en ;
   hk:LaTeX """\\mathbf{J} = \\sigma \\mathbf{E}
 \\\\E: Electric field (V/m)
-\\\\J: Current density (A/m²) - in our model this is 'ionospheric velocity'
-\\\\σ: Conductivity (S/m)""" ;
+\\\\J: Current density (A/mÂ²) - in our model this is 'ionospheric velocity'
+\\\\Ïƒ: Conductivity (S/m)""" ;
 .
 hk:PBI
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Poleward Boundary Intensification (PBI)"@en ;
 .
 hk:PMAF
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Poleward Moving Auroral Form (PMAF)"@en ;
 .
 hk:ParallelConductivity
   rdf:type hk:Property ;
   skos:broader hk:IonosphericConductivity ;
+  skos:inScheme hk: ;
   skos:prefLabel "Parallel Conductivity"@en ;
   hk:calculatedBy hk:ParallelConductivityEquation ;
 .
 hk:ParallelConductivityEquation
   rdf:type hk:Equation ;
   skos:broader hk:ConductivityEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Parallel Conductivity Equation"@en ;
   hk:LaTeX "\\sigma_{\\parallel} = \\frac{n_e e^2}{m_e \\nu_e}" ;
 .
 hk:ParticlePrecipitation
   rdf:type hk:PrincipalPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Particle Precipitation"@en ;
   hk:initiatedIn hk:Magnetosphere ;
   hk:principal "true"^^xsd:boolean ;
@@ -534,12 +697,14 @@ hk:PedersenConductivity
   rdf:type <http://sweetontology.net/propConductivity/PedersenConductivity> ;
   rdf:type hk:Property ;
   skos:broader hk:IonosphericConductivity ;
+  skos:inScheme hk: ;
   skos:prefLabel "Pedersen Conductivity"@en ;
   hk:calculatedBy hk:PedersenConductivityEquation ;
 .
 hk:PedersenConductivityEquation
   rdf:type hk:Equation ;
   skos:broader hk:ConductivityEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Pedersen Conductivity Equation"@en ;
   hk:LaTeX "\\sigma_P = \\sigma_{\\parallel} \\frac{\\omega_e \\nu_e}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}" ;
 .
@@ -552,26 +717,33 @@ hk:Phenomenon
 hk:PlasmaDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "Plasma Density"@en ;
 .
 hk:PlasmaVelocity
   rdf:type <http://sweetontology.net/propSpeed/IonVelocity> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "Plasma Velocity"@en ;
 .
 hk:PolarCapArc
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Polar Cap Arc"@en ;
 .
 hk:PolarCapPatch
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Polar Cap Patch"@en ;
 .
 hk:PoyntingFlux
   rdf:type hk:PrincipalPhenomenon ;
   skos:closeMatch <http://sweetontology.net/propEnergyFlux/PoyntingVector> ;
+  skos:inScheme hk: ;
   skos:prefLabel "Poynting Flux"@en ;
   hk:calculatedBy hk:PoyntingVector ;
   hk:increases hk:JouleHeating ;
@@ -579,12 +751,15 @@ hk:PoyntingFlux
 .
 hk:PoyntingVector
   rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Poynting Vector"@en ;
   hk:LaTeX "\\mathbf{S} = \\frac{1}{\\mu_0} \\mathbf{E} \\times \\mathbf{B}" ;
 .
 hk:PrimaryIonization
   rdf:type hk:Phenomenon ;
   skos:broader hk:Ionization ;
+  skos:inScheme hk: ;
   skos:prefLabel "Primary Ionization"@en ;
 .
 hk:PrincipalPhenomenon
@@ -605,20 +780,25 @@ hk:Property
 hk:ProtonAurora
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Proton Aurora"@en ;
 .
 hk:PulsatingAurora
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Pulsating Aurora"@en ;
 .
 hk:QuietArk
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Quiet Arc"@en ;
 .
 hk:Recombination
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Recombination"@en ;
   hk:decreases hk:IonosphericIonDensity ;
 .
@@ -635,39 +815,52 @@ hk:Relation
 hk:SAID
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Subauroral Ion Drift (SAID)"@en ;
 .
 hk:SAPS
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Subauroral Polarization Stream (SAPS)"@en ;
 .
 hk:SED
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Storm-Enhanced Density (SED)"@en ;
 .
 hk:STEVE
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Strong Thermal Emission Velocity Enhancement (STEVE )"@en ;
 .
 hk:SecondaryIonization
   rdf:type hk:Phenomenon ;
   skos:broader hk:Ionization ;
+  skos:inScheme hk: ;
   skos:prefLabel "Secondary Ionization"@en ;
 .
 hk:SolarEUV
   rdf:type hk:Phenomenon ;
   skos:altLabel "Solar Extreme Ultraviolet"@en ;
   skos:broader <http://sweetontology.net/propEnergyFlux/SolarRadiation> ;
+  skos:inScheme hk: ;
   skos:prefLabel "Solar EUV"@en ;
   skos:related <http://sweetontology.net/stateSpectralBand/EUV> ;
   hk:changes hk:IonosphericDensity ;
 .
+hk:SolarPhysics
+  rdf:type hk:Discipline ;
+  skos:broader hk:SpacePhysics ;
+  skos:inScheme hk: ;
+  skos:prefLabel "Solar Physics"@en ;
+.
 hk:SolarWindPlasma
   rdf:type hk:Phenomenon ;
   skos:broader <http://sweetontology.net/statePhysical/Plasma> ;
+  skos:inScheme hk: ;
   hk:characterizedBy hk:InterplanetaryMagneticField ;
   hk:characterizedBy hk:PlasmaDensity ;
   hk:characterizedBy hk:PlasmaVelocity ;
@@ -677,9 +870,64 @@ hk:SolarWindPlasma
 hk:SolarXray
   rdf:type hk:Phenomenon ;
   skos:broader <http://sweetontology.net/propEnergyFlux/SolarRadiation> ;
+  skos:inScheme hk: ;
   skos:prefLabel "Solar X-ray Radiation"@en ;
   skos:related <http://sweetontology.net/stateSpectralBand/EUV> ;
   hk:changes hk:IonosphericDensity ;
+.
+hk:SpacePhysics
+  rdf:type hk:Discipline ;
+  skos:inScheme hk: ;
+  skos:narrower hk:SolarPhysics ;
+  skos:prefLabel "Space Physics"@en ;
+  skos:topConceptOf hk: ;
+.
+hk:SpacePhysicsEquation
+  rdf:type hk:Equation ;
+  skos:inScheme hk: ;
+  skos:narrower hk:ConductivityEquation ;
+  skos:narrower hk:IonDragEquation ;
+  skos:narrower hk:JouleHeatingEquation ;
+  skos:narrower hk:MaxwellsEquation ;
+  skos:narrower hk:Ohms_Law ;
+  skos:narrower hk:PoyntingVector ;
+  skos:prefLabel "Space Physics Equation"@en ;
+  skos:topConceptOf hk: ;
+.
+hk:SpacePhysicsPhenomenon
+  rdf:type hk:Phenomenon ;
+  skos:inScheme hk: ;
+  skos:narrower hk:IonDrag ;
+  skos:narrower hk:IonNeutralCollision ;
+  skos:narrower hk:Ionization ;
+  skos:narrower hk:IonizationFeature ;
+  skos:narrower hk:JouleHeating ;
+  skos:narrower hk:MagnetosphericMassWeighting ;
+  skos:narrower hk:MomentumTransfer ;
+  skos:narrower hk:Recombination ;
+  skos:narrower hk:ThermosphericWind ;
+  skos:narrower hk:Wave-ParticleInteraction ;
+  skos:prefLabel "Space Physics Phenomenon"@en ;
+  skos:topConceptOf hk: ;
+.
+hk:SpacePhysicsProperty
+  rdf:type hk:Property ;
+  skos:inScheme hk: ;
+  skos:narrower hk:B-field ;
+  skos:narrower hk:CollisionFrequency ;
+  skos:narrower hk:E-field ;
+  skos:narrower hk:IonosphericConductivity ;
+  skos:narrower hk:IonosphericDensity ;
+  skos:narrower hk:IonosphericTemperature ;
+  skos:narrower hk:IonosphericVelocity ;
+  skos:narrower hk:ON2Ratio ;
+  skos:narrower hk:PlasmaDensity ;
+  skos:narrower hk:PlasmaVelocity ;
+  skos:narrower hk:ThermosphericComposition ;
+  skos:narrower hk:ThermosphericDensity ;
+  skos:narrower hk:ThermosphericTemperature ;
+  skos:prefLabel "Space Physics Property"@en ;
+  skos:topConceptOf hk: ;
 .
 hk:State
   rdf:type owl:Class ;
@@ -689,6 +937,7 @@ hk:State
 hk:Streamer
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Streamer"@en ;
 .
 hk:Substance
@@ -698,21 +947,27 @@ hk:Substance
 .
 hk:Thermosphere
   rdf:type hk:Region ;
+  skos:inScheme hk: ;
   skos:prefLabel "Thermosphere"@en ;
   hk:hasState hk:ThermosphericState ;
 .
 hk:ThermosphericComposition
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "Thermospheric Composition"@en ;
   hk:determines hk:ON2Ratio ;
 .
 hk:ThermosphericDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "Thermospheric Density"@en ;
 .
 hk:ThermosphericState
   rdf:type hk:State ;
+  skos:inScheme hk: ;
   skos:prefLabel "Thermospheric State"@en ;
   hk:characterizedBy hk:ThermosphericComposition ;
   hk:characterizedBy hk:ThermosphericDensity ;
@@ -722,26 +977,34 @@ hk:ThermosphericState
 hk:ThermosphericTemperature
   rdf:type <http://sweetontology.net/propTemperature> ;
   rdf:type hk:Property ;
+  skos:broader hk:SpacePhysicsProperty ;
+  skos:inScheme hk: ;
   skos:prefLabel "Thermospheric Temperature"@en ;
   hk:changes hk:CollisionFrequency ;
 .
 hk:ThermosphericWind
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Thermospheric Wind"@en ;
   hk:decreases hk:IonDrag ;
 .
 hk:ThroatAurora
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Throat Aurora"@en ;
 .
 hk:TongueOfIonization
   rdf:type hk:Phenomenon ;
   skos:broader hk:IonizationFeature ;
+  skos:inScheme hk: ;
   skos:prefLabel "Tongue Of Ionization"@en ;
 .
 hk:Wave-ParticleInteraction
   rdf:type hk:Phenomenon ;
+  skos:broader hk:SpacePhysicsPhenomenon ;
+  skos:inScheme hk: ;
   skos:prefLabel "Wave-Particle Interaction"@en ;
   hk:initiatedIn hk:Ionosphere ;
   hk:initiates hk:IonOutflow ;
