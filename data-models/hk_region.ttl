@@ -89,7 +89,7 @@ hkr:
   skos:hasTopConcept hk:SpacePhysics ;
   skos:hasTopConcept hkr:Heliosphere ;
   skos:hasTopConcept hkr:SpaceWeather ;
-  skos:prefLabel "HeliKNOW Region Taxonomy" ;
+  skos:prefLabel "HelioKNOW Region Taxonomy"@en ;
 .
 hkr:Atmosphere
   rdf:type hk:Region ;
@@ -574,7 +574,7 @@ hkr:NearPlanetSpace
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Exosphere ;
-  skos:prefLabel "Near Planet Space?"@en ;
+  skos:prefLabel "Near Planet Space"@en ;
 .
 hkr:Nightside
   rdf:type hk:Region ;
