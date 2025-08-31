@@ -1,0 +1,1024 @@
+# baseURI: https://www.helioknowledge.network/phenomenon
+# imports: https://www.helioknowledge.network/core
+# imports: https://www.helioknowledge.network/region
+
+@prefix hk: <https://www.helioknowledge.network/core/> .
+@prefix hkp: <https://www.helioknowledge.network/phenomenon/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sweetontology.net/propEnergyFlux/SolarRadiation>
+  skos:narrower hkp:SolarEUV ;
+  skos:narrower hkp:SolarXray ;
+.
+<http://sweetontology.net/statePhysical/Plasma>
+  skos:narrower hkp:SolarWindPlasma ;
+.
+hk:ElectromagneticMutuality
+  rdf:type hk:Influence ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Electromagnetic Mutuality"@en ;
+  hkp:hasInfluenced hkp:B-field ;
+  hkp:hasInfluenced hkp:E-field ;
+  hkp:hasInfluencer hkp:B-field ;
+  hkp:hasInfluencer hkp:E-field ;
+.
+hk:Influence
+  rdf:type owl:Class ;
+  rdfs:subClassOf hk:Relation ;
+  skos:prefLabel "Influence"@en ;
+.
+hk:IonosphericState
+  rdf:type hk:State ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ionospheric State"@en ;
+.
+hk:MagnetosphericState
+  rdf:type hk:State ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Magnetospheric State"@en ;
+.
+hk:PrincipalPhenomenon
+  rdf:type owl:Class ;
+  rdfs:subClassOf hk:Phenomenon ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:hasValue "true"^^xsd:boolean ;
+      owl:onProperty hkp:principal ;
+    ] ;
+  skos:prefLabel "Principal Phenomenon"@en ;
+.
+hk:SpacePhysicsEquation
+  skos:narrower hkp:ConductivityEquation ;
+  skos:narrower hkp:IonDragEquation ;
+  skos:narrower hkp:JouleHeatingEquation ;
+  skos:narrower hkp:MaxwellsEquation ;
+  skos:narrower hkp:Ohms_Law ;
+  skos:narrower hkp:PoyntingVector ;
+.
+hk:SpacePhysicsPhenomenon
+  skos:inScheme hkp: ;
+  skos:narrower hkp:IonDrag ;
+  skos:narrower hkp:IonNeutralCollision ;
+  skos:narrower hkp:Ionization ;
+  skos:narrower hkp:IonizationFeature ;
+  skos:narrower hkp:JouleHeating ;
+  skos:narrower hkp:MagnetosphericMassWeighting ;
+  skos:narrower hkp:MomentumTransfer ;
+  skos:narrower hkp:Recombination ;
+  skos:narrower hkp:ThermosphericWind ;
+  skos:narrower hkp:Wave-ParticleInteraction ;
+  skos:topConceptOf hkp: ;
+.
+hk:SpaceWeather
+  skos:inScheme hkp: ;
+  skos:narrower hkp:Burst ;
+  skos:narrower hkp:CurrentSystem ;
+  skos:narrower hkp:DaysideReconnection ;
+  skos:narrower hkp:FluxRope ;
+  skos:narrower hkp:Foreshock ;
+  skos:narrower hkp:Fountain ;
+  skos:narrower hkp:GeomagneticStorm ;
+  skos:narrower hkp:Sheath ;
+  skos:narrower hkp:SolarWind ;
+  skos:narrower hkp:SolarWindShock ;
+  skos:narrower hkp:Substorm ;
+  skos:narrower hkp:SurfaceInteractions ;
+  skos:narrower hkp:TerminationShock ;
+  skos:topConceptOf hkp: ;
+.
+hk:ThermosphericState
+  rdf:type hk:State ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Thermospheric State"@en ;
+.
+<https://www.helioknowledge.network/phenomenon>
+  rdf:type owl:Ontology ;
+  <http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0000-8635-3314> ;
+  <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  rdfs:label "HelioKNOW phenomenon ontology" ;
+  owl:imports <https://www.helioknowledge.network/core> ;
+  owl:imports <https://www.helioknowledge.network/region> ;
+  owl:versionInfo "pulled Phenomena out of core into a separate ontology" ;
+.
+hkp:
+  rdf:type skos:ConceptScheme ;
+  skos:prefLabel "HeliKNOW Phenomenon Ontology"@en ;
+.
+hkp:AmperesLaw
+  rdf:type hk:Equation ;
+  skos:broader hkp:MaxwellsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ampere's Law"@en ;
+.
+hkp:AuroralElectrojet
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:CurrentSystem ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Auroral Electrojet"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:B-field
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:InterplanetaryMagneticField ;
+  skos:prefLabel "B-field"@en ;
+  hkp:calculatedBy hkp:MaxwellsEquation ;
+  hkp:principal "true"^^xsd:boolean ;
+.
+hkp:BroadbandAurora
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Broadband Aurora"@en ;
+.
+hkp:Burst
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:CoronalMassEjection ;
+  skos:narrower hkp:Flare ;
+  skos:prefLabel "Burst"@en ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/InterplanetarySpace> ;
+.
+hkp:CollisionFrequency
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:NOPlus-N2CollisionFrequency ;
+  skos:narrower hkp:NOPlus-N2CollisionFrequencyEquation ;
+  skos:narrower hkp:NOPlus-O2CollisionFrequency ;
+  skos:narrower hkp:NOPlus-O2CollisionFrequencyEquation ;
+  skos:narrower hkp:NOPlus-OCollisionFrequency ;
+  skos:narrower hkp:NOPlus-OCollisionFrequencyEquation ;
+  skos:narrower hkp:O2Plus-N2CollisionFrequency ;
+  skos:narrower hkp:O2Plus-N2CollisionFrequencyEquation ;
+  skos:narrower hkp:O2Plus-O2CollisionFrequency ;
+  skos:narrower hkp:O2Plus-O2CollisionFrequencyEquation ;
+  skos:narrower hkp:O2Plus-OCollisionFrequency ;
+  skos:narrower hkp:O2Plus-OCollisionFrequencyEquation ;
+  skos:narrower hkp:OPlus-N2CollisionFrequency ;
+  skos:narrower hkp:OPlus-N2CollisionFrequencyEquation ;
+  skos:narrower hkp:OPlus-O2CollisionFrequency ;
+  skos:narrower hkp:OPlus-O2CollisionFrequencyEquation ;
+  skos:narrower hkp:OPlus-OCollisionFrequency ;
+  skos:narrower hkp:OPlus-OCollisionFrequencyEquation ;
+  skos:prefLabel "Collision Frequency"@en ;
+.
+hkp:ConductivityEquation
+  rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:HallConductivityEquation ;
+  skos:narrower hkp:ParallelConductivityEquation ;
+  skos:narrower hkp:PedersenConductivityEquation ;
+  skos:prefLabel "Conductivity Equation"@en ;
+.
+hkp:CoronalMassEjection
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:Burst ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Coronal Mass Ejection"@en ;
+  skos:related hkp:SolarWind ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Chromosphere> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Corona> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Photosphere> ;
+.
+hkp:CurrentSystem
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:AuroralElectrojet ;
+  skos:narrower hkp:EquatorialElectrojet ;
+  skos:narrower hkp:HallCurrent ;
+  skos:narrower hkp:PedersenCurrent ;
+  skos:narrower hkp:SolarQuietCurrent ;
+  skos:narrower hkp:SubstormCurrentWedge ;
+  skos:prefLabel "Current System"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:Cusp
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ionization Feature"@en ;
+.
+hkp:DaysideReconnection
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Dayside Reconnection"@en ;
+  hk:describedBy hk:MagnetosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Dayside> ;
+.
+hkp:DiffuseAurora
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Diffuse Aurora"@en ;
+.
+hkp:E-field
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "E-field"@en ;
+  hkp:calculatedBy hkp:MaxwellsEquation ;
+  hkp:principal "true"^^xsd:boolean ;
+.
+hkp:EquatorialElectrojet
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:CurrentSystem ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Equatorial Electrojet"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:FaradaysLaw
+  rdf:type hk:Equation ;
+  skos:broader hkp:MaxwellsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Faraday's Law"@en ;
+.
+hkp:Flare
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:Burst ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Flare"@en ;
+  skos:related hkp:SolarWind ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Chromosphere> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Corona> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Photosphere> ;
+.
+hkp:FluxRope
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Flux Rope"@en ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/InterplanetarySpace> ;
+.
+hkp:Foreshock
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Foreshock"@en ;
+  hk:occursIn <https://www.helioknowledge.network/region/Magnetosphere> ;
+.
+hkp:Fountain
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Fountain"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Low-latitudeEquatorial> ;
+.
+hkp:GaussLaw
+  rdf:type hk:Equation ;
+  skos:broader hkp:MaxwellsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Gauss' Law"@en ;
+.
+hkp:GaussLawForMagnetism
+  rdf:type hk:Equation ;
+  skos:broader hkp:MaxwellsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Gauss' Law for Magnetism"@en ;
+.
+hkp:GeomagneticStorm
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Geomagnetic Storm"@en ;
+  hk:occursIn <https://www.helioknowledge.network/region/GeomagneticField> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ground> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+  hk:occursIn <https://www.helioknowledge.network/region/NearPlanetSpace> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Thermosphere> ;
+.
+hkp:HallConductivity
+  rdf:type <http://sweetontology.net/propConductivity/HallConductivity> ;
+  rdf:type hk:Property ;
+  skos:broader hkp:IonosphericConductivity ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Hall Conductivity"@en ;
+  hkp:calculatedBy hkp:HallConductivityEquation ;
+.
+hkp:HallConductivityEquation
+  rdf:type hk:Equation ;
+  skos:broader hkp:ConductivityEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Hall Conductivity Equation"@en ;
+.
+hkp:HallCurrent
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:CurrentSystem ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Hall Current"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:InducedMagneticFields
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:SurfaceInteractions ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Induced Magnetic Fields"@en ;
+  hk:occursIn <https://www.helioknowledge.network/region/UnmagnetizedBodies> ;
+.
+hkp:InterplanetaryMagneticField
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:B-field ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Interplanetary Magnetic Field"@en ;
+  hkp:principal "true"^^xsd:boolean ;
+.
+hkp:IonDrag
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:definition """ion density *I-N collision frequency 
+(ionospheric velocity - thermospheric winds)""" ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ion Drag"@en ;
+  hkp:calculatedBy hkp:IonDragEquation ;
+.
+hkp:IonDragEquation
+  rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ion Drag Equation"@en ;
+.
+hkp:IonNeutralCollision
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ion-Neutral Collision"@en ;
+.
+hkp:IonOutflow
+  rdf:type hk:PrincipalPhenomenon ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ion Outflow"@en ;
+  hkp:principal "true"^^xsd:boolean ;
+.
+hkp:Ionization
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:PrimaryIonization ;
+  skos:narrower hkp:SecondaryIonization ;
+  skos:prefLabel "Ionization"@en ;
+  hkp:produces hkp:IonizationFeature ;
+.
+hkp:IonizationFeature
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:BroadbandAurora ;
+  skos:narrower hkp:Cusp ;
+  skos:narrower hkp:DiffuseAurora ;
+  skos:narrower hkp:MonoenergeticAurora ;
+  skos:narrower hkp:Morning-SideArc ;
+  skos:narrower hkp:PBI ;
+  skos:narrower hkp:PMAF ;
+  skos:narrower hkp:PolarCapArc ;
+  skos:narrower hkp:PolarCapPatch ;
+  skos:narrower hkp:ProtonAurora ;
+  skos:narrower hkp:PulsatingAurora ;
+  skos:narrower hkp:QuietArk ;
+  skos:narrower hkp:SAID ;
+  skos:narrower hkp:SAPS ;
+  skos:narrower hkp:SED ;
+  skos:narrower hkp:STEVE ;
+  skos:narrower hkp:Streamer ;
+  skos:narrower hkp:ThroatAurora ;
+  skos:narrower hkp:TongueOfIonization ;
+  skos:prefLabel "Ionization Feature"@en ;
+.
+hkp:IonosphericConductivity
+  rdf:type <http://sweetontology.net/propConductivity/Conductivity> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:HallConductivity ;
+  skos:narrower hkp:ParallelConductivity ;
+  skos:narrower hkp:PedersenConductivity ;
+  skos:prefLabel "Ionospheric Conductivity"@en ;
+  hkp:calculatedBy hkp:ConductivityEquation ;
+.
+hkp:IonosphericDensity
+  rdf:type <http://sweetontology.net/propMass/Density> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:IonosphericElectronDensity ;
+  skos:narrower hkp:IonosphericIonDensity ;
+  skos:prefLabel "Ionospheric Density"@en ;
+.
+hkp:IonosphericElectronDensity
+  rdf:type <http://sweetontology.net/propMass/Density> ;
+  rdf:type hk:Property ;
+  skos:broader hkp:IonosphericDensity ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ionospheric Electron Density"@en ;
+.
+hkp:IonosphericIonDensity
+  rdf:type <http://sweetontology.net/propMass/Density> ;
+  rdf:type hk:Property ;
+  skos:broader hkp:IonosphericDensity ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ionospheric Ion Density"@en ;
+.
+hkp:IonosphericTemperature
+  rdf:type <http://sweetontology.net/propTemperature> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ionospheric Temperature"@en ;
+.
+hkp:IonosphericVelocity
+  rdf:type <http://sweetontology.net/propSpeed/IonVelocity> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ionospheric Velocity (horizontal)"@en ;
+  hkp:calculatedBy hkp:Ohms_Law ;
+.
+hkp:JouleHeating
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Joule Heating"@en ;
+  hkp:calculatedBy hkp:JouleHeatingEquation ;
+.
+hkp:JouleHeatingEquation
+  rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Joule Heating Equation"@en ;
+.
+hkp:MagnetopauseCurrent
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:SolarWindShock ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Magnetopause Current"@en ;
+  hk:describedBy hk:MagnetosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Magnetopause> ;
+.
+hkp:MagnetosphericMassWeighting
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Magnetospheric Mass Weighting"@en ;
+.
+hkp:MaxwellsEquation
+  rdf:type hk:Equation ;
+  <http://schema.org/mathExpression> "&\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0} &&\\text{(Gauss's Law for Electricity)} \\\\ &\\nabla \\cdot \\mathbf{B} = 0 &&\\text{(Gauss's Law for Magnetism)} \\\\ &\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t} &&\\text{(Faraday's Law of Induction)} \\\\ &\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t} &&\\text{(Ampère-Maxwell Law)}" ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:AmperesLaw ;
+  skos:narrower hkp:FaradaysLaw ;
+  skos:narrower hkp:GaussLaw ;
+  skos:narrower hkp:GaussLawForMagnetism ;
+  skos:prefLabel "Maxwell's Equation"@en ;
+.
+hkp:MomentumTransfer
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Momentum Transfer"@en ;
+.
+hkp:MonoenergeticAurora
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Monoenergetic Aurora"@en ;
+.
+hkp:Morning-SideArc
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Morning-side Arc"@en ;
+.
+hkp:NOPlus-N2CollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "NO+ to N2 Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Nitric Oxide Ion to Molecular Nitrogen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:NOPlus-N2CollisionFrequencyEquation ;
+.
+hkp:NOPlus-N2CollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "NO+ to N2 Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Nitric Oxide to Molecular Nitrogen Collision Frequency Equation"@en ;
+.
+hkp:NOPlus-O2CollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "NO+ to O2 Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Nitric Oxide Ion to Molecular Oxygen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:NOPlus-O2CollisionFrequencyEquation ;
+.
+hkp:NOPlus-O2CollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "NO+ to O2 Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Nitric Oxide to Molecular Oxygen Collision Frequency Equation"@en ;
+.
+hkp:NOPlus-OCollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "NO+ to O2 Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Nitric Oxide Ion to Atomic Oxygen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:NOPlus-OCollisionFrequencyEquation ;
+.
+hkp:NOPlus-OCollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "NO+ to O Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Nitric Oxide to Atomic Oxygen Collision Frequency Equation"@en ;
+.
+hkp:NearEarthReconnection
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:SolarWindShock ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Near-Earth Reconnection"@en ;
+  hk:describedBy hk:MagnetosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Magnetotail> ;
+.
+hkp:O2Plus-N2CollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "O2+ to N2 Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Molecular Oxygen Ion to Molecular Nitrogen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:O2Plus-O2CollisionFrequencyEquation ;
+.
+hkp:O2Plus-N2CollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "O2+ to N2 Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Molecular Oxygen Ion to Molecular Nitrogen Collision Frequency Equation"@en ;
+.
+hkp:O2Plus-O2CollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "O2+ to O2 Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Molecular Oxygen Ion to Molecular Oxygen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:O2Plus-O2CollisionFrequencyEquation ;
+.
+hkp:O2Plus-O2CollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "O2+ to O2 Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Molecular Oxygen Ion to Molecular Oxygen Collision Frequency Equation"@en ;
+.
+hkp:O2Plus-OCollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "O2+ to O Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Molecular Oxygen Ion to Atomic Oxygen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:O2Plus-O2CollisionFrequencyEquation ;
+.
+hkp:O2Plus-OCollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "O2+ to O Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Molecular Oxygen Ion to Atomic Oxygen Collision Frequency Equation"@en ;
+.
+hkp:ON2Ratio
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "O/N2 Ratio"@en ;
+.
+hkp:OPlus-N2CollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "O+ to N2 Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Atomic Oxygen Ion to Molecular Nitrogen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:OPlus-N2CollisionFrequencyEquation ;
+.
+hkp:OPlus-N2CollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "O+ to N2 Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Atomic Oxygen Ion to Molecular Nitrogen Collision Frequency Equation"@en ;
+.
+hkp:OPlus-O2CollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "O+ to O2 Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Atomic Oxygen Ion to Molecular Oxygen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:OPlus-O2CollisionFrequencyEquation ;
+.
+hkp:OPlus-O2CollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "O+ to O2 Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Atomic Oxygen Ion to Molecular Oxygen Collision Frequency Equation"@en ;
+.
+hkp:OPlus-OCollisionFrequency
+  rdf:type hk:Property ;
+  skos:altLabel "O+ to O Collision Frequency"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Atomic Oxygen Ion to Atomic Oxygen Collision Frequency"@en ;
+  hkp:calculatedBy hkp:OPlus-OCollisionFrequencyEquation ;
+.
+hkp:OPlus-OCollisionFrequencyEquation
+  rdf:type hk:Equation ;
+  skos:altLabel "O+ to O Collision Frequency Equation"@en ;
+  skos:broader hkp:CollisionFrequency ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Atomic Oxygen Ion to Atomic Oxygen Collision Frequency Equation"@en ;
+.
+hkp:Ohms_Law
+  rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ohm's Law"@en ;
+.
+hkp:PBI
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Poleward Boundary Intensification (PBI)"@en ;
+.
+hkp:PMAF
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Poleward Moving Auroral Form (PMAF)"@en ;
+.
+hkp:ParallelConductivity
+  rdf:type hk:Property ;
+  skos:broader hkp:IonosphericConductivity ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Parallel Conductivity"@en ;
+  hkp:calculatedBy hkp:ParallelConductivityEquation ;
+.
+hkp:ParallelConductivityEquation
+  rdf:type hk:Equation ;
+  skos:broader hkp:ConductivityEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Parallel Conductivity Equation"@en ;
+.
+hkp:ParticlePrecipitation
+  rdf:type hk:PrincipalPhenomenon ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Particle Precipitation"@en ;
+  hkp:principal "true"^^xsd:boolean ;
+  hkp:produces hkp:Ionization ;
+.
+hkp:PedersenConductivity
+  rdf:type <http://sweetontology.net/propConductivity/PedersenConductivity> ;
+  rdf:type hk:Property ;
+  skos:broader hkp:IonosphericConductivity ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Pedersen Conductivity"@en ;
+  hkp:calculatedBy hkp:PedersenConductivityEquation ;
+.
+hkp:PedersenConductivityEquation
+  rdf:type hk:Equation ;
+  skos:broader hkp:ConductivityEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Pedersen Conductivity Equation"@en ;
+.
+hkp:PedersenCurrent
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:CurrentSystem ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Pedersen Current"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:PlasmaDensity
+  rdf:type <http://sweetontology.net/propMass/Density> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Plasma Density"@en ;
+.
+hkp:PlasmaVelocity
+  rdf:type <http://sweetontology.net/propSpeed/IonVelocity> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Plasma Velocity"@en ;
+.
+hkp:PolarCapArc
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Polar Cap Arc"@en ;
+.
+hkp:PolarCapPatch
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Polar Cap Patch"@en ;
+.
+hkp:PoyntingFlux
+  rdf:type hk:PrincipalPhenomenon ;
+  skos:closeMatch <http://sweetontology.net/propEnergyFlux/PoyntingVector> ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Poynting Flux"@en ;
+  hkp:calculatedBy hkp:PoyntingVector ;
+  hkp:principal "true"^^xsd:boolean ;
+.
+hkp:PoyntingVector
+  rdf:type hk:Equation ;
+  skos:broader hk:SpacePhysicsEquation ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Poynting Vector"@en ;
+.
+hkp:PrimaryIonization
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:Ionization ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Primary Ionization"@en ;
+.
+hkp:ProtonAurora
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Proton Aurora"@en ;
+.
+hkp:PulsatingAurora
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Pulsating Aurora"@en ;
+.
+hkp:QuietArk
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Quiet Arc"@en ;
+.
+hkp:Recombination
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Recombination"@en ;
+.
+hkp:Region1Current
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:SolarWindShock ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Region 1 Current"@en ;
+  hk:describedBy hk:MagnetosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Region1> ;
+.
+hkp:SAID
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Subauroral Ion Drift (SAID)"@en ;
+.
+hkp:SAPS
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Subauroral Polarization Stream (SAPS)"@en ;
+.
+hkp:SED
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Storm-Enhanced Density (SED)"@en ;
+.
+hkp:STEVE
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Strong Thermal Emission Velocity Enhancement (STEVE )"@en ;
+.
+hkp:SecondaryIonization
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:Ionization ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Secondary Ionization"@en ;
+.
+hkp:Sheath
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Sheath"@en ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/InterplanetarySpace> ;
+.
+hkp:SolarEUV
+  rdf:type hk:Phenomenon ;
+  skos:altLabel "Solar Extreme Ultraviolet"@en ;
+  skos:broader <http://sweetontology.net/propEnergyFlux/SolarRadiation> ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Solar EUV"@en ;
+  skos:related <http://sweetontology.net/stateSpectralBand/EUV> ;
+.
+hkp:SolarQuietCurrent
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:CurrentSystem ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Solar Quiet Current"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:SolarWind
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Solar Wind"@en ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/InterplanetarySpace> ;
+.
+hkp:SolarWindPlasma
+  rdf:type hk:Phenomenon ;
+  skos:broader <http://sweetontology.net/statePhysical/Plasma> ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  hkp:directEntry hkp:ParticlePrecipitation ;
+.
+hkp:SolarWindShock
+  rdf:type hk:Phenomenon ;
+  skos:altLabel "Bow shock"@en ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:MagnetopauseCurrent ;
+  skos:narrower hkp:NearEarthReconnection ;
+  skos:narrower hkp:Region1Current ;
+  skos:narrower hkp:TailReconnection ;
+  skos:prefLabel "Solar Wind Shock"@en ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/InterplanetarySpace> ;
+.
+hkp:SolarXray
+  rdf:type hk:Phenomenon ;
+  skos:broader <http://sweetontology.net/propEnergyFlux/SolarRadiation> ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Solar X-ray Radiation"@en ;
+  skos:related <http://sweetontology.net/stateSpectralBand/EUV> ;
+.
+hkp:Streamer
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Streamer"@en ;
+.
+hkp:Substorm
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Substorm"@en ;
+  hk:occursIn <https://www.helioknowledge.network/region/AuroralRegion> ;
+  hk:occursIn <https://www.helioknowledge.network/region/GeomagneticField> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ground> ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:SubstormCurrentWedge
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:CurrentSystem ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Substorm Current Wedge"@en ;
+  hk:describedBy hk:IonosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Ionosphere> ;
+.
+hkp:SurfaceInteractions
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:narrower hkp:InducedMagneticFields ;
+  skos:prefLabel "Tail Reconnection"@en ;
+  hk:occursIn <https://www.helioknowledge.network/region/Exosphere> ;
+.
+hkp:TailReconnection
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:SolarWindShock ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Tail Reconnection"@en ;
+  hk:describedBy hk:MagnetosphericPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/Magnetotail> ;
+.
+hkp:TerminationShock
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Termination Shock"@en ;
+  hk:describedBy hk:InterplanetaryPhysics ;
+  hk:occursIn <https://www.helioknowledge.network/region/InterplanetarySpace> ;
+.
+hkp:ThermosphericComposition
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Thermospheric Composition"@en ;
+.
+hkp:ThermosphericDensity
+  rdf:type <http://sweetontology.net/propMass/Density> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Thermospheric Density"@en ;
+.
+hkp:ThermosphericTemperature
+  rdf:type <http://sweetontology.net/propTemperature> ;
+  rdf:type hk:Property ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Thermospheric Temperature"@en ;
+.
+hkp:ThermosphericWind
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Thermospheric Wind"@en ;
+.
+hkp:ThroatAurora
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Throat Aurora"@en ;
+.
+hkp:TongueOfIonization
+  rdf:type hk:Phenomenon ;
+  skos:broader hkp:IonizationFeature ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Tongue Of Ionization"@en ;
+.
+hkp:Wave-ParticleInteraction
+  rdf:type hk:Phenomenon ;
+  skos:broader hk:SpaceWeather ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Wave-Particle Interaction"@en ;
+.
+hkp:calculatedBy
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Equation ;
+  skos:prefLabel "calculated by"@en ;
+.
+hkp:directEntry
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Phenomenon ;
+  skos:prefLabel "direct entry"@en ;
+.
+hkp:hasInfluenced
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Influence ;
+  rdfs:range hk:Phenomenon ;
+  skos:prefLabel "has influenced"@en ;
+.
+hkp:hasInfluencer
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Influence ;
+  rdfs:range hk:Phenomenon ;
+  skos:prefLabel "has influencer"@en ;
+.
+hkp:initiatedIn
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Region ;
+  skos:prefLabel "initiated in"@en ;
+.
+hkp:modulates
+  rdf:type owl:ObjectProperty ;
+  rdfs:subPropertyOf hk:influences ;
+  skos:prefLabel "modulates"@en ;
+.
+hkp:principal
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range xsd:boolean ;
+  skos:prefLabel "principal"@en ;
+.
+hkp:produces
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          hk:Phenomenon
+          hk:Substance
+        ) ;
+    ] ;
+  skos:prefLabel "produces"@en ;
+.
+hkp:reconnectsWith
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Region ;
+  skos:prefLabel "reconnects with"@en ;
+.
