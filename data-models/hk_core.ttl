@@ -7,6 +7,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix soph: <http://sweetontology.net/phen/> .
+@prefix soprop: <http://sweetontology.net/prop/Property/> .
+@prefix sorepm: <http://sweetontology.net/reprMath/> .
+@prefix sorepsg: <http://sweetontology.net/reprSpaceGeometry/Region/> .
+@prefix sost: <http://sweetontology.net/state/State/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://www.helioknowledge.network/core>
@@ -19,7 +23,6 @@
 .
 hk:
   rdf:type skos:ConceptScheme ;
-  skos:hasTopConcept hk:Heliosphere ;
   skos:hasTopConcept hk:SpacePhysics ;
   skos:hasTopConcept hk:SpacePhysicsEquation ;
   skos:hasTopConcept hk:SpacePhysicsProperty ;
@@ -64,38 +67,37 @@ hk:AtomicOxygenIon
 hk:Category
   rdf:type owl:Class ;
   rdfs:subClassOf skos:Concept ;
+  skos:inScheme hk: ;
   skos:prefLabel "Category"@en ;
 .
 hk:Concept
   rdf:type owl:Class ;
   rdfs:subClassOf skos:Concept ;
+  skos:inScheme hk: ;
   skos:prefLabel "Concept"@en ;
 .
 hk:CoolingAgent
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Matter ;
+  skos:inScheme hk: ;
   skos:prefLabel "Cooling agent"@en ;
 .
 hk:Discipline
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Concept ;
+  skos:inScheme hk: ;
 .
 hk:Equation
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Concept ;
-  skos:prefLabel "Equation"@en ;
-.
-hk:Heliosphere
-  rdf:type hk:Region ;
-  owl:sameAs <http://semantic.jpl.nasa.gov/TheHeliophysicsKnowledgeNetwork/9014d96b-a8f1-4c4e-8475-6bce92949b08> ;
-  skos:exactMatch <http://semantic.jpl.nasa.gov/TheHeliophysicsKnowledgeNetwork/9014d96b-a8f1-4c4e-8475-6bce92949b08> ;
+  owl:equivalentClass sorepm:Equation ;
   skos:inScheme hk: ;
-  skos:prefLabel "Heliosphere"@en ;
-  skos:topConceptOf hk: ;
+  skos:prefLabel "Equation"@en ;
 .
 hk:Influence
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Relation ;
+  skos:inScheme hk: ;
   skos:prefLabel "Influence"@en ;
 .
 hk:InterplanetaryPhysics
@@ -126,6 +128,7 @@ hk:MagnetosphericPhysics
 hk:Matter
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Concept ;
+  skos:inScheme hk: ;
   skos:prefLabel "Matter"@en ;
 .
 hk:MolecularNitrogen
@@ -171,23 +174,29 @@ hk:NitricOxideIon
 .
 hk:Phenomenon
   rdf:type owl:Class ;
-  rdfs:subClassOf soph:Phenomena ;
   rdfs:subClassOf hk:Concept ;
+  owl:equivalentClass soph:Phenomena ;
+  skos:inScheme hk: ;
   skos:prefLabel "Phenomenon"@en ;
 .
 hk:Property
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Concept ;
+  owl:equivalentClass soprop:Property ;
+  skos:inScheme hk: ;
   skos:prefLabel "Property"@en ;
 .
 hk:Region
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Concept ;
+  owl:equivalentClass sorepsg:Region ;
+  skos:inScheme hk: ;
   skos:prefLabel "Region"@en ;
 .
 hk:Relation
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Concept ;
+  skos:inScheme hk: ;
   skos:prefLabel "Relation"@en ;
 .
 hk:SolarPhysics
@@ -222,11 +231,12 @@ hk:SpaceWeather
   skos:inScheme hk: ;
   skos:prefLabel "Space Weather"@en ;
   skos:topConceptOf hk: ;
-  hk:occursIn hk:Heliosphere ;
 .
 hk:State
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Concept ;
+  owl:equivalentClass sost:State ;
+  skos:inScheme hk: ;
   skos:prefLabel "State"@en ;
 .
 hk:Substance

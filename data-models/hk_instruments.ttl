@@ -68402,15 +68402,6 @@ spase:obs_Zuy
     ] ;
   schema:name "Zuy"@en ;
 .
-hk:Analyzer
-  rdf:type skos:Concept ;
-  skos:editorialNote "AS: this is a placeholder category. Will need to re-assign children to other categories. " ;
-  skos:prefLabel "Analyzer"@en ;
-.
-hk:Dataset
-  rdf:type skos:Concept ;
-  skos:prefLabel "Dataset"@en ;
-.
 hk:fullName
   rdf:type owl:DatatypeProperty ;
   rdfs:domain schema:Person ;
@@ -68433,6 +68424,11 @@ hki:
   rdf:type skos:ConceptScheme ;
   skos:prefLabel "HeliKNOW Instrument Ontology"@en ;
 .
+hki:Analyzer
+  rdf:type hki:InstrumentType ;
+  skos:editorialNote "AS: this is a placeholder category. Will need to re-assign children to other categories. " ;
+  skos:prefLabel "Analyzer"@en ;
+.
 hki:Antenna
   rdf:type hki:InstrumentType ;
   schema:name "Antenna"@en ;
@@ -68451,6 +68447,10 @@ hki:Coronograph
   rdf:type hki:InstrumentType ;
   skos:broader hki:Imager ;
   schema:name "Coronograph"@en ;
+.
+hki:Dataset
+  rdf:type hki:InstrumentType ;
+  skos:prefLabel "Dataset"@en ;
 .
 hki:DistributedGroundBasedSatelliteReceiver
   rdf:type hki:InstrumentType ;
@@ -68512,7 +68512,7 @@ hki:GeigerMuellerTube
 .
 hki:GeophysicalIndex
   rdf:type hki:InstrumentType ;
-  skos:broader hk:Dataset ;
+  skos:broader hki:Dataset ;
   schema:name "Geophysical Index"@en ;
 .
 hki:GroundBasedSolarReceiver
@@ -68629,7 +68629,7 @@ hki:MicrochannelPlate
 .
 hki:Modelleddata
   rdf:type hki:InstrumentType ;
-  skos:broader hk:Dataset ;
+  skos:broader hki:Dataset ;
   schema:name "Modelled data"@en ;
 .
 hki:MultispectralImager
@@ -68672,7 +68672,7 @@ hki:Photopolarimeter
 .
 hki:Platform
   rdf:type hki:InstrumentType ;
-  skos:broader hk:Dataset ;
+  skos:broader hki:Dataset ;
   schema:name "Platform"@en ;
 .
 hki:ProportionalCounter
@@ -68682,7 +68682,7 @@ hki:ProportionalCounter
 .
 hki:QuadrisphericalAnalyser
   rdf:type hki:InstrumentType ;
-  skos:broader hk:Analyzer ;
+  skos:broader hki:Analyzer ;
   schema:name "QuadrisphericalAnalyser"@en ;
 .
 hki:Radar
@@ -68705,7 +68705,7 @@ hki:ResonanceSounder
 .
 hki:RetardingPotentialAnalyser
   rdf:type hki:InstrumentType ;
-  skos:broader hk:Analyzer ;
+  skos:broader hki:Analyzer ;
   schema:name "RetardingPotentialAnalyser"@en ;
 .
 hki:Riometer
@@ -68752,7 +68752,7 @@ hki:Spectrometer
 .
 hki:TimeOfFlight
   rdf:type hki:InstrumentType ;
-  skos:broader hk:Dataset ;
+  skos:broader hki:Dataset ;
   schema:name "TimeOfFlight"@en ;
 .
 hki:Unspecified

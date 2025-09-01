@@ -35,21 +35,20 @@ hk:IonosphericState
   rdf:type hk:State ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ionospheric State"@en ;
+  hk:characterizedBy hkp:B-field ;
+  hk:characterizedBy hkp:E-field ;
+  hk:characterizedBy hkp:IonosphericConductivity ;
+  hk:characterizedBy hkp:IonosphericDensity ;
+  hk:characterizedBy hkp:IonosphericTemperature ;
+  hk:characterizedBy hkp:IonosphericVelocity ;
 .
 hk:MagnetosphericState
   rdf:type hk:State ;
   skos:inScheme hkp: ;
   skos:prefLabel "Magnetospheric State"@en ;
 .
-hk:PrincipalPhenomenon
-  rdf:type owl:Class ;
-  rdfs:subClassOf hk:Phenomenon ;
-  rdfs:subClassOf [
-      rdf:type owl:Restriction ;
-      owl:hasValue "true"^^xsd:boolean ;
-      owl:onProperty hkp:principal ;
-    ] ;
-  skos:prefLabel "Principal Phenomenon"@en ;
+hk:NitricOxide
+  hkp:decreases hkp:ThermosphericTemperature ;
 .
 hk:SpacePhysicsEquation
   skos:narrower hkp:ConductivityEquation ;
@@ -60,17 +59,6 @@ hk:SpacePhysicsEquation
   skos:narrower hkp:PoyntingVector ;
 .
 hk:SpacePhysicsPhenomenon
-  skos:inScheme hkp: ;
-  skos:narrower hkp:IonDrag ;
-  skos:narrower hkp:IonNeutralCollision ;
-  skos:narrower hkp:Ionization ;
-  skos:narrower hkp:IonizationFeature ;
-  skos:narrower hkp:JouleHeating ;
-  skos:narrower hkp:MagnetosphericMassWeighting ;
-  skos:narrower hkp:MomentumTransfer ;
-  skos:narrower hkp:Recombination ;
-  skos:narrower hkp:ThermosphericWind ;
-  skos:narrower hkp:Wave-ParticleInteraction ;
   skos:topConceptOf hkp: ;
 .
 hk:SpaceWeather
@@ -82,6 +70,9 @@ hk:SpaceWeather
   skos:narrower hkp:Foreshock ;
   skos:narrower hkp:Fountain ;
   skos:narrower hkp:GeomagneticStorm ;
+  skos:narrower hkp:IonOutflow ;
+  skos:narrower hkp:ParticlePrecipitation ;
+  skos:narrower hkp:PoyntingFlux ;
   skos:narrower hkp:Sheath ;
   skos:narrower hkp:SolarWind ;
   skos:narrower hkp:SolarWindShock ;
@@ -113,6 +104,7 @@ hkp:AmperesLaw
   skos:broader hkp:MaxwellsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ampere's Law"@en ;
+  hk:LaTeX "&\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t}" ;
 .
 hkp:AuroralElectrojet
   rdf:type hk:Phenomenon ;
@@ -127,6 +119,7 @@ hkp:B-field
   skos:inScheme hkp: ;
   skos:narrower hkp:InterplanetaryMagneticField ;
   skos:prefLabel "B-field"@en ;
+  hk:influences hkp:E-field ;
   hkp:calculatedBy hkp:MaxwellsEquation ;
   hkp:principal "true"^^xsd:boolean ;
 .
@@ -177,6 +170,21 @@ hkp:ConductivityEquation
   skos:narrower hkp:ParallelConductivityEquation ;
   skos:narrower hkp:PedersenConductivityEquation ;
   skos:prefLabel "Conductivity Equation"@en ;
+  hk:LaTeX """Parallel Conductivity: \\sigma_{\\parallel} = \\frac{n_e e^2}{m_e \\nu_e}
+\\\\Hall Conductivity: \\sigma_H = \\sigma_{\\parallel} \\frac{(1 + \\kappa)\\nu_e^2}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}
+\\\\Pedersen Conductivity: \\sigma_P = \\sigma_{\\parallel} \\frac{\\omega_e \\nu_e}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}
+\\\\where: 
+\\kappa = \\frac{\\omega_e \\omega_i}{\\nu_e \\nu_i}
+\\nu_e = \\nu_{en} + \\nu_{ei}
+\\nu_i = \\nu_{in}
+\\\\- \\( n_e \\): Electron density (m\\(^{-3}\\)) \\\\
+- \\( \\nu_{en} \\): Electron-neutral collision frequency (s\\(^{-1}\\)) \\\\
+- \\( \\nu_{ei} \\): Electron-ion collision frequency (s\\(^{-1}\\)) \\\\
+- \\( \\nu_{in} \\): Ion-neutral collision frequency (s\\(^{-1}\\)) \\\\
+- \\( \\omega_e \\): Electron cyclotron frequency (rad/s) \\\\
+- \\( \\omega_i \\): Ion cyclotron frequency (rad/s) \\\\
+- \\( e \\): Elementary charge (\\(1.602 \\times 10^{-19}\\) C) \\\\
+- \\( m_e \\): Electron mass (\\(9.109 \\times 10^{-31}\\) kg) \\\\""" ;
 .
 hkp:CoronalMassEjection
   rdf:type hk:Phenomenon ;
@@ -227,7 +235,9 @@ hkp:E-field
   rdf:type hk:Property ;
   skos:inScheme hkp: ;
   skos:prefLabel "E-field"@en ;
+  hk:influences hkp:B-field ;
   hkp:calculatedBy hkp:MaxwellsEquation ;
+  hkp:increases hkp:JouleHeating ;
   hkp:principal "true"^^xsd:boolean ;
 .
 hkp:EquatorialElectrojet
@@ -243,6 +253,7 @@ hkp:FaradaysLaw
   skos:broader hkp:MaxwellsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Faraday's Law"@en ;
+  hk:LaTeX "&\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}" ;
 .
 hkp:Flare
   rdf:type hk:Phenomenon ;
@@ -283,12 +294,14 @@ hkp:GaussLaw
   skos:broader hkp:MaxwellsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Gauss' Law"@en ;
+  hk:LaTeX "&\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0}" ;
 .
 hkp:GaussLawForMagnetism
   rdf:type hk:Equation ;
   skos:broader hkp:MaxwellsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Gauss' Law for Magnetism"@en ;
+  hk:LaTeX "&\\nabla \\cdot \\mathbf{B} = 0" ;
 .
 hkp:GeomagneticStorm
   rdf:type hk:Phenomenon ;
@@ -314,6 +327,7 @@ hkp:HallConductivityEquation
   skos:broader hkp:ConductivityEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Hall Conductivity Equation"@en ;
+  hk:LaTeX "\\sigma_H = \\sigma_{\\parallel} \\frac{(1 + \\kappa)\\nu_e^2}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}" ;
 .
 hkp:HallCurrent
   rdf:type hk:Phenomenon ;
@@ -345,23 +359,44 @@ hkp:IonDrag
   skos:inScheme hkp: ;
   skos:prefLabel "Ion Drag"@en ;
   hkp:calculatedBy hkp:IonDragEquation ;
+  hkp:determines hkp:MomentumTransfer ;
 .
 hkp:IonDragEquation
   rdf:type hk:Equation ;
   skos:broader hk:SpacePhysicsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ion Drag Equation"@en ;
+  hk:LaTeX """Parallel Conductivity: \\sigma_{\\parallel} = \\frac{n_e e^2}{m_e \\nu_e}
+\\\\Hall Conductivity: \\sigma_H = \\sigma_{\\parallel} \\frac{(1 + \\kappa)\\nu_e^2}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}
+\\\\Pedersen Conductivity: \\sigma_P = \\sigma_{\\parallel} \\frac{\\omega_e \\nu_e}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}
+\\\\where: 
+\\kappa = \\frac{\\omega_e \\omega_i}{\\nu_e \\nu_i}
+\\nu_e = \\nu_{en} + \\nu_{ei}
+\\nu_i = \\nu_{in}
+\\\\- \\( n_e \\): Electron density (m\\(^{-3}\\)) \\\\
+- \\( \\nu_{en} \\): Electron-neutral collision frequency (s\\(^{-1}\\)) \\\\
+- \\( \\nu_{ei} \\): Electron-ion collision frequency (s\\(^{-1}\\)) \\\\
+- \\( \\nu_{in} \\): Ion-neutral collision frequency (s\\(^{-1}\\)) \\\\
+- \\( \\omega_e \\): Electron cyclotron frequency (rad/s) \\\\
+- \\( \\omega_i \\): Ion cyclotron frequency (rad/s) \\\\
+- \\( e \\): Elementary charge (\\(1.602 \\times 10^{-19}\\) C) \\\\
+- \\( m_e \\): Electron mass (\\(9.109 \\times 10^{-31}\\) kg) \\\\""" ;
 .
 hkp:IonNeutralCollision
   rdf:type hk:Phenomenon ;
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ion-Neutral Collision"@en ;
+  hkp:drives hkp:MomentumTransfer ;
 .
 hkp:IonOutflow
-  rdf:type hk:PrincipalPhenomenon ;
+  rdf:type hkp:PrincipalPhenomenon ;
+  skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ion Outflow"@en ;
+  hkp:decreases hkp:Ionization ;
+  hkp:drives hkp:MagnetosphericMassWeighting ;
+  hkp:modulates hkp:IonosphericDensity ;
   hkp:principal "true"^^xsd:boolean ;
 .
 hkp:Ionization
@@ -371,6 +406,9 @@ hkp:Ionization
   skos:narrower hkp:PrimaryIonization ;
   skos:narrower hkp:SecondaryIonization ;
   skos:prefLabel "Ionization"@en ;
+  hk:influences hkp:E-field ;
+  hkp:increases hkp:IonosphericConductivity ;
+  hkp:increases hkp:IonosphericDensity ;
   hkp:produces hkp:IonizationFeature ;
 .
 hkp:IonizationFeature
@@ -407,6 +445,7 @@ hkp:IonosphericConductivity
   skos:narrower hkp:PedersenConductivity ;
   skos:prefLabel "Ionospheric Conductivity"@en ;
   hkp:calculatedBy hkp:ConductivityEquation ;
+  hkp:increases hkp:JouleHeating ;
 .
 hkp:IonosphericDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
@@ -435,6 +474,9 @@ hkp:IonosphericTemperature
   rdf:type hk:Property ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ionospheric Temperature"@en ;
+  hk:influences hkp:CollisionFrequency ;
+  hkp:decreases hkp:Recombination ;
+  hkp:increases hkp:Ionization ;
 .
 hkp:IonosphericVelocity
   rdf:type <http://sweetontology.net/propSpeed/IonVelocity> ;
@@ -442,6 +484,7 @@ hkp:IonosphericVelocity
   skos:inScheme hkp: ;
   skos:prefLabel "Ionospheric Velocity (horizontal)"@en ;
   hkp:calculatedBy hkp:Ohms_Law ;
+  hkp:increases hkp:IonDrag ;
 .
 hkp:JouleHeating
   rdf:type hk:Phenomenon ;
@@ -449,12 +492,18 @@ hkp:JouleHeating
   skos:inScheme hkp: ;
   skos:prefLabel "Joule Heating"@en ;
   hkp:calculatedBy hkp:JouleHeatingEquation ;
+  hkp:increases hkp:IonosphericTemperature ;
+  hkp:increases hkp:ThermosphericTemperature ;
 .
 hkp:JouleHeatingEquation
   rdf:type hk:Equation ;
   skos:broader hk:SpacePhysicsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Joule Heating Equation"@en ;
+  hk:LaTeX """J_{heating} = \\mathbf{J} \\cdot \\mathbf{E}
+
+E: Electric field (V/m)
+J: Current density (A/mÂ²) - in our model this is 'ionospheric velocity'""" ;
 .
 hkp:MagnetopauseCurrent
   rdf:type hk:Phenomenon ;
@@ -472,7 +521,6 @@ hkp:MagnetosphericMassWeighting
 .
 hkp:MaxwellsEquation
   rdf:type hk:Equation ;
-  <http://schema.org/mathExpression> "&\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0} &&\\text{(Gauss's Law for Electricity)} \\\\ &\\nabla \\cdot \\mathbf{B} = 0 &&\\text{(Gauss's Law for Magnetism)} \\\\ &\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t} &&\\text{(Faraday's Law of Induction)} \\\\ &\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t} &&\\text{(Ampère-Maxwell Law)}" ;
   skos:broader hk:SpacePhysicsEquation ;
   skos:inScheme hkp: ;
   skos:narrower hkp:AmperesLaw ;
@@ -480,12 +528,14 @@ hkp:MaxwellsEquation
   skos:narrower hkp:GaussLaw ;
   skos:narrower hkp:GaussLawForMagnetism ;
   skos:prefLabel "Maxwell's Equation"@en ;
+  hk:LaTeX "&\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\varepsilon_0} &&\\text{(Gauss's Law for Electricity)} \\\\ &\\nabla \\cdot \\mathbf{B} = 0 &&\\text{(Gauss's Law for Magnetism)} \\\\ &\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t} &&\\text{(Faraday's Law of Induction)} \\\\ &\\nabla \\times \\mathbf{B} = \\mu_0\\mathbf{J} + \\mu_0\\varepsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t} &&\\text{(AmpÃ¨re-Maxwell Law)}" ;
 .
 hkp:MomentumTransfer
   rdf:type hk:Phenomenon ;
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Momentum Transfer"@en ;
+  hkp:increases hkp:IonOutflow ;
 .
 hkp:MonoenergeticAurora
   rdf:type hk:Phenomenon ;
@@ -513,6 +563,7 @@ hkp:NOPlus-N2CollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Nitric Oxide to Molecular Nitrogen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{N_2}}\\nu_{NO^{+}-N_2} = 4.34 \\times 10^{-10}" ;
 .
 hkp:NOPlus-O2CollisionFrequency
   rdf:type hk:Property ;
@@ -528,6 +579,7 @@ hkp:NOPlus-O2CollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Nitric Oxide to Molecular Oxygen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{O_2}}\\nu_{NO^{+}-O_2} = 4.27 \\times 10^{-10}" ;
 .
 hkp:NOPlus-OCollisionFrequency
   rdf:type hk:Property ;
@@ -543,6 +595,7 @@ hkp:NOPlus-OCollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Nitric Oxide to Atomic Oxygen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{O}}\\nu_{NO^{+}-O} = 2.44 \\times 10^{-10}" ;
 .
 hkp:NearEarthReconnection
   rdf:type hk:Phenomenon ;
@@ -566,6 +619,7 @@ hkp:O2Plus-N2CollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Molecular Oxygen Ion to Molecular Nitrogen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{N_2}}\\nu_{O_2^{+}-N_2} = 4.13 \\times 10^{-10}" ;
 .
 hkp:O2Plus-O2CollisionFrequency
   rdf:type hk:Property ;
@@ -581,6 +635,7 @@ hkp:O2Plus-O2CollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Molecular Oxygen Ion to Molecular Oxygen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{O_2}}\\nu_{O_2^{+}-O_2} = 2.59 \\times 10^{-11}\\sqrt{\\tfrac{T_i + T_e}{2}}\\left[ 1 - 0.073log_{10}\\tfrac{T_i + T_e}{2} \\right]^2" ;
 .
 hkp:O2Plus-OCollisionFrequency
   rdf:type hk:Property ;
@@ -596,11 +651,13 @@ hkp:O2Plus-OCollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Molecular Oxygen Ion to Atomic Oxygen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{O}}\\nu_{O_2^{+}-O} = 2.31 \\times 10^{-10}" ;
 .
 hkp:ON2Ratio
   rdf:type hk:Property ;
   skos:inScheme hkp: ;
   skos:prefLabel "O/N2 Ratio"@en ;
+  hk:influences hkp:Recombination ;
 .
 hkp:OPlus-N2CollisionFrequency
   rdf:type hk:Property ;
@@ -616,6 +673,7 @@ hkp:OPlus-N2CollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Atomic Oxygen Ion to Molecular Nitrogen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{N_2}}\\nu_{O^{+}-N_2} = 6.82 \\times 10^{-10}" ;
 .
 hkp:OPlus-O2CollisionFrequency
   rdf:type hk:Property ;
@@ -631,6 +689,7 @@ hkp:OPlus-O2CollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Atomic Oxygen Ion to Molecular Oxygen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{O_2}}\\nu_{O^{+}-O_2} = 6.64 \\times 10^{-10}" ;
 .
 hkp:OPlus-OCollisionFrequency
   rdf:type hk:Property ;
@@ -646,12 +705,17 @@ hkp:OPlus-OCollisionFrequencyEquation
   skos:broader hkp:CollisionFrequency ;
   skos:inScheme hkp: ;
   skos:prefLabel "Atomic Oxygen Ion to Atomic Oxygen Collision Frequency Equation"@en ;
+  hk:LaTeX "\\tfrac{1}{N_{O}}\\nu_{O^{+}-O} = 3.67 \\times 10^{-11}\\sqrt{\\tfrac{T_i + T_e}{2}}\\left[ 1 - 0.064log_{10}\\tfrac{T_i + T_e}{2} \\right]^2 {f}_{ont}" ;
 .
 hkp:Ohms_Law
   rdf:type hk:Equation ;
   skos:broader hk:SpacePhysicsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ohm's Law"@en ;
+  hk:LaTeX """\\mathbf{J} = \\sigma \\mathbf{E}
+\\\\E: Electric field (V/m)
+\\\\J: Current density (A/mÂ²) - in our model this is 'ionospheric velocity'
+\\\\Ï’: Conductivity (S/m)""" ;
 .
 hkp:PBI
   rdf:type hk:Phenomenon ;
@@ -677,12 +741,16 @@ hkp:ParallelConductivityEquation
   skos:broader hkp:ConductivityEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Parallel Conductivity Equation"@en ;
+  hk:LaTeX "\\sigma_{\\parallel} = \\frac{n_e e^2}{m_e \\nu_e}" ;
 .
 hkp:ParticlePrecipitation
-  rdf:type hk:PrincipalPhenomenon ;
+  rdf:type hkp:PrincipalPhenomenon ;
+  skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Particle Precipitation"@en ;
+  hkp:initiatedIn <https://www.helioknowledge.network/region/Magnetosphere> ;
   hkp:principal "true"^^xsd:boolean ;
+  hkp:produces hk:NitricOxide ;
   hkp:produces hkp:Ionization ;
 .
 hkp:PedersenConductivity
@@ -698,6 +766,7 @@ hkp:PedersenConductivityEquation
   skos:broader hkp:ConductivityEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Pedersen Conductivity Equation"@en ;
+  hk:LaTeX "\\sigma_P = \\sigma_{\\parallel} \\frac{\\omega_e \\nu_e}{( (1 + \\kappa)^2 \\nu_e^2 + \\omega_e^2 )}" ;
 .
 hkp:PedersenCurrent
   rdf:type hk:Phenomenon ;
@@ -732,11 +801,13 @@ hkp:PolarCapPatch
   skos:prefLabel "Polar Cap Patch"@en ;
 .
 hkp:PoyntingFlux
-  rdf:type hk:PrincipalPhenomenon ;
+  rdf:type hkp:PrincipalPhenomenon ;
+  skos:broader hk:SpaceWeather ;
   skos:closeMatch <http://sweetontology.net/propEnergyFlux/PoyntingVector> ;
   skos:inScheme hkp: ;
   skos:prefLabel "Poynting Flux"@en ;
   hkp:calculatedBy hkp:PoyntingVector ;
+  hkp:increases hkp:JouleHeating ;
   hkp:principal "true"^^xsd:boolean ;
 .
 hkp:PoyntingVector
@@ -744,12 +815,24 @@ hkp:PoyntingVector
   skos:broader hk:SpacePhysicsEquation ;
   skos:inScheme hkp: ;
   skos:prefLabel "Poynting Vector"@en ;
+  hk:LaTeX "\\mathbf{S} = \\frac{1}{\\mu_0} \\mathbf{E} \\times \\mathbf{B}" ;
 .
 hkp:PrimaryIonization
   rdf:type hk:Phenomenon ;
   skos:broader hkp:Ionization ;
   skos:inScheme hkp: ;
   skos:prefLabel "Primary Ionization"@en ;
+.
+hkp:PrincipalPhenomenon
+  rdf:type owl:Class ;
+  rdfs:subClassOf hk:Phenomenon ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:hasValue "true"^^xsd:boolean ;
+      owl:onProperty hkp:principal ;
+    ] ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Principal Phenomenon"@en ;
 .
 hkp:ProtonAurora
   rdf:type hk:Phenomenon ;
@@ -774,6 +857,7 @@ hkp:Recombination
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Recombination"@en ;
+  hkp:decreases hkp:IonosphericIonDensity ;
 .
 hkp:Region1Current
   rdf:type hk:Phenomenon ;
@@ -829,6 +913,7 @@ hkp:SolarEUV
   skos:inScheme hkp: ;
   skos:prefLabel "Solar EUV"@en ;
   skos:related <http://sweetontology.net/stateSpectralBand/EUV> ;
+  hkp:changes hkp:IonosphericDensity ;
 .
 hkp:SolarQuietCurrent
   rdf:type hk:Phenomenon ;
@@ -852,6 +937,7 @@ hkp:SolarWindPlasma
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   hkp:directEntry hkp:ParticlePrecipitation ;
+  hkp:reconnectsWith <https://www.helioknowledge.network/region/Magnetosphere> ;
 .
 hkp:SolarWindShock
   rdf:type hk:Phenomenon ;
@@ -873,6 +959,7 @@ hkp:SolarXray
   skos:inScheme hkp: ;
   skos:prefLabel "Solar X-ray Radiation"@en ;
   skos:related <http://sweetontology.net/stateSpectralBand/EUV> ;
+  hkp:changes hkp:IonosphericDensity ;
 .
 hkp:Streamer
   rdf:type hk:Phenomenon ;
@@ -926,6 +1013,7 @@ hkp:ThermosphericComposition
   rdf:type hk:Property ;
   skos:inScheme hkp: ;
   skos:prefLabel "Thermospheric Composition"@en ;
+  hkp:determines hk:ON2Ratio ;
 .
 hkp:ThermosphericDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
@@ -938,12 +1026,14 @@ hkp:ThermosphericTemperature
   rdf:type hk:Property ;
   skos:inScheme hkp: ;
   skos:prefLabel "Thermospheric Temperature"@en ;
+  hkp:changes hkp:CollisionFrequency ;
 .
 hkp:ThermosphericWind
   rdf:type hk:Phenomenon ;
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Thermospheric Wind"@en ;
+  hkp:decreases hkp:IonDrag ;
 .
 hkp:ThroatAurora
   rdf:type hk:Phenomenon ;
@@ -962,6 +1052,9 @@ hkp:Wave-ParticleInteraction
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Wave-Particle Interaction"@en ;
+  hkp:initiatedIn <https://www.helioknowledge.network/region/Ionosphere> ;
+  hkp:initiates hkp:IonOutflow ;
+  hkp:initiates hkp:ParticlePrecipitation ;
 .
 hkp:calculatedBy
   rdf:type owl:ObjectProperty ;
@@ -969,11 +1062,48 @@ hkp:calculatedBy
   rdfs:range hk:Equation ;
   skos:prefLabel "calculated by"@en ;
 .
+hkp:changes
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          hk:Phenomenon
+          hk:Property
+        ) ;
+    ] ;
+  rdfs:range hk:Property ;
+  rdfs:subPropertyOf hk:influences ;
+  skos:prefLabel "changes"@en ;
+.
+hkp:decreases
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Property ;
+  rdfs:subPropertyOf hkp:changes ;
+  skos:prefLabel "decreases"@en ;
+.
+hkp:determines
+  rdf:type owl:ObjectProperty ;
+  rdfs:subPropertyOf hk:influences ;
+  skos:prefLabel "determines"@en ;
+.
 hkp:directEntry
   rdf:type owl:ObjectProperty ;
   rdfs:domain hk:Phenomenon ;
   rdfs:range hk:Phenomenon ;
   skos:prefLabel "direct entry"@en ;
+.
+hkp:drives
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Phenomenon ;
+  rdfs:subPropertyOf hk:influences ;
+  skos:prefLabel "drives"@en ;
+.
+hkp:energizes
+  rdf:type owl:ObjectProperty ;
+  rdfs:subPropertyOf hk:influences ;
+  skos:prefLabel "energizes"@en ;
 .
 hkp:hasInfluenced
   rdf:type owl:ObjectProperty ;
@@ -987,15 +1117,29 @@ hkp:hasInfluencer
   rdfs:range hk:Phenomenon ;
   skos:prefLabel "has influencer"@en ;
 .
+hkp:increases
+  rdf:type owl:SymmetricProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Property ;
+  rdfs:subPropertyOf hkp:changes ;
+  skos:prefLabel "increases"@en ;
+.
 hkp:initiatedIn
   rdf:type owl:ObjectProperty ;
   rdfs:domain hk:Phenomenon ;
   rdfs:range hk:Region ;
   skos:prefLabel "initiated in"@en ;
 .
+hkp:initiates
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Phenomenon ;
+  rdfs:subPropertyOf hk:influences ;
+  skos:prefLabel "initiates"@en ;
+.
 hkp:modulates
   rdf:type owl:ObjectProperty ;
-  rdfs:subPropertyOf hk:influences ;
+  rdfs:subPropertyOf hkp:changes ;
   skos:prefLabel "modulates"@en ;
 .
 hkp:principal
@@ -1011,9 +1155,10 @@ hkp:produces
       rdf:type owl:Class ;
       owl:unionOf (
           hk:Phenomenon
-          hk:Substance
+          hk:Matter
         ) ;
     ] ;
+  rdfs:subPropertyOf hk:influences ;
   skos:prefLabel "produces"@en ;
 .
 hkp:reconnectsWith

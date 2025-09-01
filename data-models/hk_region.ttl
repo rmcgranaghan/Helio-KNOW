@@ -9,14 +9,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-hk:Heliosphere
-  skos:inScheme hkr: ;
-  skos:narrower hkr:InterplanetarySpace ;
-  skos:narrower hkr:Magnetosphere ;
-  skos:narrower hkr:SolarAtmosphere ;
-  skos:narrower hkr:UnmagnetizedBodies ;
-  skos:topConceptOf hkr: ;
-.
 <https://www.helioknowledge.network/region>
   rdf:type owl:Ontology ;
   <http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0000-8635-3314> ;
@@ -28,13 +20,12 @@ hk:Heliosphere
 .
 hkr:
   rdf:type skos:ConceptScheme ;
-  skos:hasTopConcept <https://www.helioknowledge.network/SpacePhysics> ;
   skos:hasTopConcept hkr:Heliosphere ;
   skos:prefLabel "HelioKNOW Region Taxonomy"@en ;
 .
 hkr:Atmosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:UnmagnetizedBodies ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Exosphere ;
@@ -42,14 +33,14 @@ hkr:Atmosphere
 .
 hkr:AuroralOval
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:AuroralRegion ;
   skos:inScheme hkr: ;
   skos:prefLabel "Auroral Oval"@en ;
 .
 hkr:AuroralRegion
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:AuroralOval ;
@@ -59,30 +50,30 @@ hkr:AuroralRegion
 .
 hkr:Bowshock
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:editorialNote "AS: not to be confused with hkr:SolarWindShock which might also be referred to as \"Bow shock\"" ;
   skos:inScheme hkr: ;
   skos:prefLabel "Bowshock"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:Chromosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:SolarAtmosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Chromosphere"@en ;
 .
 hkr:Corona
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:SolarAtmosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Corona"@en ;
 .
 hkr:Cusp
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
@@ -90,22 +81,22 @@ hkr:Cusp
 .
 hkr:DRegion
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "D Region"@en ;
 .
 hkr:Dayside
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Dayside"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:DipoleStandoff
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InnerMagnetosphere ;
   skos:editorialNote """Alex Shifrin
 May 8th at 5:47 PM
@@ -118,21 +109,21 @@ Interesting. It is a bit of a gray area. It is the distance from a planet's cent
 .
 hkr:ERegion
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "E Region"@en ;
 .
 hkr:EquatorwardBoundary
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:AuroralRegion ;
   skos:inScheme hkr: ;
   skos:prefLabel "Equatorward Boundary"@en ;
 .
 hkr:Exosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Atmosphere ;
   skos:broader hkr:NearPlanetSpace ;
   skos:broader hkr:UnmagnetizedBodies ;
@@ -144,28 +135,28 @@ hkr:Exosphere
 .
 hkr:FRegion
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "F Region"@en ;
 .
 hkr:GeomagneticField
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:GroundAndLowerAtmosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Geomagnetic Field"@en ;
 .
 hkr:Ground
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:GroundAndLowerAtmosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Ground"@en ;
 .
 hkr:GroundAndLowerAtmosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:GeomagneticField ;
@@ -176,7 +167,7 @@ hkr:GroundAndLowerAtmosphere
 .
 hkr:Heliosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   owl:sameAs <http://semantic.jpl.nasa.gov/TheHeliophysicsKnowledgeNetwork/9014d96b-a8f1-4c4e-8475-6bce92949b08> ;
   skos:exactMatch <http://semantic.jpl.nasa.gov/TheHeliophysicsKnowledgeNetwork/9014d96b-a8f1-4c4e-8475-6bce92949b08> ;
   skos:inScheme hkr: ;
@@ -189,7 +180,7 @@ hkr:Heliosphere
 .
 hkr:High-latitude
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Exosphere ;
   skos:broader hkr:Mesosphere ;
   skos:broader hkr:Stratosphere ;
@@ -199,7 +190,7 @@ hkr:High-latitude
 .
 hkr:InnerMagnetosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:DipoleStandoff ;
@@ -209,19 +200,19 @@ hkr:InnerMagnetosphere
   skos:narrower hkr:RingCurrent ;
   skos:narrower hkr:WarmPlasmaCloak ;
   skos:prefLabel "Inner Magnetosphere"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:InnerRadiationBelt
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InnerMagnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Inner Radiation Belt"@en ;
 .
 hkr:InterplanetarySpace
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
-  skos:broader hk:Heliosphere ;
+  rdfs:isDefinedBy hkr: ;
+  skos:broader hkr:Heliosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Magnetopause ;
   skos:narrower hkr:Magnetosheath ;
@@ -230,7 +221,7 @@ hkr:InterplanetarySpace
 .
 hkr:Ionosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:UnmagnetizedBodies ;
   skos:broader hkr:UpperAtmosphere ;
   skos:inScheme hkr: ;
@@ -244,18 +235,18 @@ hkr:Ionosphere
   skos:narrower hkr:PolarCap ;
   skos:narrower hkr:Subauroral ;
   skos:prefLabel "Ionosphere"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/IonosphericPhysics> ;
+  hk:describedBy hk:IonosphericPhysics ;
 .
 hkr:Lobes
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Lobes"@en ;
 .
 hkr:Low-latitude
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Exosphere ;
   skos:broader hkr:Mesosphere ;
   skos:broader hkr:Stratosphere ;
@@ -265,33 +256,33 @@ hkr:Low-latitude
 .
 hkr:Low-latitudeEquatorial
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Low-Latitude/Equatorial"@en ;
 .
 hkr:Magnetopause
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InterplanetarySpace ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Magnetopause"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:Magnetosheath
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InterplanetarySpace ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Magnetosheath"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:Magnetosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
-  skos:broader hk:Heliosphere ;
+  rdfs:isDefinedBy hkr: ;
+  skos:broader hkr:Heliosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Bowshock ;
   skos:narrower hkr:Cusp ;
@@ -311,33 +302,33 @@ hkr:Magnetosphere
 .
 hkr:Magnetotail
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:MagnetotailCurrentSheet ;
   skos:narrower hkr:MagnetotailKink ;
   skos:prefLabel "Magnetotail"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:MagnetotailCurrentSheet
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetotail ;
   skos:inScheme hkr: ;
   skos:prefLabel "Magnetotail Current Sheet"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:MagnetotailKink
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetotail ;
   skos:inScheme hkr: ;
   skos:prefLabel "Magnetotail Kink"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:Mesosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:GroundAndLowerAtmosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:High-latitude ;
@@ -347,7 +338,7 @@ hkr:Mesosphere
 .
 hkr:Mid-latitude
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Exosphere ;
   skos:broader hkr:Ionosphere ;
   skos:broader hkr:Mesosphere ;
@@ -358,7 +349,7 @@ hkr:Mid-latitude
 .
 hkr:NearPlanetSpace
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Exosphere ;
@@ -366,79 +357,79 @@ hkr:NearPlanetSpace
 .
 hkr:Nightside
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Nightside"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/MagnetosphericPhysics> ;
+  hk:describedBy hk:MagnetosphericPhysics ;
 .
 hkr:OuterRadiationBelt
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InnerMagnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Outer Radiation Belt"@en ;
 .
 hkr:Pause
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InterplanetarySpace ;
   skos:inScheme hkr: ;
   skos:prefLabel "Pause"@en ;
-  <https://www.helioknowledge.network/describedBy> <https://www.helioknowledge.network/InterplanetaryPhysics> ;
+  hk:describedBy hk:InterplanetaryPhysics ;
 .
 hkr:Photosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:SolarAtmosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Photosphere"@en ;
 .
 hkr:Plasmasphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InnerMagnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Plasmasphere"@en ;
 .
 hkr:PolarCap
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Polar Cap"@en ;
 .
 hkr:PolarVortex
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Stratosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Polar Vortex"@en ;
 .
 hkr:PolewardBoundary
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:AuroralRegion ;
   skos:inScheme hkr: ;
   skos:prefLabel "Poleward Boundary"@en ;
 .
 hkr:Region1
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Region 1"@en ;
 .
 hkr:Region2
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Region 2"@en ;
 .
 hkr:RingCurrent
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InnerMagnetosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:SymmetricRingCurrent ;
@@ -446,8 +437,8 @@ hkr:RingCurrent
 .
 hkr:SolarAtmosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
-  skos:broader hk:Heliosphere ;
+  rdfs:isDefinedBy hkr: ;
+  skos:broader hkr:Heliosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Chromosphere ;
   skos:narrower hkr:Corona ;
@@ -457,14 +448,14 @@ hkr:SolarAtmosphere
 .
 hkr:SolarConvectiveZone
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:SolarInterior ;
   skos:inScheme hkr: ;
   skos:prefLabel "Solar Convective Zone"@en ;
 .
 hkr:SolarInterior
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:SolarAtmosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:SolarConvectiveZone ;
@@ -473,14 +464,14 @@ hkr:SolarInterior
 .
 hkr:SolarRadiativeZone
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:SolarInterior ;
   skos:inScheme hkr: ;
   skos:prefLabel "Solar Radiative Zone"@en ;
 .
 hkr:Stratosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:GroundAndLowerAtmosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:High-latitude ;
@@ -491,21 +482,21 @@ hkr:Stratosphere
 .
 hkr:Subauroral
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Ionosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Subauroral"@en ;
 .
 hkr:SymmetricRingCurrent
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:RingCurrent ;
   skos:inScheme hkr: ;
   skos:prefLabel "Symmetric Ring Current"@en ;
 .
 hkr:Thermosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:UpperAtmosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:High-latitude ;
@@ -515,8 +506,8 @@ hkr:Thermosphere
 .
 hkr:UnmagnetizedBodies
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
-  skos:broader hk:Heliosphere ;
+  rdfs:isDefinedBy hkr: ;
+  skos:broader hkr:Heliosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Atmosphere ;
   skos:narrower hkr:Exosphere ;
@@ -526,7 +517,7 @@ hkr:UnmagnetizedBodies
 .
 hkr:UpperAtmosphere
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:Magnetosphere ;
   skos:inScheme hkr: ;
   skos:narrower hkr:Ionosphere ;
@@ -535,14 +526,14 @@ hkr:UpperAtmosphere
 .
 hkr:Wake
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:UnmagnetizedBodies ;
   skos:inScheme hkr: ;
   skos:prefLabel "Wake"@en ;
 .
 hkr:WarmPlasmaCloak
   rdf:type hk:Region ;
-  rdfs:isDefinedBy <https://www.helioknowledge.network/region> ;
+  rdfs:isDefinedBy hkr: ;
   skos:broader hkr:InnerMagnetosphere ;
   skos:inScheme hkr: ;
   skos:prefLabel "Warm Plasma Cloak"@en ;
