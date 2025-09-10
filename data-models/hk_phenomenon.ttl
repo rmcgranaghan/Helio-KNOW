@@ -1,4 +1,4 @@
-# baseURI: https://www.helioknowledge.network/phenomenon 
+# baseURI: https://www.helioknowledge.network/phenomenon
 # imports: https://www.helioknowledge.network/core
 # imports: https://www.helioknowledge.network/region
 
@@ -21,6 +21,7 @@ hk:ElectromagneticMutuality
   rdf:type hk:Influence ;
   skos:inScheme hkp: ;
   skos:prefLabel "Electromagnetic Mutuality"@en ;
+  hk:qualifiedBy hkp:MaxwellsEquation ;
   hkp:hasInfluenced hkp:B-field ;
   hkp:hasInfluenced hkp:E-field ;
   hkp:hasInfluencer hkp:B-field ;
@@ -30,22 +31,6 @@ hk:Influence
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Relation ;
   skos:prefLabel "Influence"@en ;
-.
-hk:IonosphericState
-  rdf:type hk:State ;
-  skos:inScheme hkp: ;
-  skos:prefLabel "Ionospheric State"@en ;
-  hk:characterizedBy hkp:B-field ;
-  hk:characterizedBy hkp:E-field ;
-  hk:characterizedBy hkp:IonosphericConductivity ;
-  hk:characterizedBy hkp:IonosphericDensity ;
-  hk:characterizedBy hkp:IonosphericTemperature ;
-  hk:characterizedBy hkp:IonosphericVelocity ;
-.
-hk:MagnetosphericState
-  rdf:type hk:State ;
-  skos:inScheme hkp: ;
-  skos:prefLabel "Magnetospheric State"@en ;
 .
 hk:NitricOxide
   hkp:decreases hkp:ThermosphericTemperature ;
@@ -80,11 +65,7 @@ hk:SpaceWeather
   skos:narrower hkp:SurfaceInteractions ;
   skos:narrower hkp:TerminationShock ;
   skos:topConceptOf hkp: ;
-.
-hk:ThermosphericState
-  rdf:type hk:State ;
-  skos:inScheme hkp: ;
-  skos:prefLabel "Thermospheric State"@en ;
+  hk:occursIn <https://www.helioknowledge.network/region/Heliosphere> ;
 .
 <https://www.helioknowledge.network/phenomenon>
   rdf:type owl:Ontology ;
@@ -387,6 +368,7 @@ hkp:IonNeutralCollision
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Ion-Neutral Collision"@en ;
+  hk:characterizedBy hkp:CollisionFrequency ;
   hkp:drives hkp:MomentumTransfer ;
 .
 hkp:IonOutflow
@@ -469,6 +451,17 @@ hkp:IonosphericIonDensity
   skos:inScheme hkp: ;
   skos:prefLabel "Ionospheric Ion Density"@en ;
 .
+hkp:IonosphericState
+  rdf:type hk:State ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Ionospheric State"@en ;
+  hk:characterizedBy hkp:B-field ;
+  hk:characterizedBy hkp:E-field ;
+  hk:characterizedBy hkp:IonosphericConductivity ;
+  hk:characterizedBy hkp:IonosphericDensity ;
+  hk:characterizedBy hkp:IonosphericTemperature ;
+  hk:characterizedBy hkp:IonosphericVelocity ;
+.
 hkp:IonosphericTemperature
   rdf:type <http://sweetontology.net/propTemperature> ;
   rdf:type hk:Property ;
@@ -518,6 +511,15 @@ hkp:MagnetosphericMassWeighting
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:prefLabel "Magnetospheric Mass Weighting"@en ;
+.
+hkp:MagnetosphericState
+  rdf:type hk:State ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Magnetospheric State"@en ;
+  hk:characterizedBy hkp:B-field ;
+  hk:characterizedBy hkp:E-field ;
+  hk:characterizedBy hkp:PlasmaDensity ;
+  hk:characterizedBy hkp:PlasmaVelocity ;
 .
 hkp:MaxwellsEquation
   rdf:type hk:Equation ;
@@ -936,6 +938,9 @@ hkp:SolarWindPlasma
   skos:broader <http://sweetontology.net/statePhysical/Plasma> ;
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
+  hk:characterizedBy hkp:InterplanetaryMagneticField ;
+  hk:characterizedBy hkp:PlasmaDensity ;
+  hk:characterizedBy hkp:PlasmaVelocity ;
   hkp:directEntry hkp:ParticlePrecipitation ;
   hkp:reconnectsWith <https://www.helioknowledge.network/region/Magnetosphere> ;
 .
@@ -1013,13 +1018,22 @@ hkp:ThermosphericComposition
   rdf:type hk:Property ;
   skos:inScheme hkp: ;
   skos:prefLabel "Thermospheric Composition"@en ;
-  hkp:determines hk:ON2Ratio ;
+  hkp:determines hkp:ON2Ratio ;
 .
 hkp:ThermosphericDensity
   rdf:type <http://sweetontology.net/propMass/Density> ;
   rdf:type hk:Property ;
   skos:inScheme hkp: ;
   skos:prefLabel "Thermospheric Density"@en ;
+.
+hkp:ThermosphericState
+  rdf:type hk:State ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Thermospheric State"@en ;
+  hk:characterizedBy hkp:ThermosphericComposition ;
+  hk:characterizedBy hkp:ThermosphericDensity ;
+  hk:characterizedBy hkp:ThermosphericTemperature ;
+  hk:characterizedBy hkp:ThermosphericWind ;
 .
 hkp:ThermosphericTemperature
   rdf:type <http://sweetontology.net/propTemperature> ;
@@ -1166,4 +1180,13 @@ hkp:reconnectsWith
   rdfs:domain hk:Phenomenon ;
   rdfs:range hk:Region ;
   skos:prefLabel "reconnects with"@en ;
+.
+<https://www.helioknowledge.network/region/Ionosphere>
+  hk:hasState hkp:IonosphericState ;
+.
+<https://www.helioknowledge.network/region/Magnetosphere>
+  hk:hasState hkp:MagnetosphericState ;
+.
+<https://www.helioknowledge.network/region/Thermosphere>
+  hk:hasState hkp:ThermosphericState ;
 .
