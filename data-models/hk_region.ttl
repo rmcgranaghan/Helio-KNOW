@@ -1,4 +1,4 @@
-# baseURI: https://www.helioknowledge.network/region
+# baseURI: https://www.helioknowledge.network/region 
 # imports: https://www.helioknowledge.network/core
 
 @prefix hk: <https://www.helioknowledge.network/core/> .
