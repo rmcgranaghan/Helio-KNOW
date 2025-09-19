@@ -64,18 +64,6 @@ hk:AtomicOxygenIon
   skos:inScheme hk: ;
   skos:prefLabel "Atomic Oxygen Ion"@en ;
 .
-hk:Category
-  rdf:type owl:Class ;
-  rdfs:subClassOf skos:Concept ;
-  skos:inScheme hk: ;
-  skos:prefLabel "Category"@en ;
-.
-hk:Concept
-  rdf:type owl:Class ;
-  rdfs:subClassOf skos:Concept ;
-  skos:inScheme hk: ;
-  skos:prefLabel "Concept"@en ;
-.
 hk:CoolingAgent
   rdf:type owl:Class ;
   rdfs:subClassOf hk:Matter ;
@@ -84,12 +72,12 @@ hk:CoolingAgent
 .
 hk:Discipline
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme hk: ;
 .
 hk:Equation
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   owl:equivalentClass sorepm:Equation ;
   skos:inScheme hk: ;
   skos:prefLabel "Equation"@en ;
@@ -127,7 +115,7 @@ hk:MagnetosphericPhysics
 .
 hk:Matter
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme hk: ;
   skos:prefLabel "Matter"@en ;
 .
@@ -174,28 +162,28 @@ hk:NitricOxideIon
 .
 hk:Phenomenon
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   owl:equivalentClass soph:Phenomena ;
   skos:inScheme hk: ;
   skos:prefLabel "Phenomenon"@en ;
 .
 hk:Property
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   owl:equivalentClass soprop:Property ;
   skos:inScheme hk: ;
   skos:prefLabel "Property"@en ;
 .
 hk:Region
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   owl:equivalentClass sorepsg:Region ;
   skos:inScheme hk: ;
   skos:prefLabel "Region"@en ;
 .
 hk:Relation
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme hk: ;
   skos:prefLabel "Relation"@en ;
 .
@@ -234,7 +222,7 @@ hk:SpaceWeather
 .
 hk:State
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   owl:equivalentClass sost:State ;
   skos:inScheme hk: ;
   skos:prefLabel "State"@en ;
@@ -256,12 +244,13 @@ hk:Substance
 .
 hk:characterizedBy
   rdf:type owl:ObjectProperty ;
-  rdfs:domain hk:Concept ;
-  rdfs:range hk:Concept ;
+  rdfs:domain skos:Concept ;
+  rdfs:range skos:Concept ;
   skos:prefLabel "characterized by"@en ;
 .
 hk:describedBy
   rdf:type owl:ObjectProperty ;
+  rdfs:domain skos:Concept ;
   rdfs:range hk:Discipline ;
   rdfs:subPropertyOf skos:related ;
 .
@@ -273,8 +262,8 @@ hk:hasState
 .
 hk:influences
   rdf:type owl:ObjectProperty ;
-  rdfs:domain hk:Concept ;
-  rdfs:range hk:Concept ;
+  rdfs:domain skos:Concept ;
+  rdfs:range skos:Concept ;
   skos:prefLabel "influences"@en ;
 .
 hk:occursIn
@@ -286,6 +275,6 @@ hk:occursIn
 hk:qualifiedBy
   rdf:type owl:ObjectProperty ;
   rdfs:domain hk:Relation ;
-  rdfs:range hk:Concept ;
+  rdfs:range skos:Concept ;
   skos:prefLabel "qualified by"@en ;
 .

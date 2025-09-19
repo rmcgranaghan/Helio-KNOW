@@ -1,0 +1,192 @@
+#List first 10 phenomena and the region they occur in (if specified)
+SELECT *
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+	?phen a hk:Phenomenon . 
+	OPTIONAL {?phen hk:occursIn ?region }
+}
+ORDER BY ?phen ?reg
+LIMIT 10
+# Results: 
+# hk:SpaceWeather	
+# hkp:AuroralElectrojet	hkr:Ionosphere
+# hkp:BroadbandAurora	
+# hkp:Burst	hkr:InterplanetarySpace
+# hkp:CoronalMassEjection	hkr:Chromosphere
+# hkp:CoronalMassEjection	hkr:Corona
+# hkp:CoronalMassEjection	hkr:Photosphere
+# hkp:CurrentSystem	hkr:Ionosphere
+# hkp:Cusp	
+# hkp:DaysideReconnection	hkr:Dayside
+	
+
+
+#List all phenomena that occur within a selected region
+SELECT ?phen
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+	#set region here
+	VALUES ?region {hkr:Ionosphere}
+	?phen a hk:Phenomenon ; skos:prefLabel ?phenname ; hk:occursIn ?region . 
+}
+ORDER BY ?phenname
+# Results: 
+# hkp:AuroralElectrojet
+# hkp:CurrentSystem
+# hkp:EquatorialElectrojet
+# hkp:GeomagneticStorm
+# hkp:HallCurrent
+# hkp:PedersenCurrent
+# hkp:SolarQuietCurrent
+# hkp:Substorm
+# hkp:SubstormCurrentWedge
+
+
+#For all subtypes of Ionospheric Conductivity return the LaTeX of the equation describing it
+SELECT ?prop ?latex
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+	#set parent property here
+	VALUES ?parent {hkp:IonosphericConductivity}
+	?prop a hk:Property ; skos:broader ?parent; hkp:calculatedBy ?eq. 
+	?eq hk:LaTeX ?latex
+}
+# Results:
+# hkp:HallConductivity	        \sigma_H = \sigma_{\parallel} \frac{(1 + \kappa)\nu_e^2}{( (1 + \kappa)^2 \nu_e^2 + \omega_e^2 )}
+# hkp:ParallelConductivity	    \sigma_{\parallel} = \frac{n_e e^2}{m_e \nu_e}
+# hkp:PedersenConductivity	    \sigma_P = \sigma_{\parallel} \frac{\omega_e \nu_e}{( (1 + \kappa)^2 \nu_e^2 + \omega_e^2 )}
+
+
+# find related phenomena for a target phenomenon
+SELECT DISTINCT ?subj ?rel ?obj
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+# set target phenom here
+	VALUES ?target {hkp:IonOutflow}
+	{?target ?rel ?o . ?o a hk:Phenomenon} 
+		UNION 
+	{?s ?rel ?target . ?s a hk:Phenomenon}
+	BIND (COALESCE (?s, ?target) AS ?subj)
+	BIND (COALESCE (?o, ?target) AS ?obj)
+}
+ORDER BY ?subj ?rel ?obj
+# Results:
+# hk:SpaceWeather				skos:narrower	hkp:IonOutflow
+# hkp:IonOutflow				skos:broader	hk:SpaceWeather
+# hkp:IonOutflow				hkp:decreases	hkp:Ionization
+# hkp:IonOutflow				hkp:drives		hkp:MagnetosphericMassWeighting
+# hkp:MomentumTransfer			hkp:increases	hkp:IonOutflow
+# hkp:Wave-ParticleInteraction	hkp:initiates	hkp:IonOutflow
+
+#find a tagret node by name | synonym
+SELECT *
+WHERE {
+	?target skos:prefLabel|skos:altLabel  ?term . 
+	FILTER REGEX (?term, "solar wind", "i")
+}
+ORDER BY ?target ?term
+# Results: 
+# hkp:SolarWind			Solar Wind
+# hkp:SolarWindShock	Solar Wind Shock
+
+# find incoming and outgoing Influence rels for a target node
+SELECT DISTINCT ?obj ?influence ?subj  
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+	# set target phenom here
+	VALUES ?phenom {hkp:IonDrag}
+	?influence rdfs:subPropertyOf* hk:influences . 
+	{?phenom ?influence ?o} UNION {?s ?influence ?phenom}
+	BIND (COALESCE (?s, ?phenom) AS ?subj)
+	BIND (COALESCE (?o, ?phenom) AS ?obj)
+}
+ORDER BY ?subj ?influence ?obj
+# Results
+# hkp:MomentumTransfer	hkp:determines	hkp:IonDrag
+# hkp:IonDrag	        hkp:increases	hkp:IonosphericVelocity
+# hkp:IonDrag	        hkp:decreases	hkp:ThermosphericWind
+
+# find downstream phenomena influenced by the target phenomenon
+SELECT DISTINCT *
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+# set target phenom here
+	VALUES ?target {hkp:Ionization}
+	?target a hk:Phenomenon . 
+	?influence rdfs:subPropertyOf* hk:influences .
+	?target ?influence ?downstream . 
+
+}
+ORDER BY ?target ?influence ?downstream
+# Results: 
+# hkp:Ionization	hk:influences	hkp:E-field
+# hkp:Ionization	hkp:increases	hkp:IonosphericConductivity
+# hkp:Ionization	hkp:increases	hkp:IonosphericDensity
+# hkp:Ionization	hkp:produces	hkp:IonizationFeature
+
+# find upstream phenomena influencing the target phenomenon
+SELECT DISTINCT ?upstream ?influence ?target
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+# set target phenom here
+	VALUES ?target {hkp:IonDrag}
+	?target a hk:Phenomenon . 
+	?influence rdfs:subPropertyOf* hk:influences .
+	?upstream ?influence ?target . 
+
+}
+ORDER BY ?target ?influence ?upstream
+# Resuls: 
+# hkp:ThermosphericWind		hkp:decreases	hkp:IonDrag
+# hkp:IonosphericVelocity	hkp:increases	hkp:IonDrag
+
+# find all regions associated to the target phenomenon
+SELECT DISTINCT ?target ?reg
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+# set target phenom here
+	VALUES ?target {hkp:CoronalMassEjection}
+	?target a hk:Phenomenon ; hk:occursIn ?reg . 
+
+}
+ORDER BY ?target ?reg
+# Results: 
+# hkp:CoronalMassEjection	hkr:Chromosphere
+# hkp:CoronalMassEjection	hkr:Corona
+# hkp:CoronalMassEjection	hkr:Photosphere
+
+# what do we know about a specific phenomenon
+DESCRIBE ?target
+FROM <https://www.helioknowledge.network/phenomenon>
+FROM <https://www.helioknowledge.network/region>
+FROM <https://www.helioknowledge.network/core>
+WHERE {
+# set target phenom here
+	VALUES ?target {hkp:CoronalMassEjection}	
+}
+# Results: 
+# hkp:CoronalMassEjection	hk:occursIn		hkr:Photosphere
+# hkp:CoronalMassEjection	hk:occursIn		hkr:Corona
+# hkp:CoronalMassEjection	hk:occursIn		hkr:Chromosphere
+# hkp:CoronalMassEjection	hk:describedBy	hk:InterplanetaryPhysics
+# hkp:CoronalMassEjection	skos:related	hkp:SolarWind
+# hkp:CoronalMassEjection	skos:prefLabel	Coronal Mass Ejection
+# hkp:CoronalMassEjection	skos:inScheme	hkp:
+# hkp:CoronalMassEjection	skos:broader	hkp:Burst
+# hkp:CoronalMassEjection	rdf:type		hk:Phenomenon
