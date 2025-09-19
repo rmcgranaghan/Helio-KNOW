@@ -244,10 +244,13 @@ hk:Substance
 .
 hk:characterizedBy
   rdf:type owl:ObjectProperty ;
+  rdfs:domain skos:Concept ;
+  rdfs:range skos:Concept ;
   skos:prefLabel "characterized by"@en ;
 .
 hk:describedBy
   rdf:type owl:ObjectProperty ;
+  rdfs:domain skos:Concept ;
   rdfs:range hk:Discipline ;
   rdfs:subPropertyOf skos:related ;
 .
@@ -259,6 +262,8 @@ hk:hasState
 .
 hk:influences
   rdf:type owl:ObjectProperty ;
+  rdfs:domain skos:Concept ;
+  rdfs:range skos:Concept ;
   skos:prefLabel "influences"@en ;
 .
 hk:occursIn
@@ -270,5 +275,6 @@ hk:occursIn
 hk:qualifiedBy
   rdf:type owl:ObjectProperty ;
   rdfs:domain hk:Relation ;
+  rdfs:range skos:Concept ;
   skos:prefLabel "qualified by"@en ;
 .
