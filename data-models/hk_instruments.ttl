@@ -33,7 +33,7 @@ madrigal:Distributed_Ground_Based_Satellite_Receiver
 .
 madrigal:Experiment
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme madrigal:Madrigal ;
   skos:prefLabel "Experiment"@en ;
   schema:description """All the data from a given instrument is organized into experiments. An experiment consists of data from a single instrument covering a limited period of time, and, as a rule, is meant to address a particular scientific goal. Madrigal makes the assumption that instruments may be run in different modes, and so the data generated may vary from one experiment to another. By organizing one instrument's data into experiments, the purpose and limitations of each experiment can be made clearer. In Madrigal, you can navigate to a page that contains a particular experiment for a given instrument. This page may contain notes more fully describing the unique features of this experiment, or may contain plots of the data customized to the type of experiment. This level of organization is not presently maintained in the Cedar database.
@@ -41,7 +41,7 @@ For simpler instruments that run constantly in the same mode, it is also possibl
 .
 madrigal:ExperimentFile
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme madrigal:Madrigal ;
   skos:prefLabel "Experiment File"@en ;
   schema:description """The data from a given experiment is stored in one or more experiment files. There are two reasons there may be more than one file for a given experiment. The first is that the experimental data may be analyzed in more than one way, leading to files with different sets of measured parameters. The second is that older, historical files can be kept on-line for reference purposes. By default, you will only access the most recent, default file through the web, unless you choose \"Show History Files\" when navigating Madrigal.
@@ -49,14 +49,14 @@ The format of these files is the CEDAR Madrigal Hdf5 format, but you can access 
 .
 madrigal:ExperimentFileDatum
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme madrigal:Madrigal ;
   skos:prefLabel "Experiment File Datum"@en ;
   schema:description "Any given file is made up a series of records holding measured parameters. Note that based on which parameters are in the file, Madrigal will automatically derive a large number of other parameters such as Kp and Magnetic field strength that aren't in the file itself. In the web browser, measured parameters are shown in bold, derived parameters in normal font."@en ;
 .
 madrigal:ExperimentFileParameter
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme madrigal:Madrigal ;
   skos:prefLabel "Experiment File Parameter"@en ;
   schema:description "Any given file is made up a series of records holding measured parameters. Note that based on which parameters are in the file, Madrigal will automatically derive a large number of other parameters such as Kp and Magnetic field strength that aren't in the file itself. In the web browser, measured parameters are shown in bold, derived parameters in normal font."@en ;
@@ -106,14 +106,14 @@ madrigal:Individual_Ground_Based_Satellite_Receiver
 .
 madrigal:Instrument
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme madrigal:Madrigal ;
   skos:prefLabel "Instrument"@en ;
   schema:description "The next layer of the Madrigal data model is the instrument. All data in Madrigal is associated with one and only one instrument. Any given Madrigal site will hold data from one or more instruments. Since Madrigal focuses on ground-based instruments, most instruments have a particular location associated with them. However, some Madrigal data is based on measurements from multiple instruments, and so have no particular location. Some examples are \"EISCAT Scientific Association IS Radars\" which combine data from the multiple EISCAT radars, and \"World-wide GPS Receiver Network\", which consists of over a thousand individual GPS receivers distributed around the globe."@en ;
 .
 madrigal:InstrumentType
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Category ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme madrigal:Madrigal ;
   skos:prefLabel "Instrument Type"@en ;
 .
@@ -181,7 +181,7 @@ madrigal:Satellite_Instrument
 .
 madrigal:Site
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme madrigal:Madrigal ;
   skos:prefLabel "Site"@en ;
   schema:description "The highest level of Madrigal is a Madrigal site. A Madrigal site is one particular web site controlled by one particular group, that holds all their own data. While each Madrigal site stores their own data locally, they also share metadata with all the other sites. This makes it possible for you to search for data at all the Madrigal sites at once no matter which site you visit, and simply follow links to the Madrigal site that has the data you are interested in."@en ;
@@ -20402,13 +20402,13 @@ spase:IUGONET_Instrument_WDC_Kyoto_WDC_ZUY_Magnetometer
 .
 spase:Instrument
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme spase:SPASE ;
   skos:prefLabel "Instrument"@en ;
 .
 spase:InstrumentType
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Category ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme spase:SPASE ;
   skos:prefLabel "Instrument Type"@en ;
 .
@@ -20513,7 +20513,7 @@ spase:NSF_Instrument_Ground_MLSO_K-Cor
 .
 spase:Observatory
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Concept ;
+  rdfs:subClassOf skos:Concept ;
   owl:disjointWith spase:Instrument ;
   skos:inScheme spase:SPASE ;
   skos:prefLabel "Observatory"@en ;
@@ -68546,7 +68546,7 @@ hki:IndividualGroundBasedSatelliteReceiver
 .
 hki:InstrumentType
   rdf:type owl:Class ;
-  rdfs:subClassOf hk:Category ;
+  rdfs:subClassOf skos:Concept ;
   skos:inScheme spase:SPASE ;
   skos:prefLabel "Instrument Type"@en ;
 .
