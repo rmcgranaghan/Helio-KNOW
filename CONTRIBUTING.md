@@ -1,6 +1,6 @@
 
 # Contribution Guidelines
-These guidelines have been adadpted from those followed by the open science [Pangeo](https://pangeo.io/) community. 
+These guidelines have been adapted from those followed by the open science [Pangeo](https://pangeo.io/) community. 
 
 Please note that this project follows a [Contributor Code of Conduct]() developed by [Contributor Covenant](https://www.contributor-covenant.org/). By participating in this project you agree to abide by its terms.
 
