@@ -13,6 +13,7 @@
 @prefix soprop: <http://sweetontology.net/prop/Property/> .
 @prefix sorepm: <http://sweetontology.net/reprMath/> .
 @prefix sorepsg: <http://sweetontology.net/reprSpaceGeometry/Region/> .
+@prefix sorepsmo: <http://sweetontology.net/reprSciModel/> .
 @prefix sost: <http://sweetontology.net/state/State/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -23,7 +24,7 @@
   rdfs:label "HelioKNOW core ontology" ;
   owl:imports bfo:bfo ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
-  owl:versionInfo "Extend classes from BFO" ;
+  owl:versionInfo "added models to the core model" ;
 .
 hk:
   rdf:type skos:ConceptScheme ;
@@ -126,6 +127,13 @@ hk:Matter
   skos:inScheme hk: ;
   skos:prefLabel "Matter"@en ;
 .
+hk:Model
+  rdf:type owl:Class ;
+  rdfs:subClassOf bfo:BFO_0000141 ;
+  rdfs:subClassOf skos:Concept ;
+  owl:equivalentClass sorepsmo:Model ;
+  skos:prefLabel "Model" ;
+.
 hk:MolecularNitrogen
   rdf:type hk:Matter ;
   skos:altLabel "N2"@en ;
@@ -207,9 +215,11 @@ hk:SolarPhysics
 hk:SpacePhysics
   rdf:type hk:Discipline ;
   skos:inScheme hk: ;
+  skos:narrower hk:AtmosphericPhysics ;
   skos:narrower hk:InterplanetaryPhysics ;
   skos:narrower hk:IonosphericPhysics ;
   skos:narrower hk:MagnetosphericPhysics ;
+  skos:narrower hk:SolarPhysics ;
   skos:prefLabel "Space Physics"@en ;
   skos:topConceptOf hk: ;
 .
