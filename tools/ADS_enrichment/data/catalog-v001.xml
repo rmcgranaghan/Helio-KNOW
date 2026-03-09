@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1772829016167" name="http://www.eionet.europa.eu/gemet" uri="gemet-definitions.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1772829016167" name="duplicate:http://www.eionet.europa.eu/gemet/" uri="gemet-backbone.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1772829016167" name="duplicate:http://www.eionet.europa.eu/gemet/" uri="gemet.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1772829016167" name="duplicate:http://www.eionet.europa.eu/gemet/" uri="gemet-skoscore.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1772829016167" name="http://www.gra.fo/schema/untitled-ekg" uri="helio-vocamp-uat-ext-shared.owl"/>
+    </group>
+</catalog>
