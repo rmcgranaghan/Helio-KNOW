@@ -1,0 +1,1444 @@
+subject_id,predicate_id,object_id,mapping_justification,confidence,term
+GCMD:aa index,skos:exactMatch,Space Weather Glossary:aa index,lexical_identity_same_normalized_term,0.6,aa index
+GCMD:aa index,skos:exactMatch,Space Weather Glossary (Second):aa index,lexical_identity_same_normalized_term,0.6,aa index
+Space Weather Glossary:aa index,skos:exactMatch,Space Weather Glossary (Second):aa index,lexical_identity_same_normalized_term,0.6,aa index
+GCMD:abrasion,skos:exactMatch,SWEET:abrasion,lexical_identity_same_normalized_term,0.6,abrasion
+GCMD:absorption,skos:exactMatch,HELIO Ontology:absorption,lexical_identity_same_normalized_term,0.6,absorption
+GCMD:absorption,skos:exactMatch,SPASE Dictionary:absorption,lexical_identity_same_normalized_term,0.6,absorption
+GCMD:absorption,skos:exactMatch,SWEET:absorption,lexical_identity_same_normalized_term,0.6,absorption
+HELIO Ontology:absorption,skos:exactMatch,SPASE Dictionary:absorption,lexical_identity_same_normalized_term,0.6,absorption
+HELIO Ontology:absorption,skos:exactMatch,SWEET:absorption,lexical_identity_same_normalized_term,0.6,absorption
+SPASE Dictionary:absorption,skos:exactMatch,SWEET:absorption,lexical_identity_same_normalized_term,0.6,absorption
+HELIO Ontology:ac electric field,skos:exactMatch,SPASE Dictionary:ac electric field,lexical_identity_same_normalized_term,0.6,ac electric field
+HELIO Ontology:ac magnetic field,skos:exactMatch,SPASE Dictionary:ac magnetic field,lexical_identity_same_normalized_term,0.6,ac magnetic field
+GCMD:acid deposition,skos:exactMatch,GEMET:acid deposition,lexical_identity_same_normalized_term,0.6,acid deposition
+GCMD:acid rain,skos:exactMatch,GEMET:acid rain,lexical_identity_same_normalized_term,0.6,acid rain
+GEMET:acoustics,skos:exactMatch,SWEET:acoustics,lexical_identity_same_normalized_term,0.6,acoustics
+SPASE Dictionary:active,skos:exactMatch,Space Weather Glossary:active,lexical_identity_same_normalized_term,0.6,active
+AGU Index Terms:active layer,skos:exactMatch,GCMD:active layer,lexical_identity_same_normalized_term,0.6,active layer
+HELIO Ontology:active region,skos:exactMatch,SPASE Dictionary:active region,lexical_identity_same_normalized_term,0.6,active region
+HELIO Ontology:active region,skos:exactMatch,Space Weather Glossary:active region,lexical_identity_same_normalized_term,0.6,active region
+HELIO Ontology:active region,skos:exactMatch,Space Weather Glossary (Second):active region,lexical_identity_same_normalized_term,0.6,active region
+SPASE Dictionary:active region,skos:exactMatch,Space Weather Glossary:active region,lexical_identity_same_normalized_term,0.6,active region
+SPASE Dictionary:active region,skos:exactMatch,Space Weather Glossary (Second):active region,lexical_identity_same_normalized_term,0.6,active region
+Space Weather Glossary:active region,skos:exactMatch,Space Weather Glossary (Second):active region,lexical_identity_same_normalized_term,0.6,active region
+HELIO Ontology:activity index,skos:exactMatch,SPASE Dictionary:activity index,lexical_identity_same_normalized_term,0.6,activity index
+GCMD:advection,skos:exactMatch,GEMET:advection,lexical_identity_same_normalized_term,0.6,advection
+GCMD:ae index,skos:exactMatch,Space Weather Glossary:ae index,lexical_identity_same_normalized_term,0.6,ae index
+GEMET:aerosol,skos:exactMatch,HELIO Ontology:aerosol,lexical_identity_same_normalized_term,0.6,aerosol
+GEMET:aerosol,skos:exactMatch,SPASE Dictionary:aerosol,lexical_identity_same_normalized_term,0.6,aerosol
+HELIO Ontology:aerosol,skos:exactMatch,SPASE Dictionary:aerosol,lexical_identity_same_normalized_term,0.6,aerosol
+AGU Index Terms:aerosols,skos:exactMatch,GCMD:aerosols,lexical_identity_same_normalized_term,0.6,aerosols
+AGU Index Terms:africa,skos:exactMatch,GEMET:africa,lexical_identity_same_normalized_term,0.6,africa
+GEMET:age,skos:exactMatch,SWEET:age,lexical_identity_same_normalized_term,0.6,age
+GCMD:agricultural engineering,skos:exactMatch,GEMET:agricultural engineering,lexical_identity_same_normalized_term,0.6,agricultural engineering
+GCMD:agricultural equipment,skos:exactMatch,GEMET:agricultural equipment,lexical_identity_same_normalized_term,0.6,agricultural equipment
+GCMD:agriculture,skos:exactMatch,GEMET:agriculture,lexical_identity_same_normalized_term,0.6,agriculture
+GCMD:air quality,skos:exactMatch,GEMET:air quality,lexical_identity_same_normalized_term,0.6,air quality
+GCMD:air temperature,skos:exactMatch,GEMET:air temperature,lexical_identity_same_normalized_term,0.6,air temperature
+GCMD:airglow,skos:exactMatch,SWEET:airglow,lexical_identity_same_normalized_term,0.6,airglow
+HELIO Ontology:akasofu epsilon,skos:exactMatch,SPASE Dictionary:akasofu epsilon,lexical_identity_same_normalized_term,0.6,akasofu epsilon
+ESA Space Weather Glossary:alarm,skos:exactMatch,GEMET:alarm,lexical_identity_same_normalized_term,0.6,alarm
+AGU Index Terms:albedo,skos:exactMatch,GCMD:albedo,lexical_identity_same_normalized_term,0.6,albedo
+AGU Index Terms:albedo,skos:exactMatch,GEMET:albedo,lexical_identity_same_normalized_term,0.6,albedo
+AGU Index Terms:albedo,skos:exactMatch,SPASE Dictionary:albedo,lexical_identity_same_normalized_term,0.6,albedo
+GCMD:albedo,skos:exactMatch,GEMET:albedo,lexical_identity_same_normalized_term,0.6,albedo
+GCMD:albedo,skos:exactMatch,SPASE Dictionary:albedo,lexical_identity_same_normalized_term,0.6,albedo
+GEMET:albedo,skos:exactMatch,SPASE Dictionary:albedo,lexical_identity_same_normalized_term,0.6,albedo
+HELIO Ontology:alfven mach number,skos:exactMatch,SPASE Dictionary:alfven mach number,lexical_identity_same_normalized_term,0.6,alfven mach number
+HELIO Ontology:alfven velocity,skos:exactMatch,SPASE Dictionary:alfven velocity,lexical_identity_same_normalized_term,0.6,alfven velocity
+SWEET:alfven wave,skos:exactMatch,Space Weather Glossary:alfven wave,lexical_identity_same_normalized_term,0.6,alfven wave
+HELIO Ontology:alpha particle,skos:exactMatch,SPASE Dictionary:alpha particle,lexical_identity_same_normalized_term,0.6,alpha particle
+GCMD:altitude,skos:exactMatch,GEMET:altitude,lexical_identity_same_normalized_term,0.6,altitude
+GCMD:altitude,skos:exactMatch,HELIO Ontology:altitude,lexical_identity_same_normalized_term,0.6,altitude
+GEMET:altitude,skos:exactMatch,HELIO Ontology:altitude,lexical_identity_same_normalized_term,0.6,altitude
+GCMD:am index,skos:exactMatch,Space Weather Glossary:am index,lexical_identity_same_normalized_term,0.6,am index
+GCMD:ammonia,skos:exactMatch,GEMET:ammonia,lexical_identity_same_normalized_term,0.6,ammonia
+AGU Index Terms:analytical chemistry,skos:exactMatch,GEMET:analytical chemistry,lexical_identity_same_normalized_term,0.6,analytical chemistry
+HELIO Ontology:anemometer,skos:exactMatch,SWEET:anemometer,lexical_identity_same_normalized_term,0.6,anemometer
+GCMD:animal nutrition,skos:exactMatch,GEMET:animal nutrition,lexical_identity_same_normalized_term,0.6,animal nutrition
+GCMD:anisotropy,skos:exactMatch,SPASE Dictionary:anisotropy,lexical_identity_same_normalized_term,0.6,anisotropy
+HELIO Ontology:annotation,skos:exactMatch,SPASE Dictionary:annotation,lexical_identity_same_normalized_term,0.6,annotation
+AGU Index Terms:antarctica,skos:exactMatch,GEMET:antarctica,lexical_identity_same_normalized_term,0.6,antarctica
+HELIO Ontology:antenna,skos:exactMatch,SPASE Dictionary:antenna,lexical_identity_same_normalized_term,0.6,antenna
+GCMD:apiculture,skos:exactMatch,GEMET:apiculture,lexical_identity_same_normalized_term,0.6,apiculture
+GCMD:aquaculture,skos:exactMatch,GEMET:aquaculture,lexical_identity_same_normalized_term,0.6,aquaculture
+HELIO Ontology:archive specialist,skos:exactMatch,SPASE Dictionary:archive specialist,lexical_identity_same_normalized_term,0.6,archive specialist
+AGU Index Terms:arctic region,skos:exactMatch,GEMET:arctic region,lexical_identity_same_normalized_term,0.6,arctic region
+GCMD:arsenic,skos:exactMatch,GEMET:arsenic,lexical_identity_same_normalized_term,0.6,arsenic
+AGU Index Terms:asia,skos:exactMatch,GEMET:asia,lexical_identity_same_normalized_term,0.6,asia
+GEMET:association,skos:exactMatch,SPASE Dictionary:association,lexical_identity_same_normalized_term,0.6,association
+SPASE Dictionary:asteroid,skos:exactMatch,SWEET:asteroid,lexical_identity_same_normalized_term,0.6,asteroid
+AGU Index Terms:atmosphere,skos:exactMatch,GCMD:atmosphere,lexical_identity_same_normalized_term,0.6,atmosphere
+AGU Index Terms:atmosphere,skos:exactMatch,GEMET:atmosphere,lexical_identity_same_normalized_term,0.6,atmosphere
+AGU Index Terms:atmosphere,skos:exactMatch,SPASE Dictionary:atmosphere,lexical_identity_same_normalized_term,0.6,atmosphere
+GCMD:atmosphere,skos:exactMatch,GEMET:atmosphere,lexical_identity_same_normalized_term,0.6,atmosphere
+GCMD:atmosphere,skos:exactMatch,SPASE Dictionary:atmosphere,lexical_identity_same_normalized_term,0.6,atmosphere
+GEMET:atmosphere,skos:exactMatch,SPASE Dictionary:atmosphere,lexical_identity_same_normalized_term,0.6,atmosphere
+GCMD:atmospheric carbon dioxide,skos:exactMatch,GEMET:atmospheric carbon dioxide,lexical_identity_same_normalized_term,0.6,atmospheric carbon dioxide
+GCMD:atmospheric chemistry,skos:exactMatch,GEMET:atmospheric chemistry,lexical_identity_same_normalized_term,0.6,atmospheric chemistry
+AGU Index Terms:atmospheric electricity,skos:exactMatch,GCMD:atmospheric electricity,lexical_identity_same_normalized_term,0.6,atmospheric electricity
+GCMD:atmospheric ozone,skos:exactMatch,GEMET:atmospheric ozone,lexical_identity_same_normalized_term,0.6,atmospheric ozone
+HELIO Ontology:atom,skos:exactMatch,SPASE Dictionary:atom,lexical_identity_same_normalized_term,0.6,atom
+HELIO Ontology:atom,skos:exactMatch,SWEET:atom,lexical_identity_same_normalized_term,0.6,atom
+SPASE Dictionary:atom,skos:exactMatch,SWEET:atom,lexical_identity_same_normalized_term,0.6,atom
+NASA CCMC:au,skos:exactMatch,Space Weather Glossary:au,lexical_identity_same_normalized_term,0.6,au
+HELIO Ontology:aurora,skos:exactMatch,NASA CCMC:aurora,lexical_identity_same_normalized_term,0.6,aurora
+HELIO Ontology:aurora,skos:exactMatch,NASA Heliophysics Vocabulary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+HELIO Ontology:aurora,skos:exactMatch,SPASE Dictionary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+HELIO Ontology:aurora,skos:exactMatch,SWEET:aurora,lexical_identity_same_normalized_term,0.6,aurora
+HELIO Ontology:aurora,skos:exactMatch,Space Weather Glossary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+HELIO Ontology:aurora,skos:exactMatch,Space Weather Glossary (Second):aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA CCMC:aurora,skos:exactMatch,NASA Heliophysics Vocabulary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA CCMC:aurora,skos:exactMatch,SPASE Dictionary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA CCMC:aurora,skos:exactMatch,SWEET:aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA CCMC:aurora,skos:exactMatch,Space Weather Glossary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA CCMC:aurora,skos:exactMatch,Space Weather Glossary (Second):aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA Heliophysics Vocabulary:aurora,skos:exactMatch,SPASE Dictionary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA Heliophysics Vocabulary:aurora,skos:exactMatch,SWEET:aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA Heliophysics Vocabulary:aurora,skos:exactMatch,Space Weather Glossary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+NASA Heliophysics Vocabulary:aurora,skos:exactMatch,Space Weather Glossary (Second):aurora,lexical_identity_same_normalized_term,0.6,aurora
+SPASE Dictionary:aurora,skos:exactMatch,SWEET:aurora,lexical_identity_same_normalized_term,0.6,aurora
+SPASE Dictionary:aurora,skos:exactMatch,Space Weather Glossary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+SPASE Dictionary:aurora,skos:exactMatch,Space Weather Glossary (Second):aurora,lexical_identity_same_normalized_term,0.6,aurora
+SWEET:aurora,skos:exactMatch,Space Weather Glossary:aurora,lexical_identity_same_normalized_term,0.6,aurora
+SWEET:aurora,skos:exactMatch,Space Weather Glossary (Second):aurora,lexical_identity_same_normalized_term,0.6,aurora
+Space Weather Glossary:aurora,skos:exactMatch,Space Weather Glossary (Second):aurora,lexical_identity_same_normalized_term,0.6,aurora
+AGU Index Terms:aurorae,skos:exactMatch,GCMD:aurorae,lexical_identity_same_normalized_term,0.6,aurorae
+HELIO Ontology:auroral region,skos:exactMatch,NASA CCMC:auroral region,lexical_identity_same_normalized_term,0.6,auroral region
+HELIO Ontology:auroral region,skos:exactMatch,SPASE Dictionary:auroral region,lexical_identity_same_normalized_term,0.6,auroral region
+NASA CCMC:auroral region,skos:exactMatch,SPASE Dictionary:auroral region,lexical_identity_same_normalized_term,0.6,auroral region
+GCMD:avalanche,skos:exactMatch,GEMET:avalanche,lexical_identity_same_normalized_term,0.6,avalanche
+HELIO Ontology:average charge state,skos:exactMatch,SPASE Dictionary:average charge state,lexical_identity_same_normalized_term,0.6,average charge state
+HELIO Ontology:azimuth angle,skos:exactMatch,SPASE Dictionary:azimuth angle,lexical_identity_same_normalized_term,0.6,azimuth angle
+GCMD:barium,skos:exactMatch,GEMET:barium,lexical_identity_same_normalized_term,0.6,barium
+GCMD:barrier reef,skos:exactMatch,GEMET:barrier reef,lexical_identity_same_normalized_term,0.6,barrier reef
+Space Weather Glossary:bartels’ rotation number,skos:exactMatch,Space Weather Glossary (Second):bartels’ rotation number,lexical_identity_same_normalized_term,0.6,bartels’ rotation number
+AGU Index Terms:biodiversity,skos:exactMatch,GEMET:biodiversity,lexical_identity_same_normalized_term,0.6,biodiversity
+AGU Index Terms:biogeochemistry,skos:exactMatch,GEMET:biogeochemistry,lexical_identity_same_normalized_term,0.6,biogeochemistry
+GCMD:bioluminescence,skos:exactMatch,GEMET:bioluminescence,lexical_identity_same_normalized_term,0.6,bioluminescence
+GCMD:biomarker,skos:exactMatch,GEMET:biomarker,lexical_identity_same_normalized_term,0.6,biomarker
+GCMD:biomass,skos:exactMatch,GEMET:biomass,lexical_identity_same_normalized_term,0.6,biomass
+GCMD:biomass burning,skos:exactMatch,GEMET:biomass burning,lexical_identity_same_normalized_term,0.6,biomass burning
+GCMD:biosphere,skos:exactMatch,GEMET:biosphere,lexical_identity_same_normalized_term,0.6,biosphere
+HELIO Ontology:bow shock,skos:exactMatch,SWEET:bow shock,lexical_identity_same_normalized_term,0.6,bow shock
+HELIO Ontology:bow shock,skos:exactMatch,Space Weather Glossary:bow shock,lexical_identity_same_normalized_term,0.6,bow shock
+HELIO Ontology:bow shock,skos:exactMatch,Space Weather Glossary (Second):bow shock,lexical_identity_same_normalized_term,0.6,bow shock
+SWEET:bow shock,skos:exactMatch,Space Weather Glossary:bow shock,lexical_identity_same_normalized_term,0.6,bow shock
+SWEET:bow shock,skos:exactMatch,Space Weather Glossary (Second):bow shock,lexical_identity_same_normalized_term,0.6,bow shock
+Space Weather Glossary:bow shock,skos:exactMatch,Space Weather Glossary (Second):bow shock,lexical_identity_same_normalized_term,0.6,bow shock
+HELIO Ontology:bow shock crossing,skos:exactMatch,SPASE Dictionary:bow shock crossing,lexical_identity_same_normalized_term,0.6,bow shock crossing
+HELIO Ontology:bow shock crossing,skos:exactMatch,SWEET:bow shock crossing,lexical_identity_same_normalized_term,0.6,bow shock crossing
+SPASE Dictionary:bow shock crossing,skos:exactMatch,SWEET:bow shock crossing,lexical_identity_same_normalized_term,0.6,bow shock crossing
+GCMD:brightness temperature,skos:exactMatch,Space Weather Glossary:brightness temperature,lexical_identity_same_normalized_term,0.6,brightness temperature
+Space Weather Glossary:burst,skos:exactMatch,Space Weather Glossary (Second):burst,lexical_identity_same_normalized_term,0.6,burst
+HELIO Ontology:cadence,skos:exactMatch,NASA CCMC:cadence,lexical_identity_same_normalized_term,0.6,cadence
+HELIO Ontology:cadence,skos:exactMatch,SPASE Dictionary:cadence,lexical_identity_same_normalized_term,0.6,cadence
+NASA CCMC:cadence,skos:exactMatch,SPASE Dictionary:cadence,lexical_identity_same_normalized_term,0.6,cadence
+GCMD:calcium,skos:exactMatch,GEMET:calcium,lexical_identity_same_normalized_term,0.6,calcium
+GCMD:calibration,skos:exactMatch,GEMET:calibration,lexical_identity_same_normalized_term,0.6,calibration
+AGU Index Terms:callisto,skos:exactMatch,SPASE Dictionary:callisto,lexical_identity_same_normalized_term,0.6,callisto
+GCMD:canal,skos:exactMatch,GEMET:canal,lexical_identity_same_normalized_term,0.6,canal
+GCMD:canyon,skos:exactMatch,GEMET:canyon,lexical_identity_same_normalized_term,0.6,canyon
+GEMET:car,skos:exactMatch,HELIO Ontology:car,lexical_identity_same_normalized_term,0.6,car
+GCMD:carbon,skos:exactMatch,GEMET:carbon,lexical_identity_same_normalized_term,0.6,carbon
+GCMD:carbon dioxide,skos:exactMatch,GEMET:carbon dioxide,lexical_identity_same_normalized_term,0.6,carbon dioxide
+GCMD:carbon monoxide,skos:exactMatch,GEMET:carbon monoxide,lexical_identity_same_normalized_term,0.6,carbon monoxide
+GCMD:carbon sequestration,skos:exactMatch,GEMET:carbon sequestration,lexical_identity_same_normalized_term,0.6,carbon sequestration
+GCMD:carbonate,skos:exactMatch,GEMET:carbonate,lexical_identity_same_normalized_term,0.6,carbonate
+Space Weather Glossary:carrington longitude,skos:exactMatch,Space Weather Glossary (Second):carrington longitude,lexical_identity_same_normalized_term,0.6,carrington longitude
+HELIO Ontology:catalog,skos:exactMatch,SPASE Dictionary:catalog,lexical_identity_same_normalized_term,0.6,catalog
+AGU Index Terms:catchment,skos:exactMatch,GEMET:catchment,lexical_identity_same_normalized_term,0.6,catchment
+GCMD:cellulose,skos:exactMatch,GEMET:cellulose,lexical_identity_same_normalized_term,0.6,cellulose
+HELIO Ontology:cgm,skos:exactMatch,SPASE Dictionary:cgm,lexical_identity_same_normalized_term,0.6,cgm
+HELIO Ontology:channeltron,skos:exactMatch,SPASE Dictionary:channeltron,lexical_identity_same_normalized_term,0.6,channeltron
+GCMD:chemical composition,skos:exactMatch,GEMET:chemical composition,lexical_identity_same_normalized_term,0.6,chemical composition
+AGU Index Terms:chemosynthesis,skos:exactMatch,GCMD:chemosynthesis,lexical_identity_same_normalized_term,0.6,chemosynthesis
+GCMD:chlorophyll,skos:exactMatch,GEMET:chlorophyll,lexical_identity_same_normalized_term,0.6,chlorophyll
+GCMD:chromium,skos:exactMatch,GEMET:chromium,lexical_identity_same_normalized_term,0.6,chromium
+AGU Index Terms:chromosphere,skos:exactMatch,HELIO Ontology:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+AGU Index Terms:chromosphere,skos:exactMatch,NASA CCMC:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+AGU Index Terms:chromosphere,skos:exactMatch,NASA Heliophysics Vocabulary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+AGU Index Terms:chromosphere,skos:exactMatch,SPASE Dictionary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+AGU Index Terms:chromosphere,skos:exactMatch,Space Weather Glossary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+AGU Index Terms:chromosphere,skos:exactMatch,Space Weather Glossary (Second):chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+HELIO Ontology:chromosphere,skos:exactMatch,NASA CCMC:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+HELIO Ontology:chromosphere,skos:exactMatch,NASA Heliophysics Vocabulary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+HELIO Ontology:chromosphere,skos:exactMatch,SPASE Dictionary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+HELIO Ontology:chromosphere,skos:exactMatch,Space Weather Glossary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+HELIO Ontology:chromosphere,skos:exactMatch,Space Weather Glossary (Second):chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+NASA CCMC:chromosphere,skos:exactMatch,NASA Heliophysics Vocabulary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+NASA CCMC:chromosphere,skos:exactMatch,SPASE Dictionary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+NASA CCMC:chromosphere,skos:exactMatch,Space Weather Glossary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+NASA CCMC:chromosphere,skos:exactMatch,Space Weather Glossary (Second):chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+NASA Heliophysics Vocabulary:chromosphere,skos:exactMatch,SPASE Dictionary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+NASA Heliophysics Vocabulary:chromosphere,skos:exactMatch,Space Weather Glossary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+NASA Heliophysics Vocabulary:chromosphere,skos:exactMatch,Space Weather Glossary (Second):chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+SPASE Dictionary:chromosphere,skos:exactMatch,Space Weather Glossary:chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+SPASE Dictionary:chromosphere,skos:exactMatch,Space Weather Glossary (Second):chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+Space Weather Glossary:chromosphere,skos:exactMatch,Space Weather Glossary (Second):chromosphere,lexical_identity_same_normalized_term,0.6,chromosphere
+GCMD:classification,skos:exactMatch,GEMET:classification,lexical_identity_same_normalized_term,0.6,classification
+AGU Index Terms:climatology,skos:exactMatch,GEMET:climatology,lexical_identity_same_normalized_term,0.6,climatology
+HELIO Ontology:cme,skos:exactMatch,NASA CCMC:cme,lexical_identity_same_normalized_term,0.6,cme
+HELIO Ontology:cme,skos:exactMatch,SWEET:cme,lexical_identity_same_normalized_term,0.6,cme
+NASA CCMC:cme,skos:exactMatch,SWEET:cme,lexical_identity_same_normalized_term,0.6,cme
+HELIO Ontology:co investigator,skos:exactMatch,SPASE Dictionary:co investigator,lexical_identity_same_normalized_term,0.6,co investigator
+GCMD:coal,skos:exactMatch,GEMET:coal,lexical_identity_same_normalized_term,0.6,coal
+AGU Index Terms:coastal processes,skos:exactMatch,GCMD:coastal processes,lexical_identity_same_normalized_term,0.6,coastal processes
+SPASE Dictionary:comet,skos:exactMatch,SWEET:comet,lexical_identity_same_normalized_term,0.6,comet
+AGU Index Terms:composition,skos:exactMatch,HELIO Ontology:composition,lexical_identity_same_normalized_term,0.6,composition
+GEMET:compression,skos:exactMatch,SWEET:compression,lexical_identity_same_normalized_term,0.6,compression
+GCMD:conduction,skos:exactMatch,SWEET:conduction,lexical_identity_same_normalized_term,0.6,conduction
+GCMD:conductivity,skos:exactMatch,GEMET:conductivity,lexical_identity_same_normalized_term,0.6,conductivity
+GCMD:conservation,skos:exactMatch,GEMET:conservation,lexical_identity_same_normalized_term,0.6,conservation
+AGU Index Terms:contaminants,skos:exactMatch,GCMD:contaminants,lexical_identity_same_normalized_term,0.6,contaminants
+HELIO Ontology:contributor,skos:exactMatch,SPASE Dictionary:contributor,lexical_identity_same_normalized_term,0.6,contributor
+AGU Index Terms:control surveys,skos:exactMatch,GCMD:control surveys,lexical_identity_same_normalized_term,0.6,control surveys
+GCMD:convection,skos:exactMatch,Space Weather Glossary:convection,lexical_identity_same_normalized_term,0.6,convection
+GEMET:convention,skos:exactMatch,SPASE Dictionary:convention,lexical_identity_same_normalized_term,0.6,convention
+GEMET:cooling,skos:exactMatch,SWEET:cooling,lexical_identity_same_normalized_term,0.6,cooling
+HELIO Ontology:coordinate system,skos:exactMatch,SPASE Dictionary:coordinate system,lexical_identity_same_normalized_term,0.6,coordinate system
+GCMD:copper,skos:exactMatch,GEMET:copper,lexical_identity_same_normalized_term,0.6,copper
+GCMD:coral reef,skos:exactMatch,GEMET:coral reef,lexical_identity_same_normalized_term,0.6,coral reef
+AGU Index Terms:core,skos:exactMatch,HELIO Ontology:core,lexical_identity_same_normalized_term,0.6,core
+AGU Index Terms:core,skos:exactMatch,SPASE Dictionary:core,lexical_identity_same_normalized_term,0.6,core
+HELIO Ontology:core,skos:exactMatch,SPASE Dictionary:core,lexical_identity_same_normalized_term,0.6,core
+AGU Index Terms:core processes,skos:exactMatch,GCMD:core processes,lexical_identity_same_normalized_term,0.6,core processes
+AGU Index Terms:corona,skos:exactMatch,GCMD:corona,lexical_identity_same_normalized_term,0.6,corona
+AGU Index Terms:corona,skos:exactMatch,HELIO Ontology:corona,lexical_identity_same_normalized_term,0.6,corona
+AGU Index Terms:corona,skos:exactMatch,NASA Heliophysics Vocabulary:corona,lexical_identity_same_normalized_term,0.6,corona
+AGU Index Terms:corona,skos:exactMatch,SPASE Dictionary:corona,lexical_identity_same_normalized_term,0.6,corona
+AGU Index Terms:corona,skos:exactMatch,SWEET:corona,lexical_identity_same_normalized_term,0.6,corona
+AGU Index Terms:corona,skos:exactMatch,Space Weather Glossary:corona,lexical_identity_same_normalized_term,0.6,corona
+AGU Index Terms:corona,skos:exactMatch,Space Weather Glossary (Second):corona,lexical_identity_same_normalized_term,0.6,corona
+GCMD:corona,skos:exactMatch,HELIO Ontology:corona,lexical_identity_same_normalized_term,0.6,corona
+GCMD:corona,skos:exactMatch,NASA Heliophysics Vocabulary:corona,lexical_identity_same_normalized_term,0.6,corona
+GCMD:corona,skos:exactMatch,SPASE Dictionary:corona,lexical_identity_same_normalized_term,0.6,corona
+GCMD:corona,skos:exactMatch,SWEET:corona,lexical_identity_same_normalized_term,0.6,corona
+GCMD:corona,skos:exactMatch,Space Weather Glossary:corona,lexical_identity_same_normalized_term,0.6,corona
+GCMD:corona,skos:exactMatch,Space Weather Glossary (Second):corona,lexical_identity_same_normalized_term,0.6,corona
+HELIO Ontology:corona,skos:exactMatch,NASA Heliophysics Vocabulary:corona,lexical_identity_same_normalized_term,0.6,corona
+HELIO Ontology:corona,skos:exactMatch,SPASE Dictionary:corona,lexical_identity_same_normalized_term,0.6,corona
+HELIO Ontology:corona,skos:exactMatch,SWEET:corona,lexical_identity_same_normalized_term,0.6,corona
+HELIO Ontology:corona,skos:exactMatch,Space Weather Glossary:corona,lexical_identity_same_normalized_term,0.6,corona
+HELIO Ontology:corona,skos:exactMatch,Space Weather Glossary (Second):corona,lexical_identity_same_normalized_term,0.6,corona
+NASA Heliophysics Vocabulary:corona,skos:exactMatch,SPASE Dictionary:corona,lexical_identity_same_normalized_term,0.6,corona
+NASA Heliophysics Vocabulary:corona,skos:exactMatch,SWEET:corona,lexical_identity_same_normalized_term,0.6,corona
+NASA Heliophysics Vocabulary:corona,skos:exactMatch,Space Weather Glossary:corona,lexical_identity_same_normalized_term,0.6,corona
+NASA Heliophysics Vocabulary:corona,skos:exactMatch,Space Weather Glossary (Second):corona,lexical_identity_same_normalized_term,0.6,corona
+SPASE Dictionary:corona,skos:exactMatch,SWEET:corona,lexical_identity_same_normalized_term,0.6,corona
+SPASE Dictionary:corona,skos:exactMatch,Space Weather Glossary:corona,lexical_identity_same_normalized_term,0.6,corona
+SPASE Dictionary:corona,skos:exactMatch,Space Weather Glossary (Second):corona,lexical_identity_same_normalized_term,0.6,corona
+SWEET:corona,skos:exactMatch,Space Weather Glossary:corona,lexical_identity_same_normalized_term,0.6,corona
+SWEET:corona,skos:exactMatch,Space Weather Glossary (Second):corona,lexical_identity_same_normalized_term,0.6,corona
+Space Weather Glossary:corona,skos:exactMatch,Space Weather Glossary (Second):corona,lexical_identity_same_normalized_term,0.6,corona
+HELIO Ontology:coronagraph,skos:exactMatch,NASA CCMC:coronagraph,lexical_identity_same_normalized_term,0.6,coronagraph
+HELIO Ontology:coronagraph,skos:exactMatch,Space Weather Glossary:coronagraph,lexical_identity_same_normalized_term,0.6,coronagraph
+NASA CCMC:coronagraph,skos:exactMatch,Space Weather Glossary:coronagraph,lexical_identity_same_normalized_term,0.6,coronagraph
+HELIO Ontology:coronal hole,skos:exactMatch,NASA CCMC:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+HELIO Ontology:coronal hole,skos:exactMatch,SPASE Dictionary:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+HELIO Ontology:coronal hole,skos:exactMatch,SWEET:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+HELIO Ontology:coronal hole,skos:exactMatch,Space Weather Glossary:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+NASA CCMC:coronal hole,skos:exactMatch,SPASE Dictionary:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+NASA CCMC:coronal hole,skos:exactMatch,SWEET:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+NASA CCMC:coronal hole,skos:exactMatch,Space Weather Glossary:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+SPASE Dictionary:coronal hole,skos:exactMatch,SWEET:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+SPASE Dictionary:coronal hole,skos:exactMatch,Space Weather Glossary:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+SWEET:coronal hole,skos:exactMatch,Space Weather Glossary:coronal hole,lexical_identity_same_normalized_term,0.6,coronal hole
+AGU Index Terms:coronal holes,skos:exactMatch,Space Weather Glossary (Second):coronal holes,lexical_identity_same_normalized_term,0.6,coronal holes
+NASA CCMC:coronal loop,skos:exactMatch,SWEET:coronal loop,lexical_identity_same_normalized_term,0.6,coronal loop
+ESA Space Weather Glossary:coronal mass ejection,skos:exactMatch,GCMD:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+ESA Space Weather Glossary:coronal mass ejection,skos:exactMatch,HELIO Ontology:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+ESA Space Weather Glossary:coronal mass ejection,skos:exactMatch,NASA Heliophysics Vocabulary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+ESA Space Weather Glossary:coronal mass ejection,skos:exactMatch,SPASE Dictionary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+ESA Space Weather Glossary:coronal mass ejection,skos:exactMatch,SWEET:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+ESA Space Weather Glossary:coronal mass ejection,skos:exactMatch,Space Weather Glossary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+GCMD:coronal mass ejection,skos:exactMatch,HELIO Ontology:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+GCMD:coronal mass ejection,skos:exactMatch,NASA Heliophysics Vocabulary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+GCMD:coronal mass ejection,skos:exactMatch,SPASE Dictionary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+GCMD:coronal mass ejection,skos:exactMatch,SWEET:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+GCMD:coronal mass ejection,skos:exactMatch,Space Weather Glossary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+HELIO Ontology:coronal mass ejection,skos:exactMatch,NASA Heliophysics Vocabulary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+HELIO Ontology:coronal mass ejection,skos:exactMatch,SPASE Dictionary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+HELIO Ontology:coronal mass ejection,skos:exactMatch,SWEET:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+HELIO Ontology:coronal mass ejection,skos:exactMatch,Space Weather Glossary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+NASA Heliophysics Vocabulary:coronal mass ejection,skos:exactMatch,SPASE Dictionary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+NASA Heliophysics Vocabulary:coronal mass ejection,skos:exactMatch,SWEET:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+NASA Heliophysics Vocabulary:coronal mass ejection,skos:exactMatch,Space Weather Glossary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+SPASE Dictionary:coronal mass ejection,skos:exactMatch,SWEET:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+SPASE Dictionary:coronal mass ejection,skos:exactMatch,Space Weather Glossary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+SWEET:coronal mass ejection,skos:exactMatch,Space Weather Glossary:coronal mass ejection,lexical_identity_same_normalized_term,0.6,coronal mass ejection
+AGU Index Terms:coronal mass ejections,skos:exactMatch,GCMD:coronal mass ejections,lexical_identity_same_normalized_term,0.6,coronal mass ejections
+AGU Index Terms:coronal mass ejections,skos:exactMatch,Space Weather Glossary (Second):coronal mass ejections,lexical_identity_same_normalized_term,0.6,coronal mass ejections
+GCMD:coronal mass ejections,skos:exactMatch,Space Weather Glossary (Second):coronal mass ejections,lexical_identity_same_normalized_term,0.6,coronal mass ejections
+SWEET:coronal rain,skos:exactMatch,Space Weather Glossary:coronal rain,lexical_identity_same_normalized_term,0.6,coronal rain
+SWEET:cosmic ray,skos:exactMatch,Space Weather Glossary:cosmic ray,lexical_identity_same_normalized_term,0.6,cosmic ray
+AGU Index Terms:cosmic rays,skos:exactMatch,ESA Space Weather Glossary:cosmic rays,lexical_identity_same_normalized_term,0.6,cosmic rays
+AGU Index Terms:cosmic rays,skos:exactMatch,GCMD:cosmic rays,lexical_identity_same_normalized_term,0.6,cosmic rays
+AGU Index Terms:cosmic rays,skos:exactMatch,Space Weather Glossary (Second):cosmic rays,lexical_identity_same_normalized_term,0.6,cosmic rays
+ESA Space Weather Glossary:cosmic rays,skos:exactMatch,GCMD:cosmic rays,lexical_identity_same_normalized_term,0.6,cosmic rays
+ESA Space Weather Glossary:cosmic rays,skos:exactMatch,Space Weather Glossary (Second):cosmic rays,lexical_identity_same_normalized_term,0.6,cosmic rays
+GCMD:cosmic rays,skos:exactMatch,Space Weather Glossary (Second):cosmic rays,lexical_identity_same_normalized_term,0.6,cosmic rays
+HELIO Ontology:count rate,skos:exactMatch,SPASE Dictionary:count rate,lexical_identity_same_normalized_term,0.6,count rate
+HELIO Ontology:counts,skos:exactMatch,SPASE Dictionary:counts,lexical_identity_same_normalized_term,0.6,counts
+GCMD:crop residue,skos:exactMatch,GEMET:crop residue,lexical_identity_same_normalized_term,0.6,crop residue
+AGU Index Terms:cryosphere,skos:exactMatch,GCMD:cryosphere,lexical_identity_same_normalized_term,0.6,cryosphere
+SPASE Dictionary:current,skos:exactMatch,SWEET:current,lexical_identity_same_normalized_term,0.6,current
+AGU Index Terms:cusp,skos:exactMatch,Space Weather Glossary:cusp,lexical_identity_same_normalized_term,0.6,cusp
+HELIO Ontology:d region,skos:exactMatch,SPASE Dictionary:d region,lexical_identity_same_normalized_term,0.6,d region
+HELIO Ontology:d region,skos:exactMatch,Space Weather Glossary:d region,lexical_identity_same_normalized_term,0.6,d region
+SPASE Dictionary:d region,skos:exactMatch,Space Weather Glossary:d region,lexical_identity_same_normalized_term,0.6,d region
+ESA Space Weather Glossary:data,skos:exactMatch,SPASE Dictionary:data,lexical_identity_same_normalized_term,0.6,data
+GCMD:data analysis,skos:exactMatch,GEMET:data analysis,lexical_identity_same_normalized_term,0.6,data analysis
+AGU Index Terms:data mining,skos:exactMatch,GCMD:data mining,lexical_identity_same_normalized_term,0.6,data mining
+AGU Index Terms:data processing,skos:exactMatch,GEMET:data processing,lexical_identity_same_normalized_term,0.6,data processing
+HELIO Ontology:data producer,skos:exactMatch,SPASE Dictionary:data producer,lexical_identity_same_normalized_term,0.6,data producer
+GCMD:decomposition,skos:exactMatch,GEMET:decomposition,lexical_identity_same_normalized_term,0.6,decomposition
+GCMD:deforestation,skos:exactMatch,GEMET:deforestation,lexical_identity_same_normalized_term,0.6,deforestation
+GCMD:degradation,skos:exactMatch,GEMET:degradation,lexical_identity_same_normalized_term,0.6,degradation
+AGU Index Terms:dendrochronology,skos:exactMatch,GEMET:dendrochronology,lexical_identity_same_normalized_term,0.6,dendrochronology
+GCMD:density,skos:exactMatch,GEMET:density,lexical_identity_same_normalized_term,0.6,density
+GCMD:density,skos:exactMatch,HELIO Ontology:density,lexical_identity_same_normalized_term,0.6,density
+GEMET:density,skos:exactMatch,HELIO Ontology:density,lexical_identity_same_normalized_term,0.6,density
+GCMD:deposition,skos:exactMatch,GEMET:deposition,lexical_identity_same_normalized_term,0.6,deposition
+HELIO Ontology:deputy pi,skos:exactMatch,SPASE Dictionary:deputy pi,lexical_identity_same_normalized_term,0.6,deputy pi
+AGU Index Terms:desertification,skos:exactMatch,GCMD:desertification,lexical_identity_same_normalized_term,0.6,desertification
+AGU Index Terms:desertification,skos:exactMatch,GEMET:desertification,lexical_identity_same_normalized_term,0.6,desertification
+GCMD:desertification,skos:exactMatch,GEMET:desertification,lexical_identity_same_normalized_term,0.6,desertification
+GEMET:detector,skos:exactMatch,HELIO Ontology:detector,lexical_identity_same_normalized_term,0.6,detector
+NASA CCMC:differential rotation,skos:exactMatch,SWEET:differential rotation,lexical_identity_same_normalized_term,0.6,differential rotation
+NASA CCMC:differential rotation,skos:exactMatch,Space Weather Glossary:differential rotation,lexical_identity_same_normalized_term,0.6,differential rotation
+SWEET:differential rotation,skos:exactMatch,Space Weather Glossary:differential rotation,lexical_identity_same_normalized_term,0.6,differential rotation
+GCMD:diffusion,skos:exactMatch,GEMET:diffusion,lexical_identity_same_normalized_term,0.6,diffusion
+HELIO Ontology:direction angle,skos:exactMatch,SPASE Dictionary:direction angle,lexical_identity_same_normalized_term,0.6,direction angle
+AGU Index Terms:disaster relief,skos:exactMatch,GEMET:disaster relief,lexical_identity_same_normalized_term,0.6,disaster relief
+GCMD:dispersion,skos:exactMatch,GEMET:dispersion,lexical_identity_same_normalized_term,0.6,dispersion
+GCMD:dispersion,skos:exactMatch,SWEET:dispersion,lexical_identity_same_normalized_term,0.6,dispersion
+GEMET:dispersion,skos:exactMatch,SWEET:dispersion,lexical_identity_same_normalized_term,0.6,dispersion
+HELIO Ontology:display data,skos:exactMatch,SPASE Dictionary:display data,lexical_identity_same_normalized_term,0.6,display data
+GCMD:dissolution,skos:exactMatch,GEMET:dissolution,lexical_identity_same_normalized_term,0.6,dissolution
+GCMD:dissolved oxygen,skos:exactMatch,GEMET:dissolved oxygen,lexical_identity_same_normalized_term,0.6,dissolved oxygen
+AGU Index Terms:distribution,skos:exactMatch,GEMET:distribution,lexical_identity_same_normalized_term,0.6,distribution
+GCMD:disturbance,skos:exactMatch,SWEET:disturbance,lexical_identity_same_normalized_term,0.6,disturbance
+HELIO Ontology:dm,skos:exactMatch,SPASE Dictionary:dm,lexical_identity_same_normalized_term,0.6,dm
+GCMD:dna,skos:exactMatch,GEMET:dna,lexical_identity_same_normalized_term,0.6,dna
+GEMET:document,skos:exactMatch,HELIO Ontology:document,lexical_identity_same_normalized_term,0.6,document
+GEMET:document,skos:exactMatch,SPASE Dictionary:document,lexical_identity_same_normalized_term,0.6,document
+HELIO Ontology:document,skos:exactMatch,SPASE Dictionary:document,lexical_identity_same_normalized_term,0.6,document
+GEMET:document type,skos:exactMatch,SPASE Dictionary:document type,lexical_identity_same_normalized_term,0.6,document type
+HELIO Ontology:doppler frequency,skos:exactMatch,SPASE Dictionary:doppler frequency,lexical_identity_same_normalized_term,0.6,doppler frequency
+HELIO Ontology:doppler radar,skos:exactMatch,SWEET:doppler radar,lexical_identity_same_normalized_term,0.6,doppler radar
+HELIO Ontology:dopplergram,skos:exactMatch,SPASE Dictionary:dopplergram,lexical_identity_same_normalized_term,0.6,dopplergram
+HELIO Ontology:double sphere,skos:exactMatch,SPASE Dictionary:double sphere,lexical_identity_same_normalized_term,0.6,double sphere
+GCMD:drainage,skos:exactMatch,GEMET:drainage,lexical_identity_same_normalized_term,0.6,drainage
+AGU Index Terms:drought,skos:exactMatch,GCMD:drought,lexical_identity_same_normalized_term,0.6,drought
+AGU Index Terms:drought,skos:exactMatch,GEMET:drought,lexical_identity_same_normalized_term,0.6,drought
+GCMD:drought,skos:exactMatch,GEMET:drought,lexical_identity_same_normalized_term,0.6,drought
+GCMD:dst index,skos:exactMatch,Space Weather Glossary:dst index,lexical_identity_same_normalized_term,0.6,dst index
+GCMD:dumping,skos:exactMatch,GEMET:dumping,lexical_identity_same_normalized_term,0.6,dumping
+AGU Index Terms:dust,skos:exactMatch,GEMET:dust,lexical_identity_same_normalized_term,0.6,dust
+AGU Index Terms:dust,skos:exactMatch,HELIO Ontology:dust,lexical_identity_same_normalized_term,0.6,dust
+AGU Index Terms:dust,skos:exactMatch,SPASE Dictionary:dust,lexical_identity_same_normalized_term,0.6,dust
+GEMET:dust,skos:exactMatch,HELIO Ontology:dust,lexical_identity_same_normalized_term,0.6,dust
+GEMET:dust,skos:exactMatch,SPASE Dictionary:dust,lexical_identity_same_normalized_term,0.6,dust
+HELIO Ontology:dust,skos:exactMatch,SPASE Dictionary:dust,lexical_identity_same_normalized_term,0.6,dust
+HELIO Ontology:dust detector,skos:exactMatch,SPASE Dictionary:dust detector,lexical_identity_same_normalized_term,0.6,dust detector
+SPASE Dictionary:dynamic pressure,skos:exactMatch,Space Weather Glossary:dynamic pressure,lexical_identity_same_normalized_term,0.6,dynamic pressure
+SWEET:dynamo,skos:exactMatch,Space Weather Glossary (Second):dynamo,lexical_identity_same_normalized_term,0.6,dynamo
+HELIO Ontology:e region,skos:exactMatch,SPASE Dictionary:e region,lexical_identity_same_normalized_term,0.6,e region
+HELIO Ontology:e region,skos:exactMatch,Space Weather Glossary:e region,lexical_identity_same_normalized_term,0.6,e region
+SPASE Dictionary:e region,skos:exactMatch,Space Weather Glossary:e region,lexical_identity_same_normalized_term,0.6,e region
+GCMD:earth science,skos:exactMatch,GEMET:earth science,lexical_identity_same_normalized_term,0.6,earth science
+GCMD:ecotourism,skos:exactMatch,GEMET:ecotourism,lexical_identity_same_normalized_term,0.6,ecotourism
+GCMD:ecotoxicology,skos:exactMatch,GEMET:ecotoxicology,lexical_identity_same_normalized_term,0.6,ecotoxicology
+AGU Index Terms:education,skos:exactMatch,GEMET:education,lexical_identity_same_normalized_term,0.6,education
+HELIO Ontology:eit wave,skos:exactMatch,SPASE Dictionary:eit wave,lexical_identity_same_normalized_term,0.6,eit wave
+GCMD:electric field,skos:exactMatch,HELIO Ontology:electric field,lexical_identity_same_normalized_term,0.6,electric field
+GCMD:electric field,skos:exactMatch,SPASE Dictionary:electric field,lexical_identity_same_normalized_term,0.6,electric field
+GCMD:electric field,skos:exactMatch,SWEET:electric field,lexical_identity_same_normalized_term,0.6,electric field
+HELIO Ontology:electric field,skos:exactMatch,SPASE Dictionary:electric field,lexical_identity_same_normalized_term,0.6,electric field
+HELIO Ontology:electric field,skos:exactMatch,SWEET:electric field,lexical_identity_same_normalized_term,0.6,electric field
+SPASE Dictionary:electric field,skos:exactMatch,SWEET:electric field,lexical_identity_same_normalized_term,0.6,electric field
+AGU Index Terms:electric fields,skos:exactMatch,Space Weather Glossary (Second):electric fields,lexical_identity_same_normalized_term,0.6,electric fields
+AGU Index Terms:electrical properties,skos:exactMatch,GCMD:electrical properties,lexical_identity_same_normalized_term,0.6,electrical properties
+GCMD:electricity,skos:exactMatch,GEMET:electricity,lexical_identity_same_normalized_term,0.6,electricity
+SWEET:electromagnetic radiation,skos:exactMatch,Space Weather Glossary (Second):electromagnetic radiation,lexical_identity_same_normalized_term,0.6,electromagnetic radiation
+HELIO Ontology:electromagnetic wave,skos:exactMatch,SWEET:electromagnetic wave,lexical_identity_same_normalized_term,0.6,electromagnetic wave
+HELIO Ontology:electron,skos:exactMatch,SPASE Dictionary:electron,lexical_identity_same_normalized_term,0.6,electron
+HELIO Ontology:electron,skos:exactMatch,SWEET:electron,lexical_identity_same_normalized_term,0.6,electron
+SPASE Dictionary:electron,skos:exactMatch,SWEET:electron,lexical_identity_same_normalized_term,0.6,electron
+HELIO Ontology:electron drift instrument,skos:exactMatch,SPASE Dictionary:electron drift instrument,lexical_identity_same_normalized_term,0.6,electron drift instrument
+HELIO Ontology:electrostatic analyser,skos:exactMatch,SPASE Dictionary:electrostatic analyser,lexical_identity_same_normalized_term,0.6,electrostatic analyser
+HELIO Ontology:elevation angle,skos:exactMatch,SPASE Dictionary:elevation angle,lexical_identity_same_normalized_term,0.6,elevation angle
+GCMD:emission,skos:exactMatch,GEMET:emission,lexical_identity_same_normalized_term,0.6,emission
+GCMD:emission,skos:exactMatch,SWEET:emission,lexical_identity_same_normalized_term,0.6,emission
+GEMET:emission,skos:exactMatch,SWEET:emission,lexical_identity_same_normalized_term,0.6,emission
+GCMD:emissivity,skos:exactMatch,HELIO Ontology:emissivity,lexical_identity_same_normalized_term,0.6,emissivity
+GCMD:emissivity,skos:exactMatch,SPASE Dictionary:emissivity,lexical_identity_same_normalized_term,0.6,emissivity
+HELIO Ontology:emissivity,skos:exactMatch,SPASE Dictionary:emissivity,lexical_identity_same_normalized_term,0.6,emissivity
+AGU Index Terms:enceladus,skos:exactMatch,SPASE Dictionary:enceladus,lexical_identity_same_normalized_term,0.6,enceladus
+HELIO Ontology:end time,skos:exactMatch,SWEET:end time,lexical_identity_same_normalized_term,0.6,end time
+HELIO Ontology:energetic particle instrument,skos:exactMatch,SPASE Dictionary:energetic particle instrument,lexical_identity_same_normalized_term,0.6,energetic particle instrument
+AGU Index Terms:energetic particles,skos:exactMatch,HELIO Ontology:energetic particles,lexical_identity_same_normalized_term,0.6,energetic particles
+AGU Index Terms:energetic particles,skos:exactMatch,SPASE Dictionary:energetic particles,lexical_identity_same_normalized_term,0.6,energetic particles
+HELIO Ontology:energetic particles,skos:exactMatch,SPASE Dictionary:energetic particles,lexical_identity_same_normalized_term,0.6,energetic particles
+HELIO Ontology:energetic solar particle event,skos:exactMatch,SPASE Dictionary:energetic solar particle event,lexical_identity_same_normalized_term,0.6,energetic solar particle event
+GEMET:energy,skos:exactMatch,HELIO Ontology:energy,lexical_identity_same_normalized_term,0.6,energy
+GEMET:energy,skos:exactMatch,SPASE Dictionary:energy,lexical_identity_same_normalized_term,0.6,energy
+HELIO Ontology:energy,skos:exactMatch,SPASE Dictionary:energy,lexical_identity_same_normalized_term,0.6,energy
+AGU Index Terms:energy balance,skos:exactMatch,GEMET:energy balance,lexical_identity_same_normalized_term,0.6,energy balance
+HELIO Ontology:energy density,skos:exactMatch,SPASE Dictionary:energy density,lexical_identity_same_normalized_term,0.6,energy density
+HELIO Ontology:energy flux,skos:exactMatch,SPASE Dictionary:energy flux,lexical_identity_same_normalized_term,0.6,energy flux
+HELIO Ontology:energy flux,skos:exactMatch,SWEET:energy flux,lexical_identity_same_normalized_term,0.6,energy flux
+SPASE Dictionary:energy flux,skos:exactMatch,SWEET:energy flux,lexical_identity_same_normalized_term,0.6,energy flux
+GCMD:enforcement,skos:exactMatch,GEMET:enforcement,lexical_identity_same_normalized_term,0.6,enforcement
+AGU Index Terms:engineering,skos:exactMatch,GEMET:engineering,lexical_identity_same_normalized_term,0.6,engineering
+GCMD:environmental sustainability,skos:exactMatch,GEMET:environmental sustainability,lexical_identity_same_normalized_term,0.6,environmental sustainability
+HELIO Ontology:ephemeris,skos:exactMatch,SPASE Dictionary:ephemeris,lexical_identity_same_normalized_term,0.6,ephemeris
+HELIO Ontology:ephemeris,skos:exactMatch,Space Weather Glossary:ephemeris,lexical_identity_same_normalized_term,0.6,ephemeris
+SPASE Dictionary:ephemeris,skos:exactMatch,Space Weather Glossary:ephemeris,lexical_identity_same_normalized_term,0.6,ephemeris
+GCMD:epidemiology,skos:exactMatch,GEMET:epidemiology,lexical_identity_same_normalized_term,0.6,epidemiology
+HELIO Ontology:equatorial region,skos:exactMatch,SPASE Dictionary:equatorial region,lexical_identity_same_normalized_term,0.6,equatorial region
+HELIO Ontology:equivalent width,skos:exactMatch,SPASE Dictionary:equivalent width,lexical_identity_same_normalized_term,0.6,equivalent width
+AGU Index Terms:erosion,skos:exactMatch,GCMD:erosion,lexical_identity_same_normalized_term,0.6,erosion
+AGU Index Terms:erosion,skos:exactMatch,GEMET:erosion,lexical_identity_same_normalized_term,0.6,erosion
+GCMD:erosion,skos:exactMatch,GEMET:erosion,lexical_identity_same_normalized_term,0.6,erosion
+GCMD:estuary,skos:exactMatch,GEMET:estuary,lexical_identity_same_normalized_term,0.6,estuary
+AGU Index Terms:europa,skos:exactMatch,SPASE Dictionary:europa,lexical_identity_same_normalized_term,0.6,europa
+AGU Index Terms:europe,skos:exactMatch,GEMET:europe,lexical_identity_same_normalized_term,0.6,europe
+GCMD:eutrophication,skos:exactMatch,GEMET:eutrophication,lexical_identity_same_normalized_term,0.6,eutrophication
+GCMD:evaporation,skos:exactMatch,GEMET:evaporation,lexical_identity_same_normalized_term,0.6,evaporation
+AGU Index Terms:evapotranspiration,skos:exactMatch,GCMD:evapotranspiration,lexical_identity_same_normalized_term,0.6,evapotranspiration
+AGU Index Terms:evapotranspiration,skos:exactMatch,GEMET:evapotranspiration,lexical_identity_same_normalized_term,0.6,evapotranspiration
+GCMD:evapotranspiration,skos:exactMatch,GEMET:evapotranspiration,lexical_identity_same_normalized_term,0.6,evapotranspiration
+GEMET:evolution,skos:exactMatch,SWEET:evolution,lexical_identity_same_normalized_term,0.6,evolution
+AGU Index Terms:exosphere,skos:exactMatch,HELIO Ontology:exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+AGU Index Terms:exosphere,skos:exactMatch,SWEET:exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+AGU Index Terms:exosphere,skos:exactMatch,Space Weather Glossary:exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+AGU Index Terms:exosphere,skos:exactMatch,Space Weather Glossary (Second):exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+HELIO Ontology:exosphere,skos:exactMatch,SWEET:exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+HELIO Ontology:exosphere,skos:exactMatch,Space Weather Glossary:exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+HELIO Ontology:exosphere,skos:exactMatch,Space Weather Glossary (Second):exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+SWEET:exosphere,skos:exactMatch,Space Weather Glossary:exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+SWEET:exosphere,skos:exactMatch,Space Weather Glossary (Second):exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+Space Weather Glossary:exosphere,skos:exactMatch,Space Weather Glossary (Second):exosphere,lexical_identity_same_normalized_term,0.6,exosphere
+GCMD:exotic species,skos:exactMatch,GEMET:exotic species,lexical_identity_same_normalized_term,0.6,exotic species
+GEMET:experiment,skos:exactMatch,SPASE Dictionary:experiment,lexical_identity_same_normalized_term,0.6,experiment
+AGU Index Terms:exposure,skos:exactMatch,GEMET:exposure,lexical_identity_same_normalized_term,0.6,exposure
+AGU Index Terms:exposure,skos:exactMatch,SPASE Dictionary:exposure,lexical_identity_same_normalized_term,0.6,exposure
+AGU Index Terms:exposure,skos:exactMatch,SWEET:exposure,lexical_identity_same_normalized_term,0.6,exposure
+GEMET:exposure,skos:exactMatch,SPASE Dictionary:exposure,lexical_identity_same_normalized_term,0.6,exposure
+GEMET:exposure,skos:exactMatch,SWEET:exposure,lexical_identity_same_normalized_term,0.6,exposure
+SPASE Dictionary:exposure,skos:exactMatch,SWEET:exposure,lexical_identity_same_normalized_term,0.6,exposure
+SPASE Dictionary:extreme ultraviolet,skos:exactMatch,Space Weather Glossary:extreme ultraviolet,lexical_identity_same_normalized_term,0.6,extreme ultraviolet
+HELIO Ontology:f region,skos:exactMatch,SPASE Dictionary:f region,lexical_identity_same_normalized_term,0.6,f region
+HELIO Ontology:f region,skos:exactMatch,Space Weather Glossary:f region,lexical_identity_same_normalized_term,0.6,f region
+SPASE Dictionary:f region,skos:exactMatch,Space Weather Glossary:f region,lexical_identity_same_normalized_term,0.6,f region
+GCMD:famine,skos:exactMatch,GEMET:famine,lexical_identity_same_normalized_term,0.6,famine
+HELIO Ontology:faraday cup,skos:exactMatch,SPASE Dictionary:faraday cup,lexical_identity_same_normalized_term,0.6,faraday cup
+GCMD:fauna,skos:exactMatch,GEMET:fauna,lexical_identity_same_normalized_term,0.6,fauna
+GEMET:field,skos:exactMatch,SPASE Dictionary:field,lexical_identity_same_normalized_term,0.6,field
+SWEET:filament,skos:exactMatch,Space Weather Glossary:filament,lexical_identity_same_normalized_term,0.6,filament
+GEMET:film,skos:exactMatch,SPASE Dictionary:film,lexical_identity_same_normalized_term,0.6,film
+GEMET:filter,skos:exactMatch,HELIO Ontology:filter,lexical_identity_same_normalized_term,0.6,filter
+GCMD:fish,skos:exactMatch,GEMET:fish,lexical_identity_same_normalized_term,0.6,fish
+HELIO Ontology:flare,skos:exactMatch,SWEET:flare,lexical_identity_same_normalized_term,0.6,flare
+HELIO Ontology:flare,skos:exactMatch,Space Weather Glossary:flare,lexical_identity_same_normalized_term,0.6,flare
+SWEET:flare,skos:exactMatch,Space Weather Glossary:flare,lexical_identity_same_normalized_term,0.6,flare
+GEMET:flocculation,skos:exactMatch,SWEET:flocculation,lexical_identity_same_normalized_term,0.6,flocculation
+GCMD:flooding,skos:exactMatch,GEMET:flooding,lexical_identity_same_normalized_term,0.6,flooding
+AGU Index Terms:floods,skos:exactMatch,GCMD:floods,lexical_identity_same_normalized_term,0.6,floods
+HELIO Ontology:flow speed,skos:exactMatch,SPASE Dictionary:flow speed,lexical_identity_same_normalized_term,0.6,flow speed
+GCMD:flow velocity,skos:exactMatch,HELIO Ontology:flow velocity,lexical_identity_same_normalized_term,0.6,flow velocity
+GCMD:flow velocity,skos:exactMatch,SPASE Dictionary:flow velocity,lexical_identity_same_normalized_term,0.6,flow velocity
+HELIO Ontology:flow velocity,skos:exactMatch,SPASE Dictionary:flow velocity,lexical_identity_same_normalized_term,0.6,flow velocity
+SPASE Dictionary:fluence,skos:exactMatch,Space Weather Glossary:fluence,lexical_identity_same_normalized_term,0.6,fluence
+GEMET:flushing,skos:exactMatch,SWEET:flushing,lexical_identity_same_normalized_term,0.6,flushing
+HELIO Ontology:flux,skos:exactMatch,SWEET:flux,lexical_identity_same_normalized_term,0.6,flux
+HELIO Ontology:flux,skos:exactMatch,Space Weather Glossary:flux,lexical_identity_same_normalized_term,0.6,flux
+SWEET:flux,skos:exactMatch,Space Weather Glossary:flux,lexical_identity_same_normalized_term,0.6,flux
+HELIO Ontology:flux feedback,skos:exactMatch,SPASE Dictionary:flux feedback,lexical_identity_same_normalized_term,0.6,flux feedback
+GCMD:fog,skos:exactMatch,GEMET:fog,lexical_identity_same_normalized_term,0.6,fog
+GCMD:fog,skos:exactMatch,SWEET:fog,lexical_identity_same_normalized_term,0.6,fog
+GEMET:fog,skos:exactMatch,SWEET:fog,lexical_identity_same_normalized_term,0.6,fog
+GCMD:food quality,skos:exactMatch,GEMET:food quality,lexical_identity_same_normalized_term,0.6,food quality
+GCMD:food science,skos:exactMatch,GEMET:food science,lexical_identity_same_normalized_term,0.6,food science
+GCMD:food storage,skos:exactMatch,GEMET:food storage,lexical_identity_same_normalized_term,0.6,food storage
+HELIO Ontology:forbush decrease,skos:exactMatch,SPASE Dictionary:forbush decrease,lexical_identity_same_normalized_term,0.6,forbush decrease
+HELIO Ontology:forbush decrease,skos:exactMatch,Space Weather Glossary:forbush decrease,lexical_identity_same_normalized_term,0.6,forbush decrease
+SPASE Dictionary:forbush decrease,skos:exactMatch,Space Weather Glossary:forbush decrease,lexical_identity_same_normalized_term,0.6,forbush decrease
+ESA Space Weather Glossary:forecast,skos:exactMatch,GEMET:forecast,lexical_identity_same_normalized_term,0.6,forecast
+AGU Index Terms:forecasting,skos:exactMatch,GEMET:forecasting,lexical_identity_same_normalized_term,0.6,forecasting
+GCMD:forest conservation,skos:exactMatch,GEMET:forest conservation,lexical_identity_same_normalized_term,0.6,forest conservation
+GCMD:forest management,skos:exactMatch,GEMET:forest management,lexical_identity_same_normalized_term,0.6,forest management
+GCMD:forest protection,skos:exactMatch,GEMET:forest protection,lexical_identity_same_normalized_term,0.6,forest protection
+HELIO Ontology:former pi,skos:exactMatch,SPASE Dictionary:former pi,lexical_identity_same_normalized_term,0.6,former pi
+HELIO Ontology:fourier transform spectrograph,skos:exactMatch,SPASE Dictionary:fourier transform spectrograph,lexical_identity_same_normalized_term,0.6,fourier transform spectrograph
+HELIO Ontology:frequency,skos:exactMatch,SPASE Dictionary:frequency,lexical_identity_same_normalized_term,0.6,frequency
+GCMD:frost,skos:exactMatch,GEMET:frost,lexical_identity_same_normalized_term,0.6,frost
+AGU Index Terms:frozen ground,skos:exactMatch,GCMD:frozen ground,lexical_identity_same_normalized_term,0.6,frozen ground
+AGU Index Terms:funding,skos:exactMatch,SPASE Dictionary:funding,lexical_identity_same_normalized_term,0.6,funding
+GCMD:gamma ray,skos:exactMatch,SWEET:gamma ray,lexical_identity_same_normalized_term,0.6,gamma ray
+SPASE Dictionary:gamma rays,skos:exactMatch,Space Weather Glossary:gamma rays,lexical_identity_same_normalized_term,0.6,gamma rays
+SPASE Dictionary:gamma rays,skos:exactMatch,Space Weather Glossary (Second):gamma rays,lexical_identity_same_normalized_term,0.6,gamma rays
+Space Weather Glossary:gamma rays,skos:exactMatch,Space Weather Glossary (Second):gamma rays,lexical_identity_same_normalized_term,0.6,gamma rays
+AGU Index Terms:ganymede,skos:exactMatch,SPASE Dictionary:ganymede,lexical_identity_same_normalized_term,0.6,ganymede
+GCMD:garden,skos:exactMatch,GEMET:garden,lexical_identity_same_normalized_term,0.6,garden
+AGU Index Terms:gases,skos:exactMatch,GCMD:gases,lexical_identity_same_normalized_term,0.6,gases
+HELIO Ontology:gei,skos:exactMatch,SPASE Dictionary:gei,lexical_identity_same_normalized_term,0.6,gei
+HELIO Ontology:geiger mueller tube,skos:exactMatch,SPASE Dictionary:geiger mueller tube,lexical_identity_same_normalized_term,0.6,geiger mueller tube
+HELIO Ontology:general contact,skos:exactMatch,SPASE Dictionary:general contact,lexical_identity_same_normalized_term,0.6,general contact
+HELIO Ontology:geo,skos:exactMatch,SPASE Dictionary:geo,lexical_identity_same_normalized_term,0.6,geo
+AGU Index Terms:geochemistry,skos:exactMatch,GCMD:geochemistry,lexical_identity_same_normalized_term,0.6,geochemistry
+Space Weather Glossary:geocorona,skos:exactMatch,Space Weather Glossary (Second):geocorona,lexical_identity_same_normalized_term,0.6,geocorona
+AGU Index Terms:geodesy,skos:exactMatch,GEMET:geodesy,lexical_identity_same_normalized_term,0.6,geodesy
+AGU Index Terms:geographic information systems,skos:exactMatch,GCMD:geographic information systems,lexical_identity_same_normalized_term,0.6,geographic information systems
+GCMD:geomagnetic activity,skos:exactMatch,Space Weather Glossary:geomagnetic activity,lexical_identity_same_normalized_term,0.6,geomagnetic activity
+GCMD:geomagnetic activity,skos:exactMatch,Space Weather Glossary (Second):geomagnetic activity,lexical_identity_same_normalized_term,0.6,geomagnetic activity
+Space Weather Glossary:geomagnetic activity,skos:exactMatch,Space Weather Glossary (Second):geomagnetic activity,lexical_identity_same_normalized_term,0.6,geomagnetic activity
+SWEET:geomagnetic field,skos:exactMatch,Space Weather Glossary:geomagnetic field,lexical_identity_same_normalized_term,0.6,geomagnetic field
+SWEET:geomagnetic field,skos:exactMatch,Space Weather Glossary (Second):geomagnetic field,lexical_identity_same_normalized_term,0.6,geomagnetic field
+Space Weather Glossary:geomagnetic field,skos:exactMatch,Space Weather Glossary (Second):geomagnetic field,lexical_identity_same_normalized_term,0.6,geomagnetic field
+AGU Index Terms:geomagnetic induction,skos:exactMatch,GCMD:geomagnetic induction,lexical_identity_same_normalized_term,0.6,geomagnetic induction
+GCMD:geomagnetic storm,skos:exactMatch,HELIO Ontology:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+GCMD:geomagnetic storm,skos:exactMatch,NASA Heliophysics Vocabulary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+GCMD:geomagnetic storm,skos:exactMatch,SPASE Dictionary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+GCMD:geomagnetic storm,skos:exactMatch,SWEET:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+GCMD:geomagnetic storm,skos:exactMatch,Space Weather Glossary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+GCMD:geomagnetic storm,skos:exactMatch,Space Weather Glossary (Second):geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+HELIO Ontology:geomagnetic storm,skos:exactMatch,NASA Heliophysics Vocabulary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+HELIO Ontology:geomagnetic storm,skos:exactMatch,SPASE Dictionary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+HELIO Ontology:geomagnetic storm,skos:exactMatch,SWEET:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+HELIO Ontology:geomagnetic storm,skos:exactMatch,Space Weather Glossary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+HELIO Ontology:geomagnetic storm,skos:exactMatch,Space Weather Glossary (Second):geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+NASA Heliophysics Vocabulary:geomagnetic storm,skos:exactMatch,SPASE Dictionary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+NASA Heliophysics Vocabulary:geomagnetic storm,skos:exactMatch,SWEET:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+NASA Heliophysics Vocabulary:geomagnetic storm,skos:exactMatch,Space Weather Glossary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+NASA Heliophysics Vocabulary:geomagnetic storm,skos:exactMatch,Space Weather Glossary (Second):geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+SPASE Dictionary:geomagnetic storm,skos:exactMatch,SWEET:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+SPASE Dictionary:geomagnetic storm,skos:exactMatch,Space Weather Glossary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+SPASE Dictionary:geomagnetic storm,skos:exactMatch,Space Weather Glossary (Second):geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+SWEET:geomagnetic storm,skos:exactMatch,Space Weather Glossary:geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+SWEET:geomagnetic storm,skos:exactMatch,Space Weather Glossary (Second):geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+Space Weather Glossary:geomagnetic storm,skos:exactMatch,Space Weather Glossary (Second):geomagnetic storm,lexical_identity_same_normalized_term,0.6,geomagnetic storm
+NASA Heliophysics Vocabulary:geomagnetically induced current,skos:exactMatch,Space Weather Glossary:geomagnetically induced current,lexical_identity_same_normalized_term,0.6,geomagnetically induced current
+GCMD:geomagnetism,skos:exactMatch,SWEET:geomagnetism,lexical_identity_same_normalized_term,0.6,geomagnetism
+GCMD:geothermal energy,skos:exactMatch,GEMET:geothermal energy,lexical_identity_same_normalized_term,0.6,geothermal energy
+GCMD:glacial retreat,skos:exactMatch,GEMET:glacial retreat,lexical_identity_same_normalized_term,0.6,glacial retreat
+AGU Index Terms:glaciation,skos:exactMatch,GCMD:glaciation,lexical_identity_same_normalized_term,0.6,glaciation
+AGU Index Terms:glaciers,skos:exactMatch,GCMD:glaciers,lexical_identity_same_normalized_term,0.6,glaciers
+AGU Index Terms:glaciology,skos:exactMatch,GEMET:glaciology,lexical_identity_same_normalized_term,0.6,glaciology
+SWEET:gps,skos:exactMatch,Space Weather Glossary:gps,lexical_identity_same_normalized_term,0.6,gps
+SWEET:granulation,skos:exactMatch,Space Weather Glossary:granulation,lexical_identity_same_normalized_term,0.6,granulation
+HELIO Ontology:granule,skos:exactMatch,SPASE Dictionary:granule,lexical_identity_same_normalized_term,0.6,granule
+HELIO Ontology:granule,skos:exactMatch,SWEET:granule,lexical_identity_same_normalized_term,0.6,granule
+SPASE Dictionary:granule,skos:exactMatch,SWEET:granule,lexical_identity_same_normalized_term,0.6,granule
+GCMD:gravity,skos:exactMatch,SWEET:gravity,lexical_identity_same_normalized_term,0.6,gravity
+GCMD:gravity wave,skos:exactMatch,SWEET:gravity wave,lexical_identity_same_normalized_term,0.6,gravity wave
+AGU Index Terms:greenhouse gases,skos:exactMatch,GCMD:greenhouse gases,lexical_identity_same_normalized_term,0.6,greenhouse gases
+HELIO Ontology:ground level enhancement,skos:exactMatch,Space Weather Glossary (Second):ground level enhancement,lexical_identity_same_normalized_term,0.6,ground level enhancement
+AGU Index Terms:groundwater quality,skos:exactMatch,GEMET:groundwater quality,lexical_identity_same_normalized_term,0.6,groundwater quality
+HELIO Ontology:gse,skos:exactMatch,SPASE Dictionary:gse,lexical_identity_same_normalized_term,0.6,gse
+HELIO Ontology:gseq,skos:exactMatch,SPASE Dictionary:gseq,lexical_identity_same_normalized_term,0.6,gseq
+HELIO Ontology:gsm,skos:exactMatch,SPASE Dictionary:gsm,lexical_identity_same_normalized_term,0.6,gsm
+HELIO Ontology:gyrofrequency,skos:exactMatch,SPASE Dictionary:gyrofrequency,lexical_identity_same_normalized_term,0.6,gyrofrequency
+HELIO Ontology:hae,skos:exactMatch,SPASE Dictionary:hae,lexical_identity_same_normalized_term,0.6,hae
+GCMD:hail,skos:exactMatch,GEMET:hail,lexical_identity_same_normalized_term,0.6,hail
+NASA CCMC:halo cme,skos:exactMatch,Space Weather Glossary:halo cme,lexical_identity_same_normalized_term,0.6,halo cme
+GCMD:hardness,skos:exactMatch,GEMET:hardness,lexical_identity_same_normalized_term,0.6,hardness
+HELIO Ontology:hci,skos:exactMatch,SPASE Dictionary:hci,lexical_identity_same_normalized_term,0.6,hci
+AGU Index Terms:heat flow,skos:exactMatch,SWEET:heat flow,lexical_identity_same_normalized_term,0.6,heat flow
+GCMD:heat flux,skos:exactMatch,HELIO Ontology:heat flux,lexical_identity_same_normalized_term,0.6,heat flux
+GCMD:heat flux,skos:exactMatch,SPASE Dictionary:heat flux,lexical_identity_same_normalized_term,0.6,heat flux
+GCMD:heat flux,skos:exactMatch,SWEET:heat flux,lexical_identity_same_normalized_term,0.6,heat flux
+HELIO Ontology:heat flux,skos:exactMatch,SPASE Dictionary:heat flux,lexical_identity_same_normalized_term,0.6,heat flux
+HELIO Ontology:heat flux,skos:exactMatch,SWEET:heat flux,lexical_identity_same_normalized_term,0.6,heat flux
+SPASE Dictionary:heat flux,skos:exactMatch,SWEET:heat flux,lexical_identity_same_normalized_term,0.6,heat flux
+GCMD:heat wave,skos:exactMatch,GEMET:heat wave,lexical_identity_same_normalized_term,0.6,heat wave
+GEMET:heating,skos:exactMatch,SWEET:heating,lexical_identity_same_normalized_term,0.6,heating
+HELIO Ontology:hee,skos:exactMatch,SPASE Dictionary:hee,lexical_identity_same_normalized_term,0.6,hee
+HELIO Ontology:heeq,skos:exactMatch,SPASE Dictionary:heeq,lexical_identity_same_normalized_term,0.6,heeq
+SWEET:heliopause,skos:exactMatch,Space Weather Glossary:heliopause,lexical_identity_same_normalized_term,0.6,heliopause
+SWEET:heliopause,skos:exactMatch,Space Weather Glossary (Second):heliopause,lexical_identity_same_normalized_term,0.6,heliopause
+Space Weather Glossary:heliopause,skos:exactMatch,Space Weather Glossary (Second):heliopause,lexical_identity_same_normalized_term,0.6,heliopause
+AGU Index Terms:helioseismology,skos:exactMatch,SWEET:helioseismology,lexical_identity_same_normalized_term,0.6,helioseismology
+AGU Index Terms:helioseismology,skos:exactMatch,Space Weather Glossary:helioseismology,lexical_identity_same_normalized_term,0.6,helioseismology
+SWEET:helioseismology,skos:exactMatch,Space Weather Glossary:helioseismology,lexical_identity_same_normalized_term,0.6,helioseismology
+SPASE Dictionary:heliosheath,skos:exactMatch,SWEET:heliosheath,lexical_identity_same_normalized_term,0.6,heliosheath
+SPASE Dictionary:heliosheath,skos:exactMatch,Space Weather Glossary (Second):heliosheath,lexical_identity_same_normalized_term,0.6,heliosheath
+SWEET:heliosheath,skos:exactMatch,Space Weather Glossary (Second):heliosheath,lexical_identity_same_normalized_term,0.6,heliosheath
+NASA CCMC:heliosphere,skos:exactMatch,NASA Heliophysics Vocabulary:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA CCMC:heliosphere,skos:exactMatch,SPASE Dictionary:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA CCMC:heliosphere,skos:exactMatch,SWEET:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA CCMC:heliosphere,skos:exactMatch,Space Weather Glossary:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA CCMC:heliosphere,skos:exactMatch,Space Weather Glossary (Second):heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA Heliophysics Vocabulary:heliosphere,skos:exactMatch,SPASE Dictionary:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA Heliophysics Vocabulary:heliosphere,skos:exactMatch,SWEET:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA Heliophysics Vocabulary:heliosphere,skos:exactMatch,Space Weather Glossary:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+NASA Heliophysics Vocabulary:heliosphere,skos:exactMatch,Space Weather Glossary (Second):heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+SPASE Dictionary:heliosphere,skos:exactMatch,SWEET:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+SPASE Dictionary:heliosphere,skos:exactMatch,Space Weather Glossary:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+SPASE Dictionary:heliosphere,skos:exactMatch,Space Weather Glossary (Second):heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+SWEET:heliosphere,skos:exactMatch,Space Weather Glossary:heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+SWEET:heliosphere,skos:exactMatch,Space Weather Glossary (Second):heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+Space Weather Glossary:heliosphere,skos:exactMatch,Space Weather Glossary (Second):heliosphere,lexical_identity_same_normalized_term,0.6,heliosphere
+HELIO Ontology:hg,skos:exactMatch,SPASE Dictionary:hg,lexical_identity_same_normalized_term,0.6,hg
+HELIO Ontology:hgi,skos:exactMatch,SPASE Dictionary:hgi,lexical_identity_same_normalized_term,0.6,hgi
+HELIO Ontology:hgrtn,skos:exactMatch,SPASE Dictionary:hgrtn,lexical_identity_same_normalized_term,0.6,hgrtn
+GCMD:hydrography,skos:exactMatch,GEMET:hydrography,lexical_identity_same_normalized_term,0.6,hydrography
+AGU Index Terms:hydrology,skos:exactMatch,GEMET:hydrology,lexical_identity_same_normalized_term,0.6,hydrology
+GCMD:hydrolysis,skos:exactMatch,GEMET:hydrolysis,lexical_identity_same_normalized_term,0.6,hydrolysis
+AGU Index Terms:hydrometeorology,skos:exactMatch,GEMET:hydrometeorology,lexical_identity_same_normalized_term,0.6,hydrometeorology
+GCMD:hydroperiod,skos:exactMatch,SWEET:hydroperiod,lexical_identity_same_normalized_term,0.6,hydroperiod
+AGU Index Terms:ice,skos:exactMatch,GEMET:ice,lexical_identity_same_normalized_term,0.6,ice
+AGU Index Terms:ice sheets,skos:exactMatch,GCMD:ice sheets,lexical_identity_same_normalized_term,0.6,ice sheets
+AGU Index Terms:ice shelves,skos:exactMatch,GCMD:ice shelves,lexical_identity_same_normalized_term,0.6,ice shelves
+AGU Index Terms:icebergs,skos:exactMatch,GCMD:icebergs,lexical_identity_same_normalized_term,0.6,icebergs
+AGU Index Terms:icing,skos:exactMatch,SWEET:icing,lexical_identity_same_normalized_term,0.6,icing
+HELIO Ontology:image,skos:exactMatch,SPASE Dictionary:image,lexical_identity_same_normalized_term,0.6,image
+HELIO Ontology:image intensity,skos:exactMatch,SPASE Dictionary:image intensity,lexical_identity_same_normalized_term,0.6,image intensity
+AGU Index Terms:image processing,skos:exactMatch,GCMD:image processing,lexical_identity_same_normalized_term,0.6,image processing
+AGU Index Terms:image processing,skos:exactMatch,GEMET:image processing,lexical_identity_same_normalized_term,0.6,image processing
+GCMD:image processing,skos:exactMatch,GEMET:image processing,lexical_identity_same_normalized_term,0.6,image processing
+HELIO Ontology:imager,skos:exactMatch,SPASE Dictionary:imager,lexical_identity_same_normalized_term,0.6,imager
+HELIO Ontology:imaging spectrometer,skos:exactMatch,SPASE Dictionary:imaging spectrometer,lexical_identity_same_normalized_term,0.6,imaging spectrometer
+ESA Space Weather Glossary:index,skos:exactMatch,GEMET:index,lexical_identity_same_normalized_term,0.6,index
+ESA Space Weather Glossary:index,skos:exactMatch,SPASE Dictionary:index,lexical_identity_same_normalized_term,0.6,index
+GEMET:index,skos:exactMatch,SPASE Dictionary:index,lexical_identity_same_normalized_term,0.6,index
+AGU Index Terms:indian ocean,skos:exactMatch,GEMET:indian ocean,lexical_identity_same_normalized_term,0.6,indian ocean
+AGU Index Terms:infiltration,skos:exactMatch,GCMD:infiltration,lexical_identity_same_normalized_term,0.6,infiltration
+AGU Index Terms:infiltration,skos:exactMatch,GEMET:infiltration,lexical_identity_same_normalized_term,0.6,infiltration
+GCMD:infiltration,skos:exactMatch,GEMET:infiltration,lexical_identity_same_normalized_term,0.6,infiltration
+AGU Index Terms:informatics,skos:exactMatch,GEMET:informatics,lexical_identity_same_normalized_term,0.6,informatics
+GCMD:infrastructure,skos:exactMatch,GEMET:infrastructure,lexical_identity_same_normalized_term,0.6,infrastructure
+GEMET:inspection,skos:exactMatch,SPASE Dictionary:inspection,lexical_identity_same_normalized_term,0.6,inspection
+HELIO Ontology:instrument,skos:exactMatch,SPASE Dictionary:instrument,lexical_identity_same_normalized_term,0.6,instrument
+HELIO Ontology:instrument,skos:exactMatch,SWEET:instrument,lexical_identity_same_normalized_term,0.6,instrument
+SPASE Dictionary:instrument,skos:exactMatch,SWEET:instrument,lexical_identity_same_normalized_term,0.6,instrument
+HELIO Ontology:instrument status,skos:exactMatch,SPASE Dictionary:instrument status,lexical_identity_same_normalized_term,0.6,instrument status
+HELIO Ontology:intensity,skos:exactMatch,SPASE Dictionary:intensity,lexical_identity_same_normalized_term,0.6,intensity
+HELIO Ontology:intensity,skos:exactMatch,SWEET:intensity,lexical_identity_same_normalized_term,0.6,intensity
+SPASE Dictionary:intensity,skos:exactMatch,SWEET:intensity,lexical_identity_same_normalized_term,0.6,intensity
+HELIO Ontology:interferometer,skos:exactMatch,SPASE Dictionary:interferometer,lexical_identity_same_normalized_term,0.6,interferometer
+HELIO Ontology:interplanetary magnetic field,skos:exactMatch,NASA Heliophysics Vocabulary:interplanetary magnetic field,lexical_identity_same_normalized_term,0.6,interplanetary magnetic field
+HELIO Ontology:interplanetary magnetic field,skos:exactMatch,Space Weather Glossary:interplanetary magnetic field,lexical_identity_same_normalized_term,0.6,interplanetary magnetic field
+HELIO Ontology:interplanetary magnetic field,skos:exactMatch,Space Weather Glossary (Second):interplanetary magnetic field,lexical_identity_same_normalized_term,0.6,interplanetary magnetic field
+NASA Heliophysics Vocabulary:interplanetary magnetic field,skos:exactMatch,Space Weather Glossary:interplanetary magnetic field,lexical_identity_same_normalized_term,0.6,interplanetary magnetic field
+NASA Heliophysics Vocabulary:interplanetary magnetic field,skos:exactMatch,Space Weather Glossary (Second):interplanetary magnetic field,lexical_identity_same_normalized_term,0.6,interplanetary magnetic field
+Space Weather Glossary:interplanetary magnetic field,skos:exactMatch,Space Weather Glossary (Second):interplanetary magnetic field,lexical_identity_same_normalized_term,0.6,interplanetary magnetic field
+ESA Space Weather Glossary:interplanetary shock,skos:exactMatch,HELIO Ontology:interplanetary shock,lexical_identity_same_normalized_term,0.6,interplanetary shock
+ESA Space Weather Glossary:interplanetary shock,skos:exactMatch,SPASE Dictionary:interplanetary shock,lexical_identity_same_normalized_term,0.6,interplanetary shock
+ESA Space Weather Glossary:interplanetary shock,skos:exactMatch,SWEET:interplanetary shock,lexical_identity_same_normalized_term,0.6,interplanetary shock
+HELIO Ontology:interplanetary shock,skos:exactMatch,SPASE Dictionary:interplanetary shock,lexical_identity_same_normalized_term,0.6,interplanetary shock
+HELIO Ontology:interplanetary shock,skos:exactMatch,SWEET:interplanetary shock,lexical_identity_same_normalized_term,0.6,interplanetary shock
+SPASE Dictionary:interplanetary shock,skos:exactMatch,SWEET:interplanetary shock,lexical_identity_same_normalized_term,0.6,interplanetary shock
+GCMD:interpolation,skos:exactMatch,GEMET:interpolation,lexical_identity_same_normalized_term,0.6,interpolation
+HELIO Ontology:interstellar,skos:exactMatch,SPASE Dictionary:interstellar,lexical_identity_same_normalized_term,0.6,interstellar
+GCMD:intertidal zone,skos:exactMatch,GEMET:intertidal zone,lexical_identity_same_normalized_term,0.6,intertidal zone
+AGU Index Terms:io,skos:exactMatch,SPASE Dictionary:io,lexical_identity_same_normalized_term,0.6,io
+GEMET:ion,skos:exactMatch,HELIO Ontology:ion,lexical_identity_same_normalized_term,0.6,ion
+GEMET:ion,skos:exactMatch,SPASE Dictionary:ion,lexical_identity_same_normalized_term,0.6,ion
+HELIO Ontology:ion,skos:exactMatch,SPASE Dictionary:ion,lexical_identity_same_normalized_term,0.6,ion
+HELIO Ontology:ion chamber,skos:exactMatch,SPASE Dictionary:ion chamber,lexical_identity_same_normalized_term,0.6,ion chamber
+HELIO Ontology:ion composition,skos:exactMatch,SPASE Dictionary:ion composition,lexical_identity_same_normalized_term,0.6,ion composition
+HELIO Ontology:ion drift,skos:exactMatch,SPASE Dictionary:ion drift,lexical_identity_same_normalized_term,0.6,ion drift
+GCMD:ion exchange,skos:exactMatch,GEMET:ion exchange,lexical_identity_same_normalized_term,0.6,ion exchange
+NASA CCMC:ionizing radiation,skos:exactMatch,SWEET:ionizing radiation,lexical_identity_same_normalized_term,0.6,ionizing radiation
+AGU Index Terms:ionosphere,skos:exactMatch,GEMET:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+AGU Index Terms:ionosphere,skos:exactMatch,NASA CCMC:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+AGU Index Terms:ionosphere,skos:exactMatch,NASA Heliophysics Vocabulary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+AGU Index Terms:ionosphere,skos:exactMatch,SPASE Dictionary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+AGU Index Terms:ionosphere,skos:exactMatch,SWEET:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+AGU Index Terms:ionosphere,skos:exactMatch,Space Weather Glossary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+AGU Index Terms:ionosphere,skos:exactMatch,Space Weather Glossary (Second):ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+GEMET:ionosphere,skos:exactMatch,NASA CCMC:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+GEMET:ionosphere,skos:exactMatch,NASA Heliophysics Vocabulary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+GEMET:ionosphere,skos:exactMatch,SPASE Dictionary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+GEMET:ionosphere,skos:exactMatch,SWEET:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+GEMET:ionosphere,skos:exactMatch,Space Weather Glossary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+GEMET:ionosphere,skos:exactMatch,Space Weather Glossary (Second):ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA CCMC:ionosphere,skos:exactMatch,NASA Heliophysics Vocabulary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA CCMC:ionosphere,skos:exactMatch,SPASE Dictionary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA CCMC:ionosphere,skos:exactMatch,SWEET:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA CCMC:ionosphere,skos:exactMatch,Space Weather Glossary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA CCMC:ionosphere,skos:exactMatch,Space Weather Glossary (Second):ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA Heliophysics Vocabulary:ionosphere,skos:exactMatch,SPASE Dictionary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA Heliophysics Vocabulary:ionosphere,skos:exactMatch,SWEET:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA Heliophysics Vocabulary:ionosphere,skos:exactMatch,Space Weather Glossary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+NASA Heliophysics Vocabulary:ionosphere,skos:exactMatch,Space Weather Glossary (Second):ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+SPASE Dictionary:ionosphere,skos:exactMatch,SWEET:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+SPASE Dictionary:ionosphere,skos:exactMatch,Space Weather Glossary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+SPASE Dictionary:ionosphere,skos:exactMatch,Space Weather Glossary (Second):ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+SWEET:ionosphere,skos:exactMatch,Space Weather Glossary:ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+SWEET:ionosphere,skos:exactMatch,Space Weather Glossary (Second):ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+Space Weather Glossary:ionosphere,skos:exactMatch,Space Weather Glossary (Second):ionosphere,lexical_identity_same_normalized_term,0.6,ionosphere
+Space Weather Glossary:ionospheric storm,skos:exactMatch,Space Weather Glossary (Second):ionospheric storm,lexical_identity_same_normalized_term,0.6,ionospheric storm
+GCMD:iron,skos:exactMatch,GEMET:iron,lexical_identity_same_normalized_term,0.6,iron
+GCMD:irradiance,skos:exactMatch,HELIO Ontology:irradiance,lexical_identity_same_normalized_term,0.6,irradiance
+GCMD:irradiance,skos:exactMatch,SPASE Dictionary:irradiance,lexical_identity_same_normalized_term,0.6,irradiance
+GCMD:irradiance,skos:exactMatch,SWEET:irradiance,lexical_identity_same_normalized_term,0.6,irradiance
+HELIO Ontology:irradiance,skos:exactMatch,SPASE Dictionary:irradiance,lexical_identity_same_normalized_term,0.6,irradiance
+HELIO Ontology:irradiance,skos:exactMatch,SWEET:irradiance,lexical_identity_same_normalized_term,0.6,irradiance
+SPASE Dictionary:irradiance,skos:exactMatch,SWEET:irradiance,lexical_identity_same_normalized_term,0.6,irradiance
+AGU Index Terms:irrigation,skos:exactMatch,GCMD:irrigation,lexical_identity_same_normalized_term,0.6,irrigation
+AGU Index Terms:irrigation,skos:exactMatch,GEMET:irrigation,lexical_identity_same_normalized_term,0.6,irrigation
+GCMD:irrigation,skos:exactMatch,GEMET:irrigation,lexical_identity_same_normalized_term,0.6,irrigation
+GCMD:island,skos:exactMatch,GEMET:island,lexical_identity_same_normalized_term,0.6,island
+AGU Index Terms:jupiter,skos:exactMatch,SPASE Dictionary:jupiter,lexical_identity_same_normalized_term,0.6,jupiter
+GCMD:kp index,skos:exactMatch,NASA CCMC:kp index,lexical_identity_same_normalized_term,0.6,kp index
+GCMD:kp index,skos:exactMatch,Space Weather Glossary:kp index,lexical_identity_same_normalized_term,0.6,kp index
+GCMD:kp index,skos:exactMatch,Space Weather Glossary (Second):kp index,lexical_identity_same_normalized_term,0.6,kp index
+NASA CCMC:kp index,skos:exactMatch,Space Weather Glossary:kp index,lexical_identity_same_normalized_term,0.6,kp index
+NASA CCMC:kp index,skos:exactMatch,Space Weather Glossary (Second):kp index,lexical_identity_same_normalized_term,0.6,kp index
+Space Weather Glossary:kp index,skos:exactMatch,Space Weather Glossary (Second):kp index,lexical_identity_same_normalized_term,0.6,kp index
+GCMD:lagoon,skos:exactMatch,GEMET:lagoon,lexical_identity_same_normalized_term,0.6,lagoon
+GCMD:landscape,skos:exactMatch,GEMET:landscape,lexical_identity_same_normalized_term,0.6,landscape
+GCMD:landscape ecology,skos:exactMatch,GEMET:landscape ecology,lexical_identity_same_normalized_term,0.6,landscape ecology
+GCMD:landscape management,skos:exactMatch,GEMET:landscape management,lexical_identity_same_normalized_term,0.6,landscape management
+GCMD:landslide,skos:exactMatch,GEMET:landslide,lexical_identity_same_normalized_term,0.6,landslide
+HELIO Ontology:langmuir probe,skos:exactMatch,SPASE Dictionary:langmuir probe,lexical_identity_same_normalized_term,0.6,langmuir probe
+GEMET:latitude,skos:exactMatch,HELIO Ontology:latitude,lexical_identity_same_normalized_term,0.6,latitude
+GEMET:latitude,skos:exactMatch,SPASE Dictionary:latitude,lexical_identity_same_normalized_term,0.6,latitude
+HELIO Ontology:latitude,skos:exactMatch,SPASE Dictionary:latitude,lexical_identity_same_normalized_term,0.6,latitude
+GCMD:lead,skos:exactMatch,GEMET:lead,lexical_identity_same_normalized_term,0.6,lead
+AGU Index Terms:leads,skos:exactMatch,GCMD:leads,lexical_identity_same_normalized_term,0.6,leads
+HELIO Ontology:lgm,skos:exactMatch,SPASE Dictionary:lgm,lexical_identity_same_normalized_term,0.6,lgm
+GCMD:lidar,skos:exactMatch,HELIO Ontology:lidar,lexical_identity_same_normalized_term,0.6,lidar
+GCMD:lidar,skos:exactMatch,SWEET:lidar,lexical_identity_same_normalized_term,0.6,lidar
+HELIO Ontology:lidar,skos:exactMatch,SWEET:lidar,lexical_identity_same_normalized_term,0.6,lidar
+AGU Index Terms:lightning,skos:exactMatch,GCMD:lightning,lexical_identity_same_normalized_term,0.6,lightning
+Space Weather Glossary:limb darkening,skos:exactMatch,Space Weather Glossary (Second):limb darkening,lexical_identity_same_normalized_term,0.6,limb darkening
+AGU Index Terms:limnology,skos:exactMatch,GEMET:limnology,lexical_identity_same_normalized_term,0.6,limnology
+HELIO Ontology:line depth,skos:exactMatch,SPASE Dictionary:line depth,lexical_identity_same_normalized_term,0.6,line depth
+AGU Index Terms:lithosphere,skos:exactMatch,GEMET:lithosphere,lexical_identity_same_normalized_term,0.6,lithosphere
+HELIO Ontology:lobes,skos:exactMatch,Space Weather Glossary:lobes,lexical_identity_same_normalized_term,0.6,lobes
+HELIO Ontology:location,skos:exactMatch,SPASE Dictionary:location,lexical_identity_same_normalized_term,0.6,location
+Space Weather Glossary:long duration event,skos:exactMatch,Space Weather Glossary (Second):long duration event,lexical_identity_same_normalized_term,0.6,long duration event
+HELIO Ontology:long wire,skos:exactMatch,SPASE Dictionary:long wire,lexical_identity_same_normalized_term,0.6,long wire
+GEMET:longitude,skos:exactMatch,HELIO Ontology:longitude,lexical_identity_same_normalized_term,0.6,longitude
+GEMET:longitude,skos:exactMatch,SPASE Dictionary:longitude,lexical_identity_same_normalized_term,0.6,longitude
+HELIO Ontology:longitude,skos:exactMatch,SPASE Dictionary:longitude,lexical_identity_same_normalized_term,0.6,longitude
+Space Weather Glossary:lowest usable frequency,skos:exactMatch,Space Weather Glossary (Second):lowest usable frequency,lexical_identity_same_normalized_term,0.6,lowest usable frequency
+HELIO Ontology:mag,skos:exactMatch,SPASE Dictionary:mag,lexical_identity_same_normalized_term,0.6,mag
+HELIO Ontology:magnetic cloud,skos:exactMatch,SPASE Dictionary:magnetic cloud,lexical_identity_same_normalized_term,0.6,magnetic cloud
+HELIO Ontology:magnetic cloud,skos:exactMatch,Space Weather Glossary:magnetic cloud,lexical_identity_same_normalized_term,0.6,magnetic cloud
+SPASE Dictionary:magnetic cloud,skos:exactMatch,Space Weather Glossary:magnetic cloud,lexical_identity_same_normalized_term,0.6,magnetic cloud
+GCMD:magnetic field,skos:exactMatch,HELIO Ontology:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+GCMD:magnetic field,skos:exactMatch,NASA Heliophysics Vocabulary:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+GCMD:magnetic field,skos:exactMatch,SPASE Dictionary:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+GCMD:magnetic field,skos:exactMatch,SWEET:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+GCMD:magnetic field,skos:exactMatch,Space Weather Glossary (Second):magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+HELIO Ontology:magnetic field,skos:exactMatch,NASA Heliophysics Vocabulary:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+HELIO Ontology:magnetic field,skos:exactMatch,SPASE Dictionary:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+HELIO Ontology:magnetic field,skos:exactMatch,SWEET:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+HELIO Ontology:magnetic field,skos:exactMatch,Space Weather Glossary (Second):magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+NASA Heliophysics Vocabulary:magnetic field,skos:exactMatch,SPASE Dictionary:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+NASA Heliophysics Vocabulary:magnetic field,skos:exactMatch,SWEET:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+NASA Heliophysics Vocabulary:magnetic field,skos:exactMatch,Space Weather Glossary (Second):magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+SPASE Dictionary:magnetic field,skos:exactMatch,SWEET:magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+SPASE Dictionary:magnetic field,skos:exactMatch,Space Weather Glossary (Second):magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+SWEET:magnetic field,skos:exactMatch,Space Weather Glossary (Second):magnetic field,lexical_identity_same_normalized_term,0.6,magnetic field
+SPASE Dictionary:magnetic moment,skos:exactMatch,SWEET:magnetic moment,lexical_identity_same_normalized_term,0.6,magnetic moment
+AGU Index Terms:magnetic reconnection,skos:exactMatch,NASA CCMC:magnetic reconnection,lexical_identity_same_normalized_term,0.6,magnetic reconnection
+AGU Index Terms:magnetic reconnection,skos:exactMatch,NASA Heliophysics Vocabulary:magnetic reconnection,lexical_identity_same_normalized_term,0.6,magnetic reconnection
+NASA CCMC:magnetic reconnection,skos:exactMatch,NASA Heliophysics Vocabulary:magnetic reconnection,lexical_identity_same_normalized_term,0.6,magnetic reconnection
+HELIO Ontology:magnetic storm,skos:exactMatch,SWEET:magnetic storm,lexical_identity_same_normalized_term,0.6,magnetic storm
+AGU Index Terms:magnetic storms,skos:exactMatch,GCMD:magnetic storms,lexical_identity_same_normalized_term,0.6,magnetic storms
+GEMET:magnetism,skos:exactMatch,SWEET:magnetism,lexical_identity_same_normalized_term,0.6,magnetism
+HELIO Ontology:magnetogram,skos:exactMatch,SPASE Dictionary:magnetogram,lexical_identity_same_normalized_term,0.6,magnetogram
+HELIO Ontology:magnetogram,skos:exactMatch,SWEET:magnetogram,lexical_identity_same_normalized_term,0.6,magnetogram
+HELIO Ontology:magnetogram,skos:exactMatch,Space Weather Glossary:magnetogram,lexical_identity_same_normalized_term,0.6,magnetogram
+SPASE Dictionary:magnetogram,skos:exactMatch,SWEET:magnetogram,lexical_identity_same_normalized_term,0.6,magnetogram
+SPASE Dictionary:magnetogram,skos:exactMatch,Space Weather Glossary:magnetogram,lexical_identity_same_normalized_term,0.6,magnetogram
+SWEET:magnetogram,skos:exactMatch,Space Weather Glossary:magnetogram,lexical_identity_same_normalized_term,0.6,magnetogram
+HELIO Ontology:magnetograph,skos:exactMatch,SPASE Dictionary:magnetograph,lexical_identity_same_normalized_term,0.6,magnetograph
+HELIO Ontology:magnetometer,skos:exactMatch,SPASE Dictionary:magnetometer,lexical_identity_same_normalized_term,0.6,magnetometer
+HELIO Ontology:magnetopause,skos:exactMatch,NASA CCMC:magnetopause,lexical_identity_same_normalized_term,0.6,magnetopause
+HELIO Ontology:magnetopause,skos:exactMatch,Space Weather Glossary:magnetopause,lexical_identity_same_normalized_term,0.6,magnetopause
+HELIO Ontology:magnetopause,skos:exactMatch,Space Weather Glossary (Second):magnetopause,lexical_identity_same_normalized_term,0.6,magnetopause
+NASA CCMC:magnetopause,skos:exactMatch,Space Weather Glossary:magnetopause,lexical_identity_same_normalized_term,0.6,magnetopause
+NASA CCMC:magnetopause,skos:exactMatch,Space Weather Glossary (Second):magnetopause,lexical_identity_same_normalized_term,0.6,magnetopause
+Space Weather Glossary:magnetopause,skos:exactMatch,Space Weather Glossary (Second):magnetopause,lexical_identity_same_normalized_term,0.6,magnetopause
+HELIO Ontology:magnetopause crossing,skos:exactMatch,SPASE Dictionary:magnetopause crossing,lexical_identity_same_normalized_term,0.6,magnetopause crossing
+HELIO Ontology:magnetopause crossing,skos:exactMatch,SWEET:magnetopause crossing,lexical_identity_same_normalized_term,0.6,magnetopause crossing
+SPASE Dictionary:magnetopause crossing,skos:exactMatch,SWEET:magnetopause crossing,lexical_identity_same_normalized_term,0.6,magnetopause crossing
+AGU Index Terms:magnetosheath,skos:exactMatch,HELIO Ontology:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+AGU Index Terms:magnetosheath,skos:exactMatch,SPASE Dictionary:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+AGU Index Terms:magnetosheath,skos:exactMatch,SWEET:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+AGU Index Terms:magnetosheath,skos:exactMatch,Space Weather Glossary:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+AGU Index Terms:magnetosheath,skos:exactMatch,Space Weather Glossary (Second):magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+HELIO Ontology:magnetosheath,skos:exactMatch,SPASE Dictionary:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+HELIO Ontology:magnetosheath,skos:exactMatch,SWEET:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+HELIO Ontology:magnetosheath,skos:exactMatch,Space Weather Glossary:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+HELIO Ontology:magnetosheath,skos:exactMatch,Space Weather Glossary (Second):magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+SPASE Dictionary:magnetosheath,skos:exactMatch,SWEET:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+SPASE Dictionary:magnetosheath,skos:exactMatch,Space Weather Glossary:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+SPASE Dictionary:magnetosheath,skos:exactMatch,Space Weather Glossary (Second):magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+SWEET:magnetosheath,skos:exactMatch,Space Weather Glossary:magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+SWEET:magnetosheath,skos:exactMatch,Space Weather Glossary (Second):magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+Space Weather Glossary:magnetosheath,skos:exactMatch,Space Weather Glossary (Second):magnetosheath,lexical_identity_same_normalized_term,0.6,magnetosheath
+NASA CCMC:magnetosphere,skos:exactMatch,NASA Heliophysics Vocabulary:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA CCMC:magnetosphere,skos:exactMatch,SPASE Dictionary:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA CCMC:magnetosphere,skos:exactMatch,SWEET:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA CCMC:magnetosphere,skos:exactMatch,Space Weather Glossary:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA CCMC:magnetosphere,skos:exactMatch,Space Weather Glossary (Second):magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA Heliophysics Vocabulary:magnetosphere,skos:exactMatch,SPASE Dictionary:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA Heliophysics Vocabulary:magnetosphere,skos:exactMatch,SWEET:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA Heliophysics Vocabulary:magnetosphere,skos:exactMatch,Space Weather Glossary:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+NASA Heliophysics Vocabulary:magnetosphere,skos:exactMatch,Space Weather Glossary (Second):magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+SPASE Dictionary:magnetosphere,skos:exactMatch,SWEET:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+SPASE Dictionary:magnetosphere,skos:exactMatch,Space Weather Glossary:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+SPASE Dictionary:magnetosphere,skos:exactMatch,Space Weather Glossary (Second):magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+SWEET:magnetosphere,skos:exactMatch,Space Weather Glossary:magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+SWEET:magnetosphere,skos:exactMatch,Space Weather Glossary (Second):magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+Space Weather Glossary:magnetosphere,skos:exactMatch,Space Weather Glossary (Second):magnetosphere,lexical_identity_same_normalized_term,0.6,magnetosphere
+AGU Index Terms:magnetotail,skos:exactMatch,HELIO Ontology:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+AGU Index Terms:magnetotail,skos:exactMatch,NASA Heliophysics Vocabulary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+AGU Index Terms:magnetotail,skos:exactMatch,SPASE Dictionary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+AGU Index Terms:magnetotail,skos:exactMatch,SWEET:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+AGU Index Terms:magnetotail,skos:exactMatch,Space Weather Glossary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+AGU Index Terms:magnetotail,skos:exactMatch,Space Weather Glossary (Second):magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+HELIO Ontology:magnetotail,skos:exactMatch,NASA Heliophysics Vocabulary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+HELIO Ontology:magnetotail,skos:exactMatch,SPASE Dictionary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+HELIO Ontology:magnetotail,skos:exactMatch,SWEET:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+HELIO Ontology:magnetotail,skos:exactMatch,Space Weather Glossary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+HELIO Ontology:magnetotail,skos:exactMatch,Space Weather Glossary (Second):magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+NASA Heliophysics Vocabulary:magnetotail,skos:exactMatch,SPASE Dictionary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+NASA Heliophysics Vocabulary:magnetotail,skos:exactMatch,SWEET:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+NASA Heliophysics Vocabulary:magnetotail,skos:exactMatch,Space Weather Glossary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+NASA Heliophysics Vocabulary:magnetotail,skos:exactMatch,Space Weather Glossary (Second):magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+SPASE Dictionary:magnetotail,skos:exactMatch,SWEET:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+SPASE Dictionary:magnetotail,skos:exactMatch,Space Weather Glossary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+SPASE Dictionary:magnetotail,skos:exactMatch,Space Weather Glossary (Second):magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+SWEET:magnetotail,skos:exactMatch,Space Weather Glossary:magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+SWEET:magnetotail,skos:exactMatch,Space Weather Glossary (Second):magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+Space Weather Glossary:magnetotail,skos:exactMatch,Space Weather Glossary (Second):magnetotail,lexical_identity_same_normalized_term,0.6,magnetotail
+HELIO Ontology:main,skos:exactMatch,SPASE Dictionary:main,lexical_identity_same_normalized_term,0.6,main
+GCMD:malnutrition,skos:exactMatch,GEMET:malnutrition,lexical_identity_same_normalized_term,0.6,malnutrition
+GCMD:mangrove swamp,skos:exactMatch,GEMET:mangrove swamp,lexical_identity_same_normalized_term,0.6,mangrove swamp
+GCMD:marine biology,skos:exactMatch,GEMET:marine biology,lexical_identity_same_normalized_term,0.6,marine biology
+AGU Index Terms:marine geochemistry,skos:exactMatch,GCMD:marine geochemistry,lexical_identity_same_normalized_term,0.6,marine geochemistry
+AGU Index Terms:marine pollution,skos:exactMatch,GEMET:marine pollution,lexical_identity_same_normalized_term,0.6,marine pollution
+AGU Index Terms:mars,skos:exactMatch,SPASE Dictionary:mars,lexical_identity_same_normalized_term,0.6,mars
+GCMD:marsh,skos:exactMatch,GEMET:marsh,lexical_identity_same_normalized_term,0.6,marsh
+HELIO Ontology:mass,skos:exactMatch,SPASE Dictionary:mass,lexical_identity_same_normalized_term,0.6,mass
+AGU Index Terms:mass balance,skos:exactMatch,GCMD:mass balance,lexical_identity_same_normalized_term,0.6,mass balance
+HELIO Ontology:mass density,skos:exactMatch,SPASE Dictionary:mass density,lexical_identity_same_normalized_term,0.6,mass density
+HELIO Ontology:mass spectrometer,skos:exactMatch,SPASE Dictionary:mass spectrometer,lexical_identity_same_normalized_term,0.6,mass spectrometer
+HELIO Ontology:measurement type,skos:exactMatch,SPASE Dictionary:measurement type,lexical_identity_same_normalized_term,0.6,measurement type
+AGU Index Terms:mercury,skos:exactMatch,GEMET:mercury,lexical_identity_same_normalized_term,0.6,mercury
+AGU Index Terms:mercury,skos:exactMatch,SPASE Dictionary:mercury,lexical_identity_same_normalized_term,0.6,mercury
+GEMET:mercury,skos:exactMatch,SPASE Dictionary:mercury,lexical_identity_same_normalized_term,0.6,mercury
+GCMD:mesopause,skos:exactMatch,Space Weather Glossary (Second):mesopause,lexical_identity_same_normalized_term,0.6,mesopause
+HELIO Ontology:mesosphere,skos:exactMatch,SPASE Dictionary:mesosphere,lexical_identity_same_normalized_term,0.6,mesosphere
+HELIO Ontology:mesosphere,skos:exactMatch,Space Weather Glossary:mesosphere,lexical_identity_same_normalized_term,0.6,mesosphere
+HELIO Ontology:mesosphere,skos:exactMatch,Space Weather Glossary (Second):mesosphere,lexical_identity_same_normalized_term,0.6,mesosphere
+SPASE Dictionary:mesosphere,skos:exactMatch,Space Weather Glossary:mesosphere,lexical_identity_same_normalized_term,0.6,mesosphere
+SPASE Dictionary:mesosphere,skos:exactMatch,Space Weather Glossary (Second):mesosphere,lexical_identity_same_normalized_term,0.6,mesosphere
+Space Weather Glossary:mesosphere,skos:exactMatch,Space Weather Glossary (Second):mesosphere,lexical_identity_same_normalized_term,0.6,mesosphere
+HELIO Ontology:metadata contact,skos:exactMatch,SPASE Dictionary:metadata contact,lexical_identity_same_normalized_term,0.6,metadata contact
+AGU Index Terms:metals,skos:exactMatch,GCMD:metals,lexical_identity_same_normalized_term,0.6,metals
+AGU Index Terms:meteorology,skos:exactMatch,GEMET:meteorology,lexical_identity_same_normalized_term,0.6,meteorology
+GCMD:methane,skos:exactMatch,GEMET:methane,lexical_identity_same_normalized_term,0.6,methane
+HELIO Ontology:mfa,skos:exactMatch,SPASE Dictionary:mfa,lexical_identity_same_normalized_term,0.6,mfa
+NASA CCMC:mhd,skos:exactMatch,SPASE Dictionary:mhd,lexical_identity_same_normalized_term,0.6,mhd
+HELIO Ontology:microchannel plate,skos:exactMatch,SPASE Dictionary:microchannel plate,lexical_identity_same_normalized_term,0.6,microchannel plate
+GCMD:microclimate,skos:exactMatch,GEMET:microclimate,lexical_identity_same_normalized_term,0.6,microclimate
+HELIO Ontology:microscope,skos:exactMatch,SWEET:microscope,lexical_identity_same_normalized_term,0.6,microscope
+GCMD:microwave,skos:exactMatch,GEMET:microwave,lexical_identity_same_normalized_term,0.6,microwave
+GCMD:microwave,skos:exactMatch,SPASE Dictionary:microwave,lexical_identity_same_normalized_term,0.6,microwave
+GEMET:microwave,skos:exactMatch,SPASE Dictionary:microwave,lexical_identity_same_normalized_term,0.6,microwave
+Space Weather Glossary:microwaves,skos:exactMatch,Space Weather Glossary (Second):microwaves,lexical_identity_same_normalized_term,0.6,microwaves
+AGU Index Terms:mid-ocean ridges,skos:exactMatch,GCMD:mid-ocean ridges,lexical_identity_same_normalized_term,0.6,mid-ocean ridges
+HELIO Ontology:mode amplitude,skos:exactMatch,SPASE Dictionary:mode amplitude,lexical_identity_same_normalized_term,0.6,mode amplitude
+ESA Space Weather Glossary:model,skos:exactMatch,GEMET:model,lexical_identity_same_normalized_term,0.6,model
+ESA Space Weather Glossary:model,skos:exactMatch,SWEET:model,lexical_identity_same_normalized_term,0.6,model
+GEMET:model,skos:exactMatch,SWEET:model,lexical_identity_same_normalized_term,0.6,model
+AGU Index Terms:models,skos:exactMatch,GCMD:models,lexical_identity_same_normalized_term,0.6,models
+HELIO Ontology:molecule,skos:exactMatch,SPASE Dictionary:molecule,lexical_identity_same_normalized_term,0.6,molecule
+HELIO Ontology:molecule,skos:exactMatch,SWEET:molecule,lexical_identity_same_normalized_term,0.6,molecule
+SPASE Dictionary:molecule,skos:exactMatch,SWEET:molecule,lexical_identity_same_normalized_term,0.6,molecule
+AGU Index Terms:moon,skos:exactMatch,SPASE Dictionary:moon,lexical_identity_same_normalized_term,0.6,moon
+AGU Index Terms:moon,skos:exactMatch,SWEET:moon,lexical_identity_same_normalized_term,0.6,moon
+SPASE Dictionary:moon,skos:exactMatch,SWEET:moon,lexical_identity_same_normalized_term,0.6,moon
+GEMET:morphology,skos:exactMatch,SWEET:morphology,lexical_identity_same_normalized_term,0.6,morphology
+GCMD:mortality,skos:exactMatch,GEMET:mortality,lexical_identity_same_normalized_term,0.6,mortality
+GEMET:mountain,skos:exactMatch,SWEET:mountain,lexical_identity_same_normalized_term,0.6,mountain
+HELIO Ontology:multispectral imager,skos:exactMatch,SPASE Dictionary:multispectral imager,lexical_identity_same_normalized_term,0.6,multispectral imager
+AGU Index Terms:nan,skos:exactMatch,Unified Astronomy Thesaurus (UAT):nan,lexical_identity_same_normalized_term,0.6,nan
+GCMD:natural gas,skos:exactMatch,GEMET:natural gas,lexical_identity_same_normalized_term,0.6,natural gas
+AGU Index Terms:natural hazards,skos:exactMatch,GCMD:natural hazards,lexical_identity_same_normalized_term,0.6,natural hazards
+AGU Index Terms:natural language processing,skos:exactMatch,GCMD:natural language processing,lexical_identity_same_normalized_term,0.6,natural language processing
+AGU Index Terms:neptune,skos:exactMatch,SPASE Dictionary:neptune,lexical_identity_same_normalized_term,0.6,neptune
+HELIO Ontology:neutral atom imager,skos:exactMatch,SPASE Dictionary:neutral atom imager,lexical_identity_same_normalized_term,0.6,neutral atom imager
+HELIO Ontology:neutral atom images,skos:exactMatch,SPASE Dictionary:neutral atom images,lexical_identity_same_normalized_term,0.6,neutral atom images
+HELIO Ontology:neutral gas,skos:exactMatch,SPASE Dictionary:neutral gas,lexical_identity_same_normalized_term,0.6,neutral gas
+HELIO Ontology:neutral particle detector,skos:exactMatch,SPASE Dictionary:neutral particle detector,lexical_identity_same_normalized_term,0.6,neutral particle detector
+HELIO Ontology:neutrino,skos:exactMatch,SWEET:neutrino,lexical_identity_same_normalized_term,0.6,neutrino
+HELIO Ontology:neutron,skos:exactMatch,SPASE Dictionary:neutron,lexical_identity_same_normalized_term,0.6,neutron
+HELIO Ontology:neutron,skos:exactMatch,SWEET:neutron,lexical_identity_same_normalized_term,0.6,neutron
+SPASE Dictionary:neutron,skos:exactMatch,SWEET:neutron,lexical_identity_same_normalized_term,0.6,neutron
+GCMD:nitrate,skos:exactMatch,GEMET:nitrate,lexical_identity_same_normalized_term,0.6,nitrate
+GCMD:nitrification,skos:exactMatch,GEMET:nitrification,lexical_identity_same_normalized_term,0.6,nitrification
+GCMD:nitrite,skos:exactMatch,GEMET:nitrite,lexical_identity_same_normalized_term,0.6,nitrite
+GCMD:nitrogen,skos:exactMatch,GEMET:nitrogen,lexical_identity_same_normalized_term,0.6,nitrogen
+GCMD:nitrogen dioxide,skos:exactMatch,GEMET:nitrogen dioxide,lexical_identity_same_normalized_term,0.6,nitrogen dioxide
+GCMD:nitrogen oxides,skos:exactMatch,GEMET:nitrogen oxides,lexical_identity_same_normalized_term,0.6,nitrogen oxides
+AGU Index Terms:north america,skos:exactMatch,GEMET:north america,lexical_identity_same_normalized_term,0.6,north america
+GEMET:nuclear fusion,skos:exactMatch,SWEET:nuclear fusion,lexical_identity_same_normalized_term,0.6,nuclear fusion
+HELIO Ontology:nucleon,skos:exactMatch,SWEET:nucleon,lexical_identity_same_normalized_term,0.6,nucleon
+HELIO Ontology:number density,skos:exactMatch,SPASE Dictionary:number density,lexical_identity_same_normalized_term,0.6,number density
+HELIO Ontology:number flux,skos:exactMatch,SPASE Dictionary:number flux,lexical_identity_same_normalized_term,0.6,number flux
+HELIO Ontology:numerical data,skos:exactMatch,SPASE Dictionary:numerical data,lexical_identity_same_normalized_term,0.6,numerical data
+HELIO Ontology:observatory,skos:exactMatch,SPASE Dictionary:observatory,lexical_identity_same_normalized_term,0.6,observatory
+GCMD:ocean acidification,skos:exactMatch,GEMET:ocean acidification,lexical_identity_same_normalized_term,0.6,ocean acidification
+AGU Index Terms:ocean acoustics,skos:exactMatch,GCMD:ocean acoustics,lexical_identity_same_normalized_term,0.6,ocean acoustics
+GCMD:ocean circulation,skos:exactMatch,GEMET:ocean circulation,lexical_identity_same_normalized_term,0.6,ocean circulation
+AGU Index Terms:ocean optics,skos:exactMatch,GCMD:ocean optics,lexical_identity_same_normalized_term,0.6,ocean optics
+GCMD:ocean temperature,skos:exactMatch,GEMET:ocean temperature,lexical_identity_same_normalized_term,0.6,ocean temperature
+AGU Index Terms:oceans,skos:exactMatch,GCMD:oceans,lexical_identity_same_normalized_term,0.6,oceans
+HELIO Ontology:optical instrument,skos:exactMatch,SWEET:optical instrument,lexical_identity_same_normalized_term,0.6,optical instrument
+GCMD:organic carbon,skos:exactMatch,GEMET:organic carbon,lexical_identity_same_normalized_term,0.6,organic carbon
+GCMD:organic matter,skos:exactMatch,GEMET:organic matter,lexical_identity_same_normalized_term,0.6,organic matter
+HELIO Ontology:orientation,skos:exactMatch,SPASE Dictionary:orientation,lexical_identity_same_normalized_term,0.6,orientation
+HELIO Ontology:orientation,skos:exactMatch,SWEET:orientation,lexical_identity_same_normalized_term,0.6,orientation
+SPASE Dictionary:orientation,skos:exactMatch,SWEET:orientation,lexical_identity_same_normalized_term,0.6,orientation
+GCMD:orographic lifting,skos:exactMatch,SWEET:orographic lifting,lexical_identity_same_normalized_term,0.6,orographic lifting
+AGU Index Terms:other,skos:exactMatch,SPASE Dictionary:other,lexical_identity_same_normalized_term,0.6,other
+GCMD:oxygen,skos:exactMatch,GEMET:oxygen,lexical_identity_same_normalized_term,0.6,oxygen
+GEMET:parameter,skos:exactMatch,HELIO Ontology:parameter,lexical_identity_same_normalized_term,0.6,parameter
+GEMET:parameter,skos:exactMatch,SPASE Dictionary:parameter,lexical_identity_same_normalized_term,0.6,parameter
+HELIO Ontology:parameter,skos:exactMatch,SPASE Dictionary:parameter,lexical_identity_same_normalized_term,0.6,parameter
+GEMET:particle,skos:exactMatch,SPASE Dictionary:particle,lexical_identity_same_normalized_term,0.6,particle
+GEMET:particle,skos:exactMatch,SWEET:particle,lexical_identity_same_normalized_term,0.6,particle
+SPASE Dictionary:particle,skos:exactMatch,SWEET:particle,lexical_identity_same_normalized_term,0.6,particle
+HELIO Ontology:particle correlator,skos:exactMatch,SPASE Dictionary:particle correlator,lexical_identity_same_normalized_term,0.6,particle correlator
+HELIO Ontology:particle detector,skos:exactMatch,SPASE Dictionary:particle detector,lexical_identity_same_normalized_term,0.6,particle detector
+GCMD:particle flux,skos:exactMatch,NASA CCMC:particle flux,lexical_identity_same_normalized_term,0.6,particle flux
+HELIO Ontology:particle type,skos:exactMatch,SPASE Dictionary:particle type,lexical_identity_same_normalized_term,0.6,particle type
+GCMD:pasture,skos:exactMatch,GEMET:pasture,lexical_identity_same_normalized_term,0.6,pasture
+GEMET:path,skos:exactMatch,SWEET:path,lexical_identity_same_normalized_term,0.6,path
+GCMD:pathogen,skos:exactMatch,GEMET:pathogen,lexical_identity_same_normalized_term,0.6,pathogen
+NASA CCMC:penumbra,skos:exactMatch,Space Weather Glossary:penumbra,lexical_identity_same_normalized_term,0.6,penumbra
+AGU Index Terms:periglacial processes,skos:exactMatch,GCMD:periglacial processes,lexical_identity_same_normalized_term,0.6,periglacial processes
+AGU Index Terms:permafrost,skos:exactMatch,GCMD:permafrost,lexical_identity_same_normalized_term,0.6,permafrost
+GEMET:persistence,skos:exactMatch,Space Weather Glossary:persistence,lexical_identity_same_normalized_term,0.6,persistence
+HELIO Ontology:person,skos:exactMatch,SPASE Dictionary:person,lexical_identity_same_normalized_term,0.6,person
+GCMD:petroleum,skos:exactMatch,GEMET:petroleum,lexical_identity_same_normalized_term,0.6,petroleum
+HELIO Ontology:phase space density,skos:exactMatch,SPASE Dictionary:phase space density,lexical_identity_same_normalized_term,0.6,phase space density
+GCMD:phosphate,skos:exactMatch,GEMET:phosphate,lexical_identity_same_normalized_term,0.6,phosphate
+GCMD:phosphorus,skos:exactMatch,GEMET:phosphorus,lexical_identity_same_normalized_term,0.6,phosphorus
+AGU Index Terms:photochemistry,skos:exactMatch,GCMD:photochemistry,lexical_identity_same_normalized_term,0.6,photochemistry
+GEMET:photograph,skos:exactMatch,SPASE Dictionary:photograph,lexical_identity_same_normalized_term,0.6,photograph
+HELIO Ontology:photometer,skos:exactMatch,SPASE Dictionary:photometer,lexical_identity_same_normalized_term,0.6,photometer
+SPASE Dictionary:photon,skos:exactMatch,SWEET:photon,lexical_identity_same_normalized_term,0.6,photon
+HELIO Ontology:photopolarimeter,skos:exactMatch,SPASE Dictionary:photopolarimeter,lexical_identity_same_normalized_term,0.6,photopolarimeter
+AGU Index Terms:photosphere,skos:exactMatch,HELIO Ontology:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+AGU Index Terms:photosphere,skos:exactMatch,NASA CCMC:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+AGU Index Terms:photosphere,skos:exactMatch,NASA Heliophysics Vocabulary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+AGU Index Terms:photosphere,skos:exactMatch,SPASE Dictionary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+AGU Index Terms:photosphere,skos:exactMatch,Space Weather Glossary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+AGU Index Terms:photosphere,skos:exactMatch,Space Weather Glossary (Second):photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+HELIO Ontology:photosphere,skos:exactMatch,NASA CCMC:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+HELIO Ontology:photosphere,skos:exactMatch,NASA Heliophysics Vocabulary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+HELIO Ontology:photosphere,skos:exactMatch,SPASE Dictionary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+HELIO Ontology:photosphere,skos:exactMatch,Space Weather Glossary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+HELIO Ontology:photosphere,skos:exactMatch,Space Weather Glossary (Second):photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+NASA CCMC:photosphere,skos:exactMatch,NASA Heliophysics Vocabulary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+NASA CCMC:photosphere,skos:exactMatch,SPASE Dictionary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+NASA CCMC:photosphere,skos:exactMatch,Space Weather Glossary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+NASA CCMC:photosphere,skos:exactMatch,Space Weather Glossary (Second):photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+NASA Heliophysics Vocabulary:photosphere,skos:exactMatch,SPASE Dictionary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+NASA Heliophysics Vocabulary:photosphere,skos:exactMatch,Space Weather Glossary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+NASA Heliophysics Vocabulary:photosphere,skos:exactMatch,Space Weather Glossary (Second):photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+SPASE Dictionary:photosphere,skos:exactMatch,Space Weather Glossary:photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+SPASE Dictionary:photosphere,skos:exactMatch,Space Weather Glossary (Second):photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+Space Weather Glossary:photosphere,skos:exactMatch,Space Weather Glossary (Second):photosphere,lexical_identity_same_normalized_term,0.6,photosphere
+AGU Index Terms:photosynthesis,skos:exactMatch,GCMD:photosynthesis,lexical_identity_same_normalized_term,0.6,photosynthesis
+AGU Index Terms:photosynthesis,skos:exactMatch,GEMET:photosynthesis,lexical_identity_same_normalized_term,0.6,photosynthesis
+GCMD:photosynthesis,skos:exactMatch,GEMET:photosynthesis,lexical_identity_same_normalized_term,0.6,photosynthesis
+AGU Index Terms:physical chemistry,skos:exactMatch,GEMET:physical chemistry,lexical_identity_same_normalized_term,0.6,physical chemistry
+GEMET:physical process,skos:exactMatch,SWEET:physical process,lexical_identity_same_normalized_term,0.6,physical process
+AGU Index Terms:phytoplankton,skos:exactMatch,GCMD:phytoplankton,lexical_identity_same_normalized_term,0.6,phytoplankton
+AGU Index Terms:phytoplankton,skos:exactMatch,GEMET:phytoplankton,lexical_identity_same_normalized_term,0.6,phytoplankton
+GCMD:phytoplankton,skos:exactMatch,GEMET:phytoplankton,lexical_identity_same_normalized_term,0.6,phytoplankton
+GCMD:pinniped,skos:exactMatch,GEMET:pinniped,lexical_identity_same_normalized_term,0.6,pinniped
+NASA CCMC:plage,skos:exactMatch,SWEET:plage,lexical_identity_same_normalized_term,0.6,plage
+NASA CCMC:plage,skos:exactMatch,Space Weather Glossary:plage,lexical_identity_same_normalized_term,0.6,plage
+SWEET:plage,skos:exactMatch,Space Weather Glossary:plage,lexical_identity_same_normalized_term,0.6,plage
+GCMD:plankton,skos:exactMatch,GEMET:plankton,lexical_identity_same_normalized_term,0.6,plankton
+AGU Index Terms:plant ecology,skos:exactMatch,GEMET:plant ecology,lexical_identity_same_normalized_term,0.6,plant ecology
+NASA CCMC:plasma,skos:exactMatch,NASA Heliophysics Vocabulary:plasma,lexical_identity_same_normalized_term,0.6,plasma
+NASA CCMC:plasma,skos:exactMatch,Space Weather Glossary:plasma,lexical_identity_same_normalized_term,0.6,plasma
+NASA CCMC:plasma,skos:exactMatch,Space Weather Glossary (Second):plasma,lexical_identity_same_normalized_term,0.6,plasma
+NASA Heliophysics Vocabulary:plasma,skos:exactMatch,Space Weather Glossary:plasma,lexical_identity_same_normalized_term,0.6,plasma
+NASA Heliophysics Vocabulary:plasma,skos:exactMatch,Space Weather Glossary (Second):plasma,lexical_identity_same_normalized_term,0.6,plasma
+Space Weather Glossary:plasma,skos:exactMatch,Space Weather Glossary (Second):plasma,lexical_identity_same_normalized_term,0.6,plasma
+HELIO Ontology:plasma frequency,skos:exactMatch,SPASE Dictionary:plasma frequency,lexical_identity_same_normalized_term,0.6,plasma frequency
+HELIO Ontology:plasma frequency,skos:exactMatch,Space Weather Glossary:plasma frequency,lexical_identity_same_normalized_term,0.6,plasma frequency
+SPASE Dictionary:plasma frequency,skos:exactMatch,Space Weather Glossary:plasma frequency,lexical_identity_same_normalized_term,0.6,plasma frequency
+AGU Index Terms:plasma sheet,skos:exactMatch,Space Weather Glossary (Second):plasma sheet,lexical_identity_same_normalized_term,0.6,plasma sheet
+HELIO Ontology:plasma wave,skos:exactMatch,SWEET:plasma wave,lexical_identity_same_normalized_term,0.6,plasma wave
+GCMD:plasma waves,skos:exactMatch,SPASE Dictionary:plasma waves,lexical_identity_same_normalized_term,0.6,plasma waves
+HELIO Ontology:plasmagram,skos:exactMatch,SPASE Dictionary:plasmagram,lexical_identity_same_normalized_term,0.6,plasmagram
+SWEET:plasmapause,skos:exactMatch,Space Weather Glossary:plasmapause,lexical_identity_same_normalized_term,0.6,plasmapause
+SWEET:plasmapause,skos:exactMatch,Space Weather Glossary (Second):plasmapause,lexical_identity_same_normalized_term,0.6,plasmapause
+Space Weather Glossary:plasmapause,skos:exactMatch,Space Weather Glossary (Second):plasmapause,lexical_identity_same_normalized_term,0.6,plasmapause
+AGU Index Terms:plasmasphere,skos:exactMatch,HELIO Ontology:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+AGU Index Terms:plasmasphere,skos:exactMatch,SPASE Dictionary:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+AGU Index Terms:plasmasphere,skos:exactMatch,SWEET:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+AGU Index Terms:plasmasphere,skos:exactMatch,Space Weather Glossary:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+AGU Index Terms:plasmasphere,skos:exactMatch,Space Weather Glossary (Second):plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+HELIO Ontology:plasmasphere,skos:exactMatch,SPASE Dictionary:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+HELIO Ontology:plasmasphere,skos:exactMatch,SWEET:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+HELIO Ontology:plasmasphere,skos:exactMatch,Space Weather Glossary:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+HELIO Ontology:plasmasphere,skos:exactMatch,Space Weather Glossary (Second):plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+SPASE Dictionary:plasmasphere,skos:exactMatch,SWEET:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+SPASE Dictionary:plasmasphere,skos:exactMatch,Space Weather Glossary:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+SPASE Dictionary:plasmasphere,skos:exactMatch,Space Weather Glossary (Second):plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+SWEET:plasmasphere,skos:exactMatch,Space Weather Glossary:plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+SWEET:plasmasphere,skos:exactMatch,Space Weather Glossary (Second):plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+Space Weather Glossary:plasmasphere,skos:exactMatch,Space Weather Glossary (Second):plasmasphere,lexical_identity_same_normalized_term,0.6,plasmasphere
+AGU Index Terms:plate tectonics,skos:exactMatch,GCMD:plate tectonics,lexical_identity_same_normalized_term,0.6,plate tectonics
+HELIO Ontology:polar,skos:exactMatch,SPASE Dictionary:polar,lexical_identity_same_normalized_term,0.6,polar
+HELIO Ontology:polar angle,skos:exactMatch,SPASE Dictionary:polar angle,lexical_identity_same_normalized_term,0.6,polar angle
+HELIO Ontology:polar cap,skos:exactMatch,SPASE Dictionary:polar cap,lexical_identity_same_normalized_term,0.6,polar cap
+HELIO Ontology:polarization,skos:exactMatch,SPASE Dictionary:polarization,lexical_identity_same_normalized_term,0.6,polarization
+HELIO Ontology:polarization,skos:exactMatch,SWEET:polarization,lexical_identity_same_normalized_term,0.6,polarization
+SPASE Dictionary:polarization,skos:exactMatch,SWEET:polarization,lexical_identity_same_normalized_term,0.6,polarization
+AGU Index Terms:policy,skos:exactMatch,GEMET:policy,lexical_identity_same_normalized_term,0.6,policy
+AGU Index Terms:policy,skos:exactMatch,SPASE Dictionary:policy,lexical_identity_same_normalized_term,0.6,policy
+GEMET:policy,skos:exactMatch,SPASE Dictionary:policy,lexical_identity_same_normalized_term,0.6,policy
+GCMD:pollen,skos:exactMatch,GEMET:pollen,lexical_identity_same_normalized_term,0.6,pollen
+GCMD:pond,skos:exactMatch,GEMET:pond,lexical_identity_same_normalized_term,0.6,pond
+GCMD:population density,skos:exactMatch,GEMET:population density,lexical_identity_same_normalized_term,0.6,population density
+GCMD:population distribution,skos:exactMatch,GEMET:population distribution,lexical_identity_same_normalized_term,0.6,population distribution
+GCMD:population dynamics,skos:exactMatch,GEMET:population dynamics,lexical_identity_same_normalized_term,0.6,population dynamics
+HELIO Ontology:poynting flux,skos:exactMatch,SPASE Dictionary:poynting flux,lexical_identity_same_normalized_term,0.6,poynting flux
+AGU Index Terms:precipitation,skos:exactMatch,GCMD:precipitation,lexical_identity_same_normalized_term,0.6,precipitation
+GEMET:pressure,skos:exactMatch,HELIO Ontology:pressure,lexical_identity_same_normalized_term,0.6,pressure
+GEMET:pressure,skos:exactMatch,SPASE Dictionary:pressure,lexical_identity_same_normalized_term,0.6,pressure
+GEMET:pressure,skos:exactMatch,SWEET:pressure,lexical_identity_same_normalized_term,0.6,pressure
+HELIO Ontology:pressure,skos:exactMatch,SPASE Dictionary:pressure,lexical_identity_same_normalized_term,0.6,pressure
+HELIO Ontology:pressure,skos:exactMatch,SWEET:pressure,lexical_identity_same_normalized_term,0.6,pressure
+SPASE Dictionary:pressure,skos:exactMatch,SWEET:pressure,lexical_identity_same_normalized_term,0.6,pressure
+HELIO Ontology:principal investigator,skos:exactMatch,SPASE Dictionary:principal investigator,lexical_identity_same_normalized_term,0.6,principal investigator
+ESA Space Weather Glossary:product,skos:exactMatch,GEMET:product,lexical_identity_same_normalized_term,0.6,product
+HELIO Ontology:profile,skos:exactMatch,SPASE Dictionary:profile,lexical_identity_same_normalized_term,0.6,profile
+GEMET:project,skos:exactMatch,SPASE Dictionary:project,lexical_identity_same_normalized_term,0.6,project
+HELIO Ontology:project scientist,skos:exactMatch,SPASE Dictionary:project scientist,lexical_identity_same_normalized_term,0.6,project scientist
+HELIO Ontology:prominence,skos:exactMatch,SWEET:prominence,lexical_identity_same_normalized_term,0.6,prominence
+HELIO Ontology:prominence,skos:exactMatch,Space Weather Glossary:prominence,lexical_identity_same_normalized_term,0.6,prominence
+HELIO Ontology:prominence,skos:exactMatch,Space Weather Glossary (Second):prominence,lexical_identity_same_normalized_term,0.6,prominence
+SWEET:prominence,skos:exactMatch,Space Weather Glossary:prominence,lexical_identity_same_normalized_term,0.6,prominence
+SWEET:prominence,skos:exactMatch,Space Weather Glossary (Second):prominence,lexical_identity_same_normalized_term,0.6,prominence
+Space Weather Glossary:prominence,skos:exactMatch,Space Weather Glossary (Second):prominence,lexical_identity_same_normalized_term,0.6,prominence
+HELIO Ontology:propagation time,skos:exactMatch,SPASE Dictionary:propagation time,lexical_identity_same_normalized_term,0.6,propagation time
+HELIO Ontology:proportional counter,skos:exactMatch,SPASE Dictionary:proportional counter,lexical_identity_same_normalized_term,0.6,proportional counter
+GCMD:protein,skos:exactMatch,GEMET:protein,lexical_identity_same_normalized_term,0.6,protein
+HELIO Ontology:proton,skos:exactMatch,SPASE Dictionary:proton,lexical_identity_same_normalized_term,0.6,proton
+HELIO Ontology:proton,skos:exactMatch,SWEET:proton,lexical_identity_same_normalized_term,0.6,proton
+SPASE Dictionary:proton,skos:exactMatch,SWEET:proton,lexical_identity_same_normalized_term,0.6,proton
+HELIO Ontology:proton event,skos:exactMatch,Space Weather Glossary:proton event,lexical_identity_same_normalized_term,0.6,proton event
+AGU Index Terms:public health,skos:exactMatch,GCMD:public health,lexical_identity_same_normalized_term,0.6,public health
+AGU Index Terms:public health,skos:exactMatch,GEMET:public health,lexical_identity_same_normalized_term,0.6,public health
+GCMD:public health,skos:exactMatch,GEMET:public health,lexical_identity_same_normalized_term,0.6,public health
+HELIO Ontology:publisher,skos:exactMatch,SPASE Dictionary:publisher,lexical_identity_same_normalized_term,0.6,publisher
+HELIO Ontology:quadrispherical analyser,skos:exactMatch,SPASE Dictionary:quadrispherical analyser,lexical_identity_same_normalized_term,0.6,quadrispherical analyser
+GCMD:radar,skos:exactMatch,GEMET:radar,lexical_identity_same_normalized_term,0.6,radar
+GCMD:radar,skos:exactMatch,HELIO Ontology:radar,lexical_identity_same_normalized_term,0.6,radar
+GCMD:radar,skos:exactMatch,SPASE Dictionary:radar,lexical_identity_same_normalized_term,0.6,radar
+GCMD:radar,skos:exactMatch,SWEET:radar,lexical_identity_same_normalized_term,0.6,radar
+GEMET:radar,skos:exactMatch,HELIO Ontology:radar,lexical_identity_same_normalized_term,0.6,radar
+GEMET:radar,skos:exactMatch,SPASE Dictionary:radar,lexical_identity_same_normalized_term,0.6,radar
+GEMET:radar,skos:exactMatch,SWEET:radar,lexical_identity_same_normalized_term,0.6,radar
+HELIO Ontology:radar,skos:exactMatch,SPASE Dictionary:radar,lexical_identity_same_normalized_term,0.6,radar
+HELIO Ontology:radar,skos:exactMatch,SWEET:radar,lexical_identity_same_normalized_term,0.6,radar
+SPASE Dictionary:radar,skos:exactMatch,SWEET:radar,lexical_identity_same_normalized_term,0.6,radar
+GCMD:radiance,skos:exactMatch,HELIO Ontology:radiance,lexical_identity_same_normalized_term,0.6,radiance
+GCMD:radiance,skos:exactMatch,SPASE Dictionary:radiance,lexical_identity_same_normalized_term,0.6,radiance
+GCMD:radiance,skos:exactMatch,SWEET:radiance,lexical_identity_same_normalized_term,0.6,radiance
+HELIO Ontology:radiance,skos:exactMatch,SPASE Dictionary:radiance,lexical_identity_same_normalized_term,0.6,radiance
+HELIO Ontology:radiance,skos:exactMatch,SWEET:radiance,lexical_identity_same_normalized_term,0.6,radiance
+SPASE Dictionary:radiance,skos:exactMatch,SWEET:radiance,lexical_identity_same_normalized_term,0.6,radiance
+GEMET:radiation,skos:exactMatch,SWEET:radiation,lexical_identity_same_normalized_term,0.6,radiation
+HELIO Ontology:radiation belt,skos:exactMatch,SPASE Dictionary:radiation belt,lexical_identity_same_normalized_term,0.6,radiation belt
+HELIO Ontology:radiation belt,skos:exactMatch,SWEET:radiation belt,lexical_identity_same_normalized_term,0.6,radiation belt
+SPASE Dictionary:radiation belt,skos:exactMatch,SWEET:radiation belt,lexical_identity_same_normalized_term,0.6,radiation belt
+AGU Index Terms:radiation belts,skos:exactMatch,NASA Heliophysics Vocabulary:radiation belts,lexical_identity_same_normalized_term,0.6,radiation belts
+AGU Index Terms:radiation belts,skos:exactMatch,Space Weather Glossary:radiation belts,lexical_identity_same_normalized_term,0.6,radiation belts
+AGU Index Terms:radiation belts,skos:exactMatch,Space Weather Glossary (Second):radiation belts,lexical_identity_same_normalized_term,0.6,radiation belts
+NASA Heliophysics Vocabulary:radiation belts,skos:exactMatch,Space Weather Glossary:radiation belts,lexical_identity_same_normalized_term,0.6,radiation belts
+NASA Heliophysics Vocabulary:radiation belts,skos:exactMatch,Space Weather Glossary (Second):radiation belts,lexical_identity_same_normalized_term,0.6,radiation belts
+Space Weather Glossary:radiation belts,skos:exactMatch,Space Weather Glossary (Second):radiation belts,lexical_identity_same_normalized_term,0.6,radiation belts
+GCMD:radiation exposure,skos:exactMatch,GEMET:radiation exposure,lexical_identity_same_normalized_term,0.6,radiation exposure
+GCMD:radiative flux,skos:exactMatch,SWEET:radiative flux,lexical_identity_same_normalized_term,0.6,radiative flux
+GCMD:radiative forcing,skos:exactMatch,SWEET:radiative forcing,lexical_identity_same_normalized_term,0.6,radiative forcing
+HELIO Ontology:radio burst,skos:exactMatch,SPASE Dictionary:radio burst,lexical_identity_same_normalized_term,0.6,radio burst
+HELIO Ontology:radiometer,skos:exactMatch,SPASE Dictionary:radiometer,lexical_identity_same_normalized_term,0.6,radiometer
+GCMD:rain,skos:exactMatch,GEMET:rain,lexical_identity_same_normalized_term,0.6,rain
+NASA CCMC:reconnection,skos:exactMatch,Space Weather Glossary:reconnection,lexical_identity_same_normalized_term,0.6,reconnection
+NASA CCMC:reconnection,skos:exactMatch,Space Weather Glossary (Second):reconnection,lexical_identity_same_normalized_term,0.6,reconnection
+Space Weather Glossary:reconnection,skos:exactMatch,Space Weather Glossary (Second):reconnection,lexical_identity_same_normalized_term,0.6,reconnection
+GCMD:recycling,skos:exactMatch,GEMET:recycling,lexical_identity_same_normalized_term,0.6,recycling
+GCMD:reef,skos:exactMatch,GEMET:reef,lexical_identity_same_normalized_term,0.6,reef
+GCMD:reflection,skos:exactMatch,GEMET:reflection,lexical_identity_same_normalized_term,0.6,reflection
+GCMD:reflection,skos:exactMatch,SWEET:reflection,lexical_identity_same_normalized_term,0.6,reflection
+GEMET:reflection,skos:exactMatch,SWEET:reflection,lexical_identity_same_normalized_term,0.6,reflection
+GCMD:reforestation,skos:exactMatch,GEMET:reforestation,lexical_identity_same_normalized_term,0.6,reforestation
+AGU Index Terms:regional planning,skos:exactMatch,GEMET:regional planning,lexical_identity_same_normalized_term,0.6,regional planning
+HELIO Ontology:registry,skos:exactMatch,SPASE Dictionary:registry,lexical_identity_same_normalized_term,0.6,registry
+GCMD:regression,skos:exactMatch,Space Weather Glossary:regression,lexical_identity_same_normalized_term,0.6,regression
+AGU Index Terms:remote sensing,skos:exactMatch,GEMET:remote sensing,lexical_identity_same_normalized_term,0.6,remote sensing
+ESA Space Weather Glossary:report,skos:exactMatch,SPASE Dictionary:report,lexical_identity_same_normalized_term,0.6,report
+HELIO Ontology:repository,skos:exactMatch,SPASE Dictionary:repository,lexical_identity_same_normalized_term,0.6,repository
+AGU Index Terms:resilience,skos:exactMatch,GEMET:resilience,lexical_identity_same_normalized_term,0.6,resilience
+AGU Index Terms:resilience,skos:exactMatch,SWEET:resilience,lexical_identity_same_normalized_term,0.6,resilience
+GEMET:resilience,skos:exactMatch,SWEET:resilience,lexical_identity_same_normalized_term,0.6,resilience
+HELIO Ontology:resonance sounder,skos:exactMatch,SPASE Dictionary:resonance sounder,lexical_identity_same_normalized_term,0.6,resonance sounder
+AGU Index Terms:restoration,skos:exactMatch,GEMET:restoration,lexical_identity_same_normalized_term,0.6,restoration
+HELIO Ontology:retarding potential analyser,skos:exactMatch,SPASE Dictionary:retarding potential analyser,lexical_identity_same_normalized_term,0.6,retarding potential analyser
+AGU Index Terms:ring current,skos:exactMatch,SPASE Dictionary:ring current,lexical_identity_same_normalized_term,0.6,ring current
+AGU Index Terms:ring current,skos:exactMatch,Space Weather Glossary:ring current,lexical_identity_same_normalized_term,0.6,ring current
+SPASE Dictionary:ring current,skos:exactMatch,Space Weather Glossary:ring current,lexical_identity_same_normalized_term,0.6,ring current
+HELIO Ontology:riometer,skos:exactMatch,SPASE Dictionary:riometer,lexical_identity_same_normalized_term,0.6,riometer
+HELIO Ontology:riometer,skos:exactMatch,Space Weather Glossary:riometer,lexical_identity_same_normalized_term,0.6,riometer
+SPASE Dictionary:riometer,skos:exactMatch,Space Weather Glossary:riometer,lexical_identity_same_normalized_term,0.6,riometer
+AGU Index Terms:risk,skos:exactMatch,GEMET:risk,lexical_identity_same_normalized_term,0.6,risk
+GCMD:river,skos:exactMatch,GEMET:river,lexical_identity_same_normalized_term,0.6,river
+AGU Index Terms:rock glaciers,skos:exactMatch,GCMD:rock glaciers,lexical_identity_same_normalized_term,0.6,rock glaciers
+HELIO Ontology:role,skos:exactMatch,SPASE Dictionary:role,lexical_identity_same_normalized_term,0.6,role
+HELIO Ontology:rtn,skos:exactMatch,SPASE Dictionary:rtn,lexical_identity_same_normalized_term,0.6,rtn
+GCMD:runoff,skos:exactMatch,GEMET:runoff,lexical_identity_same_normalized_term,0.6,runoff
+GCMD:salt marsh,skos:exactMatch,GEMET:salt marsh,lexical_identity_same_normalized_term,0.6,salt marsh
+GEMET:satellite,skos:exactMatch,SWEET:satellite,lexical_identity_same_normalized_term,0.6,satellite
+AGU Index Terms:saturn,skos:exactMatch,SPASE Dictionary:saturn,lexical_identity_same_normalized_term,0.6,saturn
+HELIO Ontology:sc,skos:exactMatch,SPASE Dictionary:sc,lexical_identity_same_normalized_term,0.6,sc
+GCMD:scattering,skos:exactMatch,SWEET:scattering,lexical_identity_same_normalized_term,0.6,scattering
+GCMD:scattering,skos:exactMatch,Space Weather Glossary (Second):scattering,lexical_identity_same_normalized_term,0.6,scattering
+SWEET:scattering,skos:exactMatch,Space Weather Glossary (Second):scattering,lexical_identity_same_normalized_term,0.6,scattering
+HELIO Ontology:scientist,skos:exactMatch,SPASE Dictionary:scientist,lexical_identity_same_normalized_term,0.6,scientist
+HELIO Ontology:scintillation detector,skos:exactMatch,SPASE Dictionary:scintillation detector,lexical_identity_same_normalized_term,0.6,scintillation detector
+HELIO Ontology:se,skos:exactMatch,SPASE Dictionary:se,lexical_identity_same_normalized_term,0.6,se
+AGU Index Terms:sea ice,skos:exactMatch,GCMD:sea ice,lexical_identity_same_normalized_term,0.6,sea ice
+GCMD:sea level,skos:exactMatch,GEMET:sea level,lexical_identity_same_normalized_term,0.6,sea level
+AGU Index Terms:sea level change,skos:exactMatch,GCMD:sea level change,lexical_identity_same_normalized_term,0.6,sea level change
+GCMD:sea level rise,skos:exactMatch,GEMET:sea level rise,lexical_identity_same_normalized_term,0.6,sea level rise
+AGU Index Terms:sea surface temperature,skos:exactMatch,GCMD:sea surface temperature,lexical_identity_same_normalized_term,0.6,sea surface temperature
+GCMD:seagrass,skos:exactMatch,GEMET:seagrass,lexical_identity_same_normalized_term,0.6,seagrass
+HELIO Ontology:search coil,skos:exactMatch,SPASE Dictionary:search coil,lexical_identity_same_normalized_term,0.6,search coil
+AGU Index Terms:seasonally frozen ground,skos:exactMatch,GCMD:seasonally frozen ground,lexical_identity_same_normalized_term,0.6,seasonally frozen ground
+AGU Index Terms:sediment transport,skos:exactMatch,GCMD:sediment transport,lexical_identity_same_normalized_term,0.6,sediment transport
+AGU Index Terms:sediment transport,skos:exactMatch,GEMET:sediment transport,lexical_identity_same_normalized_term,0.6,sediment transport
+GCMD:sediment transport,skos:exactMatch,GEMET:sediment transport,lexical_identity_same_normalized_term,0.6,sediment transport
+AGU Index Terms:sedimentation,skos:exactMatch,GCMD:sedimentation,lexical_identity_same_normalized_term,0.6,sedimentation
+GCMD:selenium,skos:exactMatch,GEMET:selenium,lexical_identity_same_normalized_term,0.6,selenium
+GEMET:sensor,skos:exactMatch,SWEET:sensor,lexical_identity_same_normalized_term,0.6,sensor
+ESA Space Weather Glossary:service,skos:exactMatch,HELIO Ontology:service,lexical_identity_same_normalized_term,0.6,service
+ESA Space Weather Glossary:service,skos:exactMatch,SPASE Dictionary:service,lexical_identity_same_normalized_term,0.6,service
+HELIO Ontology:service,skos:exactMatch,SPASE Dictionary:service,lexical_identity_same_normalized_term,0.6,service
+GCMD:sewage disposal,skos:exactMatch,GEMET:sewage disposal,lexical_identity_same_normalized_term,0.6,sewage disposal
+SWEET:shock,skos:exactMatch,Space Weather Glossary:shock,lexical_identity_same_normalized_term,0.6,shock
+SWEET:shock wave,skos:exactMatch,Space Weather Glossary (Second):shock wave,lexical_identity_same_normalized_term,0.6,shock wave
+GCMD:silviculture,skos:exactMatch,GEMET:silviculture,lexical_identity_same_normalized_term,0.6,silviculture
+HELIO Ontology:sm,skos:exactMatch,SPASE Dictionary:sm,lexical_identity_same_normalized_term,0.6,sm
+GCMD:smog,skos:exactMatch,GEMET:smog,lexical_identity_same_normalized_term,0.6,smog
+AGU Index Terms:snow,skos:exactMatch,GCMD:snow,lexical_identity_same_normalized_term,0.6,snow
+AGU Index Terms:snow,skos:exactMatch,GEMET:snow,lexical_identity_same_normalized_term,0.6,snow
+GCMD:snow,skos:exactMatch,GEMET:snow,lexical_identity_same_normalized_term,0.6,snow
+GCMD:socioeconomics,skos:exactMatch,GEMET:socioeconomics,lexical_identity_same_normalized_term,0.6,socioeconomics
+GEMET:software,skos:exactMatch,SPASE Dictionary:software,lexical_identity_same_normalized_term,0.6,software
+GCMD:soil chemistry,skos:exactMatch,GEMET:soil chemistry,lexical_identity_same_normalized_term,0.6,soil chemistry
+GCMD:soil compaction,skos:exactMatch,GEMET:soil compaction,lexical_identity_same_normalized_term,0.6,soil compaction
+GCMD:soil erosion,skos:exactMatch,GEMET:soil erosion,lexical_identity_same_normalized_term,0.6,soil erosion
+GCMD:soil fertility,skos:exactMatch,GEMET:soil fertility,lexical_identity_same_normalized_term,0.6,soil fertility
+GCMD:soil mechanics,skos:exactMatch,GEMET:soil mechanics,lexical_identity_same_normalized_term,0.6,soil mechanics
+AGU Index Terms:soil moisture,skos:exactMatch,GCMD:soil moisture,lexical_identity_same_normalized_term,0.6,soil moisture
+AGU Index Terms:soil moisture,skos:exactMatch,GEMET:soil moisture,lexical_identity_same_normalized_term,0.6,soil moisture
+GCMD:soil moisture,skos:exactMatch,GEMET:soil moisture,lexical_identity_same_normalized_term,0.6,soil moisture
+GCMD:soil structure,skos:exactMatch,GEMET:soil structure,lexical_identity_same_normalized_term,0.6,soil structure
+GCMD:soil texture,skos:exactMatch,GEMET:soil texture,lexical_identity_same_normalized_term,0.6,soil texture
+AGU Index Terms:soils,skos:exactMatch,GCMD:soils,lexical_identity_same_normalized_term,0.6,soils
+HELIO Ontology:solar,skos:exactMatch,NASA CCMC:solar,lexical_identity_same_normalized_term,0.6,solar
+ESA Space Weather Glossary:solar activity,skos:exactMatch,GCMD:solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+ESA Space Weather Glossary:solar activity,skos:exactMatch,SWEET:solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+ESA Space Weather Glossary:solar activity,skos:exactMatch,Space Weather Glossary:solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+ESA Space Weather Glossary:solar activity,skos:exactMatch,Space Weather Glossary (Second):solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+GCMD:solar activity,skos:exactMatch,SWEET:solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+GCMD:solar activity,skos:exactMatch,Space Weather Glossary:solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+GCMD:solar activity,skos:exactMatch,Space Weather Glossary (Second):solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+SWEET:solar activity,skos:exactMatch,Space Weather Glossary:solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+SWEET:solar activity,skos:exactMatch,Space Weather Glossary (Second):solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+Space Weather Glossary:solar activity,skos:exactMatch,Space Weather Glossary (Second):solar activity,lexical_identity_same_normalized_term,0.6,solar activity
+HELIO Ontology:solar atmosphere,skos:exactMatch,NASA CCMC:solar atmosphere,lexical_identity_same_normalized_term,0.6,solar atmosphere
+HELIO Ontology:solar atmosphere,skos:exactMatch,Space Weather Glossary (Second):solar atmosphere,lexical_identity_same_normalized_term,0.6,solar atmosphere
+NASA CCMC:solar atmosphere,skos:exactMatch,Space Weather Glossary (Second):solar atmosphere,lexical_identity_same_normalized_term,0.6,solar atmosphere
+Space Weather Glossary:solar constant,skos:exactMatch,Space Weather Glossary (Second):solar constant,lexical_identity_same_normalized_term,0.6,solar constant
+NASA Heliophysics Vocabulary:solar energetic particles,skos:exactMatch,Space Weather Glossary:solar energetic particles,lexical_identity_same_normalized_term,0.6,solar energetic particles
+ESA Space Weather Glossary:solar flare,skos:exactMatch,HELIO Ontology:solar flare,lexical_identity_same_normalized_term,0.6,solar flare
+ESA Space Weather Glossary:solar flare,skos:exactMatch,SPASE Dictionary:solar flare,lexical_identity_same_normalized_term,0.6,solar flare
+HELIO Ontology:solar flare,skos:exactMatch,SPASE Dictionary:solar flare,lexical_identity_same_normalized_term,0.6,solar flare
+GCMD:solar flares,skos:exactMatch,NASA Heliophysics Vocabulary:solar flares,lexical_identity_same_normalized_term,0.6,solar flares
+GCMD:solar flares,skos:exactMatch,Space Weather Glossary (Second):solar flares,lexical_identity_same_normalized_term,0.6,solar flares
+NASA Heliophysics Vocabulary:solar flares,skos:exactMatch,Space Weather Glossary (Second):solar flares,lexical_identity_same_normalized_term,0.6,solar flares
+GCMD:solar flux,skos:exactMatch,SWEET:solar flux,lexical_identity_same_normalized_term,0.6,solar flux
+GCMD:solar forcing,skos:exactMatch,SWEET:solar forcing,lexical_identity_same_normalized_term,0.6,solar forcing
+AGU Index Terms:solar irradiance,skos:exactMatch,GCMD:solar irradiance,lexical_identity_same_normalized_term,0.6,solar irradiance
+NASA Heliophysics Vocabulary:solar maximum,skos:exactMatch,Space Weather Glossary:solar maximum,lexical_identity_same_normalized_term,0.6,solar maximum
+NASA Heliophysics Vocabulary:solar maximum,skos:exactMatch,Space Weather Glossary (Second):solar maximum,lexical_identity_same_normalized_term,0.6,solar maximum
+Space Weather Glossary:solar maximum,skos:exactMatch,Space Weather Glossary (Second):solar maximum,lexical_identity_same_normalized_term,0.6,solar maximum
+NASA Heliophysics Vocabulary:solar minimum,skos:exactMatch,Space Weather Glossary:solar minimum,lexical_identity_same_normalized_term,0.6,solar minimum
+NASA Heliophysics Vocabulary:solar minimum,skos:exactMatch,Space Weather Glossary (Second):solar minimum,lexical_identity_same_normalized_term,0.6,solar minimum
+Space Weather Glossary:solar minimum,skos:exactMatch,Space Weather Glossary (Second):solar minimum,lexical_identity_same_normalized_term,0.6,solar minimum
+GCMD:solar radiation,skos:exactMatch,GEMET:solar radiation,lexical_identity_same_normalized_term,0.6,solar radiation
+GCMD:solar radiation,skos:exactMatch,SWEET:solar radiation,lexical_identity_same_normalized_term,0.6,solar radiation
+GEMET:solar radiation,skos:exactMatch,SWEET:solar radiation,lexical_identity_same_normalized_term,0.6,solar radiation
+GCMD:solar wind,skos:exactMatch,HELIO Ontology:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+GCMD:solar wind,skos:exactMatch,NASA CCMC:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+GCMD:solar wind,skos:exactMatch,NASA Heliophysics Vocabulary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+GCMD:solar wind,skos:exactMatch,SWEET:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+GCMD:solar wind,skos:exactMatch,Space Weather Glossary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+GCMD:solar wind,skos:exactMatch,Space Weather Glossary (Second):solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+HELIO Ontology:solar wind,skos:exactMatch,NASA CCMC:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+HELIO Ontology:solar wind,skos:exactMatch,NASA Heliophysics Vocabulary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+HELIO Ontology:solar wind,skos:exactMatch,SWEET:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+HELIO Ontology:solar wind,skos:exactMatch,Space Weather Glossary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+HELIO Ontology:solar wind,skos:exactMatch,Space Weather Glossary (Second):solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+NASA CCMC:solar wind,skos:exactMatch,NASA Heliophysics Vocabulary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+NASA CCMC:solar wind,skos:exactMatch,SWEET:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+NASA CCMC:solar wind,skos:exactMatch,Space Weather Glossary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+NASA CCMC:solar wind,skos:exactMatch,Space Weather Glossary (Second):solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+NASA Heliophysics Vocabulary:solar wind,skos:exactMatch,SWEET:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+NASA Heliophysics Vocabulary:solar wind,skos:exactMatch,Space Weather Glossary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+NASA Heliophysics Vocabulary:solar wind,skos:exactMatch,Space Weather Glossary (Second):solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+SWEET:solar wind,skos:exactMatch,Space Weather Glossary:solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+SWEET:solar wind,skos:exactMatch,Space Weather Glossary (Second):solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+Space Weather Glossary:solar wind,skos:exactMatch,Space Weather Glossary (Second):solar wind,lexical_identity_same_normalized_term,0.6,solar wind
+HELIO Ontology:solar wind extreme,skos:exactMatch,SPASE Dictionary:solar wind extreme,lexical_identity_same_normalized_term,0.6,solar wind extreme
+HELIO Ontology:solar wind extreme,skos:exactMatch,SWEET:solar wind extreme,lexical_identity_same_normalized_term,0.6,solar wind extreme
+SPASE Dictionary:solar wind extreme,skos:exactMatch,SWEET:solar wind extreme,lexical_identity_same_normalized_term,0.6,solar wind extreme
+AGU Index Terms:solid earth,skos:exactMatch,GCMD:solid earth,lexical_identity_same_normalized_term,0.6,solid earth
+HELIO Ontology:sonic mach number,skos:exactMatch,SPASE Dictionary:sonic mach number,lexical_identity_same_normalized_term,0.6,sonic mach number
+GEMET:sound,skos:exactMatch,SWEET:sound,lexical_identity_same_normalized_term,0.6,sound
+HELIO Ontology:sounder,skos:exactMatch,SPASE Dictionary:sounder,lexical_identity_same_normalized_term,0.6,sounder
+GCMD:source,skos:exactMatch,SPASE Dictionary:source,lexical_identity_same_normalized_term,0.6,source
+AGU Index Terms:south america,skos:exactMatch,GEMET:south america,lexical_identity_same_normalized_term,0.6,south america
+HELIO Ontology:south atlantic anomaly region,skos:exactMatch,SPASE Dictionary:south atlantic anomaly region,lexical_identity_same_normalized_term,0.6,south atlantic anomaly region
+GEMET:space,skos:exactMatch,SWEET:space,lexical_identity_same_normalized_term,0.6,space
+AGU Index Terms:space weather,skos:exactMatch,ESA Space Weather Glossary:space weather,lexical_identity_same_normalized_term,0.6,space weather
+AGU Index Terms:space weather,skos:exactMatch,NASA CCMC:space weather,lexical_identity_same_normalized_term,0.6,space weather
+AGU Index Terms:space weather,skos:exactMatch,SWEET:space weather,lexical_identity_same_normalized_term,0.6,space weather
+AGU Index Terms:space weather,skos:exactMatch,Space Weather Glossary (Second):space weather,lexical_identity_same_normalized_term,0.6,space weather
+ESA Space Weather Glossary:space weather,skos:exactMatch,NASA CCMC:space weather,lexical_identity_same_normalized_term,0.6,space weather
+ESA Space Weather Glossary:space weather,skos:exactMatch,SWEET:space weather,lexical_identity_same_normalized_term,0.6,space weather
+ESA Space Weather Glossary:space weather,skos:exactMatch,Space Weather Glossary (Second):space weather,lexical_identity_same_normalized_term,0.6,space weather
+NASA CCMC:space weather,skos:exactMatch,SWEET:space weather,lexical_identity_same_normalized_term,0.6,space weather
+NASA CCMC:space weather,skos:exactMatch,Space Weather Glossary (Second):space weather,lexical_identity_same_normalized_term,0.6,space weather
+SWEET:space weather,skos:exactMatch,Space Weather Glossary (Second):space weather,lexical_identity_same_normalized_term,0.6,space weather
+HELIO Ontology:spacecraft orbit plane,skos:exactMatch,SPASE Dictionary:spacecraft orbit plane,lexical_identity_same_normalized_term,0.6,spacecraft orbit plane
+HELIO Ontology:spacecraft potential control,skos:exactMatch,SPASE Dictionary:spacecraft potential control,lexical_identity_same_normalized_term,0.6,spacecraft potential control
+GEMET:spatial distribution,skos:exactMatch,SWEET:spatial distribution,lexical_identity_same_normalized_term,0.6,spatial distribution
+HELIO Ontology:spectral power receiver,skos:exactMatch,SPASE Dictionary:spectral power receiver,lexical_identity_same_normalized_term,0.6,spectral power receiver
+HELIO Ontology:spectrogram,skos:exactMatch,SPASE Dictionary:spectrogram,lexical_identity_same_normalized_term,0.6,spectrogram
+HELIO Ontology:spectrometer,skos:exactMatch,SPASE Dictionary:spectrometer,lexical_identity_same_normalized_term,0.6,spectrometer
+HELIO Ontology:spectrum,skos:exactMatch,SPASE Dictionary:spectrum,lexical_identity_same_normalized_term,0.6,spectrum
+GEMET:speed,skos:exactMatch,HELIO Ontology:speed,lexical_identity_same_normalized_term,0.6,speed
+AGU Index Terms:speleothems,skos:exactMatch,GCMD:speleothems,lexical_identity_same_normalized_term,0.6,speleothems
+GCMD:spice,skos:exactMatch,SPASE Dictionary:spice,lexical_identity_same_normalized_term,0.6,spice
+HELIO Ontology:sr,skos:exactMatch,SPASE Dictionary:sr,lexical_identity_same_normalized_term,0.6,sr
+HELIO Ontology:sr2,skos:exactMatch,SPASE Dictionary:sr2,lexical_identity_same_normalized_term,0.6,sr2
+HELIO Ontology:sse,skos:exactMatch,SPASE Dictionary:sse,lexical_identity_same_normalized_term,0.6,sse
+AGU Index Terms:stable isotopes,skos:exactMatch,GCMD:stable isotopes,lexical_identity_same_normalized_term,0.6,stable isotopes
+HELIO Ontology:stack plot,skos:exactMatch,SPASE Dictionary:stack plot,lexical_identity_same_normalized_term,0.6,stack plot
+HELIO Ontology:start time,skos:exactMatch,SWEET:start time,lexical_identity_same_normalized_term,0.6,start time
+GEMET:state of matter,skos:exactMatch,SWEET:state of matter,lexical_identity_same_normalized_term,0.6,state of matter
+AGU Index Terms:statistical analysis,skos:exactMatch,GEMET:statistical analysis,lexical_identity_same_normalized_term,0.6,statistical analysis
+HELIO Ontology:stokes parameters,skos:exactMatch,SPASE Dictionary:stokes parameters,lexical_identity_same_normalized_term,0.6,stokes parameters
+GCMD:stratopause,skos:exactMatch,Space Weather Glossary (Second):stratopause,lexical_identity_same_normalized_term,0.6,stratopause
+GEMET:stratosphere,skos:exactMatch,HELIO Ontology:stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+GEMET:stratosphere,skos:exactMatch,SPASE Dictionary:stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+GEMET:stratosphere,skos:exactMatch,Space Weather Glossary:stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+GEMET:stratosphere,skos:exactMatch,Space Weather Glossary (Second):stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+HELIO Ontology:stratosphere,skos:exactMatch,SPASE Dictionary:stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+HELIO Ontology:stratosphere,skos:exactMatch,Space Weather Glossary:stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+HELIO Ontology:stratosphere,skos:exactMatch,Space Weather Glossary (Second):stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+SPASE Dictionary:stratosphere,skos:exactMatch,Space Weather Glossary:stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+SPASE Dictionary:stratosphere,skos:exactMatch,Space Weather Glossary (Second):stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+Space Weather Glossary:stratosphere,skos:exactMatch,Space Weather Glossary (Second):stratosphere,lexical_identity_same_normalized_term,0.6,stratosphere
+HELIO Ontology:stream interaction region,skos:exactMatch,SPASE Dictionary:stream interaction region,lexical_identity_same_normalized_term,0.6,stream interaction region
+GCMD:stress,skos:exactMatch,GEMET:stress,lexical_identity_same_normalized_term,0.6,stress
+GCMD:subsidence,skos:exactMatch,GEMET:subsidence,lexical_identity_same_normalized_term,0.6,subsidence
+HELIO Ontology:substorm,skos:exactMatch,NASA Heliophysics Vocabulary:substorm,lexical_identity_same_normalized_term,0.6,substorm
+HELIO Ontology:substorm,skos:exactMatch,SPASE Dictionary:substorm,lexical_identity_same_normalized_term,0.6,substorm
+HELIO Ontology:substorm,skos:exactMatch,SWEET:substorm,lexical_identity_same_normalized_term,0.6,substorm
+HELIO Ontology:substorm,skos:exactMatch,Space Weather Glossary:substorm,lexical_identity_same_normalized_term,0.6,substorm
+HELIO Ontology:substorm,skos:exactMatch,Space Weather Glossary (Second):substorm,lexical_identity_same_normalized_term,0.6,substorm
+NASA Heliophysics Vocabulary:substorm,skos:exactMatch,SPASE Dictionary:substorm,lexical_identity_same_normalized_term,0.6,substorm
+NASA Heliophysics Vocabulary:substorm,skos:exactMatch,SWEET:substorm,lexical_identity_same_normalized_term,0.6,substorm
+NASA Heliophysics Vocabulary:substorm,skos:exactMatch,Space Weather Glossary:substorm,lexical_identity_same_normalized_term,0.6,substorm
+NASA Heliophysics Vocabulary:substorm,skos:exactMatch,Space Weather Glossary (Second):substorm,lexical_identity_same_normalized_term,0.6,substorm
+SPASE Dictionary:substorm,skos:exactMatch,SWEET:substorm,lexical_identity_same_normalized_term,0.6,substorm
+SPASE Dictionary:substorm,skos:exactMatch,Space Weather Glossary:substorm,lexical_identity_same_normalized_term,0.6,substorm
+SPASE Dictionary:substorm,skos:exactMatch,Space Weather Glossary (Second):substorm,lexical_identity_same_normalized_term,0.6,substorm
+SWEET:substorm,skos:exactMatch,Space Weather Glossary:substorm,lexical_identity_same_normalized_term,0.6,substorm
+SWEET:substorm,skos:exactMatch,Space Weather Glossary (Second):substorm,lexical_identity_same_normalized_term,0.6,substorm
+Space Weather Glossary:substorm,skos:exactMatch,Space Weather Glossary (Second):substorm,lexical_identity_same_normalized_term,0.6,substorm
+HELIO Ontology:sunspot,skos:exactMatch,NASA CCMC:sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+HELIO Ontology:sunspot,skos:exactMatch,SWEET:sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+HELIO Ontology:sunspot,skos:exactMatch,Space Weather Glossary:sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+HELIO Ontology:sunspot,skos:exactMatch,Space Weather Glossary (Second):sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+NASA CCMC:sunspot,skos:exactMatch,SWEET:sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+NASA CCMC:sunspot,skos:exactMatch,Space Weather Glossary:sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+NASA CCMC:sunspot,skos:exactMatch,Space Weather Glossary (Second):sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+SWEET:sunspot,skos:exactMatch,Space Weather Glossary:sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+SWEET:sunspot,skos:exactMatch,Space Weather Glossary (Second):sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+Space Weather Glossary:sunspot,skos:exactMatch,Space Weather Glossary (Second):sunspot,lexical_identity_same_normalized_term,0.6,sunspot
+Space Weather Glossary:sunspot cycle,skos:exactMatch,Space Weather Glossary (Second):sunspot cycle,lexical_identity_same_normalized_term,0.6,sunspot cycle
+Space Weather Glossary:sunspot number,skos:exactMatch,Space Weather Glossary (Second):sunspot number,lexical_identity_same_normalized_term,0.6,sunspot number
+SWEET:supergranulation,skos:exactMatch,Space Weather Glossary:supergranulation,lexical_identity_same_normalized_term,0.6,supergranulation
+GCMD:surface water,skos:exactMatch,GEMET:surface water,lexical_identity_same_normalized_term,0.6,surface water
+AGU Index Terms:sustainable development,skos:exactMatch,GCMD:sustainable development,lexical_identity_same_normalized_term,0.6,sustainable development
+AGU Index Terms:sustainable development,skos:exactMatch,GEMET:sustainable development,lexical_identity_same_normalized_term,0.6,sustainable development
+GCMD:sustainable development,skos:exactMatch,GEMET:sustainable development,lexical_identity_same_normalized_term,0.6,sustainable development
+GCMD:swamp,skos:exactMatch,GEMET:swamp,lexical_identity_same_normalized_term,0.6,swamp
+AGU Index Terms:symbiosis,skos:exactMatch,GCMD:symbiosis,lexical_identity_same_normalized_term,0.6,symbiosis
+AGU Index Terms:symbiosis,skos:exactMatch,GEMET:symbiosis,lexical_identity_same_normalized_term,0.6,symbiosis
+GCMD:symbiosis,skos:exactMatch,GEMET:symbiosis,lexical_identity_same_normalized_term,0.6,symbiosis
+GEMET:tar,skos:exactMatch,SPASE Dictionary:tar,lexical_identity_same_normalized_term,0.6,tar
+HELIO Ontology:team leader,skos:exactMatch,SPASE Dictionary:team leader,lexical_identity_same_normalized_term,0.6,team leader
+HELIO Ontology:team member,skos:exactMatch,SPASE Dictionary:team member,lexical_identity_same_normalized_term,0.6,team member
+HELIO Ontology:technical contact,skos:exactMatch,SPASE Dictionary:technical contact,lexical_identity_same_normalized_term,0.6,technical contact
+AGU Index Terms:tectonics,skos:exactMatch,GCMD:tectonics,lexical_identity_same_normalized_term,0.6,tectonics
+AGU Index Terms:tectonics,skos:exactMatch,GEMET:tectonics,lexical_identity_same_normalized_term,0.6,tectonics
+GCMD:tectonics,skos:exactMatch,GEMET:tectonics,lexical_identity_same_normalized_term,0.6,tectonics
+GEMET:telemetry,skos:exactMatch,SPASE Dictionary:telemetry,lexical_identity_same_normalized_term,0.6,telemetry
+HELIO Ontology:telescope,skos:exactMatch,SWEET:telescope,lexical_identity_same_normalized_term,0.6,telescope
+GEMET:temperature,skos:exactMatch,HELIO Ontology:temperature,lexical_identity_same_normalized_term,0.6,temperature
+GEMET:temperature,skos:exactMatch,SPASE Dictionary:temperature,lexical_identity_same_normalized_term,0.6,temperature
+GEMET:temperature,skos:exactMatch,SWEET:temperature,lexical_identity_same_normalized_term,0.6,temperature
+HELIO Ontology:temperature,skos:exactMatch,SPASE Dictionary:temperature,lexical_identity_same_normalized_term,0.6,temperature
+HELIO Ontology:temperature,skos:exactMatch,SWEET:temperature,lexical_identity_same_normalized_term,0.6,temperature
+SPASE Dictionary:temperature,skos:exactMatch,SWEET:temperature,lexical_identity_same_normalized_term,0.6,temperature
+SWEET:termination shock,skos:exactMatch,Space Weather Glossary (Second):termination shock,lexical_identity_same_normalized_term,0.6,termination shock
+HELIO Ontology:thermal plasma,skos:exactMatch,SPASE Dictionary:thermal plasma,lexical_identity_same_normalized_term,0.6,thermal plasma
+AGU Index Terms:thermal properties,skos:exactMatch,GCMD:thermal properties,lexical_identity_same_normalized_term,0.6,thermal properties
+HELIO Ontology:thermal speed,skos:exactMatch,SPASE Dictionary:thermal speed,lexical_identity_same_normalized_term,0.6,thermal speed
+AGU Index Terms:thermodynamics,skos:exactMatch,GEMET:thermodynamics,lexical_identity_same_normalized_term,0.6,thermodynamics
+HELIO Ontology:thermometer,skos:exactMatch,SWEET:thermometer,lexical_identity_same_normalized_term,0.6,thermometer
+HELIO Ontology:thermosphere,skos:exactMatch,SPASE Dictionary:thermosphere,lexical_identity_same_normalized_term,0.6,thermosphere
+HELIO Ontology:thermosphere,skos:exactMatch,Space Weather Glossary:thermosphere,lexical_identity_same_normalized_term,0.6,thermosphere
+HELIO Ontology:thermosphere,skos:exactMatch,Space Weather Glossary (Second):thermosphere,lexical_identity_same_normalized_term,0.6,thermosphere
+SPASE Dictionary:thermosphere,skos:exactMatch,Space Weather Glossary:thermosphere,lexical_identity_same_normalized_term,0.6,thermosphere
+SPASE Dictionary:thermosphere,skos:exactMatch,Space Weather Glossary (Second):thermosphere,lexical_identity_same_normalized_term,0.6,thermosphere
+Space Weather Glossary:thermosphere,skos:exactMatch,Space Weather Glossary (Second):thermosphere,lexical_identity_same_normalized_term,0.6,thermosphere
+GEMET:time,skos:exactMatch,HELIO Ontology:time,lexical_identity_same_normalized_term,0.6,time
+GEMET:time,skos:exactMatch,SWEET:time,lexical_identity_same_normalized_term,0.6,time
+HELIO Ontology:time,skos:exactMatch,SWEET:time,lexical_identity_same_normalized_term,0.6,time
+HELIO Ontology:time interval,skos:exactMatch,SWEET:time interval,lexical_identity_same_normalized_term,0.6,time interval
+HELIO Ontology:time of flight,skos:exactMatch,SPASE Dictionary:time of flight,lexical_identity_same_normalized_term,0.6,time of flight
+HELIO Ontology:time series,skos:exactMatch,SPASE Dictionary:time series,lexical_identity_same_normalized_term,0.6,time series
+HELIO Ontology:time span,skos:exactMatch,SPASE Dictionary:time span,lexical_identity_same_normalized_term,0.6,time span
+AGU Index Terms:titan,skos:exactMatch,SPASE Dictionary:titan,lexical_identity_same_normalized_term,0.6,titan
+GCMD:titanium,skos:exactMatch,GEMET:titanium,lexical_identity_same_normalized_term,0.6,titanium
+HELIO Ontology:topside,skos:exactMatch,SPASE Dictionary:topside,lexical_identity_same_normalized_term,0.6,topside
+GCMD:total electron content,skos:exactMatch,Space Weather Glossary:total electron content,lexical_identity_same_normalized_term,0.6,total electron content
+GCMD:total pressure,skos:exactMatch,SPASE Dictionary:total pressure,lexical_identity_same_normalized_term,0.6,total pressure
+GCMD:tourism,skos:exactMatch,GEMET:tourism,lexical_identity_same_normalized_term,0.6,tourism
+AGU Index Terms:trace elements,skos:exactMatch,GCMD:trace elements,lexical_identity_same_normalized_term,0.6,trace elements
+AGU Index Terms:transition region,skos:exactMatch,HELIO Ontology:transition region,lexical_identity_same_normalized_term,0.6,transition region
+AGU Index Terms:transition region,skos:exactMatch,NASA CCMC:transition region,lexical_identity_same_normalized_term,0.6,transition region
+AGU Index Terms:transition region,skos:exactMatch,SPASE Dictionary:transition region,lexical_identity_same_normalized_term,0.6,transition region
+AGU Index Terms:transition region,skos:exactMatch,Space Weather Glossary:transition region,lexical_identity_same_normalized_term,0.6,transition region
+AGU Index Terms:transition region,skos:exactMatch,Space Weather Glossary (Second):transition region,lexical_identity_same_normalized_term,0.6,transition region
+HELIO Ontology:transition region,skos:exactMatch,NASA CCMC:transition region,lexical_identity_same_normalized_term,0.6,transition region
+HELIO Ontology:transition region,skos:exactMatch,SPASE Dictionary:transition region,lexical_identity_same_normalized_term,0.6,transition region
+HELIO Ontology:transition region,skos:exactMatch,Space Weather Glossary:transition region,lexical_identity_same_normalized_term,0.6,transition region
+HELIO Ontology:transition region,skos:exactMatch,Space Weather Glossary (Second):transition region,lexical_identity_same_normalized_term,0.6,transition region
+NASA CCMC:transition region,skos:exactMatch,SPASE Dictionary:transition region,lexical_identity_same_normalized_term,0.6,transition region
+NASA CCMC:transition region,skos:exactMatch,Space Weather Glossary:transition region,lexical_identity_same_normalized_term,0.6,transition region
+NASA CCMC:transition region,skos:exactMatch,Space Weather Glossary (Second):transition region,lexical_identity_same_normalized_term,0.6,transition region
+SPASE Dictionary:transition region,skos:exactMatch,Space Weather Glossary:transition region,lexical_identity_same_normalized_term,0.6,transition region
+SPASE Dictionary:transition region,skos:exactMatch,Space Weather Glossary (Second):transition region,lexical_identity_same_normalized_term,0.6,transition region
+Space Weather Glossary:transition region,skos:exactMatch,Space Weather Glossary (Second):transition region,lexical_identity_same_normalized_term,0.6,transition region
+GCMD:transportation,skos:exactMatch,GEMET:transportation,lexical_identity_same_normalized_term,0.6,transportation
+GEMET:trapping,skos:exactMatch,SWEET:trapping,lexical_identity_same_normalized_term,0.6,trapping
+AGU Index Terms:triton,skos:exactMatch,SPASE Dictionary:triton,lexical_identity_same_normalized_term,0.6,triton
+AGU Index Terms:tropical cyclones,skos:exactMatch,GCMD:tropical cyclones,lexical_identity_same_normalized_term,0.6,tropical cyclones
+GCMD:tropical forest,skos:exactMatch,GEMET:tropical forest,lexical_identity_same_normalized_term,0.6,tropical forest
+GCMD:tropopause,skos:exactMatch,Space Weather Glossary (Second):tropopause,lexical_identity_same_normalized_term,0.6,tropopause
+GEMET:troposphere,skos:exactMatch,HELIO Ontology:troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+GEMET:troposphere,skos:exactMatch,SPASE Dictionary:troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+GEMET:troposphere,skos:exactMatch,Space Weather Glossary:troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+GEMET:troposphere,skos:exactMatch,Space Weather Glossary (Second):troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+HELIO Ontology:troposphere,skos:exactMatch,SPASE Dictionary:troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+HELIO Ontology:troposphere,skos:exactMatch,Space Weather Glossary:troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+HELIO Ontology:troposphere,skos:exactMatch,Space Weather Glossary (Second):troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+SPASE Dictionary:troposphere,skos:exactMatch,Space Weather Glossary:troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+SPASE Dictionary:troposphere,skos:exactMatch,Space Weather Glossary (Second):troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+Space Weather Glossary:troposphere,skos:exactMatch,Space Weather Glossary (Second):troposphere,lexical_identity_same_normalized_term,0.6,troposphere
+GCMD:tropospheric ozone,skos:exactMatch,GEMET:tropospheric ozone,lexical_identity_same_normalized_term,0.6,tropospheric ozone
+AGU Index Terms:tundra,skos:exactMatch,GEMET:tundra,lexical_identity_same_normalized_term,0.6,tundra
+GCMD:turbidity,skos:exactMatch,GEMET:turbidity,lexical_identity_same_normalized_term,0.6,turbidity
+AGU Index Terms:turbulence,skos:exactMatch,GCMD:turbulence,lexical_identity_same_normalized_term,0.6,turbulence
+SPASE Dictionary:ultraviolet,skos:exactMatch,Space Weather Glossary:ultraviolet,lexical_identity_same_normalized_term,0.6,ultraviolet
+SPASE Dictionary:ultraviolet,skos:exactMatch,Space Weather Glossary (Second):ultraviolet,lexical_identity_same_normalized_term,0.6,ultraviolet
+Space Weather Glossary:ultraviolet,skos:exactMatch,Space Weather Glossary (Second):ultraviolet,lexical_identity_same_normalized_term,0.6,ultraviolet
+GCMD:ultraviolet radiation,skos:exactMatch,GEMET:ultraviolet radiation,lexical_identity_same_normalized_term,0.6,ultraviolet radiation
+AGU Index Terms:uncertainty,skos:exactMatch,SPASE Dictionary:uncertainty,lexical_identity_same_normalized_term,0.6,uncertainty
+Space Weather Glossary:unipolar magnetic region,skos:exactMatch,Space Weather Glossary (Second):unipolar magnetic region,lexical_identity_same_normalized_term,0.6,unipolar magnetic region
+AGU Index Terms:uranus,skos:exactMatch,SPASE Dictionary:uranus,lexical_identity_same_normalized_term,0.6,uranus
+ESA Space Weather Glossary:validation,skos:exactMatch,GCMD:validation,lexical_identity_same_normalized_term,0.6,validation
+GCMD:valley,skos:exactMatch,GEMET:valley,lexical_identity_same_normalized_term,0.6,valley
+GEMET:vector,skos:exactMatch,SPASE Dictionary:vector,lexical_identity_same_normalized_term,0.6,vector
+GCMD:vegetation,skos:exactMatch,GEMET:vegetation,lexical_identity_same_normalized_term,0.6,vegetation
+GCMD:vegetation cover,skos:exactMatch,GEMET:vegetation cover,lexical_identity_same_normalized_term,0.6,vegetation cover
+GCMD:velocity,skos:exactMatch,HELIO Ontology:velocity,lexical_identity_same_normalized_term,0.6,velocity
+GCMD:velocity,skos:exactMatch,SPASE Dictionary:velocity,lexical_identity_same_normalized_term,0.6,velocity
+HELIO Ontology:velocity,skos:exactMatch,SPASE Dictionary:velocity,lexical_identity_same_normalized_term,0.6,velocity
+AGU Index Terms:venus,skos:exactMatch,SPASE Dictionary:venus,lexical_identity_same_normalized_term,0.6,venus
+AGU Index Terms:volcanic gases,skos:exactMatch,GCMD:volcanic gases,lexical_identity_same_normalized_term,0.6,volcanic gases
+AGU Index Terms:volcanism,skos:exactMatch,GEMET:volcanism,lexical_identity_same_normalized_term,0.6,volcanism
+GCMD:volcano,skos:exactMatch,GEMET:volcano,lexical_identity_same_normalized_term,0.6,volcano
+AGU Index Terms:volcanology,skos:exactMatch,GEMET:volcanology,lexical_identity_same_normalized_term,0.6,volcanology
+GCMD:water hardness,skos:exactMatch,GEMET:water hardness,lexical_identity_same_normalized_term,0.6,water hardness
+AGU Index Terms:water management,skos:exactMatch,GCMD:water management,lexical_identity_same_normalized_term,0.6,water management
+AGU Index Terms:water management,skos:exactMatch,GEMET:water management,lexical_identity_same_normalized_term,0.6,water management
+GCMD:water management,skos:exactMatch,GEMET:water management,lexical_identity_same_normalized_term,0.6,water management
+AGU Index Terms:water masses,skos:exactMatch,GCMD:water masses,lexical_identity_same_normalized_term,0.6,water masses
+AGU Index Terms:water quality,skos:exactMatch,GCMD:water quality,lexical_identity_same_normalized_term,0.6,water quality
+AGU Index Terms:water quality,skos:exactMatch,GEMET:water quality,lexical_identity_same_normalized_term,0.6,water quality
+GCMD:water quality,skos:exactMatch,GEMET:water quality,lexical_identity_same_normalized_term,0.6,water quality
+AGU Index Terms:water supply,skos:exactMatch,GEMET:water supply,lexical_identity_same_normalized_term,0.6,water supply
+GCMD:water table,skos:exactMatch,GEMET:water table,lexical_identity_same_normalized_term,0.6,water table
+GCMD:waterfall,skos:exactMatch,GEMET:waterfall,lexical_identity_same_normalized_term,0.6,waterfall
+AGU Index Terms:watershed,skos:exactMatch,GEMET:watershed,lexical_identity_same_normalized_term,0.6,watershed
+HELIO Ontology:wave,skos:exactMatch,SPASE Dictionary:wave,lexical_identity_same_normalized_term,0.6,wave
+HELIO Ontology:wave,skos:exactMatch,SWEET:wave,lexical_identity_same_normalized_term,0.6,wave
+SPASE Dictionary:wave,skos:exactMatch,SWEET:wave,lexical_identity_same_normalized_term,0.6,wave
+HELIO Ontology:wave form,skos:exactMatch,SPASE Dictionary:wave form,lexical_identity_same_normalized_term,0.6,wave form
+AGU Index Terms:wave propagation,skos:exactMatch,SWEET:wave propagation,lexical_identity_same_normalized_term,0.6,wave propagation
+HELIO Ontology:wave type,skos:exactMatch,SPASE Dictionary:wave type,lexical_identity_same_normalized_term,0.6,wave type
+HELIO Ontology:waveform receiver,skos:exactMatch,SPASE Dictionary:waveform receiver,lexical_identity_same_normalized_term,0.6,waveform receiver
+HELIO Ontology:wavelength,skos:exactMatch,SPASE Dictionary:wavelength,lexical_identity_same_normalized_term,0.6,wavelength
+GEMET:weather,skos:exactMatch,SWEET:weather,lexical_identity_same_normalized_term,0.6,weather
+GEMET:weather condition,skos:exactMatch,SWEET:weather condition,lexical_identity_same_normalized_term,0.6,weather condition
+AGU Index Terms:weathering,skos:exactMatch,GCMD:weathering,lexical_identity_same_normalized_term,0.6,weathering
+AGU Index Terms:web services,skos:exactMatch,GCMD:web services,lexical_identity_same_normalized_term,0.6,web services
+GEMET:weight,skos:exactMatch,HELIO Ontology:weight,lexical_identity_same_normalized_term,0.6,weight
+AGU Index Terms:wetlands,skos:exactMatch,GCMD:wetlands,lexical_identity_same_normalized_term,0.6,wetlands
+HELIO Ontology:wgs84,skos:exactMatch,SPASE Dictionary:wgs84,lexical_identity_same_normalized_term,0.6,wgs84
+SPASE Dictionary:white light,skos:exactMatch,Space Weather Glossary:white light,lexical_identity_same_normalized_term,0.6,white light
+GCMD:whiteout,skos:exactMatch,SWEET:whiteout,lexical_identity_same_normalized_term,0.6,whiteout
+GEMET:wind,skos:exactMatch,HELIO Ontology:wind,lexical_identity_same_normalized_term,0.6,wind
+GCMD:wind speed,skos:exactMatch,SWEET:wind speed,lexical_identity_same_normalized_term,0.6,wind speed
+GCMD:x-ray,skos:exactMatch,GEMET:x-ray,lexical_identity_same_normalized_term,0.6,x-ray
+GCMD:x-ray,skos:exactMatch,Space Weather Glossary:x-ray,lexical_identity_same_normalized_term,0.6,x-ray
+GCMD:x-ray,skos:exactMatch,Space Weather Glossary (Second):x-ray,lexical_identity_same_normalized_term,0.6,x-ray
+GEMET:x-ray,skos:exactMatch,Space Weather Glossary:x-ray,lexical_identity_same_normalized_term,0.6,x-ray
+GEMET:x-ray,skos:exactMatch,Space Weather Glossary (Second):x-ray,lexical_identity_same_normalized_term,0.6,x-ray
+Space Weather Glossary:x-ray,skos:exactMatch,Space Weather Glossary (Second):x-ray,lexical_identity_same_normalized_term,0.6,x-ray
+Space Weather Glossary:x-ray background,skos:exactMatch,Space Weather Glossary (Second):x-ray background,lexical_identity_same_normalized_term,0.6,x-ray background
+Space Weather Glossary:x-ray burst,skos:exactMatch,Space Weather Glossary (Second):x-ray burst,lexical_identity_same_normalized_term,0.6,x-ray burst
+Space Weather Glossary:zeeman effect,skos:exactMatch,Space Weather Glossary (Second):zeeman effect,lexical_identity_same_normalized_term,0.6,zeeman effect
+GCMD:zinc,skos:exactMatch,GEMET:zinc,lexical_identity_same_normalized_term,0.6,zinc
+AGU Index Terms:zooplankton,skos:exactMatch,GCMD:zooplankton,lexical_identity_same_normalized_term,0.6,zooplankton
