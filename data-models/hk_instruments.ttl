@@ -2,6 +2,7 @@
 # imports: http://www.opengis.net/ont/geosparql
 # imports: https://www.helioknowledge.network/core
 
+@prefix dc: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix hk: <https://www.helioknowledge.network/core/> .
 @prefix hki: <https://www.helioknowledge.network/instruments/> .
@@ -664,7 +665,7 @@ madrigal:inst_1390
       schema:longitude "19"^^xsd:decimal ;
     ] ;
   schema:identifier "trf" ;
-  schema:name "TromsÃ¸ MF Radar"@en ;
+  schema:name "Tromsø MF Radar"@en ;
   hki:principalInvestigator <mailto:chris.hall@tgo.uit.no> ;
 .
 madrigal:inst_1395
@@ -4287,6 +4288,138 @@ madrigal:inst_95
   schema:identifier "lyr" ;
   schema:name "EISCAT Svalbard IS Radar Longyearbyen"@en ;
   hki:principalInvestigator <mailto:ingemar@eiscat.se> ;
+.
+madrigal:instrument
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain madrigal:Experiment ;
+  rdfs:range madrigal:Instrument ;
+  skos:prefLabel "instrument"@en ;
+.
+madrigal:site
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain madrigal:Experiment ;
+  rdfs:range madrigal:Site ;
+  skos:prefLabel "site"@en ;
+.
+madrigal:site_1
+  rdf:type madrigal:Site ;
+  madrigal:id 1 ;
+  owl:versionInfo "3.0" ;
+  schema:identifier "Millstone" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "brideout@mit.edu" ;
+      hk:fullName "Bill Rideout" ;
+    ] ;
+  schema:url <http://millstonehill.haystack.mit.edu/> ;
+.
+madrigal:site_10
+  rdf:type madrigal:Site ;
+  madrigal:id 10 ;
+  owl:versionInfo "3.2" ;
+  schema:identifier "CEDAR" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "haystack-madrigal-admin@mit.edu" ;
+      hk:fullName "Bill Rideout" ;
+    ] ;
+  schema:url <https://cedar.openmadrigal.org/> ;
+.
+madrigal:site_2
+  rdf:type madrigal:Site ;
+  madrigal:id 2 ;
+  owl:versionInfo "3.2" ;
+  schema:identifier "EISCAT" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "thomas.ulich@eiscat.se" ;
+      hk:fullName "Thomas Ulich" ;
+    ] ;
+  schema:url <https://madrigal.eiscat.se/madrigal> ;
+.
+madrigal:site_20
+  rdf:type madrigal:Site ;
+  madrigal:id 20 ;
+  owl:versionInfo "3.0" ;
+  schema:identifier "UCalgary" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "dchaddoc@ucalgary.ca" ;
+      hk:fullName "Darren Chaddock" ;
+    ] ;
+  schema:url <http://madrigal.phys.ucalgary.ca/> ;
+.
+madrigal:site_22
+  rdf:type madrigal:Site ;
+  madrigal:id 22 ;
+  owl:versionInfo "3.0" ;
+  schema:identifier "IllinoisECE" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "erhan@illinois.edu" ;
+      hk:fullName "Erhan Kudeki" ;
+    ] ;
+  schema:url <http://remote1.ece.illinois.edu/madrigal> ;
+.
+madrigal:site_24
+  rdf:type madrigal:Site ;
+  madrigal:id 24 ;
+  owl:versionInfo "3.2" ;
+  schema:identifier "IAP" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "chau@iap-kborn.de" ;
+      hk:fullName "Jorge L. Chau" ;
+    ] ;
+  schema:url <https://madrigal.iap-kborn.de/> ;
+.
+madrigal:site_3
+  rdf:type madrigal:Site ;
+  madrigal:id 3 ;
+  owl:versionInfo "3.0" ;
+  schema:identifier "SRI" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "pablo.reyes@sri.com" ;
+      hk:fullName "Pablo Reyes" ;
+    ] ;
+  schema:url <https://data.amisr.com/madrigal> ;
+.
+madrigal:site_5
+  rdf:type madrigal:Site ;
+  madrigal:id 5 ;
+  owl:versionInfo "3.0" ;
+  schema:identifier "Cornell" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "dlh37@cornell.edu" ;
+      hk:fullName "D.L. Hysell" ;
+    ] ;
+  schema:url <http://landau.geo.cornell.edu/madrigal> ;
+.
+madrigal:site_6
+  rdf:type madrigal:Site ;
+  madrigal:id 6 ;
+  owl:versionInfo "3.0" ;
+  schema:identifier "JRO" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "jespinoza@igp.gob.pe" ;
+      hk:fullName "Juan Carlos Espinoza Guerra" ;
+    ] ;
+  schema:url <https://www.igp.gob.pe/observatorios/radio-observatorio-jicamarca/madrigal/> ;
+.
+madrigal:site_8
+  rdf:type madrigal:Site ;
+  madrigal:id 8 ;
+  owl:versionInfo "3.0" ;
+  schema:identifier "Beijing" ;
+  schema:responsiblePerson [
+      rdf:type schema:Person ;
+      schema:email "zxk@mail.iggcas.ac.cn" ;
+      hk:fullName "Baiqi Ning" ;
+    ] ;
+  schema:url <http://madrigal.iggcas.ac.cn/> ;
 .
 spase:
   rdf:type skos:ConceptScheme ;
@@ -68413,12 +68546,12 @@ hk:fullName
 .
 <https://www.helioknowledge.network/instruments>
   rdf:type owl:Ontology ;
-  <http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0000-8635-3314> ;
-  <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  dc:contributor <https://orcid.org/0009-0000-8635-3314> ;
+  dc:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
   rdfs:label "HelioKNOW instrument ontology" ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
   owl:imports <https://www.helioknowledge.network/core> ;
-  owl:versionInfo "Refactored to use the updated hk core" ;
+  owl:versionInfo "added missing skos:narrower" ;
 .
 hki:
   rdf:type skos:ConceptScheme ;
@@ -68427,10 +68560,15 @@ hki:
 hki:Analyzer
   rdf:type hki:InstrumentType ;
   skos:editorialNote "AS: this is a placeholder category. Will need to re-assign children to other categories. " ;
+  skos:narrower hki:QuadrisphericalAnalyser ;
+  skos:narrower hki:RetardingPotentialAnalyser ;
   skos:prefLabel "Analyzer"@en ;
 .
 hki:Antenna
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:DoubleSphere ;
+  skos:narrower hki:LongWire ;
+  skos:narrower hki:Riometer ;
   schema:name "Antenna"@en ;
 .
 hki:Channeltron
@@ -68450,6 +68588,10 @@ hki:Coronograph
 .
 hki:Dataset
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:GeophysicalIndex ;
+  skos:narrower hki:Modelleddata ;
+  skos:narrower hki:Platform ;
+  skos:narrower hki:TimeOfFlight ;
   skos:prefLabel "Dataset"@en ;
 .
 hki:DistributedGroundBasedSatelliteReceiver
@@ -68527,6 +68669,10 @@ hki:HFRadar
 .
 hki:Imager
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:Coronograph ;
+  skos:narrower hki:GroundBasedSolarReceiver ;
+  skos:narrower hki:MultispectralImager ;
+  skos:narrower hki:NeutralAtomImager ;
   schema:name "Imager"@en ;
 .
 hki:ImagingSpectrometer
@@ -68552,6 +68698,8 @@ hki:InstrumentType
 .
 hki:Interferometer
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:Fabry-Perot ;
+  skos:narrower hki:MichelsonInterferometer ;
   schema:name "Interferometer"@en ;
 .
 hki:IonChamber
@@ -68605,6 +68753,7 @@ hki:Magnetograph
 .
 hki:Magnetometer
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:SearchCoil ;
   schema:name "Magnetometer"@en ;
 .
 hki:MassSpectrometer
@@ -68654,10 +68803,31 @@ hki:ParticleCorrelator
 .
 hki:ParticleDetector
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:Channeltron ;
+  skos:narrower hki:DustDetector ;
+  skos:narrower hki:ElectronDriftInstrument ;
+  skos:narrower hki:ElectrostaticAnalyser ;
+  skos:narrower hki:EnergeticParticleInstrument ;
+  skos:narrower hki:FaradayCup ;
+  skos:narrower hki:GeigerMuellerTube ;
+  skos:narrower hki:IonChamber ;
+  skos:narrower hki:IonDrift ;
+  skos:narrower hki:IonGauge ;
+  skos:narrower hki:LangmuirProbe ;
+  skos:narrower hki:MicrochannelPlate ;
+  skos:narrower hki:NeutralParticleDetector ;
+  skos:narrower hki:ParticleCorrelator ;
+  skos:narrower hki:ProportionalCounter ;
+  skos:narrower hki:Radiometer ;
+  skos:narrower hki:ScintillationDetector ;
+  skos:narrower hki:SolidStateDetector ;
+  skos:narrower hki:SpacecraftPotentialControl ;
   schema:name "ParticleDetector"@en ;
 .
 hki:Photometer
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:PhotomultiplierTube ;
+  skos:narrower hki:Photopolarimeter ;
   schema:name "Photometer"@en ;
 .
 hki:PhotomultiplierTube
@@ -68687,6 +68857,13 @@ hki:QuadrisphericalAnalyser
 .
 hki:Radar
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:CoherentScatterRadar ;
+  skos:narrower hki:HFRadar ;
+  skos:narrower hki:IncoherentScatterRadar ;
+  skos:narrower hki:Lidar ;
+  skos:narrower hki:MFRadar ;
+  skos:narrower hki:MSTRadar ;
+  skos:narrower hki:MeteorRadar ;
   schema:name "Radar"@en ;
 .
 hki:Radiometer
@@ -68696,6 +68873,10 @@ hki:Radiometer
 .
 hki:Receiver
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:DistributedGroundBasedSatelliteReceiver ;
+  skos:narrower hki:IndividualGroundBasedSatelliteReceiver ;
+  skos:narrower hki:SpectralPowerReceiver ;
+  skos:narrower hki:WaveformReceiver ;
   schema:name "Receiver"@en ;
 .
 hki:ResonanceSounder
@@ -68734,6 +68915,8 @@ hki:SolidStateDetector
 .
 hki:Sounder
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:Ionosonde ;
+  skos:narrower hki:ResonanceSounder ;
   schema:name "Sounder"@en ;
 .
 hki:SpacecraftPotentialControl
@@ -68748,6 +68931,9 @@ hki:SpectralPowerReceiver
 .
 hki:Spectrometer
   rdf:type hki:InstrumentType ;
+  skos:narrower hki:FourierTransformSpectrograph ;
+  skos:narrower hki:ImagingSpectrometer ;
+  skos:narrower hki:MassSpectrometer ;
   schema:name "Spectrometer"@en ;
 .
 hki:TimeOfFlight
@@ -68763,6 +68949,12 @@ hki:WaveformReceiver
   rdf:type hki:InstrumentType ;
   skos:broader hki:Receiver ;
   schema:name "Waveform Receiver"@en ;
+.
+hki:observes
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hki:InstrumentType ;
+  rdfs:range hk:Phenomenon ;
+  skos:prefLabel "observes"@en ;
 .
 hki:principalInvestigator
   rdf:type owl:ObjectProperty ;

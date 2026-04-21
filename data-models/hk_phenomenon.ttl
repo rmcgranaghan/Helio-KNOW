@@ -1,8 +1,13 @@
 # baseURI: https://www.helioknowledge.network/phenomenon
 # imports: https://www.helioknowledge.network/core
+# imports: https://www.helioknowledge.network/instruments
+# imports: https://www.helioknowledge.network/model
 # imports: https://www.helioknowledge.network/region
 
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix hk: <https://www.helioknowledge.network/core/> .
+@prefix hki: <https://www.helioknowledge.network/instruments/> .
+@prefix hkm: <https://www.helioknowledge.network/model/> .
 @prefix hkp: <https://www.helioknowledge.network/phenomenon/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -17,15 +22,320 @@
 <http://sweetontology.net/statePhysical/Plasma>
   skos:narrower hkp:SolarWindPlasma ;
 .
-hk:ElectromagneticMutuality
-  rdf:type hk:Influence ;
-  skos:inScheme hkp: ;
-  skos:prefLabel "Electromagnetic Mutuality"@en ;
-  hk:qualifiedBy hkp:MaxwellsEquation ;
-  hkp:hasInfluenced hkp:B-field ;
-  hkp:hasInfluenced hkp:E-field ;
-  hkp:hasInfluencer hkp:B-field ;
-  hkp:hasInfluencer hkp:E-field ;
+<https://ccmc.gsfc.nasa.gov/models/A-EFFort>
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ADELPHI>
+  hkm:models hkp:CurrentSystem ;
+  hkm:models hkp:HallCurrent ;
+  hkm:models hkp:PedersenCurrent ;
+.
+<https://ccmc.gsfc.nasa.gov/models/AE-8_AP-8_RADBELT>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/AMGeO>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/AMOS>
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/AMPS>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ANMHD>
+  hkm:models hkp:DaysideReconnection ;
+  hkm:models hkp:NearEarthReconnection ;
+  hkm:models hkp:TailReconnection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ASAP>
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ASSA>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/AmbSoWi-ML>
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/BAS_RBM>
+  hkm:models hkp:Wave-ParticleInteraction ;
+.
+<https://ccmc.gsfc.nasa.gov/models/BRaVDA>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/BSPM>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/CIMI>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/CM5>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/CORHEL-CME>
+  hkm:models hkp:CoronalMassEjection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/CORHEL-MAS_WSA_ENLIL>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/CORHEL_MAS-TDM>
+  hkm:models hkp:CoronalMassEjection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/CTIPe>
+  hkm:models hkp:JouleHeating ;
+  hkm:models hkp:ThermosphericWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/CalcDeltaB>
+  hkm:models hkp:CurrentSystem ;
+  hkm:models hkp:GeomagneticStorm ;
+  hkm:models hkp:HallCurrent ;
+  hkm:models hkp:PedersenCurrent ;
+.
+<https://ccmc.gsfc.nasa.gov/models/Cosgrove-PF>
+  hkm:models hkp:JouleHeating ;
+  hkm:models hkp:ParticlePrecipitation ;
+  hkm:models hkp:PoyntingFlux ;
+.
+<https://ccmc.gsfc.nasa.gov/models/DAFFS>
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/DBM>
+  hkm:models hkp:CoronalMassEjection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/DIPS>
+  hkm:models hkp:CoronalMassEjection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/DREAM3D>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/DTM>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ENLIL>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:SolarWind ;
+  hkm:models hkp:SolarWindShock ;
+.
+<https://ccmc.gsfc.nasa.gov/models/EPREM>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/EUHFORIA>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/EXO>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ExosPy>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/GAMERA-Helio>
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/GEMSOR>
+  hkm:models hkp:GeomagneticStorm ;
+.
+<https://ccmc.gsfc.nasa.gov/models/GITM>
+  hkm:models hkp:ThermosphericWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/Glocer-RECONX>
+  hkm:models hkp:DaysideReconnection ;
+  hkm:models hkp:NearEarthReconnection ;
+  hkm:models hkp:TailReconnection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/HESPERIA_REleASE>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/HWM14>
+  hkm:models hkp:ThermosphericWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/HYPERS-Global>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/HeliosphericTomographyIPS>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/IBP>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/IGRF>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/IMPTAM>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/IRI>
+  hkm:models hkp:EquatorialElectrojet ;
+  hkm:models hkp:Fountain ;
+.
+<https://ccmc.gsfc.nasa.gov/models/JB2008>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/LiRadiationBelt>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/MAG4>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/MAGE>
+  hkm:models hkp:CurrentSystem ;
+  hkm:models hkp:GeomagneticStorm ;
+  hkm:models hkp:HallCurrent ;
+  hkm:models hkp:PedersenCurrent ;
+.
+<https://ccmc.gsfc.nasa.gov/models/MLSO_K-Cor_CMEs>
+  hkm:models hkp:CoronalMassEjection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/MagPy>
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/NAIRAS>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/NEDM2020>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/NLFF>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/NRLMSIS>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ORIENT>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/OSPREI>
+  hkm:models hkp:CoronalMassEjection ;
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/OpenGGCM>
+  hkm:models hkp:DaysideReconnection ;
+  hkm:models hkp:NearEarthReconnection ;
+  hkm:models hkp:TailReconnection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/Ovation-Prime>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/PAMHD>
+  hkm:models hkp:DaysideReconnection ;
+  hkm:models hkp:NearEarthReconnection ;
+  hkm:models hkp:TailReconnection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/PBMOD>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/PDF>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/PFSS>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/PHaRLAP>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/PINE-RT>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/Plasmasphere>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/RAM-SCB>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SAMI3>
+  hkm:models hkp:EquatorialElectrojet ;
+  hkm:models hkp:Fountain ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SAWS-ASPECS>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SEPMOD>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SEPSTER>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SHELLS-hires>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SIDC_operator_v2>
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SIML-HSS>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SPRINTS-SEP>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SPS>
+  hkm:models hkp:Flare ;
+.
+<https://ccmc.gsfc.nasa.gov/models/STAT>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SWMF>
+  hkm:models hkp:CurrentSystem ;
+  hkm:models hkp:GeomagneticStorm ;
+  hkm:models hkp:HallCurrent ;
+  hkm:models hkp:PedersenCurrent ;
+.
+<https://ccmc.gsfc.nasa.gov/models/SuperDARN>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/Swipe>
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/TIE-GCM>
+  hkm:models hkp:JouleHeating ;
+  hkm:models hkp:ThermosphericComposition ;
+.
+<https://ccmc.gsfc.nasa.gov/models/Tsyganenko>
+  hkm:models hkp:GeomagneticStorm ;
+.
+<https://ccmc.gsfc.nasa.gov/models/UMASEP>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/VERB-3D>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/VPIC_DIST>
+  hkm:models hkp:DaysideReconnection ;
+  hkm:models hkp:NearEarthReconnection ;
+  hkm:models hkp:TailReconnection ;
+.
+<https://ccmc.gsfc.nasa.gov/models/WACCMX>
+  hkm:models hkp:ThermosphericWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/WAM-IPE>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/WBMOD>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/WINDMI>
+  hkm:models hkp:GeomagneticStorm ;
+.
+<https://ccmc.gsfc.nasa.gov/models/WSA>
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/Weimer>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/WindPredict>
+  hkm:models hkp:SolarWind ;
+.
+<https://ccmc.gsfc.nasa.gov/models/ZeemanStokes>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/efieldtool>
+  hkm:models hk:SpaceWeather ;
+.
+<https://ccmc.gsfc.nasa.gov/models/iPATH>
+  hkm:models hk:SpaceWeather ;
 .
 hk:Influence
   rdf:type owl:Class ;
@@ -55,26 +365,303 @@ hk:SpaceWeather
   skos:narrower hkp:Foreshock ;
   skos:narrower hkp:Fountain ;
   skos:narrower hkp:GeomagneticStorm ;
+  skos:narrower hkp:IonDrag ;
+  skos:narrower hkp:IonNeutralCollision ;
   skos:narrower hkp:IonOutflow ;
+  skos:narrower hkp:Ionization ;
+  skos:narrower hkp:IonizationFeature ;
+  skos:narrower hkp:JouleHeating ;
+  skos:narrower hkp:MagnetosphericMassWeighting ;
+  skos:narrower hkp:MomentumTransfer ;
   skos:narrower hkp:ParticlePrecipitation ;
   skos:narrower hkp:PoyntingFlux ;
+  skos:narrower hkp:Recombination ;
   skos:narrower hkp:Sheath ;
+  skos:narrower hkp:SolarEUV ;
   skos:narrower hkp:SolarWind ;
+  skos:narrower hkp:SolarWindPlasma ;
   skos:narrower hkp:SolarWindShock ;
+  skos:narrower hkp:SolarXray ;
   skos:narrower hkp:Substorm ;
   skos:narrower hkp:SurfaceInteractions ;
   skos:narrower hkp:TerminationShock ;
+  skos:narrower hkp:ThermosphericWind ;
+  skos:narrower hkp:Wave-ParticleInteraction ;
   skos:topConceptOf hkp: ;
   hk:occursIn <https://www.helioknowledge.network/region/Heliosphere> ;
 .
+hki:CoherentScatterRadar
+  hki:observes hkp:SAID ;
+  hki:observes hkp:SAPS ;
+.
+hki:Coronograph
+  hki:observes hkp:Burst ;
+  hki:observes hkp:CoronalMassEjection ;
+  hki:observes hkp:Streamer ;
+.
+hki:DistributedGroundBasedSatelliteReceiver
+  hki:observes hkp:IonizationFeature ;
+  hki:observes hkp:SED ;
+  hki:observes hkp:TongueOfIonization ;
+.
+hki:DoubleSphere
+  hki:observes hkp:DaysideReconnection ;
+  hki:observes hkp:MagnetopauseCurrent ;
+  hki:observes hkp:PoyntingFlux ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
+hki:DustDetector
+  hki:observes hkp:SolarWind ;
+  hki:observes hkp:SurfaceInteractions ;
+.
+hki:ElectronDriftInstrument
+  hki:observes hkp:MagnetopauseCurrent ;
+  hki:observes hkp:NearEarthReconnection ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
+hki:ElectrostaticAnalyser
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:SolarWindPlasma ;
+.
+hki:EnergeticParticleInstrument
+  hki:observes hkp:Foreshock ;
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:SolarWind ;
+  hki:observes hkp:SolarWindShock ;
+.
+hki:Fabry-Perot
+  hki:observes hkp:IonNeutralCollision ;
+  hki:observes hkp:ThermosphericWind ;
+.
+hki:FaradayCup
+  hki:observes hkp:SolarWind ;
+  hki:observes hkp:SolarWindPlasma ;
+  hki:observes hkp:SolarWindShock ;
+.
+hki:FluxFeedback
+  hki:observes hkp:AuroralElectrojet ;
+  hki:observes hkp:CurrentSystem ;
+  hki:observes hkp:GeomagneticStorm ;
+  hki:observes hkp:MagnetopauseCurrent ;
+  hki:observes hkp:Region1Current ;
+  hki:observes hkp:SolarQuietCurrent ;
+  hki:observes hkp:Substorm ;
+  hki:observes hkp:SubstormCurrentWedge ;
+.
+hki:FourierTransformSpectrograph
+  hki:observes hkp:Ionization ;
+  hki:observes hkp:ThermosphericWind ;
+.
+hki:GeigerMuellerTube
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:SolarWindShock ;
+.
+hki:GeophysicalIndex
+  hki:observes hkp:GeomagneticStorm ;
+  hki:observes hkp:Substorm ;
+.
+hki:HFRadar
+  hki:observes hkp:DaysideReconnection ;
+  hki:observes hkp:PolarCapPatch ;
+  hki:observes hkp:SAPS ;
+  hki:observes hkp:SED ;
+  hki:observes hkp:TongueOfIonization ;
+.
+hki:ImagingSpectrometer
+  hki:observes hkp:CoronalMassEjection ;
+  hki:observes hkp:Flare ;
+  hki:observes hkp:SolarEUV ;
+  hki:observes hkp:SolarXray ;
+.
+hki:IncoherentScatterRadar
+  hki:observes hkp:HallCurrent ;
+  hki:observes hkp:IonDrag ;
+  hki:observes hkp:IonNeutralCollision ;
+  hki:observes hkp:Ionization ;
+  hki:observes hkp:JouleHeating ;
+  hki:observes hkp:PedersenCurrent ;
+  hki:observes hkp:Recombination ;
+.
+hki:IndividualGroundBasedSatelliteReceiver
+  hki:observes hkp:Ionization ;
+  hki:observes hkp:PolarCapPatch ;
+  hki:observes hkp:SED ;
+.
+hki:IonChamber
+  hki:observes hkp:Flare ;
+  hki:observes hkp:PrimaryIonization ;
+  hki:observes hkp:SolarXray ;
+.
+hki:IonGauge
+  hki:observes hkp:Ionization ;
+  hki:observes hkp:SurfaceInteractions ;
+.
+hki:Ionosonde
+  hki:observes hkp:IonizationFeature ;
+  hki:observes hkp:PolarCapPatch ;
+  hki:observes hkp:SED ;
+  hki:observes hkp:TongueOfIonization ;
+.
+hki:LangmuirProbe
+  hki:observes hkp:Ionization ;
+  hki:observes hkp:SAID ;
+  hki:observes hkp:SAPS ;
+  hki:observes hkp:SolarWindPlasma ;
+.
+hki:Lidar
+  hki:observes hkp:IonNeutralCollision ;
+  hki:observes hkp:MomentumTransfer ;
+  hki:observes hkp:ThermosphericWind ;
+.
+hki:LongWire
+  hki:observes hkp:Burst ;
+  hki:observes hkp:PoyntingFlux ;
+  hki:observes hkp:SolarWindShock ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
+hki:MFRadar
+  hki:observes hkp:IonDrag ;
+  hki:observes hkp:MomentumTransfer ;
+  hki:observes hkp:ThermosphericWind ;
+.
+hki:MSTRadar
+  hki:observes hkp:IonDrag ;
+  hki:observes hkp:MomentumTransfer ;
+  hki:observes hkp:ThermosphericWind ;
+.
+hki:Magnetograph
+  hki:observes hkp:Flare ;
+  hki:observes hkp:FluxRope ;
+.
+hki:Magnetometer
+  hki:observes hkp:GeomagneticStorm ;
+  hki:observes hkp:InducedMagneticFields ;
+  hki:observes hkp:InterplanetaryMagneticField ;
+  hki:observes hkp:SubstormCurrentWedge ;
+.
+hki:MassSpectrometer
+  hki:observes hkp:IonOutflow ;
+  hki:observes hkp:Ionization ;
+  hki:observes hkp:MagnetosphericMassWeighting ;
+.
+hki:MeteorRadar
+  hki:observes hkp:IonDrag ;
+  hki:observes hkp:MomentumTransfer ;
+  hki:observes hkp:ThermosphericWind ;
+.
+hki:MichelsonInterferometer
+  hki:observes hkp:MomentumTransfer ;
+  hki:observes hkp:ThermosphericWind ;
+.
+hki:MultispectralImager
+  hki:observes hkp:BroadbandAurora ;
+  hki:observes hkp:DiffuseAurora ;
+  hki:observes hkp:MonoenergeticAurora ;
+  hki:observes hkp:PMAF ;
+  hki:observes hkp:ProtonAurora ;
+  hki:observes hkp:QuietArk ;
+  hki:observes hkp:STEVE ;
+.
+hki:NeutralAtomImager
+  hki:observes hkp:Cusp ;
+  hki:observes hkp:IonOutflow ;
+  hki:observes hkp:MagnetosphericMassWeighting ;
+  hki:observes hkp:Sheath ;
+.
+hki:ParticleCorrelator
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
+hki:Photometer
+  hki:observes hkp:BroadbandAurora ;
+  hki:observes hkp:DiffuseAurora ;
+  hki:observes hkp:ProtonAurora ;
+  hki:observes hkp:PulsatingAurora ;
+.
+hki:PhotomultiplierTube
+  hki:observes hkp:BroadbandAurora ;
+  hki:observes hkp:PBI ;
+  hki:observes hkp:STEVE ;
+.
+hki:Photopolarimeter
+  hki:observes hkp:CoronalMassEjection ;
+  hki:observes hkp:Streamer ;
+.
+hki:ProportionalCounter
+  hki:observes hkp:Flare ;
+  hki:observes hkp:SolarXray ;
+.
+hki:QuadrisphericalAnalyser
+  hki:observes hkp:Foreshock ;
+  hki:observes hkp:IonOutflow ;
+  hki:observes hkp:NearEarthReconnection ;
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:SolarWindPlasma ;
+  hki:observes hkp:TailReconnection ;
+.
+hki:Radiometer
+  hki:observes hkp:Flare ;
+  hki:observes hkp:SolarEUV ;
+  hki:observes hkp:SolarXray ;
+.
+hki:ResonanceSounder
+  hki:observes hkp:IonizationFeature ;
+  hki:observes hkp:PolarCapPatch ;
+  hki:observes hkp:TongueOfIonization ;
+.
+hki:RetardingPotentialAnalyser
+  hki:observes hkp:Fountain ;
+  hki:observes hkp:IonDrag ;
+  hki:observes hkp:IonNeutralCollision ;
+  hki:observes hkp:Ionization ;
+  hki:observes hkp:IonizationFeature ;
+  hki:observes hkp:Recombination ;
+  hki:observes hkp:SAID ;
+  hki:observes hkp:SAPS ;
+.
+hki:Riometer
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:SecondaryIonization ;
+.
+hki:ScintillationDetector
+  hki:observes hkp:Foreshock ;
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:SolarWindShock ;
+.
+hki:SearchCoil
+  hki:observes hkp:Burst ;
+  hki:observes hkp:InterplanetaryMagneticField ;
+  hki:observes hkp:SolarWindShock ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
+hki:SolidStateDetector
+  hki:observes hkp:Foreshock ;
+  hki:observes hkp:ParticlePrecipitation ;
+  hki:observes hkp:SolarWindShock ;
+.
+hki:SpacecraftPotentialControl
+  hki:observes hkp:SolarWindPlasma ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
+hki:SpectralPowerReceiver
+  hki:observes hkp:Burst ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
+hki:WaveformReceiver
+  hki:observes hkp:Burst ;
+  hki:observes hkp:SolarWindShock ;
+  hki:observes hkp:Wave-ParticleInteraction ;
+.
 <https://www.helioknowledge.network/phenomenon>
   rdf:type owl:Ontology ;
-  <http://purl.org/dc/terms/contributor> <https://orcid.org/0009-0000-8635-3314> ;
-  <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  dcterms:contributor <https://orcid.org/0009-0000-8635-3314> ;
+  dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
   rdfs:label "HelioKNOW phenomenon ontology" ;
   owl:imports <https://www.helioknowledge.network/core> ;
+  owl:imports <https://www.helioknowledge.network/instruments> ;
+  owl:imports <https://www.helioknowledge.network/model> ;
   owl:imports <https://www.helioknowledge.network/region> ;
-  owl:versionInfo "pulled Phenomena out of core into a separate ontology" ;
+  owl:versionInfo "imported models" ;
 .
 hkp:
   rdf:type skos:ConceptScheme ;
@@ -551,6 +1138,16 @@ hkp:Morning-SideArc
   skos:inScheme hkp: ;
   skos:prefLabel "Morning-side Arc"@en ;
 .
+hkp:MutualInductance
+  rdf:type hk:Influence ;
+  skos:inScheme hkp: ;
+  skos:prefLabel "Mutual Inductance"@en ;
+  hk:qualifiedBy hkp:MaxwellsEquation ;
+  hkp:hasInfluenced hkp:B-field ;
+  hkp:hasInfluenced hkp:E-field ;
+  hkp:hasInfluencer hkp:B-field ;
+  hkp:hasInfluencer hkp:E-field ;
+.
 hkp:NOPlus-N2CollisionFrequency
   rdf:type hk:Property ;
   skos:altLabel "NO+ to N2 Collision Frequency"@en ;
@@ -942,11 +1539,11 @@ hkp:SolarWindPlasma
   hk:characterizedBy hkp:PlasmaDensity ;
   hk:characterizedBy hkp:PlasmaVelocity ;
   hkp:directEntry hkp:ParticlePrecipitation ;
-  hkp:reconnectsWith <https://www.helioknowledge.network/region/Magnetosphere> ;
 .
 hkp:SolarWindShock
   rdf:type hk:Phenomenon ;
   skos:altLabel "Bow shock"@en ;
+  skos:altLabel "Bow-shock"@en ;
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:narrower hkp:MagnetopauseCurrent ;
@@ -995,7 +1592,7 @@ hkp:SurfaceInteractions
   skos:broader hk:SpaceWeather ;
   skos:inScheme hkp: ;
   skos:narrower hkp:InducedMagneticFields ;
-  skos:prefLabel "Tail Reconnection"@en ;
+  skos:prefLabel "Surface Interactions"@en ;
   hk:occursIn <https://www.helioknowledge.network/region/Exosphere> ;
 .
 hkp:TailReconnection
@@ -1174,12 +1771,6 @@ hkp:produces
     ] ;
   rdfs:subPropertyOf hk:influences ;
   skos:prefLabel "produces"@en ;
-.
-hkp:reconnectsWith
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain hk:Phenomenon ;
-  rdfs:range hk:Region ;
-  skos:prefLabel "reconnects with"@en ;
 .
 <https://www.helioknowledge.network/region/Ionosphere>
   hk:hasState hkp:IonosphericState ;

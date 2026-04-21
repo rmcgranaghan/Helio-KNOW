@@ -1,0 +1,803 @@
+# baseURI: https://www.helioknowledge.network/model
+# imports: https://www.helioknowledge.network/core
+
+@prefix ccmc: <https://ccmc.gsfc.nasa.gov/models/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hk: <https://www.helioknowledge.network/core/> .
+@prefix hkm: <https://www.helioknowledge.network/model/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ccmc:A-EFFort
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "A-EFFort" ;
+  skos:prefLabel "Athens Effective Solar Flare Forecasting"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/A-EFFort~1.0> ;
+  hkm:status "Result Only" ;
+.
+ccmc:ADELPHI
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "ADELPHI" ;
+  skos:prefLabel "AMPERE-Derived Electrodynamic Properties of the High-latitude Ionosphere"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ADELPHI~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:AE-8_AP-8_RADBELT
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "AE-8_AP-8_RADBELT" ;
+  skos:prefLabel "AE-8_AP-8 Radiation Belt Models"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/AE-8_AP-8_RADBELT~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:AMGeO
+  rdf:type ccmc:Model ;
+  owl:versionInfo "3" ;
+  skos:altLabel "AMGeO" ;
+  skos:prefLabel "Assimilative Mapping of Geospace Observations"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/AMGeO~3/> ;
+  hkm:status "Production" ;
+.
+ccmc:AMOS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v1" ;
+  skos:altLabel "AMOS" ;
+  skos:prefLabel "Automatic McIntosh-based Occurrence probability of Solar activity"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/AMOS~v1/> ;
+  hkm:status "Production" ;
+.
+ccmc:AMPS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2016" ;
+  skos:altLabel "AMPS" ;
+  skos:prefLabel "Adaptive Mesh Particle Simulator"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/AMPS~2016/> ;
+  hkm:status "Production" ;
+.
+ccmc:ANMHD
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "ANMHD" ;
+  skos:prefLabel "Anelastic Magnetohydrodynamic Solver"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ANMHD~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:ASAP
+  rdf:type ccmc:Model ;
+  owl:versionInfo "ASAP_1" ;
+  skos:altLabel "ASAP" ;
+  skos:prefLabel "Automated Solar Activity Prediction"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ASAP~ASAP_1/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:ASSA
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "ASSA" ;
+  skos:prefLabel "Automatic Solar Synoptic Analyzer"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ASSA~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:AmbSoWi-ML
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "AmbSoWi-ML" ;
+  skos:prefLabel "Ambient Solar Wind Prediction with Gradient Boosting Regression"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/AmbSoWi-ML~1/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:BAS_RBM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "20210820" ;
+  skos:altLabel "BAS_RBM" ;
+  skos:prefLabel "British Antarctic Survey Radiation Belt Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/BAS_RBM~20210820/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:BRaVDA
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.9" ;
+  skos:altLabel "BRaVDA" ;
+  skos:prefLabel "Burger Radius Variational Data Assimilation"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/BRaVDA~1.9> ;
+  hkm:status "Result Only" ;
+.
+ccmc:BSPM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2021" ;
+  skos:altLabel "BSPM" ;
+  skos:prefLabel "Belgian Space Weather Integrated Forecasting Framework Plasmasphere Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/BSPM~2021/> ;
+  hkm:status "Production" ;
+.
+ccmc:CIMI
+  rdf:type ccmc:Model ;
+  owl:versionInfo "20200203" ;
+  skos:altLabel "CIMI" ;
+  skos:prefLabel "Comprehensive Inner-Magnetosphere Ionosphere Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/CIMI~20200203/> ;
+  hkm:status "Production" ;
+.
+ccmc:CM5
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "CM5" ;
+  skos:prefLabel "Comprehensive Model Number 5 of the near-Earth magnetic field"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/CM5~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:CORHEL-CME
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "CORHEL-CME" ;
+  skos:prefLabel "CORona-HELiosphere modeling suite with CMEs"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/CORHEL-CME~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:CORHEL-MAS_WSA_ENLIL
+  rdf:type ccmc:Model ;
+  owl:versionInfo "5" ;
+  skos:altLabel "CORHEL-MAS_WSA_ENLIL" ;
+  skos:prefLabel "CORona-HELiosphere modeling suite (Combined)"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/CORHEL-MAS_WSA_ENLIL~5.0> ;
+  hkm:status "Production" ;
+.
+ccmc:CORHEL_MAS-TDM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "6" ;
+  skos:altLabel "CORHEL/MAS-TDM" ;
+  skos:prefLabel "CORona-HELiosphere/Magnetohydrodynamic Algorithm outside a Sphere Titov-Demoulin flux rope"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/CORHEL~MAS-TDM~6.0> ;
+  hkm:status "Production" ;
+.
+ccmc:CTIPe
+  rdf:type ccmc:Model ;
+  owl:versionInfo "4.1" ;
+  skos:altLabel "CTIPe" ;
+  skos:prefLabel "Coupled Thermosphere Ionosphere Plasmasphere Electrodynamics Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/CTIPe~4.1> ;
+  hkm:status "Production" ;
+.
+ccmc:CalcDeltaB
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2018" ;
+  skos:altLabel "CalcDeltaB" ;
+  skos:prefLabel "Calculate Magnetic Perturbations on the Ground from magnetosphere and ionosphere electrodynamics"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/CalcDeltaB~2018/> ;
+  hkm:status "Production" ;
+.
+ccmc:Cosgrove-PF
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.0 / 2.0" ;
+  skos:altLabel "Cosgrove-PF" ;
+  skos:prefLabel "Cosgrove Poynting Flux"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Cosgrove-PF~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:DAFFS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "0.37" ;
+  skos:altLabel "DAFFS" ;
+  skos:prefLabel "Discriminant Analysis Flare Forecasting System"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/DAFFS~0.37> ;
+  hkm:status "Result Only" ;
+.
+ccmc:DBM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "cdbm_201510" ;
+  skos:altLabel "DBM" ;
+  skos:prefLabel "Drag-based model with constant solar wind speed"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/DBM~cdbm_201510/> ;
+  hkm:status "Production" ;
+.
+ccmc:DIPS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "DIPS" ;
+  skos:prefLabel "Kinematic Model for the CME Deflection in InterPlanetary Space"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/DIPS~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:DREAM3D
+  rdf:type ccmc:Model ;
+  owl:versionInfo "older version" ;
+  skos:altLabel "DREAM3D" ;
+  skos:prefLabel "The Dynamic Radiation Environment Assimilation Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/DREAM3D~older%20version%20at%20WVU/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:DTM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2013 / 2020" ;
+  skos:altLabel "DTM" ;
+  skos:prefLabel "Drag Temperature Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/DTM~2013/> ;
+  hkm:status "Production" ;
+.
+ccmc:ENLIL
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2.8f" ;
+  skos:altLabel "ENLIL" ;
+  skos:prefLabel "ENLIL Heliosphere Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ENLIL~2.8f> ;
+  hkm:status "Production" ;
+.
+ccmc:EPREM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "0" ;
+  skos:altLabel "EPREM" ;
+  skos:prefLabel "Energetic Particle Radiation Environment Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/EPREM~0/> ;
+  hkm:status "Production" ;
+.
+ccmc:EUHFORIA
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.0.4" ;
+  skos:altLabel "EUHFORIA" ;
+  skos:prefLabel "European Heliospheric Forecasting Information Asset"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/EUHFORIA~1.0.4> ;
+  hkm:status "Result Only" ;
+.
+ccmc:EXO
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.24" ;
+  skos:altLabel "EXO" ;
+  skos:prefLabel "Exosphere Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/EXO~1.24> ;
+  hkm:status "Production" ;
+.
+ccmc:ExosPy
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2.3" ;
+  skos:altLabel "ExosPy" ;
+  skos:prefLabel "Exosphere Python Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ExosPy~2.3> ;
+  hkm:status "Production" ;
+.
+ccmc:GAMERA-Helio
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "GAMERA-Helio" ;
+  skos:prefLabel "Grid Agnostic MHD for Extended Research Applications - Heliosphere"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/GAMERA-Helio~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:GEMSOR
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "GEMSOR" ;
+  skos:prefLabel "Geomagnetic Storm Recovery Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/GEMSOR~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:GITM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "23.01" ;
+  skos:altLabel "GITM" ;
+  skos:prefLabel "Global Ionosphere Thermosphere Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/GITM~23.01> ;
+  hkm:status "Production" ;
+.
+ccmc:Glocer-RECONX
+  rdf:type ccmc:Model ;
+  owl:versionInfo "42402" ;
+  skos:altLabel "Glocer-RECONX" ;
+  skos:prefLabel "Glocer Magnetic Reconnection Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Glocer-RECONX~2016-02-02/> ;
+  hkm:status "Production" ;
+.
+ccmc:HESPERIA_REleASE
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v2" ;
+  skos:altLabel "HESPERIA_REleASE" ;
+  skos:prefLabel "HESPERIA Real-time Forecasting of the Energy and Spectrum of Solar Energetic Protons"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/HESPERIA_REleASE~v2/> ;
+  hkm:status "Production" ;
+.
+ccmc:HWM14
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2014" ;
+  skos:altLabel "HWM14" ;
+  skos:prefLabel "Horizontal Wind Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/HWM14~2014/> ;
+  hkm:status "Production" ;
+.
+ccmc:HYPERS-Global
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2021" ;
+  skos:altLabel "HYPERS-Global" ;
+  skos:prefLabel "HYbrid Particle-in-cell with Engine for Radiation and Space weather - Global"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/HYPERS-Global~2021/> ;
+  hkm:status "Production" ;
+.
+ccmc:HeliosphericTomographyIPS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "24" ;
+  skos:altLabel "HeliosphericTomographyIPS" ;
+  skos:prefLabel "Heliospheric Tomography with Interplanetary Scintillation"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/HeliosphericTomographyIPS~24/> ;
+  hkm:status "Production" ;
+.
+ccmc:IBP
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.3" ;
+  skos:altLabel "IBP" ;
+  skos:prefLabel "Ionospheric Bubble Probability"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/IBP~1.3> ;
+  hkm:status "Production" ;
+.
+ccmc:IGRF
+  rdf:type ccmc:Model ;
+  owl:versionInfo "13" ;
+  skos:altLabel "IGRF" ;
+  skos:prefLabel "International Geomagnetic Reference Field"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/IGRF~13/> ;
+  hkm:status "Production" ;
+.
+ccmc:IMPTAM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "IMPTAM" ;
+  skos:prefLabel "Inner Magnetosphere Particle Transport and Acceleration Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/IMPTAM~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:IRI
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2020" ;
+  skos:altLabel "IRI" ;
+  skos:prefLabel "International Reference Ionosphere"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/IRI~2012/> ;
+  hkm:status "Production" ;
+.
+ccmc:JB2008
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2008" ;
+  skos:altLabel "JB2008" ;
+  skos:prefLabel "Jacchia-Bowman 2008 Atmospheric Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/JB2008~2008/> ;
+  hkm:status "Production" ;
+.
+ccmc:LiRadiationBelt
+  rdf:type ccmc:Model ;
+  owl:versionInfo "3" ;
+  skos:altLabel "Li Radiation Belt" ;
+  skos:prefLabel "Li Radiation Belt Prediction Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Li%20Radiation%20Belt%20Prediction%20%20Model~3.0> ;
+  hkm:status "Production" ;
+.
+ccmc:MAG4
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v20190904" ;
+  skos:altLabel "MAG4" ;
+  skos:prefLabel "Magnetic Analysis of GONG Magnetograms"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/MAG4~v20190904/> ;
+  hkm:status "Production" ;
+.
+ccmc:MAGE
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "MAGE" ;
+  skos:prefLabel "Multiscale Atmosphere-Geospace Environment"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/MAGE~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:MLSO_K-Cor_CMEs
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "MLSO_K-Cor_CMEs" ;
+  skos:prefLabel "Mauna Loa Solar Observatory K-Cor CMEs"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/MLSO_K-Cor_CMEs~1.0> ;
+  hkm:status "Result Only" ;
+.
+ccmc:MagPy
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v3" ;
+  skos:altLabel "MagPy" ;
+  skos:prefLabel "Magnetic Python Forecast"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/MagPy~v3/> ;
+  hkm:status "Production" ;
+.
+ccmc:Model
+  rdf:type owl:Class ;
+  rdfs:subClassOf hk:Model ;
+  skos:prefLabel "Model" ;
+.
+ccmc:NAIRAS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "3" ;
+  skos:altLabel "NAIRAS" ;
+  skos:prefLabel "Nowcast of Atmospheric Ionizing Radiation for Aviation Safety"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/NAIRAS~3.0> ;
+  hkm:status "Production" ;
+.
+ccmc:NEDM2020
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "NEDM2020" ;
+  skos:prefLabel "New Electron Density Model 2020"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/NEDM2020~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:NLFF
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "NLFF" ;
+  skos:prefLabel "Non-Linear Force-Free Field Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/NLFF~NLFF-Cartesian-1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:NRLMSIS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2.1" ;
+  skos:altLabel "NRLMSIS" ;
+  skos:prefLabel "NRL Mass Spectrometer and Incoherent Scatter Radar"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/NRLMSIS~00/> ;
+  hkm:status "Production" ;
+.
+ccmc:ORIENT
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "ORIENT" ;
+  skos:prefLabel "Optimized Real-time Ionospheric Electron density"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ORIENT~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:OSPREI
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "OSPREI" ;
+  skos:prefLabel "Overlapping Space weather Prediction and Event Reporting Infrastructure"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/OSPREI~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:OpenGGCM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "5" ;
+  skos:altLabel "OpenGGCM" ;
+  skos:prefLabel "Open Global Geospace Circulation Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/OpenGGCM~4.0> ;
+  hkm:status "Production" ;
+.
+ccmc:Ovation-Prime
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2.3" ;
+  skos:altLabel "Ovation-Prime" ;
+  skos:prefLabel "Ovation Prime Auroral Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Ovation-Prime~2.3> ;
+  hkm:status "Production" ;
+.
+ccmc:PAMHD
+  rdf:type ccmc:Model ;
+  owl:versionInfo "20160913" ;
+  skos:altLabel "PAMHD" ;
+  skos:prefLabel "Parallel Adaptive Magnetohydrodynamics"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/PAMHD~20160913/> ;
+  hkm:status "Production" ;
+.
+ccmc:PBMOD
+  rdf:type ccmc:Model ;
+  owl:versionInfo "6.3" ;
+  skos:altLabel "PBMOD" ;
+  skos:prefLabel "Physics-Based Model of Ionospheric Plasma Bubbles"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/PBMOD~6.3> ;
+  hkm:status "Production" ;
+.
+ccmc:PDF
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2018" ;
+  skos:altLabel "PDF" ;
+  skos:prefLabel "Proton Density Forecast"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/PDF~2018/> ;
+  hkm:status "Production" ;
+.
+ccmc:PFSS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "PFSS" ;
+  skos:prefLabel "Potential Field Source Surface Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/PFSS~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:PHaRLAP
+  rdf:type ccmc:Model ;
+  owl:versionInfo "4.7" ;
+  skos:altLabel "PHaRLAP" ;
+  skos:prefLabel "Propagation of High-frequency Radio Waves in the Atmosphere"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/PHaRLAP~4.7> ;
+  hkm:status "Production" ;
+.
+ccmc:PINE-RT
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "PINE - RT" ;
+  skos:prefLabel "Plasmasphere Ionosphere Neutral Experiment - Real Time"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/PINE%20-%20RT~1.0> ;
+  hkm:status "Result Only" ;
+.
+ccmc:Plasmasphere
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "Plasmasphere" ;
+  skos:prefLabel "Global Core Plasma Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Plasmasphere~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:RAM-SCB
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v.2.2" ;
+  skos:altLabel "RAM-SCB" ;
+  skos:prefLabel "Ring current Atmosphere interactions Model with Self-Consistent Magnetic Field"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/RAM-SCB~v.2.2> ;
+  hkm:status "Production" ;
+.
+ccmc:SAMI3
+  rdf:type ccmc:Model ;
+  owl:versionInfo "3.22" ;
+  skos:altLabel "SAMI3" ;
+  skos:prefLabel "SAMI3 is Also a Model of the Ionosphere"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SAMI3~3.22> ;
+  hkm:status "Production" ;
+.
+ccmc:SAWS-ASPECS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.2" ;
+  skos:altLabel "SAWS-ASPECS" ;
+  skos:prefLabel "SAWS Automated Solar Proton Event Classification System"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SAWS-ASPECS~1.2> ;
+  hkm:status "Result Only" ;
+.
+ccmc:SEPMOD
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v2.20221228" ;
+  skos:altLabel "SEPMOD" ;
+  skos:prefLabel "Solar Energetic Particle Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SEPMOD~v2.20221228> ;
+  hkm:status "Production" ;
+.
+ccmc:SEPSTER
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v2" ;
+  skos:altLabel "SEPSTER" ;
+  skos:prefLabel "Solar Energetic Particle Steradian Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SEPSTER~v2/> ;
+  hkm:status "Production" ;
+.
+ccmc:SHELLS-hires
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "SHELLS-hires" ;
+  skos:prefLabel "SHELLS High Resolution Ionosphere Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SHELLS-hires~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:SIDC_operator_v2
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v2" ;
+  skos:altLabel "SIDC_operator_v2" ;
+  skos:prefLabel "SIDC Flare Forecasting"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SIDC_operator_v2~v2/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:SIML-HSS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "SIML-HSS" ;
+  skos:prefLabel "Statistical Ionosphere Model for High-Speed Streams"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SIML-HSS~1/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:SPRINTS-SEP
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "SPRINTS-SEP" ;
+  skos:prefLabel "Space Radiation Intelligence System - SEP"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SPRINTS-SEP~1/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:SPS
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "SPS" ;
+  skos:prefLabel "Solar Particle System Flare Forecast"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SPS~1/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:STAT
+  rdf:type ccmc:Model ;
+  owl:versionInfo "20191001" ;
+  skos:altLabel "STAT" ;
+  skos:prefLabel "Solar Trajectory Analysis Tool"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/STAT~20191001/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:SWMF
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2023" ;
+  skos:altLabel "SWMF" ;
+  skos:prefLabel "Space Weather Modeling Framework"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SWMF~20180525/> ;
+  hkm:status "Production" ;
+.
+ccmc:SuperDARN
+  rdf:type ccmc:Model ;
+  owl:versionInfo "5" ;
+  skos:altLabel "SuperDARN" ;
+  skos:prefLabel "Super Dual Auroral Radar Network Convection Models"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/SuperDARN%20Convection%20Models~5/> ;
+  hkm:status "Production" ;
+.
+ccmc:Swipe
+  rdf:type ccmc:Model ;
+  owl:versionInfo "0.9.5" ;
+  skos:altLabel "Swipe" ;
+  skos:prefLabel "Solar Wind Ion Prediction Engine"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Swipe~0.9.5> ;
+  hkm:status "Production" ;
+.
+ccmc:TIE-GCM
+  rdf:type ccmc:Model ;
+  owl:versionInfo "3" ;
+  skos:altLabel "TIE-GCM" ;
+  skos:prefLabel "Thermosphere-Ionosphere-Electrodynamics General Circulation Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/TIE-GCM~2.0> ;
+  hkm:status "Production" ;
+.
+ccmc:Tsyganenko
+  rdf:type ccmc:Model ;
+  owl:versionInfo "TS05" ;
+  skos:altLabel "Tsyganenko" ;
+  skos:prefLabel "Tsyganenko External Magnetic Field Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Tsyganenko%20Magnetic%20Field~T96/> ;
+  hkm:status "Production" ;
+.
+ccmc:UMASEP
+  rdf:type ccmc:Model ;
+  owl:versionInfo "v3" ;
+  skos:altLabel "UMASEP" ;
+  skos:prefLabel "University of Malaga Solar Energetic Particle Forecast"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/UMASEP~v3/> ;
+  hkm:status "Production" ;
+.
+ccmc:VERB-3D
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2.5" ;
+  skos:altLabel "VERB-3D" ;
+  skos:prefLabel "Versatile Electron Radiation Belt 3D"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/VERB-3D~2.5> ;
+  hkm:status "Production" ;
+.
+ccmc:VPIC_DIST
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2016" ;
+  skos:altLabel "VPIC_DIST" ;
+  skos:prefLabel "Vector Particle-In-Cell Distribution"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/VPIC_DIST~2016/> ;
+  hkm:status "Production" ;
+.
+ccmc:WACCMX
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2.2" ;
+  skos:altLabel "WACCMX" ;
+  skos:prefLabel "Whole Atmosphere Community Climate Model with eXtended altitude"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/WACCMX~2.2> ;
+  hkm:status "Production" ;
+.
+ccmc:WAM-IPE
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.2" ;
+  skos:altLabel "WAM-IPE" ;
+  skos:prefLabel "Whole Atmosphere Model - Ionosphere Plasmasphere Electrodynamics"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/WAM-IPE~1.2> ;
+  hkm:status "Production" ;
+.
+ccmc:WBMOD
+  rdf:type ccmc:Model ;
+  owl:versionInfo "17" ;
+  skos:altLabel "WBMOD" ;
+  skos:prefLabel "WideBand Ionospheric Scintillation Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/WBMOD~17/> ;
+  hkm:status "Production" ;
+.
+ccmc:WINDMI
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "WINDMI" ;
+  skos:prefLabel "Wind-Magnetosphere-Ionosphere Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/WINDMI~1.0> ;
+  hkm:status "Production" ;
+.
+ccmc:WSA
+  rdf:type ccmc:Model ;
+  owl:versionInfo "6" ;
+  skos:altLabel "WSA" ;
+  skos:prefLabel "Wang-Sheeley-Arge Solar Wind Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/WSA~5.4> ;
+  hkm:status "Production" ;
+.
+ccmc:Weimer
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2005" ;
+  skos:altLabel "Weimer" ;
+  skos:prefLabel "Weimer Ionosphere Electrodynamics Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/Weimer~2000/> ;
+  hkm:status "Production" ;
+.
+ccmc:WindPredict
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "WindPredict" ;
+  skos:prefLabel "Solar Wind Prediction"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/WindPredict~1/> ;
+  hkm:status "Result Only" ;
+.
+ccmc:ZeemanStokes
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1" ;
+  skos:altLabel "ZeemanStokes" ;
+  skos:prefLabel "Zeeman Stokes Spectropolarimetry Model"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/ZeemanStokes~1/> ;
+  hkm:status "Production" ;
+.
+ccmc:efieldtool
+  rdf:type ccmc:Model ;
+  owl:versionInfo "1.1" ;
+  skos:altLabel "efieldtool" ;
+  skos:prefLabel "Electric Field Tool"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/efieldtool~1.1> ;
+  hkm:status "Production" ;
+.
+ccmc:iPATH
+  rdf:type ccmc:Model ;
+  owl:versionInfo "2" ;
+  skos:altLabel "iPATH" ;
+  skos:prefLabel "improved Particle Acceleration and Transport in the Heliosphere"@en ;
+  hkm:landingPage <https://ccmc.gsfc.nasa.gov/models/iPATH~2/> ;
+  hkm:status "Production" ;
+.
+<https://www.helioknowledge.network/model>
+  rdf:type owl:Ontology ;
+  dcterms:contributor <https://orcid.org/0009-0000-8635-3314> ;
+  dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+  rdfs:comment "more regions" ;
+  rdfs:label "Heliodata Region Taxonomy" ;
+  owl:imports <https://www.helioknowledge.network/core> ;
+  owl:versionInfo "initial version - added ccmc:Model instances" ;
+.
+hkm:landingPage
+  rdf:type owl:AnnotationProperty ;
+  rdfs:domain hk:Model ;
+  rdfs:range xsd:anyURI ;
+  owl:inverseOf hkm:modeledBy ;
+  skos:prefLabel "landing page" ;
+.
+hkm:modeledBy
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Phenomenon ;
+  rdfs:range hk:Model ;
+  owl:inverseOf hkm:models ;
+  skos:prefLabel "modeled by" ;
+.
+hkm:models
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain hk:Model ;
+  rdfs:range hk:Phenomenon ;
+  owl:inverseOf hkm:modeledBy ;
+  skos:prefLabel "models" ;
+.
+hkm:status
+  rdf:type owl:AnnotationProperty ;
+  rdfs:domain hk:Model ;
+  rdfs:range xsd:string ;
+  owl:inverseOf hkm:modeledBy ;
+  skos:prefLabel "status" ;
+.
+<https://www.helioknowledge.network/region/>
+  rdf:type skos:ConceptScheme ;
+  skos:prefLabel "HelioKNOW Region Taxonomy"@en ;
+.
