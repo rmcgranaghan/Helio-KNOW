@@ -1,0 +1,37 @@
+Quick ENVO Heliophysics Subset Summary
+====================================
+ENVO source file: /Users/ryanmc/Documents/Helio_ECIP/dev/Helio-KNOW/tools/glossary_harmonization/data/envo.owl
+Reference terms collected: 680
+ENVO classes scanned: 9188
+Subset rows kept: 101
+Output CSV: /Users/ryanmc/Documents/Helio_ECIP/dev/Helio-KNOW/tools/glossary_harmonization/data/envo_heliophysics_subset_broad.csv
+
+Reference terms missing in ENVO: 646
+Missing-term report: /Users/ryanmc/Documents/Helio_ECIP/dev/Helio-KNOW/tools/glossary_harmonization/data/envo_heliophysics_subset_broad_missing_reference_terms.csv
+
+Top matches:
+- anabatic wind (ENVO:01001733) [score=100]
+- atmospheric wind (ENVO:01000793) [score=100]
+- fall wind (ENVO:01001726) [score=100]
+- glacier wind (ENVO:01001746) [score=100]
+- infrared radiation (ENVO:21001214) [score=100]
+- ionizing radiation (ENVO:21001219) [score=100]
+- ionosphere (ENVO:01000545) [score=100]
+- jet-effect wind (ENVO:01001730) [score=100]
+- katabatic wind (ENVO:01001719) [score=100]
+- magnetosphere (ENVO:01001194) [score=100]
+- mountain-gap wind (ENVO:01001731) [score=100]
+- outgoing longwave radiation (ENVO:01001857) [score=100]
+- particle (ENVO:01003002) [score=100]
+- photosphere (ENVO:01000821) [score=100]
+- photosynthetically active radiation (ENVO:01001864) [score=100]
+- plasma (ENVO:01000798) [score=100]
+- radiation (ENVO:01001023) [score=100]
+- shortwave radiation (ENVO:01001861) [score=100]
+- space weather (ENVO:01001080) [score=100]
+- thermosphere (ENVO:01000541) [score=100]
+- ultraviolet radiation (ENVO:21001216) [score=100]
+- wave energy (ENVO:01003019) [score=100]
+- wind farm (ENVO:03501241) [score=100]
+- accumulation of matter on aerosolised particles (ENVO:01001394) [score=90]
+- acoustic radiation (ENVO:01001027) [score=90]
