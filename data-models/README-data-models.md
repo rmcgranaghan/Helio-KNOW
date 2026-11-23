@@ -49,6 +49,8 @@ The two should be linked using stable phenomenon concept URIs. Where a glossary 
 
 Do not treat every draft definition, candidate relationship, or unresolved harmonization issue as an approved ontology assertion. Preserve review status and provenance in the source glossary/harmonization record.
 
+The [glossary–HK phenomena comparison workbook](../tools/glossary_harmonization/data/glossary_hk_phenomena_comparison.xlsx) is a review snapshot of the existing worked examples, the `burst` sourcing gap, and proposed Round 3 candidates. Its Read me sheet explains the local-graph scope and mapping limitations. The [harmonization decisions](../tools/glossary_harmonization/harmonization_decisions.md) record the findings and recommended follow-up; neither document approves ontology changes.
+
 ## Intended use
 
 These models are intended to support:
